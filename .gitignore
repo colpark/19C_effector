@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.tmp
+*.log
+*.pid
+role_worktrees/
+runs/**
+!runs/.gitkeep
+handoff/**
+!handoff/.gitkeep
+

@@ -1,0 +1,8 @@
+role: Adversary
+worktree: role_worktrees/adversary
+sparse_include: [constitution.md, AGENTS.md, docs, ledger, threats, gates, handoff, scripts, tasks, tools/cards, runs]
+sparse_exclude: [data, scorer]
+writable: [handoff, gates, threats]
+commands: [python3, git, sha256sum, codex, docker]
+mcp_policy: control_calls_only_until_T4
+
