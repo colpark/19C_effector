@@ -12,6 +12,7 @@
 10. Invalid answers are coverage failures, never zeros. The repair budget stays identical across arms and gets declared in advance.
 11. Arms differ only in grant. Verify every grant from the model's side.
 12. Preregistered values live in the ledger. Reports read the ledger rather than restating it.
+13. A blocked item is recorded in `handoff/gate0/blocked.md` before the session ends, and silence is not a report.
 
 <!-- STAGE BODY START -->
 
@@ -22,4 +23,3 @@ Replace this section with the stage objective and inputs.
 ## Stop conditions
 
 Reference a YAML file accepted by `scripts/validate_stop_conditions.py`.
-
