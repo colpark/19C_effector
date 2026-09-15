@@ -15,3 +15,4 @@ retry does not erase the original blocked event.
 | T1.4 | Candidate evidence records and an operational canonical-profile definition | Fetcher, PI, and Curator | 2026-09-15 |
 | T1.5 | Publication dates, deposition dates, retained positives, and every subject cutoff | Fetcher and subject-tool owners | 2026-09-15 |
 | T1.6 | Species cohort plus in planta RNA-seq, repeat-annotation, and assembly-quality metadata | Fetcher | 2026-09-15 |
+| Block A | Root-authorized change to `kernel.apparmor_restrict_unprivileged_userns`, followed by an unprivileged namespace verification | Host sysadmin | 2026-09-15 |
