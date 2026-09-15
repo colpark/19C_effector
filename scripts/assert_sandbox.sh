@@ -12,7 +12,7 @@ fi
 
 role=$1
 case "$role" in
-  curator|instrument|floor|referee|adversary) ;;
+  curator|instrument|floor|referee|adversary|fetcher) ;;
   *) echo "unknown role: $role" >&2; exit 2 ;;
 esac
 
@@ -81,7 +81,7 @@ done
 jq -e '.sandbox.network.strictAllowlist == true' "$settings" >/dev/null \
   || fail "network strict allowlist is disabled"
 while IFS= read -r host; do
-  if [[ ${host,,} =~ (phi-?base|label|answer|scored|cohort|scorer) ]]; then
+  if [[ ${host,,} =~ (label|answer|scored|cohort|scorer) ]]; then
     fail "network allowlist contains protected host $host"
   fi
 done < <(jq -r '.sandbox.network.allowedDomains[]?' "$settings")

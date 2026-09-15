@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE = ROOT.parent
 ACCESS = ROOT / "access"
 BUILD = ROOT / "build/access"
-ROLES = ("curator", "instrument", "floor", "referee", "adversary")
+ROLES = ("curator", "instrument", "floor", "referee", "adversary", "fetcher")
 
 
 def load_role(role: str) -> dict:
@@ -131,6 +131,8 @@ def self_test() -> int:
         holds_labels = "data/labels" in data["sparse_include"]
         if holds_labels and data["network_access"] is True:
             failures.append(f"{role}: holds labels with unrestricted network")
+        if data["network_access"] is True and not data["network_allowlist"]:
+            failures.append(f"{role}: network access is unrestricted by an allowlist")
     for failure in failures:
         print(f"ERROR: {failure}", file=sys.stderr)
     if failures:

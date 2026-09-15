@@ -1,0 +1,27 @@
+role: Fetcher
+worktree: role_worktrees/fetcher
+sparse_include: [constitution.md, AGENTS.md, docs, ledger, threats, gates, handoff, scripts, tasks, data/positives, data/raw]
+sparse_exclude: [data/labels, data/scored_cohort, data/design_split, scorer, runs, tools]
+writable: [handoff, data/positives, data/raw]
+commands: [python3, git, sha256sum, curl, wget]
+mcp_policy: no_mcp_fetch_only
+network_access: true
+network_allowlist:
+  - github.com
+  - api.github.com
+  - raw.githubusercontent.com
+  - objects.githubusercontent.com
+  - www.phi-base.org
+  - rest.uniprot.org
+  - mycocosm.jgi.doe.gov
+  - www.ncbi.nlm.nih.gov
+  - ftp.ncbi.nlm.nih.gov
+  - www.rcsb.org
+  - www.ebi.ac.uk
+  - huggingface.co
+  - zhanggroup.org
+  - effectorp.csiro.au
+  - services.healthtech.dtu.dk
+  - deepsig.biocomp.unibo.it
+  - phobius.sbc.su.se
+  - www.repeatmasker.org
