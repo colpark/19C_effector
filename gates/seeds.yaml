@@ -1,0 +1,18 @@
+version: 1
+seeds:
+  - id: S1
+    real_failure: "A sequence-model endpoint served an 8M checkpoint while the floor used 650M scores, with rank correlation 0.558 and sign flips"
+    control: "Must fire when the served parameter count disagrees with the card"
+  - id: S2
+    real_failure: "A frozen prompt manifest measured 973 bytes while the runner sent 2,023, and two harnesses were compared on different tasks for a full stage"
+    control: "Must fire on any hash divergence between specification and emission"
+  - id: S3
+    real_failure: "A device-utilisation ceiling aborted the success signal it was meant to protect"
+    control: "Must not fire on a legitimate high-utilisation cell"
+  - id: S4
+    real_failure: "A heading capitalisation check discarded three valid cells"
+    control: "Must not fire on case or whitespace variation within a valid submission"
+  - id: S5
+    real_failure: "Domain prediction. A pLDDT threshold discards small disulfide-rich effectors, which is the exact profile of a true positive"
+    control: "Must not fire on a low-confidence known effector. pLDDT stays a covariate"
+

@@ -1,0 +1,8 @@
+stop_conditions:
+  - id: grant-boundary
+    threat: T5
+    predicate: "T5 occurs when an arm reaches a capability withheld by its grant"
+  - id: label-boundary
+    threat: T6
+    predicate: "T6 occurs when an item-specific evidence record or answer key is read"
+

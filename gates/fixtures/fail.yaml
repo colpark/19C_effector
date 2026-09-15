@@ -1,0 +1,5 @@
+stop_conditions:
+  - id: named-tool
+    threat: T5
+    predicate: "Stop if SignalP is available"
+
