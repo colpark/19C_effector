@@ -1,6 +1,6 @@
 # Effector Benchmark Panel Charter
 
-The constitution is prepended to every stage prompt. Role separation is enforced by sparse checkout and the role-specific settings in `access/`, not by instruction alone. Cross-role state moves only through append-only files under `handoff/`. The Instrument alone holds the mapping from blinded arm letters to grants.
+The constitution is prepended to every stage prompt. Role scopes are declared by `access/*.yaml` but are not yet enforced; remediation Item 3 will render the load-bearing sandbox settings and sparse-checkout setup. Cross-role state moves only through append-only files under `handoff/`. The Instrument alone holds the mapping from blinded arm letters to grants.
 
 No panel session is launched during Week 0. The role worktrees are materialized only so their filesystem boundaries can be verified.
 
@@ -46,4 +46,3 @@ No panel session is launched during Week 0. The role worktrees are materialized 
 - The Referee rules on the Floor's H and alone appends ledger amendments.
 - The Instrument blocks prompt/config divergence before execution.
 - The Adversary controls gate arming.
-
