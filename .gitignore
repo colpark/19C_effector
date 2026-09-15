@@ -6,8 +6,8 @@ __pycache__/
 *.log
 *.pid
 role_worktrees/
+build/
 runs/**
 !runs/.gitkeep
 handoff/**
 !handoff/.gitkeep
-

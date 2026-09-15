@@ -5,4 +5,5 @@ sparse_exclude: [scorer, runs, data/design_split]
 writable: [handoff, data/positives, data/labels, data/scored_cohort, tools/cards]
 commands: [python3, git, sha256sum, curl, wget, cd-hit, foldseek]
 mcp_policy: catalog_only_until_T3
-
+network_access: false
+network_allowlist: []

@@ -5,4 +5,5 @@ sparse_exclude: [data/labels, data/scored_cohort, scorer, runs]
 writable: [handoff, data/design_split]
 commands: [python3, git, sha256sum]
 mcp_policy: fixed_tools_only
-
+network_access: false
+network_allowlist: []

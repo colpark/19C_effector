@@ -5,4 +5,5 @@ sparse_exclude: [runs, data/design_split, tools]
 writable: [handoff, ledger, scorer]
 commands: [python3, git, sha256sum]
 mcp_policy: no_scientific_tools
-
+network_access: false
+network_allowlist: []

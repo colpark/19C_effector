@@ -5,4 +5,5 @@ sparse_exclude: [data, scorer]
 writable: [handoff, gates, threats]
 commands: [python3, git, sha256sum, codex, docker]
 mcp_policy: control_calls_only_until_T4
-
+network_access: false
+network_allowlist: []

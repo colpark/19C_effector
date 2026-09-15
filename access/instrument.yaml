@@ -5,4 +5,5 @@ sparse_exclude: [data/labels, data/scored_cohort, scorer]
 writable: [handoff, tools, runs]
 commands: [python3, git, sha256sum, codex, docker]
 mcp_policy: may_mount_only_after_Gate_2
-
+network_access: false
+network_allowlist: []
