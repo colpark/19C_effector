@@ -8,3 +8,4 @@ retry does not erase the original blocked event.
 | Item 10 | PEACE preprint PDF, bioRxiv DOI 10.64898/2026.04.19.719514 | PI | 2026-09-15 |
 | Item 11 | Current `19C_effector_bench_agent_prompts.md` pack containing Section 7, "Sandbox mapping" | PI | 2026-09-15 |
 | Item 10 retry | PEACE preprint PDF, bioRxiv DOI 10.64898/2026.04.19.719514; the claimed working-directory file was not present in any accessible workspace or attachment path | PI | 2026-09-15 |
+| Item 11 retry | Current `19C_effector_bench_agent_prompts.md` pack containing Section 7, "Sandbox mapping"; the only accessible copies remained the identical 413-line pack without that section | PI | 2026-09-15 |
