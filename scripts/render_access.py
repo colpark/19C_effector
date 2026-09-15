@@ -90,7 +90,9 @@ def render(role: str, out_root: Path = BUILD) -> dict[str, Path]:
     network = "true" if data["network_access"] else "false"
     codex.write_text(
         'sandbox_mode = "workspace-write"\n'
-        f"network_access = {network}\n\n"
+        '\n[sandbox_workspace_write]\n'
+        f"network_access = {network}\n"
+        f"writable_roots = {json.dumps(allowed_write)}\n\n"
         f'[projects.{json.dumps(str(role_root))}]\n'
         'trust_level = "untrusted"\n',
         encoding="utf-8",
@@ -131,6 +133,7 @@ def self_test() -> int:
         data = load_role(role)
         outputs = render(role)
         role_root = (WORKSPACE / data["worktree"]).resolve()
+        allowed_write = [absolute_under(role_root, item) for item in data["writable"]]
         settings = json.loads(outputs["claude"].read_text(encoding="utf-8"))
         sandbox = settings["sandbox"]
         if (sandbox.get("enabled"), sandbox.get("failIfUnavailable"),
@@ -158,8 +161,12 @@ def self_test() -> int:
         if settings.get("mcpPolicy") != data["mcp_policy"]:
             failures.append(f"{role}: Claude MCP policy mismatch")
         parsed = tomllib.loads(outputs["codex"].read_text(encoding="utf-8"))
-        if parsed.get("sandbox_mode") != "workspace-write" or parsed.get("network_access") != data["network_access"]:
+        codex_sandbox = parsed.get("sandbox_workspace_write", {})
+        if (parsed.get("sandbox_mode") != "workspace-write"
+                or codex_sandbox.get("network_access") != data["network_access"]):
             failures.append(f"{role}: Codex sandbox/network mismatch")
+        if codex_sandbox.get("writable_roots") != allowed_write:
+            failures.append(f"{role}: Codex writable roots mismatch")
         if parsed.get("projects", {}).get(str(role_root), {}).get("trust_level") != "untrusted":
             failures.append(f"{role}: Codex project is not untrusted")
         rules_text = outputs["codex_rules"].read_text(encoding="utf-8")
