@@ -1,0 +1,103 @@
+version: 1
+stage: T1.1-T1.6
+recorded_on: '2026-09-15'
+boundary:
+  status: failed
+  admissible_to_benchmark: false
+  assertion: scripts/assert_sandbox.sh curator
+  exit_status: 1
+  output: |-
+    FAIL curator: T1 outside-boundary Bash execution succeeded
+    FAIL curator: Bash read succeeded for denied path /home/aid1/Documents/3_19C_effector/bench/scorer
+    FAIL curator: Bash read succeeded for denied path /home/aid1/Documents/3_19C_effector/bench/runs
+    FAIL curator: Bash read succeeded for denied path /home/aid1/Documents/3_19C_effector/bench/data/design_split
+    FAIL curator: T2 connection to non-allowlisted host example.com succeeded
+    FAIL curator: T3 package install outside the writable list succeeded
+    FAIL curator: T4 write outside the role writable list succeeded
+    T7 MODEL-SIDE PROBE: in a fresh session, answer exactly NO_PRIOR_SESSION_MEMORY unless a marker from a prior session is available
+    FAIL curator: T7 UNMEASURABLE: caller did not supply the model-side answer file
+release:
+  single_axis_release: forbidden
+  result: no_numeric_axis_counts_released
+  reason: Required source assets are absent, so the complete five-axis table cannot be measured.
+cohort_stratification:
+  rule: Every panel is stratified by whether its planted positive satisfies the canonical small, secreted, cysteine-rich profile, and the stratum is recorded in the panel manifest.
+  operational_definition:
+    current_value: MEASURE
+    measured_by: T1.4
+    reason: No operational thresholds for small or cysteine-rich are present, and no retained positive set exists.
+functional_evidence_filter:
+  measured_by: T1.4
+  qualifying_evidence:
+    - hypersensitive response assay
+    - knockout virulence phenotype
+    - validated host-target interaction
+  computational_evidence_codes_qualify: false
+  retained_count: MEASURE
+  removed_count: MEASURE
+  blocker: No candidate record with an evidence code is present.
+axes:
+  - axis: positives, sequence clusters
+    measured_by: T1.2, T1.3, T1.4
+    measurements:
+      - threshold: 30 percent identity
+        canonical_count: MEASURE
+        non_canonical_count: MEASURE
+        total_count: MEASURE
+      - threshold: 40 percent identity
+        canonical_count: MEASURE
+        non_canonical_count: MEASURE
+        total_count: MEASURE
+      - threshold: 50 percent identity
+        canonical_count: MEASURE
+        non_canonical_count: MEASURE
+        total_count: MEASURE
+    blocker: The union positive FASTA, provenance records, and functional-evidence eligibility decisions are absent.
+  - axis: positives, structural clusters
+    measured_by: T1.3, T1.4
+    binding_threshold: Foldseek TM-score 0.50
+    canonical_count: MEASURE
+    non_canonical_count: MEASURE
+    total_count: MEASURE
+    panel_support_by_stratum: MEASURE
+    blocker: The union positive set, predicted structures, and Foldseek all-versus-all result are absent.
+  - axis: negatives
+    measured_by: T1.1
+    label_status: unlabelled, not verified
+    canonical_unlabelled_count: MEASURE
+    non_canonical_unlabelled_count: MEASURE
+    total_unlabelled_count: MEASURE
+    verified_negative_count: MEASURE
+    unlabelled_minus_verified_distinction: MEASURE
+    blocker: No negative cohort or negative provenance and verification records exist.
+  - axis: contamination exposure
+    measured_by: T1.5
+    subject_cutoffs: MEASURE
+    canonical_pre_cutoff_count: MEASURE
+    canonical_post_cutoff_count: MEASURE
+    non_canonical_pre_cutoff_count: MEASURE
+    non_canonical_post_cutoff_count: MEASURE
+    total_pre_cutoff_count: MEASURE
+    total_post_cutoff_count: MEASURE
+    blocker: Publication dates, deposition dates, retained positives, and the subject-cutoff registry are absent.
+  - axis: tool coverage
+    measured_by: T1.6
+    species: MEASURE
+    channels:
+      - channel: in planta RNA-seq
+        canonical_covered_count_per_species: MEASURE
+        non_canonical_covered_count_per_species: MEASURE
+        total_covered_count_per_species: MEASURE
+      - channel: repeat annotation
+        canonical_covered_count_per_species: MEASURE
+        non_canonical_covered_count_per_species: MEASURE
+        total_covered_count_per_species: MEASURE
+      - channel: assembly quality
+        canonical_covered_count_per_species: MEASURE
+        non_canonical_covered_count_per_species: MEASURE
+        total_covered_count_per_species: MEASURE
+    blocker: No species cohort or per-channel source metadata exists.
+gate_1:
+  status: blocked
+  reason: The complete five-axis census is unmeasured, the binding structural-cluster count is absent, and the boundary assertion failed.
+  panels_built: false
