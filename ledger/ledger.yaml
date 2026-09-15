@@ -75,3 +75,11 @@ elements:
   set_by: Initiation memo
   amendment_rule: Recomputed at the realised N and republished with every effect
   amendments: []
+- name: cohort stratification
+  current_value: Every panel is stratified by whether its planted positive satisfies
+    the canonical small, secreted, cysteine-rich profile, and the stratum is recorded
+    in the panel manifest.
+  set_on: '2026-09-15'
+  set_by: task-fitness note
+  amendment_rule: Frozen before T5.2.
+  amendments: []
