@@ -1,8 +1,8 @@
 # Effector Benchmark Panel Charter
 
-The constitution is prepended to every stage prompt. Role scopes are declared by `access/*.yaml` but are not yet enforced; remediation Item 3 will render the load-bearing sandbox settings and sparse-checkout setup. Cross-role state moves only through append-only files under `handoff/`. The Instrument alone holds the mapping from blinded arm letters to grants.
+The constitution is prepended to every stage prompt. Git sparse checkout is active for the five registered role worktrees and removes excluded paths from those checkout trees; Item 13 recreated and probed the Curator checkout. Six role profiles and their command policies are rendered, but no Claude or Codex role launcher has applied them, and the Item 13 Bash probe could still read every denied source path. The MCP-policy strings and the append-only handoff rule remain declarative. The Instrument alone holds the mapping from blinded arm letters to grants.
 
-No panel session is launched during Week 0. The role worktrees are materialized only so their filesystem boundaries can be verified.
+No panel session is launched during Week 0. The five original role worktrees are materialized only so their filesystem boundaries can be verified; the Fetcher worktree is rendered but unmaterialized.
 
 ## Curator
 
