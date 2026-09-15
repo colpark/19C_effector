@@ -19,6 +19,7 @@ WORKSPACE = ROOT.parent
 ACCESS = ROOT / "access"
 BUILD = ROOT / "build/access"
 ROLES = ("curator", "instrument", "floor", "referee", "adversary", "fetcher")
+UNSANDBOXABLE_COMMANDS = ("docker",)
 
 
 def load_role(role: str) -> dict:
@@ -45,6 +46,9 @@ def absolute_under(base: Path, relative: str) -> str:
 
 def render(role: str, out_root: Path = BUILD) -> dict[str, Path]:
     data = load_role(role)
+    command_universe = sorted({command for name in ROLES for command in load_role(name)["commands"]}
+                              | set(UNSANDBOXABLE_COMMANDS))
+    denied_commands = [command for command in command_universe if command not in data["commands"]]
     role_root = (WORKSPACE / data["worktree"]).resolve()
     denied = [absolute_under(ROOT, item) for item in data["sparse_exclude"]]
     allowed_read = [str(role_root)] + [absolute_under(role_root, item) for item in data["sparse_include"]]
@@ -63,15 +67,22 @@ def render(role: str, out_root: Path = BUILD) -> dict[str, Path]:
                 "allowRead": allowed_read,
                 "allowWrite": allowed_write,
             },
+            "excludedCommands": list(UNSANDBOXABLE_COMMANDS),
         },
         "permissions": {
+            "allow": [f"Bash({command}:*)" for command in data["commands"]],
             "deny": [f"Read({path}/**)" for path in denied]
-                    + [f"Bash(* {path}/**)" for path in denied],
+                    + [f"Bash(* {path}/**)" for path in denied]
+                    + [f"Bash({command}:*)" for command in denied_commands],
         },
+        "commandPolicy": {"default": "deny", "allow": data["commands"]},
+        "mcpPolicy": data["mcp_policy"],
     }
     target = out_root / role
     claude = target / ".claude" / f"settings.{role}.json"
     codex = target / ".codex" / f"config.{role}.toml"
+    codex_rules = target / ".codex" / f"rules.{role}.rules"
+    access_policy = target / f"access-policy.{role}.json"
     shell = target / f"create_worktree.{role}.sh"
     claude.parent.mkdir(parents=True, exist_ok=True)
     codex.parent.mkdir(parents=True, exist_ok=True)
@@ -84,6 +95,18 @@ def render(role: str, out_root: Path = BUILD) -> dict[str, Path]:
         'trust_level = "untrusted"\n',
         encoding="utf-8",
     )
+    rules = [
+        f"prefix_rule(pattern=[{json.dumps(command)}], decision=\"allow\")"
+        for command in data["commands"]
+    ] + [
+        f"prefix_rule(pattern=[{json.dumps(command)}], decision=\"forbidden\")"
+        for command in denied_commands
+    ]
+    codex_rules.write_text("\n".join(rules) + "\n", encoding="utf-8")
+    access_policy.write_text(json.dumps({
+        "commands": {"default": "deny", "allow": data["commands"], "deny": denied_commands},
+        "mcp_policy": data["mcp_policy"],
+    }, sort_keys=True, indent=2) + "\n", encoding="utf-8")
     includes = " ".join(shlex.quote(item) for item in data["sparse_include"])
     shell.write_text(
         "#!/usr/bin/env bash\n"
@@ -98,7 +121,8 @@ def render(role: str, out_root: Path = BUILD) -> dict[str, Path]:
         encoding="utf-8",
     )
     shell.chmod(shell.stat().st_mode | stat.S_IXUSR)
-    return {"claude": claude, "codex": codex, "shell": shell}
+    return {"claude": claude, "codex": codex, "codex_rules": codex_rules,
+            "access_policy": access_policy, "shell": shell}
 
 
 def self_test() -> int:
@@ -115,6 +139,9 @@ def self_test() -> int:
             failures.append(f"{role}: fail-closed sandbox flags differ")
         deny_read = set(sandbox["filesystem"]["denyRead"])
         permission_deny = settings.get("permissions", {}).get("deny", [])
+        command_universe = sorted({command for name in ROLES for command in load_role(name)["commands"]}
+                                  | set(UNSANDBOXABLE_COMMANDS))
+        denied_commands = [command for command in command_universe if command not in data["commands"]]
         for relative in data["sparse_exclude"]:
             denied = Path(absolute_under(ROOT, relative))
             if str(denied) not in deny_read:
@@ -123,11 +150,28 @@ def self_test() -> int:
                 failures.append(f"{role}: denied source path lies inside role workspace: {relative}")
             if not any(str(denied) in rule for rule in permission_deny):
                 failures.append(f"{role}: permissions.deny does not mirror {relative}")
+        for command in denied_commands:
+            if f"Bash({command}:*)" not in permission_deny:
+                failures.append(f"{role}: Claude command denial missing for {command}")
+        if settings.get("sandbox", {}).get("excludedCommands") != list(UNSANDBOXABLE_COMMANDS):
+            failures.append(f"{role}: Claude excludedCommands mismatch")
+        if settings.get("mcpPolicy") != data["mcp_policy"]:
+            failures.append(f"{role}: Claude MCP policy mismatch")
         parsed = tomllib.loads(outputs["codex"].read_text(encoding="utf-8"))
         if parsed.get("sandbox_mode") != "workspace-write" or parsed.get("network_access") != data["network_access"]:
             failures.append(f"{role}: Codex sandbox/network mismatch")
         if parsed.get("projects", {}).get(str(role_root), {}).get("trust_level") != "untrusted":
             failures.append(f"{role}: Codex project is not untrusted")
+        rules_text = outputs["codex_rules"].read_text(encoding="utf-8")
+        for command in denied_commands:
+            expected = f'prefix_rule(pattern=[{json.dumps(command)}], decision="forbidden")'
+            if expected not in rules_text:
+                failures.append(f"{role}: Codex command denial missing for {command}")
+        policy = json.loads(outputs["access_policy"].read_text(encoding="utf-8"))
+        if policy.get("mcp_policy") != data["mcp_policy"]:
+            failures.append(f"{role}: emitted MCP policy mismatch")
+        if policy.get("commands", {}).get("allow") != data["commands"]:
+            failures.append(f"{role}: emitted command policy mismatch")
         holds_labels = "data/labels" in data["sparse_include"]
         if holds_labels and data["network_access"] is True:
             failures.append(f"{role}: holds labels with unrestricted network")

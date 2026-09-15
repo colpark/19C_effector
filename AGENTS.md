@@ -41,6 +41,13 @@ No panel session is launched during Week 0. The role worktrees are materialized 
 
 ## Convening and decision rights
 
+Docker is unavailable to every role. It was removed from the Instrument and
+Adversary command lists because access to the container socket grants
+host-equivalent authority and defeats the role boundary. The cost is that
+roles cannot start or mount containers themselves; container lifecycle is an
+external platform operation and its resolved state must enter through the
+handoff before a role relies on it.
+
 - Findings are written independently to `handoff/gate_N/findings_<agent>.md` before synthesis.
 - Findings sharing one evidence source count once. Instrument or Adversary findings grounded in files, traces, or served state are factual and block; design arguments are reasoning findings and go to discussion.
 - The Referee rules on the Floor's H and alone appends ledger amendments.

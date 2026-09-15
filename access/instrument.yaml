@@ -3,7 +3,7 @@ worktree: role_worktrees/instrument
 sparse_include: [constitution.md, AGENTS.md, docs, ledger, threats, gates, handoff, scripts, tasks, tools, runs, data/positives, data/design_split]
 sparse_exclude: [data/labels, data/scored_cohort, scorer]
 writable: [handoff, tools, runs]
-commands: [python3, git, sha256sum, codex, docker]
+commands: [python3, git, sha256sum, codex]
 mcp_policy: may_mount_only_after_Gate_2
 network_access: false
 network_allowlist: []
