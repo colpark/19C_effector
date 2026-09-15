@@ -15,7 +15,8 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def amend(path: Path, element_name: str, value: str, reason: str, date: str, author: str) -> None:
+def amend(path: Path, element_name: str, value: str, reason: str, date: str, author: str,
+          measured_by: str | None = None) -> None:
     if author != "Referee":
         raise ValueError("only Referee may amend the ledger")
     data = yaml.safe_load(path.read_text(encoding="utf-8"))
@@ -24,11 +25,22 @@ def amend(path: Path, element_name: str, value: str, reason: str, date: str, aut
         raise ValueError(f"expected one ledger element named {element_name!r}")
     item = matches[0]
     prior = copy.deepcopy(item.get("current_value"))
+    prior_measured_by = item.get("measured_by")
+    if value == "MEASURE" and not measured_by:
+        raise ValueError("MEASURE amendments require --measured-by")
+    if value != "MEASURE" and measured_by:
+        raise ValueError("--measured-by is only valid when --value MEASURE")
     item.setdefault("amendments", []).append({
         "date": date, "by": author, "reason": reason,
         "previous_value": prior, "new_value": value,
+        "previous_measured_by": prior_measured_by,
+        "new_measured_by": measured_by,
     })
     item["current_value"] = value
+    if measured_by:
+        item["measured_by"] = measured_by
+    else:
+        item.pop("measured_by", None)
     item["set_on"] = date
     item["set_by"] = author
     fd, temporary = tempfile.mkstemp(prefix=path.name, suffix=".tmp", dir=path.parent)
@@ -66,6 +78,7 @@ def main() -> int:
     parser.add_argument("--reason")
     parser.add_argument("--date")
     parser.add_argument("--by", dest="author", default="Referee")
+    parser.add_argument("--measured-by")
     parser.add_argument("--self-test", action="store_true")
     args = parser.parse_args()
     if args.self_test:
@@ -73,7 +86,8 @@ def main() -> int:
     if not all((args.element, args.value, args.reason, args.date)):
         parser.error("--element, --value, --reason and --date are required")
     try:
-        amend(args.ledger, args.element, args.value, args.reason, args.date, args.author)
+        amend(args.ledger, args.element, args.value, args.reason, args.date, args.author,
+              args.measured_by)
     except (OSError, ValueError, yaml.YAMLError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 1
