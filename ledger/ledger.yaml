@@ -1,0 +1,66 @@
+version: 1
+elements:
+  - name: delta
+    current_value: "0.05 precision at twenty"
+    set_on: "2026-09-15"
+    set_by: "Initiation memo; human judgement"
+    amendment_rule: "Amendable only before Gate 2, and only upward with a stated cost argument"
+    amendments: []
+  - name: k
+    current_value: 20
+    set_on: "2026-09-15"
+    set_by: "Initiation memo"
+    amendment_rule: "Frozen. Tied to a real assay batch"
+    amendments: []
+  - name: n_cand
+    current_value: 500
+    set_on: "2026-09-15"
+    set_by: "Initiation memo"
+    amendment_rule: "Amendable at item-design search, which runs on the design split only"
+    amendments: []
+  - name: "tau, clustering"
+    current_value: "Foldseek TM-score 0.50 primary, CD-HIT 40 percent secondary"
+    set_on: "2026-09-15"
+    set_by: "Initiation memo"
+    amendment_rule: "Frozen after T1.3. Sensitivity reported at 30 and 50 percent identity"
+    amendments: []
+  - name: "Metric primacy"
+    current_value: "precision at twenty primary, NDCG secondary"
+    set_on: "2026-09-15"
+    set_by: "Initiation memo"
+    amendment_rule: "Frozen before the run. The protein case saw the two disagree in sign"
+    amendments: []
+  - name: "C, channel count"
+    current_value: MEASURE
+    measured_by: T2.4
+    set_on: "2026-09-15"
+    set_by: "Initiation memo"
+    amendment_rule: "Set by mechanical ablation, never asserted"
+    amendments: []
+  - name: "S, samples per cell"
+    current_value: "5 provisional"
+    set_on: "2026-09-15"
+    set_by: "Initiation memo"
+    amendment_rule: "Set by the coverage curve at T4.3, then frozen"
+    amendments: []
+  - name: "Repair budget"
+    current_value: MEASURE
+    measured_by: T4.3
+    set_on: "2026-09-15"
+    set_by: "Initiation memo"
+    amendment_rule: "Fixed, not adaptive, and identical across arms"
+    amendments: []
+  - name: "Label evidence standard"
+    current_value: "functional evidence only"
+    set_on: "2026-09-15"
+    set_by: "Initiation memo"
+    amendment_rule: "Frozen. Computational evidence codes do not qualify"
+    amendments: []
+  - name: "sigma_d, N_min, MDE"
+    current_value: MEASURE
+    measured_by: T2.5
+    set_on: "2026-09-15"
+    set_by: "Initiation memo"
+    amendment_rule: "Recomputed at the realised N and republished with every effect"
+    amendments: []
+
