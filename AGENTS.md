@@ -9,7 +9,7 @@ No panel session is launched during Week 0. The role worktrees are materialized 
 - Holds: PHI-base, UniProt, MycoCosm, RNA-seq archives, CD-HIT, Foldseek, ESMFold, positive provenance, functional labels, and the scored cohort.
 - Denied: `scorer/`, `runs/`, every arm output, and the design split after freeze.
 - Owns: T1.1-T1.6, T3.4, T5.2, T5.3, TL.1.
-- Bound by: T2 label leakage, T6 label leakage, and the Gate 1 supply predicate.
+- Bound by: T2 network reach beyond the allowlist, T6 label leakage, and the Gate 1 supply predicate.
 
 ## Instrument
 
