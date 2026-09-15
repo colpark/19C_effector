@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-if [[ $# -ne 1 ]]; then
-  echo "usage: $0 ROLE" >&2
+if [[ ${1:-} == --boundary-exec-probe ]]; then
+  exit 0
+fi
+
+if [[ $# -ne 1 && $# -ne 3 ]]; then
+  echo "usage: $0 ROLE [--model-answer FILE]" >&2
   exit 2
 fi
 
@@ -11,6 +15,15 @@ case "$role" in
   curator|instrument|floor|referee|adversary) ;;
   *) echo "unknown role: $role" >&2; exit 2 ;;
 esac
+
+model_answer_file=
+if [[ $# -eq 3 ]]; then
+  [[ $2 == --model-answer ]] || {
+    echo "usage: $0 ROLE [--model-answer FILE]" >&2
+    exit 2
+  }
+  model_answer_file=$3
+fi
 
 root=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 settings="$root/build/access/$role/.claude/settings.$role.json"
@@ -28,12 +41,25 @@ fail() {
 
 jq -e '.sandbox.enabled == true and .sandbox.failIfUnavailable == true' "$settings" >/dev/null \
   || fail "sandbox is disabled or permits fallback when unavailable"
-[[ ${SANDBOX_ACTIVE:-0} == 1 ]] || fail "T1 startup assertion failed: sandbox is not active"
-[[ ${SANDBOX_FALLBACK_USED:-1} == 0 ]] || fail "runtime reports sandbox fallback"
 
 jq -e '.sandbox.allowUnsandboxedCommands == false' "$settings" >/dev/null \
   || fail "unsandboxed commands are permitted"
-[[ ${SANDBOX_UNSANDBOXED_RETRY:-1} == 0 ]] || fail "unsandboxed retry escape hatch is active"
+
+# T1 is measured by asking a new Bash process to execute this source-tree
+# script, which is outside the role worktree recorded in allowRead[0]. A
+# successful execution demonstrates either no boundary or an unsandboxed
+# fallback/retry.
+role_root=$(jq -r '.sandbox.filesystem.allowRead[0]' "$settings")
+case "$root/scripts/assert_sandbox.sh" in
+  "$role_root"|"$role_root"/*)
+    fail "T1 execution probe is not outside the declared role boundary"
+    ;;
+  *)
+    if bash --noprofile --norc "$root/scripts/assert_sandbox.sh" --boundary-exec-probe 2>/dev/null; then
+      fail "T1 outside-boundary Bash execution succeeded"
+    fi
+    ;;
+esac
 
 mapfile -t denied_paths < <(jq -r '.sandbox.filesystem.denyRead[]' "$settings")
 [[ ${#denied_paths[@]} -gt 0 ]] || fail "denyRead is empty"
@@ -54,26 +80,63 @@ done
 
 jq -e '.sandbox.network.strictAllowlist == true' "$settings" >/dev/null \
   || fail "network strict allowlist is disabled"
-# T2 is platform-enforced: the runtime, not only the settings file, must bind
-# network access to the strict allowlist.
-[[ ${SANDBOX_NETWORK_ALLOWLIST_ENFORCED:-0} == 1 ]] || fail "T2 startup assertion failed"
 while IFS= read -r host; do
   if [[ ${host,,} =~ (phi-?base|label|answer|scored|cohort|scorer) ]]; then
     fail "network allowlist contains protected host $host"
   fi
 done < <(jq -r '.sandbox.network.allowedDomains[]?' "$settings")
 
-# T3 and T4 are platform-enforced. Package installation and writes outside
-# cell scratch are unavailable before any project-level gate can run.
-[[ ${SANDBOX_PACKAGE_INSTALL_BLOCKED:-0} == 1 ]] || fail "T3 startup assertion failed"
-[[ ${SANDBOX_WRITE_BOUNDARY_ENFORCED:-0} == 1 ]] || fail "T4 startup assertion failed"
-
-[[ ${SANDBOX_MEMORY_DISABLED:-0} == 1 ]] || fail "persistent memory is not disabled"
-[[ -n ${SANDBOX_SESSION_ID:-} ]] || fail "current session identity is absent"
-if [[ -n ${SANDBOX_PREVIOUS_SESSION_ID:-} && ${SANDBOX_PREVIOUS_SESSION_ID} == "${SANDBOX_SESSION_ID:-}" ]]; then
-  fail "session identity persisted across sessions"
+# T2: make a connection attempt to a host that is deliberately absent from
+# every role allowlist. Success means the strict allowlist is not effective.
+if python3 -c 'import socket; s=socket.create_connection(("example.com", 443), 5); s.close()' \
+    >/dev/null 2>&1; then
+  fail "T2 connection to non-allowlisted host example.com succeeded"
 fi
-[[ -z ${SANDBOX_MEMORY_PATHS:-} ]] || fail "memory paths are mounted: ${SANDBOX_MEMORY_PATHS}"
+
+# T3: use a locally cached wheel so the install attempt does not fetch. The
+# destination is outside the role writable list. If no wheel exists, this
+# property is not measurable here and the check fails closed.
+package_probe="$root/.sandbox_package_probe"
+pip_cache=$(python3 -m pip cache dir 2>/dev/null || true)
+cached_wheel=
+if [[ -n $pip_cache && -d $pip_cache ]]; then
+  cached_wheel=$(find "$pip_cache" -type f -name '*.whl' -print -quit 2>/dev/null || true)
+fi
+if [[ -z $cached_wheel ]]; then
+  fail "T3 UNMEASURABLE: no local wheel is available for a no-network install attempt"
+else
+  if python3 -m pip install --disable-pip-version-check --no-deps --no-index \
+      --target "$package_probe" "$cached_wheel" >/dev/null 2>&1; then
+    if [[ $package_probe == "$root/.sandbox_package_probe" && -d $package_probe ]]; then
+      find "$package_probe" -depth -mindepth 1 -delete
+      rmdir "$package_probe"
+    fi
+    fail "T3 package install outside the writable list succeeded"
+  fi
+fi
+
+# T4: attempt the write, remove the exact probe if an unenforced environment
+# permits it, and record that success as a boundary failure.
+write_probe="$root/.sandbox_write_probe"
+if bash --noprofile --norc -c ': > "$1"' bash "$write_probe" 2>/dev/null; then
+  [[ $write_probe == "$root/.sandbox_write_probe" ]] && rm -f -- "$write_probe"
+  fail "T4 write outside the role writable list succeeded"
+fi
+
+# T7 cannot be measured from inside this process: only a newly started model
+# session can answer whether it recalls a prior-session marker. The caller,
+# not an environment variable, must supply the model's answer in a file.
+echo "T7 MODEL-SIDE PROBE: in a fresh session, answer exactly NO_PRIOR_SESSION_MEMORY unless a marker from a prior session is available"
+if [[ -z $model_answer_file ]]; then
+  fail "T7 UNMEASURABLE: caller did not supply the model-side answer file"
+elif [[ ! -f $model_answer_file ]]; then
+  fail "T7 caller-supplied answer file does not exist: $model_answer_file"
+else
+  model_answer=$(tr -d '\r\n' < "$model_answer_file")
+  echo "T7 caller-supplied model answer: $model_answer"
+  [[ $model_answer == NO_PRIOR_SESSION_MEMORY ]] \
+    || fail "T7 model-side answer reports or does not exclude prior-session memory"
+fi
 
 if (( failures > 0 )); then
   exit 1
