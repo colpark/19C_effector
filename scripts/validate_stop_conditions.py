@@ -11,7 +11,8 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
-VALID_THREATS = {f"T{i}" for i in range(1, 9)}
+PROJECT_THREATS = {f"T{i}" for i in range(5, 9)}
+PLATFORM_THREATS = {f"T{i}" for i in range(1, 5)}
 PROHIBITED_NAMES = {
     "signalp", "tmhmm", "phobius", "predector", "peace", "effectorp", "foldseek",
     "esmfold", "esm-2", "esm2", "prot-t5", "prott5", "alphafold", "boltz",
@@ -44,8 +45,10 @@ def validate(path: Path) -> list[str]:
         else:
             seen.add(cid)
         threat = condition.get("threat")
-        if threat not in VALID_THREATS:
-            errors.append(f"{where} threat must be one of T1-T8")
+        if threat in PLATFORM_THREATS:
+            errors.append(f"{where} gates a platform-enforced threat; this proxy is invalid")
+        elif threat not in PROJECT_THREATS:
+            errors.append(f"{where} threat must be a project-enforced threat T5-T8")
         predicate = condition.get("predicate")
         if not isinstance(predicate, str) or not predicate.strip():
             errors.append(f"{where} predicate is empty")
@@ -64,8 +67,9 @@ def validate(path: Path) -> list[str]:
 def self_test() -> int:
     good = validate(ROOT / "gates/fixtures/pass.yaml")
     bad = validate(ROOT / "gates/fixtures/fail.yaml")
-    if good or not bad:
-        print(f"self-test failed: pass={good!r} fail={bad!r}", file=sys.stderr)
+    platform = validate(ROOT / "gates/fixtures/fail_platform.yaml")
+    if good or not bad or not platform:
+        print(f"self-test failed: pass={good!r} fail={bad!r} platform={platform!r}", file=sys.stderr)
         return 1
     print("PASS validate_stop_conditions self-test")
     return 0
@@ -91,4 +95,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

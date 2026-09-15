@@ -1,0 +1,4 @@
+stop_conditions:
+  - id: sandbox-proxy
+    threat: T1
+    predicate: "T1 occurs when execution leaves the cell sandbox"

@@ -28,7 +28,7 @@ fail() {
 
 jq -e '.sandbox.enabled == true and .sandbox.failIfUnavailable == true' "$settings" >/dev/null \
   || fail "sandbox is disabled or permits fallback when unavailable"
-[[ ${SANDBOX_ACTIVE:-0} == 1 ]] || fail "runtime did not attest that the sandbox is active"
+[[ ${SANDBOX_ACTIVE:-0} == 1 ]] || fail "T1 startup assertion failed: sandbox is not active"
 [[ ${SANDBOX_FALLBACK_USED:-1} == 0 ]] || fail "runtime reports sandbox fallback"
 
 jq -e '.sandbox.allowUnsandboxedCommands == false' "$settings" >/dev/null \
@@ -54,11 +54,19 @@ done
 
 jq -e '.sandbox.network.strictAllowlist == true' "$settings" >/dev/null \
   || fail "network strict allowlist is disabled"
+# T2 is platform-enforced: the runtime, not only the settings file, must bind
+# network access to the strict allowlist.
+[[ ${SANDBOX_NETWORK_ALLOWLIST_ENFORCED:-0} == 1 ]] || fail "T2 startup assertion failed"
 while IFS= read -r host; do
   if [[ ${host,,} =~ (phi-?base|label|answer|scored|cohort|scorer) ]]; then
     fail "network allowlist contains protected host $host"
   fi
 done < <(jq -r '.sandbox.network.allowedDomains[]?' "$settings")
+
+# T3 and T4 are platform-enforced. Package installation and writes outside
+# cell scratch are unavailable before any project-level gate can run.
+[[ ${SANDBOX_PACKAGE_INSTALL_BLOCKED:-0} == 1 ]] || fail "T3 startup assertion failed"
+[[ ${SANDBOX_WRITE_BOUNDARY_ENFORCED:-0} == 1 ]] || fail "T4 startup assertion failed"
 
 [[ ${SANDBOX_MEMORY_DISABLED:-0} == 1 ]] || fail "persistent memory is not disabled"
 [[ -n ${SANDBOX_SESSION_ID:-} ]] || fail "current session identity is absent"
