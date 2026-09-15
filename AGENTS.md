@@ -1,6 +1,6 @@
 # Effector Benchmark Panel Charter
 
-The constitution is prepended to every stage prompt. Git sparse checkout is active for the five registered role worktrees and removes excluded paths from those checkout trees; Item 13 recreated and probed the Curator checkout. Six role profiles and their command policies are rendered, but no Claude or Codex role launcher has applied them, and the Item 13 Bash probe could still read every denied source path. The MCP-policy strings and the append-only handoff rule remain declarative. The Instrument alone holds the mapping from blinded arm letters to grants.
+The constitution is prepended to every stage prompt. Git sparse checkout is active for the five registered role worktrees and removes excluded directories from those checkout trees, while every root-level file remains visible to every role. Item 13 recreated and probed the Curator checkout. Six role profiles and their command policies are rendered. Item 19 explicitly applied the Curator Codex profile, but Bubblewrap failed before the Bash assertion started; the other five profiles remain unexercised, and no launched probe has demonstrated denied-source-path enforcement. The MCP-policy strings and the append-only handoff rule remain declarative. The Instrument alone holds the mapping from blinded arm letters to grants.
 
 No panel session is launched during Week 0. The five original role worktrees are materialized only so their filesystem boundaries can be verified; the Fetcher worktree is rendered but unmaterialized.
 
