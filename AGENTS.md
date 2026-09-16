@@ -1,8 +1,8 @@
 # Effector Benchmark Panel Charter
 
-The constitution is prepended to every stage prompt. Git sparse checkout is active for the five registered role worktrees and removes excluded directories from those checkout trees, while every root-level file remains visible to every role. Item 13 recreated and probed the Curator checkout. Six role profiles and their command policies are rendered. Item 19 explicitly applied the Curator Codex profile, but Bubblewrap failed before the Bash assertion started; the other five profiles remain unexercised, and no launched probe has demonstrated denied-source-path enforcement. The MCP-policy strings and the append-only handoff rule remain declarative. The Instrument alone holds the mapping from blinded arm letters to grants.
+The constitution is prepended to every stage prompt. Each role receives a standalone, history-filtered Git clone on a role-session host where the union repository does not exist. Clone-time path absence is the confidentiality control; rendered deny lists are defence in depth and are not counted as enforcement. Six role profiles and command policies are rendered. Item 30 showed that Bubblewrap still fails before a sandboxed command starts, so no runtime filesystem, network, package-install, or write boundary has been demonstrated. The MCP-policy strings and the append-only handoff rule remain declarative. The Instrument alone holds the mapping from blinded arm letters to grants.
 
-No panel session is launched during Week 0. The five original role worktrees are materialized only so their filesystem boundaries can be verified; the Fetcher worktree is rendered but unmaterialized.
+No panel session is launched during Week 0. Preparation-host clones are test fixtures only and must never be used for role sessions. Cross-role state is exported and imported only under `handoff/`; role clones share no repository, object store, or writable directory.
 
 ## Curator
 

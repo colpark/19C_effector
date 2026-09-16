@@ -26,7 +26,7 @@ if [[ $# -eq 3 ]]; then
 fi
 
 root=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
-settings="$root/build/access/$role/.claude/settings.$role.json"
+settings="$root/.role-access/.claude/settings.$role.json"
 failures=0
 
 fail() {
@@ -45,36 +45,31 @@ jq -e '.sandbox.enabled == true and .sandbox.failIfUnavailable == true' "$settin
 jq -e '.sandbox.allowUnsandboxedCommands == false' "$settings" >/dev/null \
   || fail "unsandboxed commands are permitted"
 
-# T1 is measured by asking a new Bash process to execute this source-tree
-# script, which is outside the role worktree recorded in allowRead[0]. A
-# successful execution demonstrates either no boundary or an unsandboxed
-# fallback/retry.
+# A standalone clone has no union-tree path to use as an outside-boundary read
+# target. Clone absence controls secrets but cannot attest a process sandbox.
 role_root=$(jq -r '.sandbox.filesystem.allowRead[0]' "$settings")
-case "$root/scripts/assert_sandbox.sh" in
-  "$role_root"|"$role_root"/*)
-    fail "T1 execution probe is not outside the declared role boundary"
-    ;;
-  *)
-    if bash --noprofile --norc "$root/scripts/assert_sandbox.sh" --boundary-exec-probe 2>/dev/null; then
-      fail "T1 outside-boundary Bash execution succeeded"
-    fi
-    ;;
-esac
+[[ $role_root == "$root" ]] || fail "standalone clone root differs from allowRead root"
+fail "T1 UNMEASURABLE: path absence is not a running process sandbox"
 
 mapfile -t denied_paths < <(jq -r '.sandbox.filesystem.denyRead[]' "$settings")
 [[ ${#denied_paths[@]} -gt 0 ]] || fail "denyRead is empty"
 for denied in "${denied_paths[@]}"; do
-  # This probe deliberately goes through a new Bash process. A file-tool-only
-  # denial is insufficient because an agent can invoke shell readers instead.
-  if bash --noprofile --norc -c '
-      target=$1
-      if [[ -d "$target" ]]; then
-        find "$target" -mindepth 1 -maxdepth 1 -print -quit >/dev/null
-      else
-        head -c 1 "$target" >/dev/null
-      fi
-    ' bash "$denied" 2>/dev/null; then
-    fail "Bash read succeeded for denied path $denied"
+  if [[ ! -e $denied && ! -L $denied ]]; then
+    echo "PASS $role: ABSENCE $denied"
+  else
+    # If a denied path is ever co-located, exercise the sandbox backstop.
+    if bash --noprofile --norc -c '
+        target=$1
+        if [[ -d "$target" ]]; then
+          find "$target" -mindepth 1 -maxdepth 1 -print -quit >/dev/null
+        else
+          head -c 1 "$target" >/dev/null
+        fi
+      ' bash "$denied" 2>/dev/null; then
+      fail "Bash read succeeded for present denied path $denied"
+    else
+      echo "PASS $role: SANDBOX-BACKSTOP $denied"
+    fi
   fi
 done
 
