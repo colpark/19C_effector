@@ -1,0 +1,3306 @@
+[
+  {
+    "accession": "G3C9Q4",
+    "profile_stratum": "non-canonical",
+    "length": 58,
+    "mean_plddt": 0.44034482758620686,
+    "sha256": "780012b3180f411d99de8f28f56310b1b7ca61f95ba2a8602b0825730ce89d33",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9Q4.pdb"
+  },
+  {
+    "accession": "G3C9Q9",
+    "profile_stratum": "non-canonical",
+    "length": 65,
+    "mean_plddt": 0.5384615384615384,
+    "sha256": "bf739537bc0fe8e36ebc191e78dcb4ac3f7fb46f5970f54e5be5f2be2823df9e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9Q9.pdb"
+  },
+  {
+    "accession": "C4B8B7",
+    "profile_stratum": "non-canonical",
+    "length": 70,
+    "mean_plddt": 0.5148571428571428,
+    "sha256": "689d4f5f58eeef4c8b3831f0c7f7fc8e96518d69557215a215aa11bdde807da2",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-C4B8B7.pdb"
+  },
+  {
+    "accession": "N4VVN8",
+    "profile_stratum": "canonical",
+    "length": 70,
+    "mean_plddt": 0.7628571428571428,
+    "sha256": "8657f35b51e5acd1ce40ee34c041bca68e4c2034f8736ee5c78c042f908b1f62",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N4VVN8.pdb"
+  },
+  {
+    "accession": "A0A0A7DLN4",
+    "profile_stratum": "canonical",
+    "length": 72,
+    "mean_plddt": 0.50375,
+    "sha256": "724cb8896201578bce3f4c9092402633bc74b7ad2bf02b593187ee5e711547f8",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0A7DLN4.pdb"
+  },
+  {
+    "accession": "Q94FS7",
+    "profile_stratum": "canonical",
+    "length": 73,
+    "mean_plddt": 0.5689041095890411,
+    "sha256": "e3d85386b654ef79a1a4674c2bbfb6e17c27d825bed234fe3f317a629850a80b",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q94FS7.pdb"
+  },
+  {
+    "accession": "A0A0H4ITX1",
+    "profile_stratum": "non-canonical",
+    "length": 74,
+    "mean_plddt": 0.7345945945945946,
+    "sha256": "1fdaef98fa8abaca557ea7bd3a7150d3207d803adb56efe6600795fa2fc5b296",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0H4ITX1.pdb"
+  },
+  {
+    "accession": "F9XAU1",
+    "profile_stratum": "canonical",
+    "length": 74,
+    "mean_plddt": 0.6687837837837838,
+    "sha256": "5da57d09d0d13fa2366b61fb27f503e1ad23695e8997d58f1f33a7c68778fbd9",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F9XAU1.pdb"
+  },
+  {
+    "accession": "PHI:8149",
+    "profile_stratum": "non-canonical",
+    "length": 75,
+    "mean_plddt": 0.4353333333333333,
+    "sha256": "f3eb875519a6963b96a04cb850bf3f7a6051009ca14874144079ae3be5edb3dd",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-PHI:8149.pdb"
+  },
+  {
+    "accession": "E7A0K6",
+    "profile_stratum": "non-canonical",
+    "length": 76,
+    "mean_plddt": 0.7330263157894737,
+    "sha256": "777a3cb69d4a4a92bb133d77e7d83d3e8871a2df1f4a4ab933fa31da3f61c7d1",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A0K6.pdb"
+  },
+  {
+    "accession": "Q8NID8",
+    "profile_stratum": "canonical",
+    "length": 78,
+    "mean_plddt": 0.5632051282051282,
+    "sha256": "e968360ea8e7d04bd768addd1be87077b63bf9473b6d3127346c36eaf966bf16",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q8NID8.pdb"
+  },
+  {
+    "accession": "F9XBP2",
+    "profile_stratum": "canonical",
+    "length": 79,
+    "mean_plddt": 0.4058227848101266,
+    "sha256": "c811e936e6823a3b8cb0d23adb03aac69b8f997bf41a09c061d2781818b4986b",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F9XBP2.pdb"
+  },
+  {
+    "accession": "A0A0A7DM22",
+    "profile_stratum": "non-canonical",
+    "length": 80,
+    "mean_plddt": 0.46799999999999997,
+    "sha256": "ff6d40f3a00005aa821bd94e89344c8de0fce31bd3854547632497e7b9bf7135",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0A7DM22.pdb"
+  },
+  {
+    "accession": "A0A0M3Q8U4",
+    "profile_stratum": "canonical",
+    "length": 82,
+    "mean_plddt": 0.5610975609756097,
+    "sha256": "850664e17deb492ac48980159d46c9c4a206410d0379d24d83a6f54a843d8648",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0M3Q8U4.pdb"
+  },
+  {
+    "accession": "Q02039",
+    "profile_stratum": "canonical",
+    "length": 82,
+    "mean_plddt": 0.4295121951219512,
+    "sha256": "ffa9b48582d2c45bad6c23970ecbc6583225550ddbcfd6dfdfa17f6c2badcad6",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q02039.pdb"
+  },
+  {
+    "accession": "ZtAvrStb6",
+    "profile_stratum": "canonical",
+    "length": 82,
+    "mean_plddt": 0.5724390243902439,
+    "sha256": "6d212cbdb1959c366ce13c350f90060235be2df6edd970330b34d0a729bb15ce",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-ZtAvrStb6.pdb"
+  },
+  {
+    "accession": "A0A6M4FAR2",
+    "profile_stratum": "canonical",
+    "length": 85,
+    "mean_plddt": 0.6410588235294118,
+    "sha256": "f403e859aadcad59a4379817b550d6567f5fce2a097df95062b466ad49775bde",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A6M4FAR2.pdb"
+  },
+  {
+    "accession": "B9WZW9",
+    "profile_stratum": "non-canonical",
+    "length": 85,
+    "mean_plddt": 0.6798823529411765,
+    "sha256": "64e96f7d758e63bb242919375fa6b79e099a7e249441e3b5f897b836bd3bb191",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-B9WZW9.pdb"
+  },
+  {
+    "accession": "R9RX08",
+    "profile_stratum": "non-canonical",
+    "length": 85,
+    "mean_plddt": 0.6517647058823529,
+    "sha256": "13724f2e243709b1e350d36b258869e03b9c88e0464338ac25f967d8059d1bd2",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-R9RX08.pdb"
+  },
+  {
+    "accession": "A0A4T0WF76",
+    "profile_stratum": "canonical",
+    "length": 87,
+    "mean_plddt": 0.42804597701149427,
+    "sha256": "0ef48f075da5ed42130662780dde2dd53dfadbea77f08fb9f7c4db2b1f5923d2",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A4T0WF76.pdb"
+  },
+  {
+    "accession": "Q8J180",
+    "profile_stratum": "non-canonical",
+    "length": 89,
+    "mean_plddt": 0.5840449438202246,
+    "sha256": "a313334480c33e118905e47f4bf1db6fb7712acfa2dc3c3be1bf554713ac5403",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q8J180.pdb"
+  },
+  {
+    "accession": "A0A0A7DMM3",
+    "profile_stratum": "canonical",
+    "length": 91,
+    "mean_plddt": 0.3984615384615384,
+    "sha256": "2e0635b18bb3dacd69b3a2211fb8f5b842a4614905ceb16ddf712b43fa6bbe33",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0A7DMM3.pdb"
+  },
+  {
+    "accession": "G3C9S7",
+    "profile_stratum": "non-canonical",
+    "length": 93,
+    "mean_plddt": 0.4673118279569893,
+    "sha256": "d6c7514d2f82f78a4f4ad8808adf0fb526e1081aeeed91696594a5ffbebb3139",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9S7.pdb"
+  },
+  {
+    "accession": "E4ZT77",
+    "profile_stratum": "canonical",
+    "length": 95,
+    "mean_plddt": 0.38084210526315787,
+    "sha256": "557b1cf0c16514d795ce34da67da8627365326923e887e234e96c230824e456a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E4ZT77.pdb"
+  },
+  {
+    "accession": "Q2MV49",
+    "profile_stratum": "canonical",
+    "length": 95,
+    "mean_plddt": 0.49263157894736836,
+    "sha256": "5f1a6aad4bb2d50e25548c484063e2fba027bf6072e92a2cc301de8f8ba217a1",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q2MV49.pdb"
+  },
+  {
+    "accession": "F9XKL2",
+    "profile_stratum": "canonical",
+    "length": 98,
+    "mean_plddt": 0.7809183673469388,
+    "sha256": "8f5e9c77a926ee31abbdb66c9f5ed0a76f52b13ee5cf17eb0490c6248c45edcf",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F9XKL2.pdb"
+  },
+  {
+    "accession": "N4V2U6",
+    "profile_stratum": "non-canonical",
+    "length": 99,
+    "mean_plddt": 0.5574747474747475,
+    "sha256": "bf02e75833af577275f1b417bf6570674d2d51bb0d1b8981b36e8bf2a80f91ed",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N4V2U6.pdb"
+  },
+  {
+    "accession": "D0N0I4",
+    "profile_stratum": "non-canonical",
+    "length": 100,
+    "mean_plddt": 0.4493,
+    "sha256": "9a3d5471366f78ff5909dbd8a8313d20ab430ea757cde9f4a1d0507919e4db1a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-D0N0I4.pdb"
+  },
+  {
+    "accession": "G4MY99",
+    "profile_stratum": "canonical",
+    "length": 100,
+    "mean_plddt": 0.4742,
+    "sha256": "b4a1b16fd98bcfedfe7f222cb104a002a0507b3168e0e22d7af681e3d8a38db6",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G4MY99.pdb"
+  },
+  {
+    "accession": "A0A8H7MAE0",
+    "profile_stratum": "canonical",
+    "length": 101,
+    "mean_plddt": 0.7285148514851485,
+    "sha256": "d5ec5aad694ddcc490b4ea86bd6d7e84f2db97df3129c79f922644e1a971b79d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A8H7MAE0.pdb"
+  },
+  {
+    "accession": "A0A023UJQ9",
+    "profile_stratum": "canonical",
+    "length": 103,
+    "mean_plddt": 0.34572815533980583,
+    "sha256": "af97ca1faca5ba29e72a949d6c56e4f2c4c8e74e21b94e85c34c0c355f10a882",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A023UJQ9.pdb"
+  },
+  {
+    "accession": "E6ZS72",
+    "profile_stratum": "non-canonical",
+    "length": 103,
+    "mean_plddt": 0.35640776699029125,
+    "sha256": "6d188116a2db37e080ac5e7d9950f89ec3ef85add89003e7430f8e85e00d2f02",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS72.pdb"
+  },
+  {
+    "accession": "A0A0S1MJK1",
+    "profile_stratum": "canonical",
+    "length": 105,
+    "mean_plddt": 0.4094285714285715,
+    "sha256": "5ce480c95662d50c461aff172ba2d6b0221e262534a3b728c82ba1e6a1efa08f",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0S1MJK1.pdb"
+  },
+  {
+    "accession": "G4MY32",
+    "profile_stratum": "canonical",
+    "length": 105,
+    "mean_plddt": 0.4897142857142857,
+    "sha256": "e36a61cc107d8abb747eebcf990d1f0b1674af7af460395e5c66b274a54a17fd",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G4MY32.pdb"
+  },
+  {
+    "accession": "E4ZT84",
+    "profile_stratum": "canonical",
+    "length": 106,
+    "mean_plddt": 0.3725471698113208,
+    "sha256": "43a7a25e03ae3bdba2fb96622ad7f73e28597df3119249762544eb131ef99133",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E4ZT84.pdb"
+  },
+  {
+    "accession": "C6ZEZ6",
+    "profile_stratum": "canonical",
+    "length": 108,
+    "mean_plddt": 0.4700925925925926,
+    "sha256": "5ed139252b5991ed9cd1029135bcb0049bfc2f8048b5677939b1182eda0fdf93",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-C6ZEZ6.pdb"
+  },
+  {
+    "accession": "E6ZMQ1",
+    "profile_stratum": "non-canonical",
+    "length": 108,
+    "mean_plddt": 0.4708333333333333,
+    "sha256": "261e094a907611e125dcdd9d3adc7f60b2fa6df39015a2d960abe85ebeee5e92",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZMQ1.pdb"
+  },
+  {
+    "accession": "G1K3N3",
+    "profile_stratum": "non-canonical",
+    "length": 108,
+    "mean_plddt": 0.6578703703703703,
+    "sha256": "6ce405e797ada7259cdff39a9e68e8f715cd62adfe432846d912f0d42c1aeadf",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G1K3N3.pdb"
+  },
+  {
+    "accession": "A0A9X9QEV5",
+    "profile_stratum": "non-canonical",
+    "length": 109,
+    "mean_plddt": 0.6192660550458715,
+    "sha256": "80e142902f72ed67c54be57f8df226967ae5a139712b8918f5195203f1c02e4c",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A9X9QEV5.pdb"
+  },
+  {
+    "accession": "I1VGT7",
+    "profile_stratum": "canonical",
+    "length": 109,
+    "mean_plddt": 0.4074311926605505,
+    "sha256": "86cbdf1b74418486dc098284e7c3d4ccb873ab30d90fb52eb5220f26ee2861cd",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-I1VGT7.pdb"
+  },
+  {
+    "accession": "G3C9P9",
+    "profile_stratum": "non-canonical",
+    "length": 110,
+    "mean_plddt": 0.4232727272727273,
+    "sha256": "82b023f3f49e96a8f6b0ac591b3ae43495ef73c826cd46890c24ebd7a6bde567",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9P9.pdb"
+  },
+  {
+    "accession": "A5YTY8",
+    "profile_stratum": "non-canonical",
+    "length": 111,
+    "mean_plddt": 0.45495495495495497,
+    "sha256": "eb419c1fea08f2a16497a0ae3a70e027b29650b48a229a83882e9d300f1da218",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A5YTY8.pdb"
+  },
+  {
+    "accession": "B2ZCS6",
+    "profile_stratum": "canonical",
+    "length": 111,
+    "mean_plddt": 0.36324324324324325,
+    "sha256": "4a5119960f25a2c848a1694170742cf1387c9dbc2f6980a3fb9ad1e3b56c8751",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-B2ZCS6.pdb"
+  },
+  {
+    "accession": "F2YQ16",
+    "profile_stratum": "non-canonical",
+    "length": 111,
+    "mean_plddt": 0.454054054054054,
+    "sha256": "93679792d632d8a2a572e779e214842d1c41be1bf33614458a0a01ff2bc0be0d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F2YQ16.pdb"
+  },
+  {
+    "accession": "PaMiSSP10b",
+    "profile_stratum": "non-canonical",
+    "length": 111,
+    "mean_plddt": 0.7820720720720721,
+    "sha256": "079cfd4aa0552451383aacd097c003562712da4a5cc9feee89fbec5bb77b27ed",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-PaMiSSP10b.pdb"
+  },
+  {
+    "accession": "N1JJE7",
+    "profile_stratum": "non-canonical",
+    "length": 112,
+    "mean_plddt": 0.6254464285714285,
+    "sha256": "c6d5dde47894f38de22014b55ffefbcf8dc7d88fec82db9f62cf4bebfdb155f4",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N1JJE7.pdb"
+  },
+  {
+    "accession": "A0A0D1CW02",
+    "profile_stratum": "canonical",
+    "length": 113,
+    "mean_plddt": 0.5076991150442478,
+    "sha256": "d19bab9560781db5a04a1c00225cd7bff2940fb4922add98ba60558cd7e23ee6",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1CW02.pdb"
+  },
+  {
+    "accession": "A0A219T3Y8",
+    "profile_stratum": "non-canonical",
+    "length": 113,
+    "mean_plddt": 0.5486725663716814,
+    "sha256": "751d26cb0c1f57070809f93a599bb05f71032649393c81c56c94dd35c499ea13",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A219T3Y8.pdb"
+  },
+  {
+    "accession": "C4B8B8",
+    "profile_stratum": "non-canonical",
+    "length": 113,
+    "mean_plddt": 0.5635398230088495,
+    "sha256": "729270e00e2235208fd87baed5b518faad9252c151c03b1d2d2f746982a4eee7",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-C4B8B8.pdb"
+  },
+  {
+    "accession": "C4B8B9",
+    "profile_stratum": "non-canonical",
+    "length": 113,
+    "mean_plddt": 0.3907079646017699,
+    "sha256": "4dca0a456563508bcf1aec889911dd7b3f7f5e01aa45db62ecdaadd284791068",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-C4B8B9.pdb"
+  },
+  {
+    "accession": "C4B8C2",
+    "profile_stratum": "non-canonical",
+    "length": 113,
+    "mean_plddt": 0.5519469026548672,
+    "sha256": "88631bc9e59664b9fa07009b5fa5b9884a5d1cd5138a138cf73cfe9a4dcc3819",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-C4B8C2.pdb"
+  },
+  {
+    "accession": "G4MX34",
+    "profile_stratum": "canonical",
+    "length": 113,
+    "mean_plddt": 0.36672566371681414,
+    "sha256": "040464e89cd8d1cc540bc9c42d79eb809ed5036472dc5f1e94dd7e7ef9036c93",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G4MX34.pdb"
+  },
+  {
+    "accession": "G4MXW3",
+    "profile_stratum": "non-canonical",
+    "length": 113,
+    "mean_plddt": 0.3972566371681416,
+    "sha256": "15abd12790fea413508c2125c7d6e476f5725e0258860e558d7c5742e4a4f72b",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G4MXW3.pdb"
+  },
+  {
+    "accession": "AEQ16461.1",
+    "profile_stratum": "non-canonical",
+    "length": 114,
+    "mean_plddt": 0.48982456140350883,
+    "sha256": "7787c5d32498703cf9dc5f8d991fb03d70bf5396c4000fded7148a7d68233cbe",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-AEQ16461.1.pdb"
+  },
+  {
+    "accession": "D0NN59",
+    "profile_stratum": "non-canonical",
+    "length": 114,
+    "mean_plddt": 0.4000877192982456,
+    "sha256": "12df53ba0fd59bd611dce1d32f96297ca1e51535a6844448f528b8e896fa8914",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-D0NN59.pdb"
+  },
+  {
+    "accession": "G3C9P1",
+    "profile_stratum": "non-canonical",
+    "length": 114,
+    "mean_plddt": 0.41543859649122805,
+    "sha256": "ca2bbeddb0318d9122300fae9b8a39f2f94f3baf4f61330ac44141e3878a2e29",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9P1.pdb"
+  },
+  {
+    "accession": "N1JN67",
+    "profile_stratum": "non-canonical",
+    "length": 114,
+    "mean_plddt": 0.655,
+    "sha256": "c26360c6efdb382164fae84ca4e487fb322174e54594b86c87f7ffcbca912014",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N1JN67.pdb"
+  },
+  {
+    "accession": "F6MF05",
+    "profile_stratum": "non-canonical",
+    "length": 115,
+    "mean_plddt": 0.46860869565217395,
+    "sha256": "773fb433ca2580c174a185ba80d204a132b940b3ac7647c1e2716c7b49fc7339",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F6MF05.pdb"
+  },
+  {
+    "accession": "I1VGT8",
+    "profile_stratum": "canonical",
+    "length": 115,
+    "mean_plddt": 0.4638260869565217,
+    "sha256": "e8e1b385a1da12360f18a3da450bbb281f85cb863a828b399a4394f7ec5e6989",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-I1VGT8.pdb"
+  },
+  {
+    "accession": "N1J7E2",
+    "profile_stratum": "non-canonical",
+    "length": 115,
+    "mean_plddt": 0.5918260869565217,
+    "sha256": "ae4242e71f26afd61d119a8e0aaf2b11d2fb54212f556f80e1b324f78ea58fc9",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N1J7E2.pdb"
+  },
+  {
+    "accession": "D0NDJ8",
+    "profile_stratum": "non-canonical",
+    "length": 116,
+    "mean_plddt": 0.4363793103448276,
+    "sha256": "69c6b31069a38bd0ff104ee9f8695ac5aecdbacf644f0bf09a3cb23f7e687f8e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-D0NDJ8.pdb"
+  },
+  {
+    "accession": "E7A184",
+    "profile_stratum": "non-canonical",
+    "length": 116,
+    "mean_plddt": 0.4706896551724138,
+    "sha256": "4b1a696956b7a62f324e31981cfc10cce35093a0d4575969ef5d95839d0da60f",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A184.pdb"
+  },
+  {
+    "accession": "E6ZU78",
+    "profile_stratum": "non-canonical",
+    "length": 117,
+    "mean_plddt": 0.40316239316239316,
+    "sha256": "dfe6012cd967bd7745eaa0f235a286bf8a3f2f5d17820303ebaec7b8ad1c2eea",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZU78.pdb"
+  },
+  {
+    "accession": "G0X7U0",
+    "profile_stratum": "non-canonical",
+    "length": 117,
+    "mean_plddt": 0.49,
+    "sha256": "0f5429ea37f56ec4ef131d77f01b5e022a9d7491060855374a99aa7293790948",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X7U0.pdb"
+  },
+  {
+    "accession": "G0X7X3",
+    "profile_stratum": "non-canonical",
+    "length": 117,
+    "mean_plddt": 0.3591452991452992,
+    "sha256": "ae485246aa9918a14b90ba820efaebcf4f8b2bc4e7e922923253d00e72a7d1a2",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X7X3.pdb"
+  },
+  {
+    "accession": "Q2MV43",
+    "profile_stratum": "canonical",
+    "length": 117,
+    "mean_plddt": 0.43,
+    "sha256": "66324abcb351ad26ca2e49c74bd88db19e79d0ff913bfdcefcfcf13194535160",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q2MV43.pdb"
+  },
+  {
+    "accession": "G3C9N9",
+    "profile_stratum": "non-canonical",
+    "length": 118,
+    "mean_plddt": 0.6542372881355932,
+    "sha256": "02816f25e620a62cfe9b37b331ba0784f9342400790b1bfd4dcd2168bbe76043",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9N9.pdb"
+  },
+  {
+    "accession": "N1JGD1",
+    "profile_stratum": "non-canonical",
+    "length": 118,
+    "mean_plddt": 0.5522033898305084,
+    "sha256": "9a0ec075f4fafc47049487a92cddf3eabda7353a489e5b090e80260e8db36de4",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N1JGD1.pdb"
+  },
+  {
+    "accession": "N1JJX4",
+    "profile_stratum": "non-canonical",
+    "length": 118,
+    "mean_plddt": 0.6911864406779661,
+    "sha256": "41b18213d0ee4a076eddcc0f75947ae1983e69e8721ee33cf03d8a518febd2e6",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N1JJX4.pdb"
+  },
+  {
+    "accession": "Q01905",
+    "profile_stratum": "canonical",
+    "length": 118,
+    "mean_plddt": 0.7954237288135593,
+    "sha256": "e70d537c974cd4bd7f7c3acbcfe9524e5773603ed947a9821096f39c83325030",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q01905.pdb"
+  },
+  {
+    "accession": "A0A0J9WVB5",
+    "profile_stratum": "canonical",
+    "length": 119,
+    "mean_plddt": 0.6752941176470588,
+    "sha256": "fa34e7b286d9748483c8caf1d10b92061bb5ce7e803326a3f99e585a8ecfdccc",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0J9WVB5.pdb"
+  },
+  {
+    "accession": "A0A1L5JEG4",
+    "profile_stratum": "canonical",
+    "length": 119,
+    "mean_plddt": 0.72109243697479,
+    "sha256": "605f8224433f0074fb6974d0debbd8757a1c099425bc644df8ff3f34a3b68c54",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A1L5JEG4.pdb"
+  },
+  {
+    "accession": "E6ZS83",
+    "profile_stratum": "non-canonical",
+    "length": 119,
+    "mean_plddt": 0.3691596638655462,
+    "sha256": "f7d184681e37df8a3cef4d98889684bda20b97dbd475982d571e2a8b4d10ad22",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS83.pdb"
+  },
+  {
+    "accession": "A4L9T6",
+    "profile_stratum": "non-canonical",
+    "length": 121,
+    "mean_plddt": 0.5342148760330578,
+    "sha256": "b3a6d1431291a94847965dee96f88f1a499c9820bf5e605a92b3978849534d50",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A4L9T6.pdb"
+  },
+  {
+    "accession": "D0NIL2",
+    "profile_stratum": "non-canonical",
+    "length": 121,
+    "mean_plddt": 0.6049586776859505,
+    "sha256": "04263f96ab3a8bc9484d58fb619e71f1694cca50f7493d41eb9614110f63700a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-D0NIL2.pdb"
+  },
+  {
+    "accession": "G0X7K3",
+    "profile_stratum": "non-canonical",
+    "length": 121,
+    "mean_plddt": 0.35165289256198345,
+    "sha256": "dfa071f3b735a39f9b2517f0823dfa772ee6a45ccbd90cc5ec73e0ec851a8db9",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X7K3.pdb"
+  },
+  {
+    "accession": "G0X7S0",
+    "profile_stratum": "non-canonical",
+    "length": 121,
+    "mean_plddt": 0.32628099173553715,
+    "sha256": "5349c43d85372fcb2bee15ecce5393012679f3e9b3b002dd815c7d412f215b07",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X7S0.pdb"
+  },
+  {
+    "accession": "G0X7S7",
+    "profile_stratum": "non-canonical",
+    "length": 121,
+    "mean_plddt": 0.37834710743801653,
+    "sha256": "c09286e45f658eabf47df202983f4852cec6728df25fe5e7fade789b99cadc94",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X7S7.pdb"
+  },
+  {
+    "accession": "Q5VB04",
+    "profile_stratum": "canonical",
+    "length": 121,
+    "mean_plddt": 0.3968595041322314,
+    "sha256": "6f3092df2ecfaef5e4b41adbd6f31a3f125e2ea7c62c315108265cca582d1706",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q5VB04.pdb"
+  },
+  {
+    "accession": "A0A7G5WGW9",
+    "profile_stratum": "canonical",
+    "length": 122,
+    "mean_plddt": 0.6768852459016393,
+    "sha256": "c22ff470f9815e348e34ce578a3369bb3ca3e8773e7c2e4a6532341a02078d89",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A7G5WGW9.pdb"
+  },
+  {
+    "accession": "G3C9N6",
+    "profile_stratum": "non-canonical",
+    "length": 122,
+    "mean_plddt": 0.3944262295081967,
+    "sha256": "0bce2d909ba513135de2878761e258c30ee80f0e393d5b374e24ad18d95f4ea5",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9N6.pdb"
+  },
+  {
+    "accession": "N1JFM8",
+    "profile_stratum": "non-canonical",
+    "length": 122,
+    "mean_plddt": 0.38614754098360654,
+    "sha256": "e2482d36e70b69ee32f19a9e69fa008fd1c61bd55134b9cfaf231d92947fbdce",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N1JFM8.pdb"
+  },
+  {
+    "accession": "N1JHK8",
+    "profile_stratum": "non-canonical",
+    "length": 122,
+    "mean_plddt": 0.6647540983606557,
+    "sha256": "9baba57e956fa9c03646ee67e46612fb2ae760316d02f56d81923b795f6478e0",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N1JHK8.pdb"
+  },
+  {
+    "accession": "A0A0D1DWR4",
+    "profile_stratum": "canonical",
+    "length": 123,
+    "mean_plddt": 0.5796747967479674,
+    "sha256": "7b594f2d4d7019a5e9cca8e9d219d62237a19d6c2767a89f78e57a7689538a1e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1DWR4.pdb"
+  },
+  {
+    "accession": "A7L812",
+    "profile_stratum": "non-canonical",
+    "length": 123,
+    "mean_plddt": 0.4530894308943089,
+    "sha256": "d943a6eb0a8443432ad5e25d7eaa28f868d26979b60beb8cc5fe1afaaaded919",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A7L812.pdb"
+  },
+  {
+    "accession": "G0X7F2",
+    "profile_stratum": "non-canonical",
+    "length": 124,
+    "mean_plddt": 0.3674193548387097,
+    "sha256": "b9b1b56fb4e6963f18b4a3f7d4ca30941e8b496a35248ba1c6ca43ff9555e072",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X7F2.pdb"
+  },
+  {
+    "accession": "G3C9P0",
+    "profile_stratum": "non-canonical",
+    "length": 125,
+    "mean_plddt": 0.77616,
+    "sha256": "322f036f42b846f080be3ab14aff676cc8d4d4d8cef0741d814fe7ec6dc218cd",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9P0.pdb"
+  },
+  {
+    "accession": "G4N6S9",
+    "profile_stratum": "canonical",
+    "length": 125,
+    "mean_plddt": 0.39312,
+    "sha256": "378b1a09a9324c423a683e1f9221dc513b86cfcbc811d172684a8f85b1067d60",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G4N6S9.pdb"
+  },
+  {
+    "accession": "A0A1P8W6L1",
+    "profile_stratum": "non-canonical",
+    "length": 126,
+    "mean_plddt": 0.7015873015873016,
+    "sha256": "8c1437a44398777d1123141d7b9bdc65d34f9730f5e197abe63b8af9e70bc313",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A1P8W6L1.pdb"
+  },
+  {
+    "accession": "A4LAA7",
+    "profile_stratum": "non-canonical",
+    "length": 126,
+    "mean_plddt": 0.5429365079365079,
+    "sha256": "0b0db150e2f51d46013fb771d1c897bea96e9a8a767f4188292677f235fe68d2",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A4LAA7.pdb"
+  },
+  {
+    "accession": "N1JJH4",
+    "profile_stratum": "non-canonical",
+    "length": 126,
+    "mean_plddt": 0.7798412698412699,
+    "sha256": "fb336f3da266b974d8eef24c00c0d4dec4302c2cd5da6b40187ca7c368603027",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N1JJH4.pdb"
+  },
+  {
+    "accession": "M4BIN0",
+    "profile_stratum": "canonical",
+    "length": 127,
+    "mean_plddt": 0.3866929133858268,
+    "sha256": "02dda9eed05dc9517a6963afa50c92c75a562e1581d7d209498a225a7a82f7dd",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-M4BIN0.pdb"
+  },
+  {
+    "accession": "A0A1B0RFQ0",
+    "profile_stratum": "canonical",
+    "length": 128,
+    "mean_plddt": 0.63296875,
+    "sha256": "0e999f0941f8dfffca17b05382ff56f27de6ac71c9e9cfa8c4a891ce9d73f12e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A1B0RFQ0.pdb"
+  },
+  {
+    "accession": "G0X828",
+    "profile_stratum": "non-canonical",
+    "length": 128,
+    "mean_plddt": 0.35671875000000003,
+    "sha256": "995b1f9ff937a6950a7270db3b06169ee273576c557493c6c521f4605d3ba744",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X828.pdb"
+  },
+  {
+    "accession": "N1J904",
+    "profile_stratum": "canonical",
+    "length": 128,
+    "mean_plddt": 0.616640625,
+    "sha256": "1b9a340b4078cccdbdb72f684f1d7a9f47e7eb50a87070aee21e189a8ad1dfa8",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N1J904.pdb"
+  },
+  {
+    "accession": "A0A0D1C5E3",
+    "profile_stratum": "canonical",
+    "length": 129,
+    "mean_plddt": 0.357984496124031,
+    "sha256": "7da8d95a7a9ed976909f2631e8d9b5eade470a75d28ae380bc3d265caf8f35d7",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1C5E3.pdb"
+  },
+  {
+    "accession": "A0A6B7L9I7",
+    "profile_stratum": "canonical",
+    "length": 129,
+    "mean_plddt": 0.6931007751937984,
+    "sha256": "7b10db87237c7b69267efba3200eaca149877618bef819cb3a166b00df5ecc80",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A6B7L9I7.pdb"
+  },
+  {
+    "accession": "E6ZMP5",
+    "profile_stratum": "non-canonical",
+    "length": 129,
+    "mean_plddt": 0.6200775193798449,
+    "sha256": "f19b7928b85860b6c7c2e7f2b6cd74afc3e6197ace7147d0b6c576638aeeb505",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZMP5.pdb"
+  },
+  {
+    "accession": "F6MEZ1",
+    "profile_stratum": "non-canonical",
+    "length": 129,
+    "mean_plddt": 0.4696899224806202,
+    "sha256": "96610f35b95d131133fb22eb247307feb797d78ff6ee59db6783d30731636cef",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F6MEZ1.pdb"
+  },
+  {
+    "accession": "F6MEZ4",
+    "profile_stratum": "non-canonical",
+    "length": 129,
+    "mean_plddt": 0.4412403100775194,
+    "sha256": "8a9ebaeaf43a63bd7552da2baf857bd8ee81c19acfda926ab54bf8984d27ba27",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F6MEZ4.pdb"
+  },
+  {
+    "accession": "G3CK59",
+    "profile_stratum": "non-canonical",
+    "length": 129,
+    "mean_plddt": 0.3829457364341085,
+    "sha256": "7199fa8ee013109ad3cc8030f8b23c12e78a3bac5343e0a05213d46d3b87f072",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3CK59.pdb"
+  },
+  {
+    "accession": "A0A0P0FZ34",
+    "profile_stratum": "non-canonical",
+    "length": 130,
+    "mean_plddt": 0.5596153846153846,
+    "sha256": "9710b6c8e30803afd2779c06ef7df405662fd95a3b97dbbe01f2619c99e4ebef",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0P0FZ34.pdb"
+  },
+  {
+    "accession": "E0W5A0",
+    "profile_stratum": "non-canonical",
+    "length": 130,
+    "mean_plddt": 0.6057692307692307,
+    "sha256": "0adf55d316f635d067dc98547f2117bda4b295ffe6d25a25f143393a0d6cb6e0",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E0W5A0.pdb"
+  },
+  {
+    "accession": "A0A1C9II12",
+    "profile_stratum": "canonical",
+    "length": 132,
+    "mean_plddt": 0.7166666666666667,
+    "sha256": "c26aee5e1b20571503e9b9238d5eb176340f3730027952f09cf70b897d8064c5",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A1C9II12.pdb"
+  },
+  {
+    "accession": "A0A5B0MRS6",
+    "profile_stratum": "non-canonical",
+    "length": 132,
+    "mean_plddt": 0.4247727272727273,
+    "sha256": "88e84f75c91a34ae9eb04f8e54a98e100eb295413a5c7a9937690db878f7c469",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A5B0MRS6.pdb"
+  },
+  {
+    "accession": "F6MF08",
+    "profile_stratum": "non-canonical",
+    "length": 132,
+    "mean_plddt": 0.34393939393939393,
+    "sha256": "13c873cd19fc073ff27ddb7f3edb71b9ee40d6c3220374f99a422dfab86f2b7f",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F6MF08.pdb"
+  },
+  {
+    "accession": "G0X7Z5",
+    "profile_stratum": "non-canonical",
+    "length": 133,
+    "mean_plddt": 0.3612781954887218,
+    "sha256": "69ab0d15b14687592b7e9915f3d135a4599e9c87ae2535b2b8eb963949b2214e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X7Z5.pdb"
+  },
+  {
+    "accession": "F6MEZ2",
+    "profile_stratum": "non-canonical",
+    "length": 134,
+    "mean_plddt": 0.43649253731343285,
+    "sha256": "f01cf04ed00e5c85b98491ddac3a7684d6f486a061021ffdf6406dad2333016c",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F6MEZ2.pdb"
+  },
+  {
+    "accession": "H9DUR1",
+    "profile_stratum": "canonical",
+    "length": 134,
+    "mean_plddt": 0.7482089552238806,
+    "sha256": "ee66bcfb470f4616bd80e3cf342281ac54f19589d219f3ed36962742eebb4e22",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-H9DUR1.pdb"
+  },
+  {
+    "accession": "A0A8E5JS15",
+    "profile_stratum": "canonical",
+    "length": 135,
+    "mean_plddt": 0.5782222222222222,
+    "sha256": "a3e0850d9bedd533b3cb58fae0f87b29b838c635ce1abdacaf68a60f5ecf2d5a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A8E5JS15.pdb"
+  },
+  {
+    "accession": "D5KLB3",
+    "profile_stratum": "canonical",
+    "length": 135,
+    "mean_plddt": 0.6941481481481481,
+    "sha256": "aa3b05ef4d096a22689b4c7fe6880738ce53a1479b53fa8fd293a9279e1508cb",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-D5KLB3.pdb"
+  },
+  {
+    "accession": "D5KLB5",
+    "profile_stratum": "canonical",
+    "length": 135,
+    "mean_plddt": 0.6940740740740741,
+    "sha256": "a3bea8be836e7ccd9b95d1413c7f45aaeca78a196d01118c24119e50cd65951c",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-D5KLB5.pdb"
+  },
+  {
+    "accession": "F6MF01",
+    "profile_stratum": "non-canonical",
+    "length": 135,
+    "mean_plddt": 0.49962962962962965,
+    "sha256": "8f63f0dab2531213519f9db9cc2445ccb21af3c5a81a43a59010b0bd9ec832c5",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F6MF01.pdb"
+  },
+  {
+    "accession": "G0X7M4",
+    "profile_stratum": "non-canonical",
+    "length": 135,
+    "mean_plddt": 0.3626666666666667,
+    "sha256": "057fb0f7b2dfa1a671b418f65d823665273c113cd27106bce14db013f49280e2",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X7M4.pdb"
+  },
+  {
+    "accession": "G0X7V8",
+    "profile_stratum": "non-canonical",
+    "length": 135,
+    "mean_plddt": 0.410962962962963,
+    "sha256": "07c3589e9fdfb3756eac1576bd43f5224794780f597cb01b6f556cf729021c72",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X7V8.pdb"
+  },
+  {
+    "accession": "R0K2C5",
+    "profile_stratum": "canonical",
+    "length": 135,
+    "mean_plddt": 0.8305185185185185,
+    "sha256": "5eb150855ac93e1d3277ad107db17ca3f81a90ea08a0db7f1050aff12e24c360",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-R0K2C5.pdb"
+  },
+  {
+    "accession": "E0W4U2",
+    "profile_stratum": "non-canonical",
+    "length": 136,
+    "mean_plddt": 0.4165441176470588,
+    "sha256": "e8c1c642fec053dd060e630fbdeaf073a05e5d26fd4a43cd8ef9258413732c01",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E0W4U2.pdb"
+  },
+  {
+    "accession": "G0X7Y1",
+    "profile_stratum": "non-canonical",
+    "length": 136,
+    "mean_plddt": 0.2813235294117647,
+    "sha256": "eae31d546117cb3b18e8e6a85da4ac8f0660c282a8a11d8d897e784a81e12442",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X7Y1.pdb"
+  },
+  {
+    "accession": "A7EXN1",
+    "profile_stratum": "canonical",
+    "length": 137,
+    "mean_plddt": 0.8886861313868614,
+    "sha256": "d5f077d35e4b0ecbeba8d9705c42eb71c2023061c3c1f8bcf371f23c5a07fb46",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A7EXN1.pdb"
+  },
+  {
+    "accession": "F6MF06",
+    "profile_stratum": "non-canonical",
+    "length": 137,
+    "mean_plddt": 0.40897810218978103,
+    "sha256": "8317f3b66aa43da01c2c58d1212d22d1ba41f31f3b9c7cfd73d1d438589f4a0b",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F6MF06.pdb"
+  },
+  {
+    "accession": "G3C9R3",
+    "profile_stratum": "non-canonical",
+    "length": 137,
+    "mean_plddt": 0.43576642335766425,
+    "sha256": "f7356d7401000621fbb291d807e883876aea7ff12daea2e817abd64b52c757e8",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9R3.pdb"
+  },
+  {
+    "accession": "G4MKI0",
+    "profile_stratum": "canonical",
+    "length": 137,
+    "mean_plddt": 0.8936496350364963,
+    "sha256": "a768cdcf95da60bab646ef1f22bb93755c0baa2010c355e5df6e35f207f1bef3",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G4MKI0.pdb"
+  },
+  {
+    "accession": "G4ZRQ8",
+    "profile_stratum": "non-canonical",
+    "length": 138,
+    "mean_plddt": 0.5481159420289855,
+    "sha256": "ddbc03ce5463ed6612bc4cfaaa38ee70c017209e9312fa1070483efaa13a2075",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G4ZRQ8.pdb"
+  },
+  {
+    "accession": "G0X877",
+    "profile_stratum": "non-canonical",
+    "length": 139,
+    "mean_plddt": 0.36669064748201435,
+    "sha256": "fe159c978f1da92e6e94d344fbf230e3f7a6d0117769910b8d63e3c166d749ae",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X877.pdb"
+  },
+  {
+    "accession": "G0X860",
+    "profile_stratum": "non-canonical",
+    "length": 140,
+    "mean_plddt": 0.29035714285714287,
+    "sha256": "773e1f6405231e0aed8b52f150b854280f8e60ddd71c804e6a8890de3b2ad76b",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X860.pdb"
+  },
+  {
+    "accession": "V5TFR9",
+    "profile_stratum": "canonical",
+    "length": 141,
+    "mean_plddt": 0.4547517730496454,
+    "sha256": "4ded614e9c03818801ec1b349fa18114feff39f2834f6a00c5b3275885fd79dc",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-V5TFR9.pdb"
+  },
+  {
+    "accession": "B9ZUL0",
+    "profile_stratum": "canonical",
+    "length": 143,
+    "mean_plddt": 0.5328671328671329,
+    "sha256": "6e4893aed6b6db609ad41d504118be0f89c2a55c43c3ee193e5b94fdaadbe635",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-B9ZUL0.pdb"
+  },
+  {
+    "accession": "A0A5B0P8V4",
+    "profile_stratum": "canonical",
+    "length": 144,
+    "mean_plddt": 0.411875,
+    "sha256": "659cab296f3b46ae4c265be909fb1bc1bc3d615bb65afb0f59e9ff02f4513068",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A5B0P8V4.pdb"
+  },
+  {
+    "accession": "A0A5B0PKJ8",
+    "profile_stratum": "canonical",
+    "length": 144,
+    "mean_plddt": 0.4516666666666667,
+    "sha256": "12f1ba6ef6df3f2fe3958c9e7baafd9051b1a806872e38354d3071fd15150fdc",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A5B0PKJ8.pdb"
+  },
+  {
+    "accession": "A0A5B0PMB3",
+    "profile_stratum": "canonical",
+    "length": 144,
+    "mean_plddt": 0.41965277777777776,
+    "sha256": "7c4327058c4f4a9c96f864f6610acd8cae0bd19d37c99a1692e417759f72c406",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A5B0PMB3.pdb"
+  },
+  {
+    "accession": "A4F4L2",
+    "profile_stratum": "canonical",
+    "length": 144,
+    "mean_plddt": 0.41694444444444445,
+    "sha256": "c85d75e67517337b20915e762667378f9ad8bdc01d8d5337757c210fcacf9a5c",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A4F4L2.pdb"
+  },
+  {
+    "accession": "G0X849",
+    "profile_stratum": "non-canonical",
+    "length": 144,
+    "mean_plddt": 0.37819444444444444,
+    "sha256": "698d39a1d7169d492f0d8ebd52a0b1bd5471bfa325fb1c1a89cce5ffd9218f83",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X849.pdb"
+  },
+  {
+    "accession": "A0A061HMY2",
+    "profile_stratum": "non-canonical",
+    "length": 145,
+    "mean_plddt": 0.6403448275862068,
+    "sha256": "942d09d7e9055f56037f2bfafd5818833ca7c84cc76f055f3e83ced2f15bb6c7",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A061HMY2.pdb"
+  },
+  {
+    "accession": "E3KHU8",
+    "profile_stratum": "non-canonical",
+    "length": 145,
+    "mean_plddt": 0.6326206896551725,
+    "sha256": "93adce4d61a2e8459180162a6a038b0514b1148d5f51b78e86f8129a5c45aab7",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E3KHU8.pdb"
+  },
+  {
+    "accession": "A0A0L0V3D9",
+    "profile_stratum": "canonical",
+    "length": 146,
+    "mean_plddt": 0.4700684931506849,
+    "sha256": "dce22079399c012e6f74e72277bdf6c58c20159c9fb7c4bae0748bc1ab3c0152",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0L0V3D9.pdb"
+  },
+  {
+    "accession": "A0A2P0ZEB6",
+    "profile_stratum": "non-canonical",
+    "length": 146,
+    "mean_plddt": 0.549041095890411,
+    "sha256": "da299493fa7bdb80e9188e6d6f234ca976cca808e370ccf18351cb175344e6be",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A2P0ZEB6.pdb"
+  },
+  {
+    "accession": "A0A061HK55",
+    "profile_stratum": "non-canonical",
+    "length": 147,
+    "mean_plddt": 0.7189115646258504,
+    "sha256": "1f86809cfb2c423b0bad9dda477ed0ad962a9d4ca9d0b9e2112a34dbc0ca9b22",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A061HK55.pdb"
+  },
+  {
+    "accession": "A0A0L0VHJ5",
+    "profile_stratum": "canonical",
+    "length": 147,
+    "mean_plddt": 0.7327891156462585,
+    "sha256": "829cee5be47b0bf27587d857d639f2ea08be94ab45f287eb04ec57388685dd4a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0L0VHJ5.pdb"
+  },
+  {
+    "accession": "B9A9V1",
+    "profile_stratum": "non-canonical",
+    "length": 147,
+    "mean_plddt": 0.3592517006802721,
+    "sha256": "2349764f9c66594bf9b2a8ce527c284f54bfb3866a46fc31c5114e2d9aa6be7c",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-B9A9V1.pdb"
+  },
+  {
+    "accession": "G9BER8",
+    "profile_stratum": "canonical",
+    "length": 147,
+    "mean_plddt": 0.594625850340136,
+    "sha256": "9b26440ec59d0626de88e6139a24cc5bf4cef19cb3b346cf71206ae216089711",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G9BER8.pdb"
+  },
+  {
+    "accession": "Q01145",
+    "profile_stratum": "non-canonical",
+    "length": 147,
+    "mean_plddt": 0.33489795918367343,
+    "sha256": "674c8b8d8f5d7b875bd90d92db989fa5abc3df6c82348fd313d8a92cee02d270",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q01145.pdb"
+  },
+  {
+    "accession": "A0A1P8YXK1",
+    "profile_stratum": "canonical",
+    "length": 149,
+    "mean_plddt": 0.7528187919463087,
+    "sha256": "fb0dfc5f872d6d782a98f9ed28af64c7c20dc3497f7b671ca7a312ef8d5ddfb5",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A1P8YXK1.pdb"
+  },
+  {
+    "accession": "A0A1B2CW13",
+    "profile_stratum": "non-canonical",
+    "length": 150,
+    "mean_plddt": 0.4651333333333333,
+    "sha256": "84a80a83f58a0a6d29f302b33e71d55d139d3565e826c106fe8455d31d0f984d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A1B2CW13.pdb"
+  },
+  {
+    "accession": "F6MEZ6",
+    "profile_stratum": "non-canonical",
+    "length": 150,
+    "mean_plddt": 0.4430666666666666,
+    "sha256": "69f1bc54cadfe067d27018e010e7ca2750f63f7c8414cbdb28ae086479ebff1f",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F6MEZ6.pdb"
+  },
+  {
+    "accession": "Q1HBK6",
+    "profile_stratum": "non-canonical",
+    "length": 150,
+    "mean_plddt": 0.33813333333333334,
+    "sha256": "f658c30cf8e0a3109c47cf189c503681405b3eac4488e2d5cbc8bbc5b9be0cb2",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q1HBK6.pdb"
+  },
+  {
+    "accession": "Q6R656",
+    "profile_stratum": "non-canonical",
+    "length": 150,
+    "mean_plddt": 0.36219999999999997,
+    "sha256": "9dead2b64c6d92014960a677001633b76805418da967b374cfdaf5b4c476e91c",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q6R656.pdb"
+  },
+  {
+    "accession": "Q6R659",
+    "profile_stratum": "non-canonical",
+    "length": 150,
+    "mean_plddt": 0.3408666666666667,
+    "sha256": "d7325ea3668fe677ddba5ebd378336617e6d3d8a2c856456cdc932f9b5d1faee",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q6R659.pdb"
+  },
+  {
+    "accession": "Q6R661",
+    "profile_stratum": "non-canonical",
+    "length": 150,
+    "mean_plddt": 0.35026666666666667,
+    "sha256": "3fef22dcb4f845e54d5bb98be39b2b456b3d04c05e8a7cbd5b16ab432aa5af74",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q6R661.pdb"
+  },
+  {
+    "accession": "A0A0D1E5X9",
+    "profile_stratum": "canonical",
+    "length": 151,
+    "mean_plddt": 0.4064900662251656,
+    "sha256": "9e09733d1c4cb7190c7a8245e643eab1bb35e8b63a352a599976eafa2a69e80d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E5X9.pdb"
+  },
+  {
+    "accession": "A0A1B5KZM5",
+    "profile_stratum": "canonical",
+    "length": 151,
+    "mean_plddt": 0.8875496688741723,
+    "sha256": "393d068863dc49f6bca4046b64a46d2472f1cc8b013d348e1175278a445e077c",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A1B5KZM5.pdb"
+  },
+  {
+    "accession": "A0A0L0VA94",
+    "profile_stratum": "canonical",
+    "length": 152,
+    "mean_plddt": 0.6429605263157895,
+    "sha256": "055ab44a122730190896d992d25af6bd7da545df513f969e3b827666cb19d72d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0L0VA94.pdb"
+  },
+  {
+    "accession": "A7E6C4",
+    "profile_stratum": "canonical",
+    "length": 152,
+    "mean_plddt": 0.713421052631579,
+    "sha256": "e7b67dd864694bbe57a2f83b2b654c928235a18284ff663a5cabf33c110ba75c",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A7E6C4.pdb"
+  },
+  {
+    "accession": "E7A183",
+    "profile_stratum": "non-canonical",
+    "length": 152,
+    "mean_plddt": 0.33842105263157896,
+    "sha256": "0acfd7dfc603f0f2dc3db72738d6c78978ad44a75400431d211dc70f1fc8b12f",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A183.pdb"
+  },
+  {
+    "accession": "E6ZS69",
+    "profile_stratum": "non-canonical",
+    "length": 153,
+    "mean_plddt": 0.3258169934640523,
+    "sha256": "28bd185e69cd691d59254018a1a8e6a3a452f2ab71a745d20bd74c84a103bb64",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS69.pdb"
+  },
+  {
+    "accession": "G9BES2",
+    "profile_stratum": "canonical",
+    "length": 153,
+    "mean_plddt": 0.5840522875816994,
+    "sha256": "1406ddf95bd2029fa6f71d781a9150eb9feaa87f63d23718e49217903d8eae87",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G9BES2.pdb"
+  },
+  {
+    "accession": "E6ZS88",
+    "profile_stratum": "canonical",
+    "length": 154,
+    "mean_plddt": 0.38142857142857145,
+    "sha256": "a8200c1e0a07d18c3a468b4c276b5ac5d11812dde55bf5f85b3c75b854e643fd",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS88.pdb"
+  },
+  {
+    "accession": "A0A0C4DI32",
+    "profile_stratum": "non-canonical",
+    "length": 155,
+    "mean_plddt": 0.551741935483871,
+    "sha256": "3524a7da1de0273650c4b20447b7e2fd73b3855d586aa223001fdebbf088eb08",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0C4DI32.pdb"
+  },
+  {
+    "accession": "N1JPG4",
+    "profile_stratum": "canonical",
+    "length": 155,
+    "mean_plddt": 0.3689677419354839,
+    "sha256": "c7958869a5a75c39e8b8510d8a1546165bb233cd191b718ed3bb1f5164b19f17",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N1JPG4.pdb"
+  },
+  {
+    "accession": "E3QD10",
+    "profile_stratum": "canonical",
+    "length": 156,
+    "mean_plddt": 0.6296153846153846,
+    "sha256": "6a5390f38ebf42ac571f9cd5923394b243e03088550f7baad4498b1abc0fc0dd",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E3QD10.pdb"
+  },
+  {
+    "accession": "E7A0A0",
+    "profile_stratum": "non-canonical",
+    "length": 156,
+    "mean_plddt": 0.443525641025641,
+    "sha256": "652ceeef956e613439192b65b3ad518d542fc97f108df7b6707359f712fe4ff6",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A0A0.pdb"
+  },
+  {
+    "accession": "G0X854",
+    "profile_stratum": "non-canonical",
+    "length": 157,
+    "mean_plddt": 0.4143949044585987,
+    "sha256": "3d1f22f41c85ee27fabd0c55e14662835236262cc99790344e851694a715812a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X854.pdb"
+  },
+  {
+    "accession": "A0A0D1E1A9",
+    "profile_stratum": "non-canonical",
+    "length": 159,
+    "mean_plddt": 0.36232704402515725,
+    "sha256": "9c01899625250affb0bf251f3cbab4e54b724f5dc518f3c714b16a567d710086",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E1A9.pdb"
+  },
+  {
+    "accession": "A0A0D1C6C3",
+    "profile_stratum": "non-canonical",
+    "length": 160,
+    "mean_plddt": 0.45056250000000003,
+    "sha256": "8a83eadd412b1c1b423b6e382bcd691cfb2112fde620b19e227fa27a139bb831",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1C6C3.pdb"
+  },
+  {
+    "accession": "A0A0D1EDY9",
+    "profile_stratum": "canonical",
+    "length": 160,
+    "mean_plddt": 0.36,
+    "sha256": "56d9963f1dc5dbe422bf937038dab2b3523810a57437cfa443e75ff4afe967bf",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1EDY9.pdb"
+  },
+  {
+    "accession": "A0A0U2R974",
+    "profile_stratum": "canonical",
+    "length": 160,
+    "mean_plddt": 0.40925,
+    "sha256": "d7a7c61418d941db8a6cea7c679ef398190536babd897e33a5dab54b1baaa9ec",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0U2R974.pdb"
+  },
+  {
+    "accession": "E6ZN54",
+    "profile_stratum": "non-canonical",
+    "length": 160,
+    "mean_plddt": 0.4073125,
+    "sha256": "2b70e2865dd19b72a5fa0f2b984288f4d51ca15564ff190964a6fce1f2f0e078",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZN54.pdb"
+  },
+  {
+    "accession": "N1JFE2",
+    "profile_stratum": "non-canonical",
+    "length": 161,
+    "mean_plddt": 0.5853416149068322,
+    "sha256": "3c3fc2fc2c1cb3f0695b06f8c1dde08ee3f512c02b3c28551f9bcbd2973612e8",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N1JFE2.pdb"
+  },
+  {
+    "accession": "P0CT27",
+    "profile_stratum": "non-canonical",
+    "length": 162,
+    "mean_plddt": 0.3983950617283951,
+    "sha256": "58a1ad26be080449298cbbce9fd14cc98632dba6881f33fba6e5355160654a8d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-P0CT27.pdb"
+  },
+  {
+    "accession": "A7E9T8",
+    "profile_stratum": "canonical",
+    "length": 163,
+    "mean_plddt": 0.649079754601227,
+    "sha256": "d602095bc9281957836bf53dc989754a4adaf7f9da2098bf23cd9efaee7e4b8f",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A7E9T8.pdb"
+  },
+  {
+    "accession": "D0U2D1",
+    "profile_stratum": "non-canonical",
+    "length": 163,
+    "mean_plddt": 0.6417791411042945,
+    "sha256": "68953b6130870b16c8ab833a9241af412327340b6c7481f6645845e1d2707b56",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-D0U2D1.pdb"
+  },
+  {
+    "accession": "Q2A0P1",
+    "profile_stratum": "non-canonical",
+    "length": 163,
+    "mean_plddt": 0.6241717791411042,
+    "sha256": "570cdf9f18fcea17de79819dc3e259f3c2a524a3d9d1f96b9158cffe7056f82b",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q2A0P1.pdb"
+  },
+  {
+    "accession": "G0X801",
+    "profile_stratum": "non-canonical",
+    "length": 164,
+    "mean_plddt": 0.3300609756097561,
+    "sha256": "0301f408bbf7180e51dbd6b837569bd752e7795d74c1faf69030e045f921fd47",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X801.pdb"
+  },
+  {
+    "accession": "A0A1P8YXI8",
+    "profile_stratum": "canonical",
+    "length": 165,
+    "mean_plddt": 0.3558181818181818,
+    "sha256": "88e8c1773ce8ee3416ec462e89afd60e5b52c8ee4a329865f89f540f804e3013",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A1P8YXI8.pdb"
+  },
+  {
+    "accession": "N1PIZ7",
+    "profile_stratum": "canonical",
+    "length": 165,
+    "mean_plddt": 0.6536363636363636,
+    "sha256": "d46218228afa8d4ae5207a95e32f5cc384a8bb61ecf3d5c320330ecf616b2fe8",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N1PIZ7.pdb"
+  },
+  {
+    "accession": "Q00365",
+    "profile_stratum": "canonical",
+    "length": 165,
+    "mean_plddt": 0.6952727272727273,
+    "sha256": "2c25b2c2e8fbf7d5a4c76f1bd8a07c44bfac51153f8cb73321208be48fd7ba40",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q00365.pdb"
+  },
+  {
+    "accession": "A0A0D1CRF7",
+    "profile_stratum": "non-canonical",
+    "length": 166,
+    "mean_plddt": 0.45397590361445783,
+    "sha256": "d319f609a0e98808f22a21d5b97572ee6f536121a0f5d5c83409638ea6e83567",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1CRF7.pdb"
+  },
+  {
+    "accession": "A0A0D1DZX5",
+    "profile_stratum": "non-canonical",
+    "length": 166,
+    "mean_plddt": 0.4077710843373494,
+    "sha256": "5eb8d6f3acd41815c74a24650cfdb5087aee9a4d9474a2458b4c4cabeba05cf6",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1DZX5.pdb"
+  },
+  {
+    "accession": "A0A1B2CW89",
+    "profile_stratum": "non-canonical",
+    "length": 166,
+    "mean_plddt": 0.7805421686746987,
+    "sha256": "136eb0293c54dbd52746ed9eed7e66ff6f58f4bba82ea0a0d8bdbe54a18d866c",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A1B2CW89.pdb"
+  },
+  {
+    "accession": "A0A0D1DQD7",
+    "profile_stratum": "non-canonical",
+    "length": 167,
+    "mean_plddt": 0.6545508982035928,
+    "sha256": "3459df9604cc699f8a61169d0e4f47e4d7959b106bddfc790e7267beb0468bd2",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1DQD7.pdb"
+  },
+  {
+    "accession": "W9ZT25",
+    "profile_stratum": "non-canonical",
+    "length": 167,
+    "mean_plddt": 0.41053892215568866,
+    "sha256": "efb117dd770a67bb756fed545ff28ff898ef61e0c478a1577111d680f50681ca",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-W9ZT25.pdb"
+  },
+  {
+    "accession": "A0A0D1DV84",
+    "profile_stratum": "canonical",
+    "length": 168,
+    "mean_plddt": 0.680952380952381,
+    "sha256": "afe0ab051998e1e34bfae1203add6047d1d52352b342c4c8af2480b895cbca9d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1DV84.pdb"
+  },
+  {
+    "accession": "A0A0D1DX64",
+    "profile_stratum": "canonical",
+    "length": 169,
+    "mean_plddt": 0.498698224852071,
+    "sha256": "fcbb18155949a10fc94ec37cbd04f26edc431ad4a7b633833b5484732f7fddba",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1DX64.pdb"
+  },
+  {
+    "accession": "E7A0A8",
+    "profile_stratum": "non-canonical",
+    "length": 170,
+    "mean_plddt": 0.47170588235294114,
+    "sha256": "f9d3646b53d6688ef7ae0f0a4f2b26780b733d1c69976980f808ece518d043ab",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A0A8.pdb"
+  },
+  {
+    "accession": "F9GAR0",
+    "profile_stratum": "non-canonical",
+    "length": 170,
+    "mean_plddt": 0.49117647058823527,
+    "sha256": "b2d3422c93c0f6fc7d9c77d4227be2e35e2a54d6b72381f09e83e0621d4215af",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F9GAR0.pdb"
+  },
+  {
+    "accession": "G0X840",
+    "profile_stratum": "non-canonical",
+    "length": 170,
+    "mean_plddt": 0.3638235294117647,
+    "sha256": "c2e23f6d45d7e6090d30233619c64daefdb98e0a995817a0c212a27b1a180f72",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X840.pdb"
+  },
+  {
+    "accession": "G3CK64",
+    "profile_stratum": "non-canonical",
+    "length": 170,
+    "mean_plddt": 0.3363529411764706,
+    "sha256": "a21b6bf00b33b8c13415bd564d50c33cf4c64be29f6375fd868849a364edf9fd",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3CK64.pdb"
+  },
+  {
+    "accession": "A0A0D1CHF8",
+    "profile_stratum": "canonical",
+    "length": 171,
+    "mean_plddt": 0.45666666666666667,
+    "sha256": "df1f86618c531fc3931cac92ad3066056ecd2ba9792035372cebc7fe43aba66d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1CHF8.pdb"
+  },
+  {
+    "accession": "E7A096",
+    "profile_stratum": "non-canonical",
+    "length": 171,
+    "mean_plddt": 0.6049122807017544,
+    "sha256": "8afdc8dcdfee21de8b9905dcc0a8732ea7b7fa2bea5b891599a787af6a615301",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A096.pdb"
+  },
+  {
+    "accession": "E7A0A3",
+    "profile_stratum": "non-canonical",
+    "length": 172,
+    "mean_plddt": 0.40581395348837207,
+    "sha256": "514bfe7ff1ba4b9a39dff2cac1943e98ada41c991c3d93b9a844869d475194ac",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A0A3.pdb"
+  },
+  {
+    "accession": "G3C9P6",
+    "profile_stratum": "non-canonical",
+    "length": 172,
+    "mean_plddt": 0.4266860465116279,
+    "sha256": "ed0141424cfd01907f39dc3d3b2723ec833663eb7f3852f6aa38c8ea47e188db",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9P6.pdb"
+  },
+  {
+    "accession": "G3C9T8",
+    "profile_stratum": "non-canonical",
+    "length": 172,
+    "mean_plddt": 0.3729651162790698,
+    "sha256": "f6ed86aa010cddde225257ece574566f27752e4280323c2511db9ef2e8cf5ea8",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9T8.pdb"
+  },
+  {
+    "accession": "E7A0A6",
+    "profile_stratum": "non-canonical",
+    "length": 173,
+    "mean_plddt": 0.43890173410404626,
+    "sha256": "b5a4cd7e095146f6a9451f605a81c0d18683b515dae307d14e107f0004d344e9",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A0A6.pdb"
+  },
+  {
+    "accession": "G0X7L8",
+    "profile_stratum": "non-canonical",
+    "length": 175,
+    "mean_plddt": 0.35274285714285714,
+    "sha256": "6839957a50808922a6793a422442b8a87929c15b9ee7c7b986d04b567299cf55",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X7L8.pdb"
+  },
+  {
+    "accession": "A0A0B5L7L9",
+    "profile_stratum": "canonical",
+    "length": 176,
+    "mean_plddt": 0.40136363636363637,
+    "sha256": "bf4c13f6867f11c8d6a5bbd5f09893ab0c1e66bb2c1b3c693ed244b00a4babaa",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0B5L7L9.pdb"
+  },
+  {
+    "accession": "A0A194WDN5",
+    "profile_stratum": "non-canonical",
+    "length": 176,
+    "mean_plddt": 0.6990909090909091,
+    "sha256": "0e93f248f0ab010bb641cd74d75f4d89e6f6e9f228d153050c5b4dc8a6a55019",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A194WDN5.pdb"
+  },
+  {
+    "accession": "A0A0D1CYK5",
+    "profile_stratum": "canonical",
+    "length": 177,
+    "mean_plddt": 0.3854802259887006,
+    "sha256": "569b110079ebd0c816914bbfc79ff3c1fffe1a2beb3dbed0f5a34b1d2f4040ab",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1CYK5.pdb"
+  },
+  {
+    "accession": "A0A0D1E6Y4",
+    "profile_stratum": "canonical",
+    "length": 177,
+    "mean_plddt": 0.3994915254237288,
+    "sha256": "bb840167c3dcdb3fce4f600b66b8c505cd92be559662608d4c1b41eb30d8bcff",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E6Y4.pdb"
+  },
+  {
+    "accession": "A0A0L0VYD3__2",
+    "profile_stratum": "non-canonical",
+    "length": 177,
+    "mean_plddt": 0.7565536723163842,
+    "sha256": "b8f19e042c3b7707a941be21b31511776c468db1d4f1c86a04d7192d42d2ebd8",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0L0VYD3__2.pdb"
+  },
+  {
+    "accession": "Q09QS2",
+    "profile_stratum": "non-canonical",
+    "length": 177,
+    "mean_plddt": 0.5724293785310735,
+    "sha256": "460f5d9930849f4761690deb53a4cf9868669c896c3f1d677002196de8b58bf4",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q09QS2.pdb"
+  },
+  {
+    "accession": "A0A0D1E411",
+    "profile_stratum": "canonical",
+    "length": 178,
+    "mean_plddt": 0.4954494382022472,
+    "sha256": "e8185589d38fa3bb89296b388ccfe40acc93dfc6289f612b0f94f8d591aa43a3",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E411.pdb"
+  },
+  {
+    "accession": "E6ZS85",
+    "profile_stratum": "non-canonical",
+    "length": 178,
+    "mean_plddt": 0.38808988764044944,
+    "sha256": "976141118d69a4a3a4f99ed0d0459f937c81b2a8eab1501894efa3ba57693b28",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS85.pdb"
+  },
+  {
+    "accession": "E6ZS86",
+    "profile_stratum": "non-canonical",
+    "length": 178,
+    "mean_plddt": 0.4806741573033708,
+    "sha256": "7ad23d29a9719703824359c9846f31b994219e9d41371bf94d8473ecc2eda164",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS86.pdb"
+  },
+  {
+    "accession": "E7A0A4",
+    "profile_stratum": "non-canonical",
+    "length": 178,
+    "mean_plddt": 0.7527528089887641,
+    "sha256": "2d73da0a0e49947414077a1c814b737bf211fa2fbd27f1f55e951fe5588aa897",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A0A4.pdb"
+  },
+  {
+    "accession": "G3C9U1",
+    "profile_stratum": "non-canonical",
+    "length": 178,
+    "mean_plddt": 0.7326966292134831,
+    "sha256": "42916ba48000bc7103c1728fd00d3d601d5b2531c321a3465dd5b6f5b067333d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9U1.pdb"
+  },
+  {
+    "accession": "P78737",
+    "profile_stratum": "non-canonical",
+    "length": 178,
+    "mean_plddt": 0.5330337078651685,
+    "sha256": "c97e2e2342b990119961d26fc5ae78e124fa097f25b06559dc76d6dd9befdb7c",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-P78737.pdb"
+  },
+  {
+    "accession": "A0A0D1CRG2",
+    "profile_stratum": "non-canonical",
+    "length": 179,
+    "mean_plddt": 0.4416759776536313,
+    "sha256": "2b8692a67f61edd6f347faef104bdf2554540a8f2b1a58ae0eec1251308a2ac0",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1CRG2.pdb"
+  },
+  {
+    "accession": "E7A099",
+    "profile_stratum": "non-canonical",
+    "length": 179,
+    "mean_plddt": 0.4510055865921788,
+    "sha256": "610766575f648e1e39b3cf31c3e546da0d35998f720fcc03e1e44270ad2d8157",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A099.pdb"
+  },
+  {
+    "accession": "E6ZS90",
+    "profile_stratum": "non-canonical",
+    "length": 180,
+    "mean_plddt": 0.4144444444444444,
+    "sha256": "0a6444f89054951103142c01c60c9c5ea7cd164cf65dd9b9797d8f40d848ac0e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS90.pdb"
+  },
+  {
+    "accession": "E6ZS92",
+    "profile_stratum": "non-canonical",
+    "length": 180,
+    "mean_plddt": 0.4775555555555555,
+    "sha256": "dd5030aa37aef5978f970bd35692b349a2f070f30fc9140c6cc003088dacf7c4",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS92.pdb"
+  },
+  {
+    "accession": "E6ZS81",
+    "profile_stratum": "non-canonical",
+    "length": 181,
+    "mean_plddt": 0.33060773480662986,
+    "sha256": "3a0514c89e7378d5276146fe676bcf8de5b27ff19db967a5bdc4d4f41b693a8e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS81.pdb"
+  },
+  {
+    "accession": "A0A142KWG0",
+    "profile_stratum": "canonical",
+    "length": 182,
+    "mean_plddt": 0.7838461538461539,
+    "sha256": "2ad9b18b498eab1b52fad7450a9fe2664cb4a973b2699056a99f12943955573a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A142KWG0.pdb"
+  },
+  {
+    "accession": "E6ZS91",
+    "profile_stratum": "non-canonical",
+    "length": 182,
+    "mean_plddt": 0.4076373626373626,
+    "sha256": "23441ee89b2086688e01f860d4131cc90ac630c0209cb5866902cf98073928b0",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS91.pdb"
+  },
+  {
+    "accession": "E7A095",
+    "profile_stratum": "non-canonical",
+    "length": 182,
+    "mean_plddt": 0.4319230769230769,
+    "sha256": "c616299322d41f384ec0e9bbc5d98a5a3da347c65c63a463479336dbdba2a8c2",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A095.pdb"
+  },
+  {
+    "accession": "G3C9L0",
+    "profile_stratum": "non-canonical",
+    "length": 182,
+    "mean_plddt": 0.8806593406593407,
+    "sha256": "109525afee68928e811a375fd21979803e10ef6ddfdc4241f5291248e4083899",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9L0.pdb"
+  },
+  {
+    "accession": "E6ZS93",
+    "profile_stratum": "non-canonical",
+    "length": 183,
+    "mean_plddt": 0.4098907103825137,
+    "sha256": "6102d2bea1861f278415478cb2e1d90e91eb45bc19cc505573f26edf30bd8feb",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS93.pdb"
+  },
+  {
+    "accession": "E6ZLL5",
+    "profile_stratum": "canonical",
+    "length": 185,
+    "mean_plddt": 0.366,
+    "sha256": "de7b6f1f6083be53267d76dc001db20c8a3c80da05e61f0e189fe55884b39810",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZLL5.pdb"
+  },
+  {
+    "accession": "N1RSS1",
+    "profile_stratum": "non-canonical",
+    "length": 185,
+    "mean_plddt": 0.8634594594594595,
+    "sha256": "af9a4098b5e314caa1e22676d5c1b626240e8fb2607113f33f30393062292372",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N1RSS1.pdb"
+  },
+  {
+    "accession": "O42718",
+    "profile_stratum": "canonical",
+    "length": 185,
+    "mean_plddt": 0.8195135135135135,
+    "sha256": "d97876dbb69a30d84ca492ea950db0145f82539fa817721fed51c689c270f423",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-O42718.pdb"
+  },
+  {
+    "accession": "E7A0A2",
+    "profile_stratum": "non-canonical",
+    "length": 187,
+    "mean_plddt": 0.4590374331550802,
+    "sha256": "ff7195e265a058d3d7980ed068f1741306f1bb855e73bbef8982302f7ad46d2e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A0A2.pdb"
+  },
+  {
+    "accession": "G3C9S3",
+    "profile_stratum": "non-canonical",
+    "length": 187,
+    "mean_plddt": 0.363903743315508,
+    "sha256": "fe068c74acda75a5eb459bff0ec18893f23ead6a165e2e60f47a2a17018a48d6",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9S3.pdb"
+  },
+  {
+    "accession": "Q5G7L3",
+    "profile_stratum": "non-canonical",
+    "length": 187,
+    "mean_plddt": 0.6553475935828876,
+    "sha256": "355487012f860997d11910a58728abf5d8c749a245c56ba910134d1ccbfb7c8d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q5G7L3.pdb"
+  },
+  {
+    "accession": "E7A097",
+    "profile_stratum": "non-canonical",
+    "length": 188,
+    "mean_plddt": 0.4084042553191489,
+    "sha256": "7187e1bd575054fe57faf2c651591e9ad2da9c9709948dc6901152296ce4a61b",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A097.pdb"
+  },
+  {
+    "accession": "E7A0A1",
+    "profile_stratum": "non-canonical",
+    "length": 188,
+    "mean_plddt": 0.44,
+    "sha256": "196f57180f3c0f2e3dd4c18ad0028c7d4983e185c85328779571ff9bde2bdf2b",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A0A1.pdb"
+  },
+  {
+    "accession": "A0A0D1E0J1",
+    "profile_stratum": "non-canonical",
+    "length": 189,
+    "mean_plddt": 0.570952380952381,
+    "sha256": "0bb8f125f66649d279c5b0466e8a18642900867655a78aa1bd793b97393d46b2",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E0J1.pdb"
+  },
+  {
+    "accession": "E7A0A7",
+    "profile_stratum": "non-canonical",
+    "length": 189,
+    "mean_plddt": 0.4483068783068783,
+    "sha256": "5d65abb25fe30e19e931b740103a76fea05aeaf79fdeda7fbfbd78fa6a918b99",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A0A7.pdb"
+  },
+  {
+    "accession": "O42719",
+    "profile_stratum": "canonical",
+    "length": 189,
+    "mean_plddt": 0.8197883597883597,
+    "sha256": "b0ef0a87add717590c450567406c526c60fe4e5040cf01d0581377b2a63c4347",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-O42719.pdb"
+  },
+  {
+    "accession": "I2FS85",
+    "profile_stratum": "non-canonical",
+    "length": 190,
+    "mean_plddt": 0.6370526315789474,
+    "sha256": "2e6ddd410380067414223602951e8cf2ca1b55f09c23b5f8535389e70a64ecd8",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-I2FS85.pdb"
+  },
+  {
+    "accession": "Q84XU0",
+    "profile_stratum": "non-canonical",
+    "length": 191,
+    "mean_plddt": 0.7847120418848167,
+    "sha256": "c4a9b5c6822235b48b99df64ba7b0ed0dbeb02487d2eb93b7bfb512729855bbe",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q84XU0.pdb"
+  },
+  {
+    "accession": "A0A0D1CXX9",
+    "profile_stratum": "canonical",
+    "length": 192,
+    "mean_plddt": 0.500625,
+    "sha256": "dcfb71d26ee4a79ea44bd6e81120d2450ccaa9620c6a89d23f62a4e02fde70fc",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1CXX9.pdb"
+  },
+  {
+    "accession": "E6ZS65",
+    "profile_stratum": "non-canonical",
+    "length": 192,
+    "mean_plddt": 0.3948958333333334,
+    "sha256": "483c0baaf30ca7ec155c5365710db54de92bf8f53f8c5c99e17edd1ce43a4c99",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS65.pdb"
+  },
+  {
+    "accession": "G0X7N7",
+    "profile_stratum": "non-canonical",
+    "length": 193,
+    "mean_plddt": 0.46471502590673575,
+    "sha256": "6406c719b6708a24ddc27ed588c098a46d2e08e4081a95271455cfd3fb53c25a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X7N7.pdb"
+  },
+  {
+    "accession": "G0X809",
+    "profile_stratum": "non-canonical",
+    "length": 196,
+    "mean_plddt": 0.33316326530612245,
+    "sha256": "f9c6fa2080d4e0e778d63256d185810c197789019bb35a330104a25b476bf37a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X809.pdb"
+  },
+  {
+    "accession": "A0A0D1E3X3",
+    "profile_stratum": "non-canonical",
+    "length": 197,
+    "mean_plddt": 0.5553807106598985,
+    "sha256": "68cceffa2213148a1300e5bba578c8fb3341b5124a167d0663655cc9e222ac6c",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E3X3.pdb"
+  },
+  {
+    "accession": "E7A098",
+    "profile_stratum": "non-canonical",
+    "length": 197,
+    "mean_plddt": 0.5251776649746193,
+    "sha256": "20ee80e441580afba7f7240356dc1cd8d9ab5076383cfa4fa243975d972ad70f",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A098.pdb"
+  },
+  {
+    "accession": "F6MF00",
+    "profile_stratum": "non-canonical",
+    "length": 198,
+    "mean_plddt": 0.5296969696969697,
+    "sha256": "ca07da636c7b19e9b0ae90d0f034f342132dc0ddde7a531e1dac477a9e2d41b0",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F6MF00.pdb"
+  },
+  {
+    "accession": "G4NH41",
+    "profile_stratum": "non-canonical",
+    "length": 198,
+    "mean_plddt": 0.9146464646464646,
+    "sha256": "ac1623d6451140c806bdc21d30cfa07ae0db81c99b157b05b7ece0520889ea29",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G4NH41.pdb"
+  },
+  {
+    "accession": "F9GE44",
+    "profile_stratum": "canonical",
+    "length": 199,
+    "mean_plddt": 0.39311557788944723,
+    "sha256": "d49a8acdb0a03294d6277e833acb42a5da4d1b4702eda34b30a557d6d46d3fcf",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F9GE44.pdb"
+  },
+  {
+    "accession": "A0A0D1CFN1",
+    "profile_stratum": "non-canonical",
+    "length": 200,
+    "mean_plddt": 0.43670000000000003,
+    "sha256": "dca8552ea4a84b89cacc2165bc891af96d5591290f26926f6bb2e2f976b995a2",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1CFN1.pdb"
+  },
+  {
+    "accession": "W2RAR9",
+    "profile_stratum": "non-canonical",
+    "length": 201,
+    "mean_plddt": 0.7604477611940298,
+    "sha256": "44f924be40c107d5a3ebca8628a03df6d0a5e70894381959f1f80b8bb3f33e47",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-W2RAR9.pdb"
+  },
+  {
+    "accession": "A0A0D1E1D4",
+    "profile_stratum": "non-canonical",
+    "length": 203,
+    "mean_plddt": 0.42359605911330045,
+    "sha256": "d82d401bbbc65976483c41039e7dccb2f2cb95a5827a3d992c15a8149d5b3750",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E1D4.pdb"
+  },
+  {
+    "accession": "E6ZS63",
+    "profile_stratum": "non-canonical",
+    "length": 205,
+    "mean_plddt": 0.6008780487804878,
+    "sha256": "8dd161f58eecf9a561d3473b0350c0e589d6bd749ef8808e701b15d10a0d1982",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS63.pdb"
+  },
+  {
+    "accession": "Q258K5",
+    "profile_stratum": "non-canonical",
+    "length": 205,
+    "mean_plddt": 0.6246341463414635,
+    "sha256": "3989a51cd0ea7eb2924fd33cf5266554a67a413fce5cb785ba199755ed575538",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q258K5.pdb"
+  },
+  {
+    "accession": "A0A0D1E1Y8",
+    "profile_stratum": "non-canonical",
+    "length": 206,
+    "mean_plddt": 0.5368446601941748,
+    "sha256": "fd988dc2d8565edb0b7a6dd8b29e63f5f6ddbb8809b908209f9ed9cdf1703cff",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E1Y8.pdb"
+  },
+  {
+    "accession": "E6ZS71",
+    "profile_stratum": "non-canonical",
+    "length": 206,
+    "mean_plddt": 0.602621359223301,
+    "sha256": "e50668b9c2e6172a05f338072e3e451db3a42595d57d79acd808cad5f564d16f",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS71.pdb"
+  },
+  {
+    "accession": "KIS66302",
+    "profile_stratum": "non-canonical",
+    "length": 207,
+    "mean_plddt": 0.625024154589372,
+    "sha256": "b17db393ab7f87f779bd6c07e13540340d7c34a99bf327040e31319ec472bee7",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-KIS66302.pdb"
+  },
+  {
+    "accession": "A0A0D1DYP7",
+    "profile_stratum": "non-canonical",
+    "length": 208,
+    "mean_plddt": 0.47230769230769226,
+    "sha256": "6756f0c033fc8c8a61e08283976839144729badca49171a5559fdf215d22f7ca",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1DYP7.pdb"
+  },
+  {
+    "accession": "X0K540",
+    "profile_stratum": "non-canonical",
+    "length": 210,
+    "mean_plddt": 0.6994285714285714,
+    "sha256": "f43ec69924a339b38c578c57ded1ba34094e7acec00f00151a021b8dabff8623",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-X0K540.pdb"
+  },
+  {
+    "accession": "A0A169T708",
+    "profile_stratum": "canonical",
+    "length": 214,
+    "mean_plddt": 0.4415420560747663,
+    "sha256": "faf60317f032cc80e7f61580de127c908c477a15c07a8b8e2dc0c1932171c936",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A169T708.pdb"
+  },
+  {
+    "accession": "E3Q704",
+    "profile_stratum": "canonical",
+    "length": 214,
+    "mean_plddt": 0.7021028037383178,
+    "sha256": "48c3e5171f63c54459d7403d353e36cf517010f8caf9f71fb70894dd03a8fc8e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E3Q704.pdb"
+  },
+  {
+    "accession": "G0X7P5",
+    "profile_stratum": "non-canonical",
+    "length": 214,
+    "mean_plddt": 0.3687383177570093,
+    "sha256": "6dbaee1e5b7074a8dbc50a1b9455ee34df1029194558b2fbadd1c62517627894",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G0X7P5.pdb"
+  },
+  {
+    "accession": "A0A0D1DTB8",
+    "profile_stratum": "non-canonical",
+    "length": 216,
+    "mean_plddt": 0.3728703703703704,
+    "sha256": "9d171005706986eeb686f19066da2c852eb89a61431ad508a85c5c07e2122e5a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1DTB8.pdb"
+  },
+  {
+    "accession": "E6ZS67",
+    "profile_stratum": "non-canonical",
+    "length": 216,
+    "mean_plddt": 0.3943518518518519,
+    "sha256": "a2714806846ddc9ffbaebfbc135496d8b46c4aaf60f41e22936f1bbc963b1d51",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS67.pdb"
+  },
+  {
+    "accession": "A0A0D1BVD8",
+    "profile_stratum": "non-canonical",
+    "length": 218,
+    "mean_plddt": 0.9050917431192661,
+    "sha256": "d660f22bd44d33e0b07027874e9a993b90c3d86a9db31df40c8f637585181701",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1BVD8.pdb"
+  },
+  {
+    "accession": "A0A0D1E167",
+    "profile_stratum": "non-canonical",
+    "length": 218,
+    "mean_plddt": 0.4832110091743119,
+    "sha256": "4e7d499f0f9185e086d390d54b5a86cd4d947723605564e39b009f912c6d2913",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E167.pdb"
+  },
+  {
+    "accession": "E6ZS75",
+    "profile_stratum": "non-canonical",
+    "length": 218,
+    "mean_plddt": 0.3759174311926606,
+    "sha256": "d7721f95160707f8c1492e975e768175302c0b10ed9359c0035952e8e507eb31",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS75.pdb"
+  },
+  {
+    "accession": "A0A5J6DDN9",
+    "profile_stratum": "canonical",
+    "length": 219,
+    "mean_plddt": 0.6692237442922374,
+    "sha256": "c9154950e5b896a81da633d49405b8c15aac1ee7bfca892ac4e887aa5c069276",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A5J6DDN9.pdb"
+  },
+  {
+    "accession": "C0LF23",
+    "profile_stratum": "non-canonical",
+    "length": 220,
+    "mean_plddt": 0.6876363636363636,
+    "sha256": "a64da4ee02211ad1c39043cf2412b341772d2864db5c17ccd05057f1f0f7e6be",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-C0LF23.pdb"
+  },
+  {
+    "accession": "M1GM60",
+    "profile_stratum": "canonical",
+    "length": 222,
+    "mean_plddt": 0.346981981981982,
+    "sha256": "f8e6cdaef4c14d64d0235239aed60e44f47e0e9ff45bd68db355117ad9791af0",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-M1GM60.pdb"
+  },
+  {
+    "accession": "A0A0D1DYP1",
+    "profile_stratum": "non-canonical",
+    "length": 223,
+    "mean_plddt": 0.44174887892376685,
+    "sha256": "6b5ff0a634213dddb5779931827e246b48326285c368732de02d9af62d0d5707",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1DYP1.pdb"
+  },
+  {
+    "accession": "Q9C478",
+    "profile_stratum": "canonical",
+    "length": 223,
+    "mean_plddt": 0.8521076233183857,
+    "sha256": "a7d4ca897fd7162c30a619ef3638fe11fe53a0d7641293cb5bd8051b14c870b5",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q9C478.pdb"
+  },
+  {
+    "accession": "C1KJG7",
+    "profile_stratum": "canonical",
+    "length": 224,
+    "mean_plddt": 0.8395089285714287,
+    "sha256": "fe1ed111a00618581fd76012bb85d38e782817e84212eb3333f844430fabd7b6",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-C1KJG7.pdb"
+  },
+  {
+    "accession": "C1KJH7",
+    "profile_stratum": "canonical",
+    "length": 224,
+    "mean_plddt": 0.8481249999999999,
+    "sha256": "ebd6f1edbe728f9218a96b8d154e9d09f2724cf0f297aacf055c76d25b2611dd",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-C1KJH7.pdb"
+  },
+  {
+    "accession": "C1KJH9",
+    "profile_stratum": "canonical",
+    "length": 224,
+    "mean_plddt": 0.8438392857142858,
+    "sha256": "572ebe36c61aaadf27a665a3e3611dc81380b7c8dfef0e28c241d97779c37fa6",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-C1KJH9.pdb"
+  },
+  {
+    "accession": "C1KJI7",
+    "profile_stratum": "canonical",
+    "length": 224,
+    "mean_plddt": 0.8416517857142857,
+    "sha256": "82743c8b4c5d965e904749f2251433738d0d42896075f0277f96f6eacc904d83",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-C1KJI7.pdb"
+  },
+  {
+    "accession": "F7J181",
+    "profile_stratum": "canonical",
+    "length": 224,
+    "mean_plddt": 0.8102232142857143,
+    "sha256": "0992b0bf75fdfb454e39648433acd65cae4340afede43b9e65142ddf0da8452a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F7J181.pdb"
+  },
+  {
+    "accession": "C9WMG8",
+    "profile_stratum": "canonical",
+    "length": 225,
+    "mean_plddt": 0.5789777777777778,
+    "sha256": "d7bf0c7701ba9f1102d80f5bd2c17c1c4c17c9baf2d74e26231dc7b854573043",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-C9WMG8.pdb"
+  },
+  {
+    "accession": "E7A3A9",
+    "profile_stratum": "canonical",
+    "length": 225,
+    "mean_plddt": 0.5823555555555555,
+    "sha256": "3c2a4c778e0dfed8e6eae438289096262bc7bff35e8cc3fa7ffe88e8c49a6f83",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A3A9.pdb"
+  },
+  {
+    "accession": "F8UNP0",
+    "profile_stratum": "non-canonical",
+    "length": 227,
+    "mean_plddt": 0.5514977973568281,
+    "sha256": "d042d32fc7fddad22732a3f8d3f0b8e775ee34dd5ec08955030eaba29e9e975b",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F8UNP0.pdb"
+  },
+  {
+    "accession": "A0A0D1E6W5",
+    "profile_stratum": "canonical",
+    "length": 229,
+    "mean_plddt": 0.44122270742358083,
+    "sha256": "1bf82acca4ae436cab250cf0d34117fd6e78b289a87780fbc4cb1f5d3178ca00",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E6W5.pdb"
+  },
+  {
+    "accession": "E6ZS64",
+    "profile_stratum": "non-canonical",
+    "length": 231,
+    "mean_plddt": 0.3933766233766234,
+    "sha256": "5e1290288a46a4ff5c2218e5e8a0a22653c7e893fbbc3a10c34baf1c64fb0a42",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS64.pdb"
+  },
+  {
+    "accession": "N1JK93",
+    "profile_stratum": "canonical",
+    "length": 231,
+    "mean_plddt": 0.8622510822510823,
+    "sha256": "2c7b8d006b4b4c865afbd61e6f8ee2565c2797185c02f0d16052ef4531e6d63e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N1JK93.pdb"
+  },
+  {
+    "accession": "A0A0A0S3X0",
+    "profile_stratum": "canonical",
+    "length": 232,
+    "mean_plddt": 0.36844827586206896,
+    "sha256": "18ea8cfe444858170091c5303d676ab74a7088c345e9e8fd60fd9f9b61f97d6e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0A0S3X0.pdb"
+  },
+  {
+    "accession": "A0A0D1E2W3",
+    "profile_stratum": "canonical",
+    "length": 232,
+    "mean_plddt": 0.817198275862069,
+    "sha256": "cfa25dbaca4ce5064e47e7d27b93c3432a5c347a30352a6255ec3bb5e63accb0",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E2W3.pdb"
+  },
+  {
+    "accession": "Q709E0",
+    "profile_stratum": "canonical",
+    "length": 232,
+    "mean_plddt": 0.3655603448275862,
+    "sha256": "6d60109a67872ee9b4e3434322da95f1ab796a63001e49c7c9d6f7b8661d283c",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q709E0.pdb"
+  },
+  {
+    "accession": "E6ZS87",
+    "profile_stratum": "non-canonical",
+    "length": 234,
+    "mean_plddt": 0.5628632478632479,
+    "sha256": "a4584687cd99131503e484fddf0d96ae4f4d4f52e6dcc058dae9966bbdd17ee6",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS87.pdb"
+  },
+  {
+    "accession": "Q9SPD4",
+    "profile_stratum": "non-canonical",
+    "length": 234,
+    "mean_plddt": 0.9475213675213675,
+    "sha256": "ee0cb3262fc7f9a741bc25dcaad0046a88f46c0bf808c9f3fc3b84cd543c2648",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q9SPD4.pdb"
+  },
+  {
+    "accession": "G3C9Q5",
+    "profile_stratum": "non-canonical",
+    "length": 235,
+    "mean_plddt": 0.6001276595744681,
+    "sha256": "10256c896585abfdcf83c0234adafebfc1b7cb4c7261dbc7fc251516357b5e82",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9Q5.pdb"
+  },
+  {
+    "accession": "G9BES0",
+    "profile_stratum": "canonical",
+    "length": 235,
+    "mean_plddt": 0.6963404255319149,
+    "sha256": "13da1d1b9f97928e789196a9de348d82b98ea523401c2e0f7c233dd5a461d0af",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G9BES0.pdb"
+  },
+  {
+    "accession": "Q9AXL8",
+    "profile_stratum": "non-canonical",
+    "length": 237,
+    "mean_plddt": 0.9522784810126582,
+    "sha256": "23f6afaba44fcf7fe5dd354845595fb3ae38f775b248ea93ac39cb131aefdace",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q9AXL8.pdb"
+  },
+  {
+    "accession": "D0N8M0",
+    "profile_stratum": "non-canonical",
+    "length": 238,
+    "mean_plddt": 0.6784453781512605,
+    "sha256": "7c05d8ea80ae2e892dff4df9c2a1e42b1357821807b89e95e28607a7b18fc7b4",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-D0N8M0.pdb"
+  },
+  {
+    "accession": "E6ZS66",
+    "profile_stratum": "non-canonical",
+    "length": 239,
+    "mean_plddt": 0.40066945606694565,
+    "sha256": "4b79d1919b4f21720987a7adaeda0a925d4eb3bbb91cb01f7984ab9092fb3613",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS66.pdb"
+  },
+  {
+    "accession": "A0A0D1E4Q7",
+    "profile_stratum": "canonical",
+    "length": 240,
+    "mean_plddt": 0.540625,
+    "sha256": "e835c5eca0a06ed899c0bdfcaac08215d966b0156cc5b11c6a55069e68fea41e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E4Q7.pdb"
+  },
+  {
+    "accession": "F6MF04",
+    "profile_stratum": "non-canonical",
+    "length": 241,
+    "mean_plddt": 0.5926141078838174,
+    "sha256": "0123083fd6daa38305037014b56d7518b905f46deeb7484cab1adad035f3c986",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F6MF04.pdb"
+  },
+  {
+    "accession": "G5A0G9",
+    "profile_stratum": "non-canonical",
+    "length": 241,
+    "mean_plddt": 0.9566804979253112,
+    "sha256": "9256540a94d5dc441ba1459ccafe3569df32be8bd38782cfe8ee427f4761575a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G5A0G9.pdb"
+  },
+  {
+    "accession": "Q2A0P0",
+    "profile_stratum": "canonical",
+    "length": 242,
+    "mean_plddt": 0.4894214876033058,
+    "sha256": "fd68090e2271ca707c430721c38a1cc651265215c9cc4c48f953d1a2e43c2207",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q2A0P0.pdb"
+  },
+  {
+    "accession": "X0JFE5",
+    "profile_stratum": "canonical",
+    "length": 242,
+    "mean_plddt": 0.8652892561983472,
+    "sha256": "9d0a270e635f119855acd19d38cb1642ca8547f1f309376ce3aa8b9faf32f02f",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-X0JFE5.pdb"
+  },
+  {
+    "accession": "D0N8M8",
+    "profile_stratum": "non-canonical",
+    "length": 244,
+    "mean_plddt": 0.8640983606557378,
+    "sha256": "7586002b8670fd49ebd0d305470fb9761bdf33d4d195c155ecf3aeb37358cf21",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-D0N8M8.pdb"
+  },
+  {
+    "accession": "G4N5C1",
+    "profile_stratum": "canonical",
+    "length": 244,
+    "mean_plddt": 0.8479098360655737,
+    "sha256": "568c2447eab9e4544710bdaeac6c61fcdcfe2d7959134aac1c0a1d09547dc23e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G4N5C1.pdb"
+  },
+  {
+    "accession": "E6ZS73",
+    "profile_stratum": "non-canonical",
+    "length": 246,
+    "mean_plddt": 0.4895528455284553,
+    "sha256": "d6ca5c9375e662859a100e90554c16fd07440c952b4434bc35988918f8bd8a27",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS73.pdb"
+  },
+  {
+    "accession": "A0A0D1DRV1",
+    "profile_stratum": "canonical",
+    "length": 248,
+    "mean_plddt": 0.6857661290322581,
+    "sha256": "609b8574ca455a316967b9fc4ef7d47970945da9a321d29b4ab72be90c7923c7",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1DRV1.pdb"
+  },
+  {
+    "accession": "A7F1J8",
+    "profile_stratum": "non-canonical",
+    "length": 248,
+    "mean_plddt": 0.7995161290322581,
+    "sha256": "fa26949565aff085171fcdbd9c4f041a07757c2c9ac64c68316564b89d0b8b96",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A7F1J8.pdb"
+  },
+  {
+    "accession": "E6ZXT3",
+    "profile_stratum": "canonical",
+    "length": 248,
+    "mean_plddt": 0.36979838709677415,
+    "sha256": "c0c3d013aec53adca9e60bdd0824e2215284335dc183c0caf88e18125abc0e76",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZXT3.pdb"
+  },
+  {
+    "accession": "E6ZZM5",
+    "profile_stratum": "non-canonical",
+    "length": 251,
+    "mean_plddt": 0.6252191235059761,
+    "sha256": "e37ce4d4573f38968d2efe6d65ab9e2812a96314f598aa244925e7c59b5f82a5",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZZM5.pdb"
+  },
+  {
+    "accession": "I1S303",
+    "profile_stratum": "canonical",
+    "length": 252,
+    "mean_plddt": 0.9684126984126984,
+    "sha256": "dcff973e447787a3a5eb512cc9e1a3698633a81f17854957ffb55f7b255d66a4",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-I1S303.pdb"
+  },
+  {
+    "accession": "A0A180GHN3",
+    "profile_stratum": "canonical",
+    "length": 253,
+    "mean_plddt": 0.951106719367589,
+    "sha256": "6f32a5579d1aa84fdacd849356676b4001aeba07bc9c26cf06e2a4f1e21c4d93",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A180GHN3.pdb"
+  },
+  {
+    "accession": "E6ZS68",
+    "profile_stratum": "non-canonical",
+    "length": 256,
+    "mean_plddt": 0.6238671875,
+    "sha256": "2596a01b6521abeda3cc0669fa85adc1076b8cb84e89796eb0267716077935db",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS68.pdb"
+  },
+  {
+    "accession": "X0L985",
+    "profile_stratum": "canonical",
+    "length": 256,
+    "mean_plddt": 0.854140625,
+    "sha256": "e41c60f4a8f747ab69f484bd7846d8fb9f616e17c11900d6465e029a11e02c2c",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-X0L985.pdb"
+  },
+  {
+    "accession": "I1RLN6",
+    "profile_stratum": "non-canonical",
+    "length": 257,
+    "mean_plddt": 0.8477821011673151,
+    "sha256": "5469150f59b89e83959a176cb899ac156fae41dec5b64ec14df94dadbeea4053",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-I1RLN6.pdb"
+  },
+  {
+    "accession": "A0A0D1E2M4",
+    "profile_stratum": "canonical",
+    "length": 258,
+    "mean_plddt": 0.848875968992248,
+    "sha256": "65e1b6df06f9ecefe926e87ee3e22b146459ebbe2c3727e92b213c7ccd606968",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E2M4.pdb"
+  },
+  {
+    "accession": "E6ZZX1",
+    "profile_stratum": "non-canonical",
+    "length": 258,
+    "mean_plddt": 0.5531395348837209,
+    "sha256": "fe2a2899eac06f1727e3b830e4ead7accf1e255110f810007f565eb66d96f5e8",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZZX1.pdb"
+  },
+  {
+    "accession": "A0A0D1CJB9",
+    "profile_stratum": "non-canonical",
+    "length": 261,
+    "mean_plddt": 0.38019157088122607,
+    "sha256": "37e02c655e41b966ddce471ea36be4670af316bbabe808712c6599b84e6961c8",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1CJB9.pdb"
+  },
+  {
+    "accession": "G3C9R4",
+    "profile_stratum": "non-canonical",
+    "length": 261,
+    "mean_plddt": 0.6384291187739464,
+    "sha256": "1c6d218bc57e4f2e168ba98954d02b5d7e610474fb6dcfb45894d6410eb20770",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9R4.pdb"
+  },
+  {
+    "accession": "F9GCQ6",
+    "profile_stratum": "canonical",
+    "length": 263,
+    "mean_plddt": 0.5269201520912548,
+    "sha256": "486a6791386f219de26563304cbbe155865589906fba0c9a687545b92c62c1c4",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F9GCQ6.pdb"
+  },
+  {
+    "accession": "E6ZYY9",
+    "profile_stratum": "canonical",
+    "length": 264,
+    "mean_plddt": 0.8265151515151514,
+    "sha256": "d402d19528a61acce33fbd07b875cc7b0a26df745bca94572fdf7c6c69942fe4",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZYY9.pdb"
+  },
+  {
+    "accession": "E6ZZW9",
+    "profile_stratum": "canonical",
+    "length": 264,
+    "mean_plddt": 0.551060606060606,
+    "sha256": "06f8b192af4884a8015963957ffa0829db72d282ac7121c4add304262d371f60",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZZW9.pdb"
+  },
+  {
+    "accession": "Q6TA23",
+    "profile_stratum": "canonical",
+    "length": 266,
+    "mean_plddt": 0.6298872180451128,
+    "sha256": "e0230ee36c90a632e30908630984c162f227767618df8521a869124444194959",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q6TA23.pdb"
+  },
+  {
+    "accession": "E6ZS84",
+    "profile_stratum": "non-canonical",
+    "length": 267,
+    "mean_plddt": 0.30280898876404494,
+    "sha256": "fef5fb3ec3f286728d6f6772951f5f2bc81b90f190724c1152f23cb622fbe2d3",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS84.pdb"
+  },
+  {
+    "accession": "G4N375",
+    "profile_stratum": "canonical",
+    "length": 267,
+    "mean_plddt": 0.5997752808988764,
+    "sha256": "61eb55cc93c28b2ff78563c25d88f5488bdc1c87f39ae823c8d5c7f118b0a80f",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G4N375.pdb"
+  },
+  {
+    "accession": "O42830",
+    "profile_stratum": "canonical",
+    "length": 268,
+    "mean_plddt": 0.7710074626865672,
+    "sha256": "86ad40a928d9117b59c31b95e225af6150ad486aecdfad78a80356d526d2d67a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-O42830.pdb"
+  },
+  {
+    "accession": "E6ZS82",
+    "profile_stratum": "canonical",
+    "length": 273,
+    "mean_plddt": 0.3452747252747253,
+    "sha256": "b4866d9206eed7859ac747284ae4dc229f5677eba381a801b82c5207cb571e35",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS82.pdb"
+  },
+  {
+    "accession": "E0W4Q8",
+    "profile_stratum": "non-canonical",
+    "length": 274,
+    "mean_plddt": 0.8842700729927007,
+    "sha256": "5f8d6bc075bd7f71ce4fab97f9582b8676700d992a25c9cbd4d1c3c09508e9bc",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E0W4Q8.pdb"
+  },
+  {
+    "accession": "E6ZZX2",
+    "profile_stratum": "non-canonical",
+    "length": 274,
+    "mean_plddt": 0.5431386861313868,
+    "sha256": "f02522fbc0702e3d345765b9487f754eee2fa2bf439d13cd998f59726c0d5efd",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZZX2.pdb"
+  },
+  {
+    "accession": "A0A0D1CWP9",
+    "profile_stratum": "canonical",
+    "length": 276,
+    "mean_plddt": 0.7648188405797102,
+    "sha256": "d87a44428d4fc55c9b380b916770860d1ed7928fe24d6bf2512338642a37955b",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1CWP9.pdb"
+  },
+  {
+    "accession": "A0A0I9ZBA9",
+    "profile_stratum": "canonical",
+    "length": 276,
+    "mean_plddt": 0.8265942028985507,
+    "sha256": "e3a8823ba62941c8f24408cd81e8b0ad9c32c7bb72bff18728748d270f53406a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0I9ZBA9.pdb"
+  },
+  {
+    "accession": "X0J790",
+    "profile_stratum": "canonical",
+    "length": 278,
+    "mean_plddt": 0.861115107913669,
+    "sha256": "17de95c1988545520bc0547fde3d002c93f38dfb6ff974aaea53cdca55d7f3c8",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-X0J790.pdb"
+  },
+  {
+    "accession": "A0A0L0VYD3",
+    "profile_stratum": "non-canonical",
+    "length": 279,
+    "mean_plddt": 0.43623655913978493,
+    "sha256": "f59038c992aefc15f84553eb0ae796b0b7463141055e335460c2606adceae22d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0L0VYD3.pdb"
+  },
+  {
+    "accession": "E6ZS74",
+    "profile_stratum": "non-canonical",
+    "length": 279,
+    "mean_plddt": 0.6261290322580645,
+    "sha256": "2ed94645dadafa7066334cef2550d0276d759011b6ab0a74ae735a9192e5aab0",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS74.pdb"
+  },
+  {
+    "accession": "G3C9N5",
+    "profile_stratum": "non-canonical",
+    "length": 281,
+    "mean_plddt": 0.5672597864768684,
+    "sha256": "79f70b5b7e52146f85b3589decad1fe5cd6032f63658972289fd834f6b047013",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9N5.pdb"
+  },
+  {
+    "accession": "E3QRC0",
+    "profile_stratum": "canonical",
+    "length": 284,
+    "mean_plddt": 0.6076760563380282,
+    "sha256": "a807b242cc2e54e0339aad6f7165290ad25b255470b46f1bb0a7033a130580c0",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E3QRC0.pdb"
+  },
+  {
+    "accession": "Q709D8",
+    "profile_stratum": "canonical",
+    "length": 284,
+    "mean_plddt": 0.3298591549295775,
+    "sha256": "6530d4e9d2dcb8d1adaaa24671ba4cdf6cb7b524d8be3e2011c3381748f7f86f",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q709D8.pdb"
+  },
+  {
+    "accession": "Q709E2",
+    "profile_stratum": "canonical",
+    "length": 284,
+    "mean_plddt": 0.33971830985915497,
+    "sha256": "9400d5744f3c029b70398627699715131fb5e6fdb6ea83e82d24827b6c29b7bf",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q709E2.pdb"
+  },
+  {
+    "accession": "A0A0D1DZA9",
+    "profile_stratum": "canonical",
+    "length": 285,
+    "mean_plddt": 0.621859649122807,
+    "sha256": "32a1e3666397076c0e2b1414ed5e7bff65edc1d3d66b961d5f14f03af09a4390",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1DZA9.pdb"
+  },
+  {
+    "accession": "F6MEZ8",
+    "profile_stratum": "non-canonical",
+    "length": 286,
+    "mean_plddt": 0.5392307692307692,
+    "sha256": "f942da958af737203cf70c5b8d5f76c960d0bab3775ccfd6ddb09769f1b02e76",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F6MEZ8.pdb"
+  },
+  {
+    "accession": "Q09QS3",
+    "profile_stratum": "non-canonical",
+    "length": 286,
+    "mean_plddt": 0.6846153846153846,
+    "sha256": "20e8b2caaea5138a1fbcbfa93b2cb64d4aefab490c23d3144219f49bc636887b",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q09QS3.pdb"
+  },
+  {
+    "accession": "E6ZZX0",
+    "profile_stratum": "canonical",
+    "length": 287,
+    "mean_plddt": 0.3459233449477352,
+    "sha256": "d14bc27e50ac1b4abae108d387213ca8466f57feee0c4848541ff7bfc683810e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZZX0.pdb"
+  },
+  {
+    "accession": "E7A0A5",
+    "profile_stratum": "non-canonical",
+    "length": 289,
+    "mean_plddt": 0.8110034602076125,
+    "sha256": "e66974ba685ce45d27afbdf96c8522ad7dae701109749f1791f25b2cda4ac4be",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A0A5.pdb"
+  },
+  {
+    "accession": "A0A142KWI6",
+    "profile_stratum": "canonical",
+    "length": 291,
+    "mean_plddt": 0.7295532646048111,
+    "sha256": "59a9060e36e90ba8537c30e5e4fc063649bf113eecb4350560899574660594b8",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A142KWI6.pdb"
+  },
+  {
+    "accession": "PiSNE1",
+    "profile_stratum": "non-canonical",
+    "length": 291,
+    "mean_plddt": 0.6102749140893471,
+    "sha256": "f2d5dd71faa71d590fcd4634986afa7358f9c2613a55b7435ab43ccde1deb1d1",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-PiSNE1.pdb"
+  },
+  {
+    "accession": "E6ZS80",
+    "profile_stratum": "non-canonical",
+    "length": 292,
+    "mean_plddt": 0.3454794520547945,
+    "sha256": "e719fd9f294036217b8f92d51bbd39728ac028a6b8cba5dcf8f0b3f1685ef3ad",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS80.pdb"
+  },
+  {
+    "accession": "E7A0K4",
+    "profile_stratum": "canonical",
+    "length": 292,
+    "mean_plddt": 0.3558219178082192,
+    "sha256": "1831bdf629e67eaab0be8bb1774c8e864309bae084ed5b8974cb87d3c8d016c7",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A0K4.pdb"
+  },
+  {
+    "accession": "E6ZZX3",
+    "profile_stratum": "canonical",
+    "length": 294,
+    "mean_plddt": 0.5256122448979592,
+    "sha256": "5ad54dc865b753f73d69b8201c953b22b7655275236ea383bfbfa821b63f7e4a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZZX3.pdb"
+  },
+  {
+    "accession": "G1FQZ9",
+    "profile_stratum": "non-canonical",
+    "length": 295,
+    "mean_plddt": 0.8769830508474575,
+    "sha256": "f78d807a4cd6b6a9f6463e3c385fa78b3b27dbf06d348c277e8cc14bcac6b29d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G1FQZ9.pdb"
+  },
+  {
+    "accession": "G4MVX4",
+    "profile_stratum": "canonical",
+    "length": 295,
+    "mean_plddt": 0.8558305084745763,
+    "sha256": "bd6d1748b19fe8a33f009646e7c794445502cd9a2fb41661f530137456e736c3",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G4MVX4.pdb"
+  },
+  {
+    "accession": "A0A0A2JJP9",
+    "profile_stratum": "canonical",
+    "length": 297,
+    "mean_plddt": 0.7983164983164983,
+    "sha256": "765dab2db98a834cde4a2ccb9609b913207b9da197fa73eb3ff403a9be5b2911",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0A2JJP9.pdb"
+  },
+  {
+    "accession": "A0A0D1E1H1",
+    "profile_stratum": "non-canonical",
+    "length": 297,
+    "mean_plddt": 0.5628282828282828,
+    "sha256": "0e88c93217451e1423ad38ceb328d101ae206f0c7486a8ee120aa65c96f854f1",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E1H1.pdb"
+  },
+  {
+    "accession": "E6ZS77",
+    "profile_stratum": "non-canonical",
+    "length": 297,
+    "mean_plddt": 0.5481481481481482,
+    "sha256": "6028903ad21a62ed3eacb058abe87073a8ef4daacaba3cc0a4157dc6be807d90",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS77.pdb"
+  },
+  {
+    "accession": "F6MF03",
+    "profile_stratum": "non-canonical",
+    "length": 299,
+    "mean_plddt": 0.44010033444816055,
+    "sha256": "33d7ebef986643aa04918a75432f6703d7009d99bf1fbc20fd55efd5d0de27b8",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F6MF03.pdb"
+  },
+  {
+    "accession": "N1JK84",
+    "profile_stratum": "canonical",
+    "length": 299,
+    "mean_plddt": 0.9262207357859532,
+    "sha256": "8a33acf69c0ffc68df7356cf68d933ac3e340e55624681e22c1e314dacc36989",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-N1JK84.pdb"
+  },
+  {
+    "accession": "E6ZYE0",
+    "profile_stratum": "canonical",
+    "length": 300,
+    "mean_plddt": 0.8737999999999999,
+    "sha256": "944c25163e15250157f7accc5a2ad5629bc6f3bf93d2f54f2df218f97777673c",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZYE0.pdb"
+  },
+  {
+    "accession": "L8WVP3",
+    "profile_stratum": "non-canonical",
+    "length": 302,
+    "mean_plddt": 0.9494370860927153,
+    "sha256": "7704a5d863ad3c368ce504795f282e381af6ab77830f841fc089a578b72dca06",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-L8WVP3.pdb"
+  },
+  {
+    "accession": "Q4PCM2",
+    "profile_stratum": "non-canonical",
+    "length": 302,
+    "mean_plddt": 0.5335430463576158,
+    "sha256": "de1c7d74ee4fcaa78c450044618dd910d709ddc7a57483cd442afb039260c6e6",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q4PCM2.pdb"
+  },
+  {
+    "accession": "A0A0A2KIK6",
+    "profile_stratum": "non-canonical",
+    "length": 303,
+    "mean_plddt": 0.7252805280528053,
+    "sha256": "d0e6dd09dba88b259f0274e1e4f6d26184172a08aa5889be8f7e3ddf7b6aa0b6",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0A2KIK6.pdb"
+  },
+  {
+    "accession": "F6MF07",
+    "profile_stratum": "non-canonical",
+    "length": 304,
+    "mean_plddt": 0.5410197368421052,
+    "sha256": "b7ebe483cdafd8dd62992777c5e557785bbaf4dd77277b87f2808d4353c65b68",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-F6MF07.pdb"
+  },
+  {
+    "accession": "G3C9T3",
+    "profile_stratum": "non-canonical",
+    "length": 304,
+    "mean_plddt": 0.8243092105263158,
+    "sha256": "cc7a408e66870bc1f8a37bfb1d1ede3f413d9036a00f3c47c4689c46b861de9c",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9T3.pdb"
+  },
+  {
+    "accession": "E6ZZM6",
+    "profile_stratum": "non-canonical",
+    "length": 309,
+    "mean_plddt": 0.6146278317152103,
+    "sha256": "dc14578a6bf2210e92a9d41fb0ae81b0344b55cbca302095334289c2c0dbc0b9",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZZM6.pdb"
+  },
+  {
+    "accession": "A0A0D1DUQ9",
+    "profile_stratum": "non-canonical",
+    "length": 312,
+    "mean_plddt": 0.5565705128205128,
+    "sha256": "a3867e3b877a14896f9e2ac81b89d9a3c8a21f687b361d746d4a16778b277514",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1DUQ9.pdb"
+  },
+  {
+    "accession": "E0W4V8_PHYSO",
+    "profile_stratum": "non-canonical",
+    "length": 314,
+    "mean_plddt": 0.5355732484076433,
+    "sha256": "59edd1388907ddf8441f73344f85ca75df05281570fc3387bca47c5651cc3311",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E0W4V8_PHYSO.pdb"
+  },
+  {
+    "accession": "Q2MV46",
+    "profile_stratum": "non-canonical",
+    "length": 314,
+    "mean_plddt": 0.48977707006369425,
+    "sha256": "c619a12942e97a74428e789cd4772d4b791c0421297ef6e06de40da88e88b7f2",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q2MV46.pdb"
+  },
+  {
+    "accession": "A0A059UDR8",
+    "profile_stratum": "non-canonical",
+    "length": 316,
+    "mean_plddt": 0.7750316455696202,
+    "sha256": "1e59774087c2212077938a612759ce0b972a153a7e5e262775b560218d90b2ba",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A059UDR8.pdb"
+  },
+  {
+    "accession": "A0N0D1",
+    "profile_stratum": "non-canonical",
+    "length": 316,
+    "mean_plddt": 0.6101898734177215,
+    "sha256": "7bd4b1442fd4f7dcf253d415c74c3b100b94aaad0089786e26c255aa1cdcf098",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0N0D1.pdb"
+  },
+  {
+    "accession": "A0A0D1E8C1",
+    "profile_stratum": "non-canonical",
+    "length": 323,
+    "mean_plddt": 0.29526315789473684,
+    "sha256": "300d980b064aca92c1621d88578257fdfa9870d707a8d6c5f9b5cf42f96451a2",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E8C1.pdb"
+  },
+  {
+    "accession": "A0A444RJQ0",
+    "profile_stratum": "non-canonical",
+    "length": 323,
+    "mean_plddt": 0.851640866873065,
+    "sha256": "fbda2314ac2fa2476d1e7e0f6c8a0ce5a0877c58707e69b854f35f06c60ebd04",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A444RJQ0.pdb"
+  },
+  {
+    "accession": "Q4VKJ1",
+    "profile_stratum": "non-canonical",
+    "length": 323,
+    "mean_plddt": 0.7071207430340557,
+    "sha256": "e66ebbcb4038c0497c7e9afd7dc9fb6070fd1970095363e2fc1a233c41c582ad",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q4VKJ1.pdb"
+  },
+  {
+    "accession": "A0A0D1EAN2",
+    "profile_stratum": "non-canonical",
+    "length": 327,
+    "mean_plddt": 0.3741284403669725,
+    "sha256": "343ed70ef747df5bfbd01d79fda3cdc95a217a23bc62d197a47a73a8a4244013",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1EAN2.pdb"
+  },
+  {
+    "accession": "A0A0D1DRM3",
+    "profile_stratum": "non-canonical",
+    "length": 329,
+    "mean_plddt": 0.38854103343465046,
+    "sha256": "c6ba740dc8b76f995ea787848bee0d793c3bb091da48f13ab5d36c82abb0052d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1DRM3.pdb"
+  },
+  {
+    "accession": "A0A0D1DUC4",
+    "profile_stratum": "non-canonical",
+    "length": 332,
+    "mean_plddt": 0.39036144578313253,
+    "sha256": "72312b1246a0e5c361b4ee27d106d47e099b1e5f7cfc0bc9dab8a67d3774eeee",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1DUC4.pdb"
+  },
+  {
+    "accession": "A0A1C9V3Q1",
+    "profile_stratum": "non-canonical",
+    "length": 333,
+    "mean_plddt": 0.6990390390390391,
+    "sha256": "b8f698947f616a150a494ff5e180db86f287657835a50d24d61cf62811c2464e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A1C9V3Q1.pdb"
+  },
+  {
+    "accession": "Q5TIP4",
+    "profile_stratum": "non-canonical",
+    "length": 333,
+    "mean_plddt": 0.957987987987988,
+    "sha256": "5e82e6e7488c536ce78047a314ff5defce9ad395175f1a92970cfde29ef235f9",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q5TIP4.pdb"
+  },
+  {
+    "accession": "E6ZS70",
+    "profile_stratum": "non-canonical",
+    "length": 339,
+    "mean_plddt": 0.8850147492625369,
+    "sha256": "346edbd644d102b90f2709b754f15e8e963b0f1594ddbce48a6cf1cac14cedca",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS70.pdb"
+  },
+  {
+    "accession": "E6ZWS5",
+    "profile_stratum": "non-canonical",
+    "length": 340,
+    "mean_plddt": 0.8378823529411764,
+    "sha256": "e5526856436612ed0e316bf410ccc1eb56ac4777c4c05de42768b419ac6226e2",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZWS5.pdb"
+  },
+  {
+    "accession": "E7A2P8",
+    "profile_stratum": "non-canonical",
+    "length": 347,
+    "mean_plddt": 0.4834005763688761,
+    "sha256": "bcdcb8b74def26a346a52e28c7e6d7b17a44a977f78a95e2a1758197ae56ace2",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A2P8.pdb"
+  },
+  {
+    "accession": "A0A0P1KYY9",
+    "profile_stratum": "non-canonical",
+    "length": 349,
+    "mean_plddt": 0.43845272206303726,
+    "sha256": "58b540abc3ef5d2a6fe64c482c3ecc16da4144ddbdb3787625fc51d7d9182538",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0P1KYY9.pdb"
+  },
+  {
+    "accession": "X0KJP1",
+    "profile_stratum": "non-canonical",
+    "length": 350,
+    "mean_plddt": 0.8957999999999999,
+    "sha256": "f5b1c433a2318c66698db16273423cb4e4718f732a93563c24b3cfe629b5e210",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-X0KJP1.pdb"
+  },
+  {
+    "accession": "Q6WER3",
+    "profile_stratum": "non-canonical",
+    "length": 351,
+    "mean_plddt": 0.8905128205128205,
+    "sha256": "1a0836c776044ba17a211b39a941903e38da027bd28c798794748528f5781f1d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q6WER3.pdb"
+  },
+  {
+    "accession": "A0A0D1D169",
+    "profile_stratum": "non-canonical",
+    "length": 354,
+    "mean_plddt": 0.39550847457627114,
+    "sha256": "86b27a94d448f15c7b5c6d484895aec796d1387e085bd92c1c8fe86d0eec862d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1D169.pdb"
+  },
+  {
+    "accession": "G4N8Y3",
+    "profile_stratum": "non-canonical",
+    "length": 355,
+    "mean_plddt": 0.9065352112676056,
+    "sha256": "c8a864af310fd4d67a54df38bd84726791805ce5c609103403a4d69813b692b0",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G4N8Y3.pdb"
+  },
+  {
+    "accession": "G3C9N8",
+    "profile_stratum": "non-canonical",
+    "length": 357,
+    "mean_plddt": 0.8344257703081233,
+    "sha256": "0e0c842bd5350a6c21ff0684afa8428a59b8c1b01fe74451dc2c894e97da6273",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9N8.pdb"
+  },
+  {
+    "accession": "A0A0D1CND6",
+    "profile_stratum": "non-canonical",
+    "length": 363,
+    "mean_plddt": 0.43752066115702476,
+    "sha256": "aa72188564c9d06b1acbcee958679d2dffb02bf0ecc36febe9355f2967d8c4ab",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1CND6.pdb"
+  },
+  {
+    "accession": "Q4P9A0",
+    "profile_stratum": "non-canonical",
+    "length": 363,
+    "mean_plddt": 0.5618732782369146,
+    "sha256": "d726150103698353a6775e3e5a250dcd801ab9987d7c9d9e0b79bcbe35410597",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q4P9A0.pdb"
+  },
+  {
+    "accession": "A0A0D1DYX1",
+    "profile_stratum": "non-canonical",
+    "length": 365,
+    "mean_plddt": 0.6897534246575342,
+    "sha256": "d532168b8256de301d87e03b461911497bc6b0dbfe6a02231ea2934bcfe0872d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1DYX1.pdb"
+  },
+  {
+    "accession": "A0A0A2I2M6",
+    "profile_stratum": "non-canonical",
+    "length": 366,
+    "mean_plddt": 0.881584699453552,
+    "sha256": "187ab0c0968a9ba90cc992a063d5eb1eeca3d2f82957e6cf81fa64414f54dfac",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0A2I2M6.pdb"
+  },
+  {
+    "accession": "A0A8E5HLT0",
+    "profile_stratum": "non-canonical",
+    "length": 366,
+    "mean_plddt": 0.8776775956284153,
+    "sha256": "10b51625b06f2f26c0cf64d0535803880f5fac897ff66d5db281c1a38704270e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A8E5HLT0.pdb"
+  },
+  {
+    "accession": "A0A0D1CF25",
+    "profile_stratum": "non-canonical",
+    "length": 368,
+    "mean_plddt": 0.44698369565217394,
+    "sha256": "c6695a04754ddd89a9ffc10383a5e8b17db55a9dcbb74286ec77bef42dfcca26",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1CF25.pdb"
+  },
+  {
+    "accession": "E3CTN3",
+    "profile_stratum": "non-canonical",
+    "length": 369,
+    "mean_plddt": 0.5881029810298103,
+    "sha256": "88c31e9b7a62302b1204e767d6d69715eda50443be14e3ab7972f257f5f1f9f6",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E3CTN3.pdb"
+  },
+  {
+    "accession": "A0A0M4AMY8",
+    "profile_stratum": "non-canonical",
+    "length": 370,
+    "mean_plddt": 0.6372972972972973,
+    "sha256": "85686f6b2ffdbd5d83362890ca18b0a160223bbb72223dae74a920508bad6c3e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0M4AMY8.pdb"
+  },
+  {
+    "accession": "A0A1D9QGK0",
+    "profile_stratum": "non-canonical",
+    "length": 373,
+    "mean_plddt": 0.5976407506702412,
+    "sha256": "3229d57cd1f6c5afb68c8fb3053dd551b843dacb5528dfc2041c438ee4bb71f3",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A1D9QGK0.pdb"
+  },
+  {
+    "accession": "A0A507D1H9",
+    "profile_stratum": "non-canonical",
+    "length": 375,
+    "mean_plddt": 0.4344533333333333,
+    "sha256": "56386769d9a7b91bd1e7ddf8711f59a9b7e12c375c133223988e834ec56852eb",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A507D1H9.pdb"
+  },
+  {
+    "accession": "G3C9L1",
+    "profile_stratum": "non-canonical",
+    "length": 375,
+    "mean_plddt": 0.8336,
+    "sha256": "edc07f09c7beb6d48cc8b39570bdd96e44757b10b04ead539cff8267d04f15fa",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9L1.pdb"
+  },
+  {
+    "accession": "A0A0D1BVZ6",
+    "profile_stratum": "non-canonical",
+    "length": 381,
+    "mean_plddt": 0.4469553805774278,
+    "sha256": "6bd69723e8591bee5010f258838ec227a8d61a8dcbef85d5783993f2c62d939d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1BVZ6.pdb"
+  },
+  {
+    "accession": "G3C9N7",
+    "profile_stratum": "non-canonical",
+    "length": 393,
+    "mean_plddt": 0.6957760814249364,
+    "sha256": "c2c767563d08674b91e7f09593cbe77d02e393bc41cc00f7aa8aca1e25c2dee0",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9N7.pdb"
+  },
+  {
+    "accession": "A0A0D1C393",
+    "profile_stratum": "non-canonical",
+    "length": 398,
+    "mean_plddt": 0.41809045226130653,
+    "sha256": "1190145d6e6fbe08ae7b50ffedb5d4e470fc8df4657b1bad4f46a75f9e336ef6",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1C393.pdb"
+  },
+  {
+    "accession": "A0A0D1E2J4",
+    "profile_stratum": "non-canonical",
+    "length": 399,
+    "mean_plddt": 0.6542606516290728,
+    "sha256": "36eeb825b9d6228034ad3a4393a7e390036e09d222295c81d5b974742b72a001",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E2J4.pdb"
+  },
+  {
+    "accession": "A0A063BYC9",
+    "profile_stratum": "non-canonical",
+    "length": 415,
+    "mean_plddt": 0.8557590361445783,
+    "sha256": "7118d6a4ba114e1a6b40033b6c985ef73525bfbb63a342a9f5684093f86d8200",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A063BYC9.pdb"
+  },
+  {
+    "accession": "B2C6F8",
+    "profile_stratum": "non-canonical",
+    "length": 415,
+    "mean_plddt": 0.8590602409638554,
+    "sha256": "1a53557fb7798dd890247c0d1f266ea91e7894ebf76d26f9520b9840838f772a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-B2C6F8.pdb"
+  },
+  {
+    "accession": "E7A094",
+    "profile_stratum": "non-canonical",
+    "length": 416,
+    "mean_plddt": 0.42490384615384613,
+    "sha256": "1cd3a642640140ed6363fe473e1a06d4e173e05648ac3d1cbf23340e259bfead",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E7A094.pdb"
+  },
+  {
+    "accession": "G3C9Q7",
+    "profile_stratum": "non-canonical",
+    "length": 416,
+    "mean_plddt": 0.4648557692307692,
+    "sha256": "ff4dd6d62d0ef691720233732c83eae9cc95e6d3c23468e557cd8df394f05b77",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G3C9Q7.pdb"
+  },
+  {
+    "accession": "A0A0D1C6B8",
+    "profile_stratum": "non-canonical",
+    "length": 429,
+    "mean_plddt": 0.3888111888111888,
+    "sha256": "f18bcbf8710ae46e268e884afa5a75b2b6a95bbc98a64b3db3bd20e8abb2bf55",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1C6B8.pdb"
+  },
+  {
+    "accession": "Q4PDL7",
+    "profile_stratum": "non-canonical",
+    "length": 430,
+    "mean_plddt": 0.5140465116279069,
+    "sha256": "321765f7e730c549b4988f19ecedd486e6f658b46abedd430fa535bdd78048b3",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q4PDL7.pdb"
+  },
+  {
+    "accession": "G4MX55",
+    "profile_stratum": "non-canonical",
+    "length": 432,
+    "mean_plddt": 0.9535185185185185,
+    "sha256": "74b73d3cfe00168d9a804ac2e9093be3227150df47bfc6e28cf2f62eaafe0419",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-G4MX55.pdb"
+  },
+  {
+    "accession": "A0A1B5KY51",
+    "profile_stratum": "non-canonical",
+    "length": 435,
+    "mean_plddt": 0.9402758620689655,
+    "sha256": "c89f40d47fbbd6ddd545e79e8d00afa61685efd1805e65689f9bc96578553a00",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A1B5KY51.pdb"
+  },
+  {
+    "accession": "E6ZKU6",
+    "profile_stratum": "non-canonical",
+    "length": 436,
+    "mean_plddt": 0.4583715596330275,
+    "sha256": "24a653521f80bd918793a40e14f8bba0c3087dae5f49d762dff2a36c62553509",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZKU6.pdb"
+  },
+  {
+    "accession": "Q4P999",
+    "profile_stratum": "non-canonical",
+    "length": 447,
+    "mean_plddt": 0.4904250559284116,
+    "sha256": "3ef2126bb3e076571e0d7ef7a749d0bb9043f53558cbcc4ff5517d7373886bfc",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q4P999.pdb"
+  },
+  {
+    "accession": "Q4PCM5",
+    "profile_stratum": "non-canonical",
+    "length": 447,
+    "mean_plddt": 0.5242058165548098,
+    "sha256": "ec39f3e4db58f2895875f29a3e630cbfdcf2055426a90b78fb839c298439189e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q4PCM5.pdb"
+  },
+  {
+    "accession": "A0A0D1E3Z8",
+    "profile_stratum": "non-canonical",
+    "length": 448,
+    "mean_plddt": 0.49055803571428575,
+    "sha256": "6fcd8c821a96a883878dea66ad9c2422862538acfba8260e25d1443de0676093",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E3Z8.pdb"
+  },
+  {
+    "accession": "Q4PCM4",
+    "profile_stratum": "non-canonical",
+    "length": 450,
+    "mean_plddt": 0.4740666666666667,
+    "sha256": "649e9e344c82397ac68444a80ebb7d5dae651b0f30d0dd7a5c8714c648f250f0",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q4PCM4.pdb"
+  },
+  {
+    "accession": "E6ZY85",
+    "profile_stratum": "non-canonical",
+    "length": 479,
+    "mean_plddt": 0.452964509394572,
+    "sha256": "e37d6626bcc6c3fa21c0d2d1e70c3dc3e0ef80b88c5993d7ce78518d90154245",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZY85.pdb"
+  },
+  {
+    "accession": "A0A226B923",
+    "profile_stratum": "non-canonical",
+    "length": 486,
+    "mean_plddt": 0.7675925925925926,
+    "sha256": "9b85aa47c6bab8dbfe3fe0451a553fce7ccdaab9f328c3ffcd4fa2af13d8901e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A226B923.pdb"
+  },
+  {
+    "accession": "Q4PCM6",
+    "profile_stratum": "non-canonical",
+    "length": 487,
+    "mean_plddt": 0.4382956878850102,
+    "sha256": "9774e5398d9265d3cdc030e993f0e003c3107501f5c549642829d3b162eeec4d",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q4PCM6.pdb"
+  },
+  {
+    "accession": "Q87W07",
+    "profile_stratum": "non-canonical",
+    "length": 488,
+    "mean_plddt": 0.610594262295082,
+    "sha256": "3979ae152bc429e718555ace5da837f2593fab572ea11cbb3a1c9c48df074020",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q87W07.pdb"
+  },
+  {
+    "accession": "E6ZKQ0",
+    "profile_stratum": "non-canonical",
+    "length": 492,
+    "mean_plddt": 0.6944512195121951,
+    "sha256": "658fbe5f4f983a2940c2166ef0bd34aec2b4bf27b3dd7c3ce9e409b94087aeec",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZKQ0.pdb"
+  },
+  {
+    "accession": "A0A0D1DU27",
+    "profile_stratum": "non-canonical",
+    "length": 503,
+    "mean_plddt": 0.7982902584493042,
+    "sha256": "0f45cd3e035ea473083673b86060dfe6d3249070d81145fc8c297a0118701516",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1DU27.pdb"
+  },
+  {
+    "accession": "B2C6F3",
+    "profile_stratum": "non-canonical",
+    "length": 504,
+    "mean_plddt": 0.921765873015873,
+    "sha256": "ff50e4c95e294a1a86a9538d3c379df00223d7a69accacb3ebfaa5ef686681aa",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-B2C6F3.pdb"
+  },
+  {
+    "accession": "A0A0D1E701",
+    "profile_stratum": "non-canonical",
+    "length": 513,
+    "mean_plddt": 0.41996101364522415,
+    "sha256": "ff78aa5a71be61c3db948202256f7f7b361ef13d916910842a305086ff1b5143",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1E701.pdb"
+  },
+  {
+    "accession": "A0A0D1CU07",
+    "profile_stratum": "non-canonical",
+    "length": 515,
+    "mean_plddt": 0.29656310679611647,
+    "sha256": "71b2b3c93592e268edf201c7693ca1c842c0a9e9c1ea84c4875b027af8192f45",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1CU07.pdb"
+  },
+  {
+    "accession": "W2PVL9",
+    "profile_stratum": "non-canonical",
+    "length": 517,
+    "mean_plddt": 0.8811218568665377,
+    "sha256": "6f7961af752e45bf21bd35d71584898b4bcba8d37e9929e1a59403310fa9963b",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-W2PVL9.pdb"
+  },
+  {
+    "accession": "E6ZMP6",
+    "profile_stratum": "non-canonical",
+    "length": 523,
+    "mean_plddt": 0.29594646271510516,
+    "sha256": "18279c8e32cf7bd3fdad9b37997404f53bec32c910a740e4c61a64d7b2c3ef82",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZMP6.pdb"
+  },
+  {
+    "accession": "E6ZMP7",
+    "profile_stratum": "non-canonical",
+    "length": 533,
+    "mean_plddt": 0.6296435272045029,
+    "sha256": "af8bcc667bf51c1c7836bb9f4668c980d03ef2d40e4d3809cf4704b289dbe123",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZMP7.pdb"
+  },
+  {
+    "accession": "A0A194W4R1",
+    "profile_stratum": "non-canonical",
+    "length": 553,
+    "mean_plddt": 0.7221157323688969,
+    "sha256": "416d630e2fc9e107c536813e4858ff52ae6be83ffc502591de7c5b8ea91b3495",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A194W4R1.pdb"
+  },
+  {
+    "accession": "Q56VT8",
+    "profile_stratum": "non-canonical",
+    "length": 556,
+    "mean_plddt": 0.6852877697841726,
+    "sha256": "b0c92a33e9bc99bdbd91561422ebc4eaeea153bc90a58b289e3590fc67fffc56",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-Q56VT8.pdb"
+  },
+  {
+    "accession": "A0A0D1DT47",
+    "profile_stratum": "non-canonical",
+    "length": 569,
+    "mean_plddt": 0.7989982425307557,
+    "sha256": "22216ee36014af48decb21a04d52f67ce17944bde3bbb4235eba1e02c0455740",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A0D1DT47.pdb"
+  },
+  {
+    "accession": "E6ZS76",
+    "profile_stratum": "non-canonical",
+    "length": 571,
+    "mean_plddt": 0.7174781085814361,
+    "sha256": "a0c9d8fada1cd9753bdaf5e4455d4fe9a057fa7b5e18e4f32d5f1baf927d9300",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS76.pdb"
+  },
+  {
+    "accession": "A0A2I6B3G6",
+    "profile_stratum": "non-canonical",
+    "length": 578,
+    "mean_plddt": 0.6131833910034602,
+    "sha256": "60bcda4bd170dafeec4423086b8ebd4d1ffdcc29dfdc0159d4074e9ed175b00a",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-A0A2I6B3G6.pdb"
+  },
+  {
+    "accession": "E6ZS78",
+    "profile_stratum": "non-canonical",
+    "length": 580,
+    "mean_plddt": 0.5943620689655172,
+    "sha256": "f0799af837074e80e189491bc15538ab122cff5263d02fb3094a88d6428f171e",
+    "path": "/home/aid1/Documents/3_19C_effector/bench/data/raw/esmfold/ESMF-E6ZS78.pdb"
+  }
+]

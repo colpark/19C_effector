@@ -1,0 +1,116 @@
+[
+  {
+    "accession": "A0A0D1CZH2",
+    "length": 780,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "A0A0D1DMZ9",
+    "length": 742,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "A0A0D1DYI3",
+    "length": 869,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "A0A0D1E1G8",
+    "length": 626,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "A0A0D1E3H5",
+    "length": 703,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "A0A0D1E5A8",
+    "length": 709,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "A0A0D1E997",
+    "length": 605,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "E3KIN4",
+    "length": 820,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "E3L2L4",
+    "length": 744,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "E4ZUN5",
+    "length": 658,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "E6ZPZ7",
+    "length": 612,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "E6ZS79",
+    "length": 1464,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "E7A0K5",
+    "length": 773,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "G2XWG3",
+    "length": 852,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "G4YIB3",
+    "length": 1715,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "H1VSQ9",
+    "length": 170,
+    "profile_stratum": "canonical",
+    "reason": "noncanonical residues rejected by carded wrapper: X"
+  },
+  {
+    "accession": "Q6ZX14",
+    "length": 4034,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "R0J3Y1",
+    "length": 785,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  },
+  {
+    "accession": "R0KGT7",
+    "length": 993,
+    "profile_stratum": "non-canonical",
+    "reason": ">600 aa carded limit"
+  }
+]
