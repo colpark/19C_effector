@@ -537,3 +537,36 @@ elements:
       Item 51-53 arithmetic uses the reproducible file counts.
     previous_measured_by: null
     new_measured_by: null
+- name: Item 59 frozen-source substitution rule
+  current_value: 'When a frozen data source is verifiably unreachable, the Referee
+    may authorize a substitute without PI escalation only when the verification is
+    retained, the substitute loss is named, the direction of introduced bias is stated,
+    and every downstream number is marked as resting on the substitute. Escalation
+    remains required when the substitute changes what the benchmark can claim rather
+    than only where the data comes from. Item 58 is a data-location substitution:
+    SCOP preserves predictor-independent structural-family labels but narrows coverage
+    and coarsens families; it does not change the outcome label or benchmark claim.'
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Frozen before the substitute-derived pool is selected. Amend only
+    with a retained verification, loss statement, bias direction, and downstream marking
+    plan.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: 'Item 59: Item 58 stalled despite requiring a documentary source substitution
+      rather than outside judgement. The verified ECOD outage was external; the SCOP
+      fallback preserves the relevant independent-family property. Its coverage and
+      downward-rate bias are recorded rather than concealed, so it changes where the
+      data come from, not what the benchmark claims.'
+    previous_value: null
+    new_value: 'When a frozen data source is verifiably unreachable, the Referee may
+      authorize a substitute without PI escalation only when the verification is retained,
+      the substitute loss is named, the direction of introduced bias is stated, and
+      every downstream number is marked as resting on the substitute. Escalation remains
+      required when the substitute changes what the benchmark can claim rather than
+      only where the data comes from. Item 58 is a data-location substitution: SCOP
+      preserves predictor-independent structural-family labels but narrows coverage
+      and coarsens families; it does not change the outcome label or benchmark claim.'
+    previous_measured_by: null
+    new_measured_by: null
