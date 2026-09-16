@@ -324,3 +324,28 @@ elements:
       cohort only.
     previous_measured_by: null
     new_measured_by: null
+- name: Item 46 structural supply primary reading
+  current_value: 'Primary supply reading: mean-pLDDT >=0.50 diagnostic subset at frozen
+    Foldseek TM-score 0.50; 218 clusters, panels_max 43, MDE 0.0491. This is a conservative
+    supply bound, not a pLDDT filter on the cohort.'
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Frozen before any arm exists. Amend only before Gate 1 with an independently
+    measured recovery calibration and a complete amendment chain.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: 'Item 46 preregistration before any arm or result: direct known-family
+      recovery cannot estimate low-confidence singleton inflation because zero low-confidence
+      annotated family members survived. Select the high-confidence diagnostic reading
+      as the least optimistic available reading. It makes an effect harder, not easier,
+      to detect. The all-model count (400; 80 panels; MDE 0.0360) and correction-compatible
+      range (222-400; 44-80 panels) remain reported sensitivity, not alternatives
+      to select after outcomes. Changing this later changes panels_max, MDE, and whether
+      an observed effect is classed as detectable.'
+    previous_value: null
+    new_value: 'Primary supply reading: mean-pLDDT >=0.50 diagnostic subset at frozen
+      Foldseek TM-score 0.50; 218 clusters, panels_max 43, MDE 0.0491. This is a conservative
+      supply bound, not a pLDDT filter on the cohort.'
+    previous_measured_by: null
+    new_measured_by: null
