@@ -1,0 +1,4 @@
+family	accession	mean_plddt	confidence_band	annotation_text
+RxLR	D0NVB5	0.790304	high	PiAvr1 Avr1;PITG_16663 Ph. D thesis https://www.wageningenur.nl/en/show/Phytophthora-infestans-RXLR-effector-AVR1-and-its-host-target-Sec5.htm 
+RxLR	D0P1B2	0.607730	high	PiAvrblb2 Avrblb2;PITG20303;SFI8 avrblb2 family secreted RxLR effector peptide protein, putative [Phytophthora infestans T30-4] 
+MAX	A0A0H4ITX1	0.734595	high	MoAvrPib AvrPib Commonly invaded by TE. Homology to MAX effectors. Nuclear localised, with basic residues important to this localisation 

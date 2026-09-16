@@ -1,0 +1,331 @@
+{
+  "families_recovered": {
+    "Crinkler": 0,
+    "LysM": 0,
+    "MAX": 1,
+    "NLP": 0,
+    "RxLR": 2,
+    "ToxA-like": 0
+  },
+  "family_patterns": {
+    "Crinkler": "\\bCrinkler\\b|\\bCRN\\b",
+    "LysM": "\\bLysM\\b",
+    "MAX": "\\bMAX(?:[- ]?(?:like|effector))?\\b",
+    "NLP": "\\bNLP\\b|necrosis.?and.?ethylene",
+    "RxLR": "\\bRxLR\\b",
+    "ToxA-like": "\\bToxA(?:-like)?\\b"
+  },
+  "method": "Explicit annotation regexes only; cluster results are read after family labels are fixed.",
+  "structurally_mapped_members": 3,
+  "thresholds": {
+    "0.40": {
+      "all_low_confidence_singletons": 142,
+      "estimated_false_singleton_rate": 0.0,
+      "estimated_false_singleton_rate_95_wilson": [
+        0.0,
+        1.0
+      ],
+      "estimated_nonreal_singleton_clusters": 0.0,
+      "estimated_nonreal_singleton_clusters_95_wilson": [
+        0.0,
+        142.0
+      ],
+      "families": {
+        "Crinkler": {
+          "by_confidence": {
+            "high": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 0
+        },
+        "LysM": {
+          "by_confidence": {
+            "high": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 0
+        },
+        "MAX": {
+          "by_confidence": {
+            "high": {
+              "clusters_occupied": 1,
+              "largest_same_family_cluster_fraction": 1.0,
+              "members": 1
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 1
+        },
+        "NLP": {
+          "by_confidence": {
+            "high": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 0
+        },
+        "RxLR": {
+          "by_confidence": {
+            "high": {
+              "clusters_occupied": 2,
+              "largest_same_family_cluster_fraction": 0.5,
+              "members": 2
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 2
+        },
+        "ToxA-like": {
+          "by_confidence": {
+            "high": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 0
+        }
+      },
+      "low_known_family_singletons": 0,
+      "low_singletons_with_confident_relatives_clustered": 0
+    },
+    "0.50": {
+      "all_low_confidence_singletons": 178,
+      "estimated_false_singleton_rate": 0.0,
+      "estimated_false_singleton_rate_95_wilson": [
+        0.0,
+        1.0
+      ],
+      "estimated_nonreal_singleton_clusters": 0.0,
+      "estimated_nonreal_singleton_clusters_95_wilson": [
+        0.0,
+        178.0
+      ],
+      "families": {
+        "Crinkler": {
+          "by_confidence": {
+            "high": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 0
+        },
+        "LysM": {
+          "by_confidence": {
+            "high": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 0
+        },
+        "MAX": {
+          "by_confidence": {
+            "high": {
+              "clusters_occupied": 1,
+              "largest_same_family_cluster_fraction": 1.0,
+              "members": 1
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 1
+        },
+        "NLP": {
+          "by_confidence": {
+            "high": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 0
+        },
+        "RxLR": {
+          "by_confidence": {
+            "high": {
+              "clusters_occupied": 2,
+              "largest_same_family_cluster_fraction": 0.5,
+              "members": 2
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 2
+        },
+        "ToxA-like": {
+          "by_confidence": {
+            "high": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 0
+        }
+      },
+      "low_known_family_singletons": 0,
+      "low_singletons_with_confident_relatives_clustered": 0
+    },
+    "0.60": {
+      "all_low_confidence_singletons": 187,
+      "estimated_false_singleton_rate": 0.0,
+      "estimated_false_singleton_rate_95_wilson": [
+        0.0,
+        1.0
+      ],
+      "estimated_nonreal_singleton_clusters": 0.0,
+      "estimated_nonreal_singleton_clusters_95_wilson": [
+        0.0,
+        187.0
+      ],
+      "families": {
+        "Crinkler": {
+          "by_confidence": {
+            "high": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 0
+        },
+        "LysM": {
+          "by_confidence": {
+            "high": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 0
+        },
+        "MAX": {
+          "by_confidence": {
+            "high": {
+              "clusters_occupied": 1,
+              "largest_same_family_cluster_fraction": 1.0,
+              "members": 1
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 1
+        },
+        "NLP": {
+          "by_confidence": {
+            "high": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 0
+        },
+        "RxLR": {
+          "by_confidence": {
+            "high": {
+              "clusters_occupied": 2,
+              "largest_same_family_cluster_fraction": 0.5,
+              "members": 2
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 2
+        },
+        "ToxA-like": {
+          "by_confidence": {
+            "high": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            },
+            "low": {
+              "largest_same_family_cluster_fraction": null,
+              "members": 0
+            }
+          },
+          "low_singletons_with_confident_clustered_relatives": [],
+          "members": 0
+        }
+      },
+      "low_known_family_singletons": 0,
+      "low_singletons_with_confident_relatives_clustered": 0
+    }
+  }
+}
