@@ -43,7 +43,9 @@ for r in todo:
         continue
     pdb=path.read_text()
     ca=[float(x[60:66]) for x in pdb.splitlines() if x.startswith('ATOM') and x[12:16].strip()=='CA']
-    if len(ca) != len(seq): raise RuntimeError(f"{r['accession']}: expected {len(seq)} CA atoms, found {len(ca)}")
+    if len(ca) != len(seq):
+        pending.append(r)
+        continue
     result.append({'accession':r['accession'],'profile_stratum':r['profile_stratum'],'length':len(seq),'mean_plddt':sum(ca)/len(ca),'sha256':hashlib.sha256(pdb.encode()).hexdigest(),'path':str(path)})
 atomic_json(manifest, result)
 if pending:
