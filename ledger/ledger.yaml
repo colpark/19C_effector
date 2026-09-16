@@ -483,3 +483,27 @@ elements:
       = 0.8201.'
     previous_measured_by: null
     new_measured_by: null
+- name: Item 53 singleton-count reproducibility discrepancy
+  current_value: The Curator axes report states low-confidence singleton counts 142,
+    178 and 187 at TM 0.40, 0.50 and 0.60. Recounting retained corrected_full cluster
+    files against the 413-entry ESMFold manifest gives 139, 175 and 184. All subsequent
+    Item 51-53 arithmetic uses the reproducible file counts.
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Frozen audit record. Correct only with a retained replacement input,
+    command trace and recount.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: 'Item 53 audit finding: the stated sensitivity calculation could not be
+      accepted as given. Recording both series preserves the original report rather
+      than erasing it and makes the numerical basis of the Referee rulings inspectable.
+      The correction makes frozen-TM-0.50 continuation slightly easier (45 rather
+      than 44 worst-case panels) but retains the hold condition.'
+    previous_value: null
+    new_value: The Curator axes report states low-confidence singleton counts 142,
+      178 and 187 at TM 0.40, 0.50 and 0.60. Recounting retained corrected_full cluster
+      files against the 413-entry ESMFold manifest gives 139, 175 and 184. All subsequent
+      Item 51-53 arithmetic uses the reproducible file counts.
+    previous_measured_by: null
+    new_measured_by: null
