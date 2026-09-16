@@ -428,3 +428,34 @@ elements:
       member having three confident family relatives.'
     previous_measured_by: null
     new_measured_by: null
+- name: Item 52 false-singleton correction floor
+  current_value: 'Reproducible corrected-Foldseek counts: TM 0.40 has 324 clusters
+    and 139 low-confidence ESM singletons; TM 0.50 has 400 and 175; TM 0.60 has 437
+    and 184. At rate 1.00 their floors are 185 (37 panels), 225 (45 panels), and 253
+    (50 panels). At TM 0.50, closing at 210 clusters or fewer requires rate >=190/175
+    = 1.0857, impossible. At TM 0.60, proceeding at 50 panels requires rate <=187/184
+    = 1.0163, always true. At TM 0.40, closing requires rate >=114/139 = 0.8201.'
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Frozen before Gate 1. Amend only after retaining a reproducible
+    replacement Foldseek artifact and a full arithmetic audit.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: 'Item 52 verified against corrected_full Foldseek cluster files, not the
+      report singleton figures: report figures 142/178/187 do not reproduce; files
+      give 139/175/184. This establishes that calibration positions the frozen-TM-0.50
+      result within 45-80 panels rather than deciding survival. It makes continuation
+      more likely than an assumption that a possible false-singleton rate can close
+      TM 0.50, while the 45-panel floor has only three panels above provisional N_min
+      42 and any later loss can close it.'
+    previous_value: null
+    new_value: 'Reproducible corrected-Foldseek counts: TM 0.40 has 324 clusters and
+      139 low-confidence ESM singletons; TM 0.50 has 400 and 175; TM 0.60 has 437
+      and 184. At rate 1.00 their floors are 185 (37 panels), 225 (45 panels), and
+      253 (50 panels). At TM 0.50, closing at 210 clusters or fewer requires rate
+      >=190/175 = 1.0857, impossible. At TM 0.60, proceeding at 50 panels requires
+      rate <=187/184 = 1.0163, always true. At TM 0.40, closing requires rate >=114/139
+      = 0.8201.'
+    previous_measured_by: null
+    new_measured_by: null
