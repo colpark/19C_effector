@@ -12,6 +12,7 @@ retry does not erase the original blocked event.
 | T1.1 | Completed measurements for all five axes in one release | Curator after T1.2-T1.6 inputs are supplied | 2026-09-15 | OPEN |
 | T1.2 | PHI-base release, PEACE curated CSVs, Predector confirmed set, and frozen source versions | Fetcher and PI | 2026-09-15 | RESOLVED 2026-09-15: pinned sources and functionally filtered union are recorded in `docs/assets.md` and `data/positives/` |
 | T1.3 | Union positive FASTA plus runnable structure-prediction and Foldseek services | Curator after T1.2 and Instrument | 2026-09-15 | OPEN |
+| T1.3 sequence-30 | CD-HIT 30% cluster output | Curator | 2026-09-15 | OPEN — `cd-hit -c 0.30 -n 2` exit 1 (`Fatal Error: invalid clstr`); bundled PSI wrapper exit 2 before BLAST (`No input ... psi-cd-hit-local.pl line 149`) |
 | T1.4 | Candidate evidence records and an operational canonical-profile definition | Fetcher, PI, and Curator | 2026-09-15 | RESOLVED 2026-09-15: functional evidence and the frozen canonical profile are recorded per sequence in `data/positives/provenance.tsv` |
 | T1.5 | Publication dates, deposition dates, retained positives, and every subject cutoff | Fetcher and subject-tool owners | 2026-09-15 | OPEN |
 | T1.6 | Species cohort plus in planta RNA-seq, repeat-annotation, and assembly-quality metadata | Fetcher | 2026-09-15 | OPEN |
