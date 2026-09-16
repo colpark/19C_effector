@@ -1,0 +1,31 @@
+{
+  "functional_evidence_counts": {
+    "hypersensitive response assay": 449,
+    "knockout virulence phenotype": 41,
+    "validated host-target interaction": 21
+  },
+  "phibase_requested_fields_absent": [],
+  "q4_tool_independent": {
+    "no": 25,
+    "unknown": 33,
+    "yes": 451
+  },
+  "sources": {
+    "PEACE curated positives": {
+      "candidate_sequences": 921,
+      "removed_sequences": 702,
+      "retained_sequences": 219
+    },
+    "PHI-base": {
+      "candidate_sequences": 462,
+      "removed_sequences": 8,
+      "retained_sequences": 454
+    },
+    "Predector confirmed set": {
+      "candidate_sequences": 289,
+      "removed_sequences": 190,
+      "retained_sequences": 99
+    }
+  },
+  "union_retained_sequences": 509
+}

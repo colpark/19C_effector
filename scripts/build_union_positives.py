@@ -91,8 +91,6 @@ def q4_from_record(entry_kind: str, text: str, experiment: str) -> str:
     combined = f"{entry_kind} {text}".lower()
     if "avirulence" in combined or "map-based" in combined or "forward genetic" in combined:
         return "yes"
-    if experiment == "knockout virulence phenotype":
-        return "yes"
     if any(term in combined for term in ("effectorp", "effhunter", "wideeffhunter",
                                          "small secreted", "cysteine-rich screen")):
         return "no"
@@ -224,7 +222,12 @@ def main() -> int:
     predector_retained = set()
     for row in predector_rows:
         sequence = normalize_sequence(row["sequence"])
-        if not sequence or row["kingdom"] not in {"fungi", "protista"}:
+        try:
+            taxid = int(row.get("taxid", ""))
+        except ValueError:
+            continue
+        if (not sequence
+                or not is_descendant(taxid, {4751, 4762}, parents)):
             continue
         predector_sequences.add(sequence)
         evidence = evidence_from_predector(row)
@@ -251,11 +254,19 @@ def main() -> int:
         "Transient Assay Experimental Evidence", "Interaction phenotype",
         "Tested Host_target", "Year_published", "Full_citation", "Pathogen_species",
     )
+    missing_phi_fields: list[str] = []
     with args.phibase_csv.open(encoding="utf-8-sig", newline="") as handle:
-        for row in csv.DictReader(handle):
-            accession = row["ProteinID"].strip()
+        reader = csv.DictReader(handle)
+        requested_phi_fields = ("ProteinID",) + phi_fields
+        available_phi_fields = set(reader.fieldnames or [])
+        missing_phi_fields = [field for field in requested_phi_fields
+                              if field not in available_phi_fields]
+        for row in reader:
+            accession = row.get("ProteinID", "").strip()
             if accession:
-                phi_by_accession[accession].append({field: row[field] for field in phi_fields})
+                phi_by_accession[accession].append(
+                    {field: row.get(field, "") for field in phi_fields}
+                )
     phi_candidates = set()
     phi_retained = set()
     for header, sequence in read_fasta(args.phibase_fasta):
@@ -340,6 +351,7 @@ def main() -> int:
         fasta_chunks.append(f">{accession}\n{sequence}\n")
         rows.append({
             "accession": accession,
+            "uniprot_accession": uniprot.get("Entry", "") if uniprot else "",
             "source_database": "; ".join(sorted(record["sources"])),
             "source_release": "; ".join(sorted(record["releases"])),
             "organism": "; ".join(sorted(organisms)) or "unknown",
@@ -363,6 +375,7 @@ def main() -> int:
                  for value in ("yes", "no", "unknown")}
     summary = {
         "sources": summaries,
+        "phibase_requested_fields_absent": missing_phi_fields,
         "union_retained_sequences": len(rows),
         "q4_tool_independent": q4_counts,
         "functional_evidence_counts": {
