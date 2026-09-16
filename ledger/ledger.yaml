@@ -372,9 +372,10 @@ elements:
 - name: Item 48 Gate 1 structural supply decision rule
   current_value: 'Conditional on a passing runtime boundary and complete five-axis
     census: close below 42 panels; proceed at 50 or more panels; at 42-49 panels hold—do
-    not build panels or run arms—until independent known-family recovery calibration
-    resolves the inflation correction. N_min=42 and MDE use alpha 0.05, beta 0.20,
-    delta 0.05 and provisional sigma_d 0.115.'
+    not build panels or run arms—unless a distribution-matched ECOD-family calibration
+    has a two-sided 95% Wilson upper false-singleton-rate bound below 150/175 = 0.8571
+    at frozen TM 0.50. N_min=42 and MDE use alpha 0.05, beta 0.20, delta 0.05 and
+    provisional sigma_d 0.115.'
   set_on: '2026-09-16'
   set_by: Referee
   amendment_rule: Frozen before Gate 1. Amend only before any Gate 1 ruling, with
@@ -393,6 +394,29 @@ elements:
       not build panels or run arms—until independent known-family recovery calibration
       resolves the inflation correction. N_min=42 and MDE use alpha 0.05, beta 0.20,
       delta 0.05 and provisional sigma_d 0.115.'
+    previous_measured_by: null
+    new_measured_by: null
+  - date: '2026-09-16'
+    by: Referee
+    reason: Item 53 affirmation and specification of the prewritten 42-49 hold band.
+      The band was written before the singleton sensitivity audit and before both
+      calibration failures. Verified sensitivity shows frozen TM 0.50 spans 45-80
+      panels under rates 1 to 0, so arithmetic alone cannot satisfy the band; a confidence-matched
+      upper-bound calibration may. This is not an acceptance of any realised rate.
+      The refinement makes a successful qualifying calibration sufficient to proceed
+      and hence easier to reach detection review, but does not relax the boundary,
+      census, or N_min requirements.
+    previous_value: 'Conditional on a passing runtime boundary and complete five-axis
+      census: close below 42 panels; proceed at 50 or more panels; at 42-49 panels
+      hold—do not build panels or run arms—until independent known-family recovery
+      calibration resolves the inflation correction. N_min=42 and MDE use alpha 0.05,
+      beta 0.20, delta 0.05 and provisional sigma_d 0.115.'
+    new_value: 'Conditional on a passing runtime boundary and complete five-axis census:
+      close below 42 panels; proceed at 50 or more panels; at 42-49 panels hold—do
+      not build panels or run arms—unless a distribution-matched ECOD-family calibration
+      has a two-sided 95% Wilson upper false-singleton-rate bound below 150/175 =
+      0.8571 at frozen TM 0.50. N_min=42 and MDE use alpha 0.05, beta 0.20, delta
+      0.05 and provisional sigma_d 0.115.'
     previous_measured_by: null
     new_measured_by: null
 - name: Item 51 calibration decision criterion
