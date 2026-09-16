@@ -12,6 +12,9 @@ data/raw/sources/*.tar.gz
 data/raw/sources/*.tsv.gz
 data/raw/tools/*.tar.gz
 data/raw/alphafold/*.pdb
+data/positives/union.fasta-seq/
+data/positives/union.fasta.*-bl.pl
+data/positives/union.fasta.*-bl.sh
 # Run traces are retained in the external run store, not in Git.
 runs/**
 !runs/.gitkeep

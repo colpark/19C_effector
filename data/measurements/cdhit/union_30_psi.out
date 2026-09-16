@@ -1,0 +1,11 @@
+Started Tue Sep 15 21:20:11 EST 2026
+Total seqs 521 in /home/aid1/Documents/3_19C_effector/bench/data/positives/union.fasta
+..........100 finished 100 clusters 100 passed 100/100 clstr/passed 19.19% done 0.09 cpu
+..........200 finished 200 clusters 200 passed 100/100 clstr/passed 38.38% done 0.17 cpu
+..........300 finished 300 clusters 300 passed 100/100 clstr/passed 57.58% done 0.25 cpu
+..........400 finished 400 clusters 400 passed 100/100 clstr/passed 76.77% done 0.34 cpu
+..........500 finished 500 clusters 500 passed 100/100 clstr/passed 95.96% done 0.57 cpu
+..521 finished 521 clusters 521 passed 21/21 clstr/passed 100% done 0.75 cpu
+Completed Tue Sep 15 21:20:23 EST 2026
+
+Total CPUs on remote hosts: 0
