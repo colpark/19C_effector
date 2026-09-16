@@ -48,3 +48,14 @@ distribution; consequently no corrected cohort count, panel count or MDE is supp
   effector folds.
 - All perturbation methods stayed much more confident than the target; their rates
   disagree in scope, not materially in point estimate.
+
+## Attempt 2 — naturally low-confidence ECOD controls
+
+This attempt was specified to avoid degradation entirely: draw an unselected ECOD
+pool, predict first, retain members in the frozen target band only when each has three
+confident ECOD-family members, and require 385 low-confidence members for a worst-case
+95% Wilson half-width no larger than 0.05. It did not begin selection. The official
+ECOD complete-domain endpoint was unreachable (curl exit 7; HTTP fallback 404), and
+PDBe exposes no ECOD mapping endpoint (HTTP 404). SCOP is not a substitute for an
+ECOD-required calibration. The rate and transfer are therefore not estimable; see
+`handoff/w1/natural_low_confidence_calibration.md`.

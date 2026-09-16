@@ -14,3 +14,4 @@ retry does not erase the original blocked event.
 | T1.5 | Publication dates, deposition dates, retained positives, and every subject cutoff | Fetcher and subject-tool owners | 2026-09-15 | OPEN |
 | Block A | Root-authorized change to `kernel.apparmor_restrict_unprivileged_userns`, followed by an unprivileged Bubblewrap uid-map verification; network-enabled Item 30 relaunch still failed | Host sysadmin | 2026-09-15 | OPEN |
 | Block D licence clearance | Human dispatch of the prepared SignalP, TMHMM and Phobius requests and written licensor rulings | PI or project licensing officer, then each licensor | 2026-09-15 | OPEN |
+| Instrument natural low-confidence calibration | Official ECOD complete-domain data to assign families independently before confidence selection; `https://prodata.swmed.edu/ecod/complete/ecod.latest.domains.txt` returned curl exit 7 and HTTP fallback 404; PDBe ECOD mapping returned HTTP 404 | ECOD data service | 2026-09-16 | OPEN |
