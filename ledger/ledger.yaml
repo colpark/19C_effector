@@ -369,3 +369,29 @@ elements:
       0.60 remain sensitivity analyses.
     previous_measured_by: null
     new_measured_by: null
+- name: Item 48 Gate 1 structural supply decision rule
+  current_value: 'Conditional on a passing runtime boundary and complete five-axis
+    census: close below 42 panels; proceed at 50 or more panels; at 42-49 panels hold—do
+    not build panels or run arms—until independent known-family recovery calibration
+    resolves the inflation correction. N_min=42 and MDE use alpha 0.05, beta 0.20,
+    delta 0.05 and provisional sigma_d 0.115.'
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Frozen before Gate 1. Amend only before any Gate 1 ruling, with
+    a stated effect on N, MDE and detectability.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: 'Item 48 preregistration before any arm exists: below N_min the delta
+      0.05 target is not detectable under the stated provisional variance; 50 or more
+      gives a margin above N_min; the narrow intermediate band is too sensitive to
+      unresolved low-confidence singleton inflation to choose proceed or close post
+      hoc.'
+    previous_value: null
+    new_value: 'Conditional on a passing runtime boundary and complete five-axis census:
+      close below 42 panels; proceed at 50 or more panels; at 42-49 panels hold—do
+      not build panels or run arms—until independent known-family recovery calibration
+      resolves the inflation correction. N_min=42 and MDE use alpha 0.05, beta 0.20,
+      delta 0.05 and provisional sigma_d 0.115.'
+    previous_measured_by: null
+    new_measured_by: null
