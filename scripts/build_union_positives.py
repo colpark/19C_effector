@@ -54,6 +54,12 @@ def taxonomy_parents(path: Path) -> dict[int, int]:
         for raw in io.TextIOWrapper(member, encoding="utf-8"):
             fields = [field.strip() for field in raw.split("|")]
             parents[int(fields[0])] = int(fields[1])
+        merged = archive.extractfile("merged.dmp")
+        if merged is None:
+            raise ValueError("NCBI taxdump lacks merged.dmp")
+        for raw in io.TextIOWrapper(merged, encoding="utf-8"):
+            fields = [field.strip() for field in raw.split("|")]
+            parents[int(fields[0])] = int(fields[1])
         return parents
 
 
