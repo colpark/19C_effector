@@ -13,6 +13,7 @@ tmp/
 data/raw/sources/*.tar.gz
 data/raw/sources/*.tsv.gz
 data/raw/tools/*.tar.gz
+vendor/
 data/raw/alphafold/*.pdb
 data/raw/esmfold/*.pdb
 data/positives/union.fasta-seq/
