@@ -1,12 +1,13 @@
 # Asset inventory
 
-Week 0 inventory only. No command below has been executed. Every checksum remains `PENDING` until T0.5 is reopened under an approved fetch stage. Licence-restricted assets must not be substituted silently.
+Week 0 inventory only. No future-fetch command below has been executed. Checksums remain `PENDING` until T0.5 is reopened under an approved fetch stage, except for the supplied PEACE preprint now held locally. Licence-restricted assets must not be substituted silently.
 
 | Asset | Source or repository | Licence status | Future fetch command | Checksum |
 |---|---|---|---|---|
+| PEACE defining preprint | Dai, Lin, Yoo and Liu, bioRxiv DOI `10.64898/2026.04.19.719514`, posted 22 April 2026; local file `docs/papers/peace_2026.pdf` | CC BY-NC-ND 4.0 | Already supplied; no fetch required | `6fa3458d7e9bb2a72827934a7e014cd97e13ef5015820d8cbb2876768b414a48` |
 | PEACE code | https://github.com/Structurebiology-BNL/PEACE | MIT | `git clone https://github.com/Structurebiology-BNL/PEACE.git vendor/PEACE` | PENDING |
-| PEACE served checkpoint | Xin Dai / BNL model release | Permission and redistribution status pending | `python3 scripts/fetch_authorized_asset.py PEACE_CHECKPOINT --instructions` | PENDING |
-| PEACE curated CSVs | Xin Dai / BNL project record | Permission and lineage audit pending | `python3 scripts/fetch_authorized_asset.py PEACE_CURATED_CSVS --instructions` | PENDING |
+| PEACE served checkpoint | Xin Dai / BNL model release; the defining preprint is present but does not resolve the checkpoint artifact | Permission and redistribution status pending | `python3 scripts/fetch_authorized_asset.py PEACE_CHECKPOINT --instructions` | PENDING |
+| PEACE curated CSVs | Xin Dai / BNL project record; the defining preprint is present but does not resolve the underlying data artifacts | Permission and lineage audit pending | `python3 scripts/fetch_authorized_asset.py PEACE_CURATED_CSVS --instructions` | PENDING |
 | Predector source and workflow | https://github.com/ccdmb/predector | Open-source components; inspect per-tool licences | `git clone https://github.com/ccdmb/predector.git vendor/predector` | PENDING |
 | Predector container | Predector release/container registry | Confirm image and embedded-tool licences. `<PINNED_TAG>` remains unresolved because the source documents name no release tag; T3.2 must pin it after licence review. | `docker pull ghcr.io/ccdmb/predector:<PINNED_TAG>` | PENDING |
 | Predector confirmed effector set | Predector publication supplements | Source citation required | `python3 scripts/fetch_authorized_asset.py PREDECTOR_CONFIRMED_SET --instructions` | PENDING |
