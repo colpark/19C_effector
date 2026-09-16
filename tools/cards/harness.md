@@ -22,9 +22,9 @@ The authoring harness is intentionally recorded as it actually ran. These permis
 ## Rendered role sandbox
 
 All six Codex profiles resolve to `sandbox_mode = "workspace-write"` and
-`trust_level = "untrusted"` for the role worktree. The five panel roles resolve
-`sandbox_workspace_write.network_access = false`; the Fetcher resolves
-`sandbox_workspace_write.network_access = true`. The Fetcher's narrow domain
+`trust_level = "untrusted"` for the role worktree. The Fetcher and the Item 30
+Adversary probe resolve `sandbox_workspace_write.network_access = true`; the
+other four roles resolve it to `false`. The Fetcher's narrow domain
 allowlist is represented in the Claude profile; Codex 0.154.0 exposes a Boolean
 workspace-write network setting rather than the rendered domain allowlist. All
 six Claude settings resolve `sandbox.enabled = true`,

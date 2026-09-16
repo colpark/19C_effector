@@ -15,7 +15,7 @@ retry does not erase the original blocked event.
 | T1.4 | Candidate evidence records and an operational canonical-profile definition | Fetcher, PI, and Curator | 2026-09-15 | OPEN |
 | T1.5 | Publication dates, deposition dates, retained positives, and every subject cutoff | Fetcher and subject-tool owners | 2026-09-15 | OPEN |
 | T1.6 | Species cohort plus in planta RNA-seq, repeat-annotation, and assembly-quality metadata | Fetcher | 2026-09-15 | OPEN |
-| Block A | Root-authorized change to `kernel.apparmor_restrict_unprivileged_userns`, followed by an unprivileged namespace verification | Host sysadmin | 2026-09-15 | OPEN |
+| Block A | Root-authorized change to `kernel.apparmor_restrict_unprivileged_userns`, followed by an unprivileged Bubblewrap uid-map verification; network-enabled Item 30 relaunch still failed | Host sysadmin | 2026-09-15 | OPEN |
 | Block B production scoring | Numeric ledger values for S and repair budget, plus ledger elements alpha and beta required by the plan's N_min and MDE formulas | Referee, after T4.3 for S and repair budget and T2.5 for power parameters | 2026-09-15 | OPEN |
 | Block C production floor statistics | Numeric ledger C plus alpha and beta; current C is MEASURE and alpha and beta are absent | Floor supplies T2.4/T2.5 measurements; Referee appends them to the ledger | 2026-09-15 | OPEN |
 | Block D licence clearance | Human dispatch of the prepared SignalP, TMHMM and Phobius requests and written licensor rulings | PI or project licensing officer, then each licensor | 2026-09-15 | OPEN |
