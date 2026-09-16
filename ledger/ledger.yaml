@@ -78,11 +78,33 @@ elements:
 - name: cohort stratification
   current_value: Every panel is stratified by whether its planted positive satisfies
     the canonical small, secreted, cysteine-rich profile, and the stratum is recorded
-    in the panel manifest.
+    in the panel manifest. At T5.2, using the frozen NCBI taxonomy snapshot, no NCBI
+    order may supply more than 25% of planted positives across the scored panels;
+    the panel manifest records the order. Structural clusters remain disjoint and
+    decoys remain from the same organism.
   set_on: '2026-09-15'
-  set_by: task-fitness note
+  set_by: Referee
   amendment_rule: Frozen before T5.2.
-  amendments: []
+  amendments:
+  - date: '2026-09-15'
+    by: Referee
+    reason: 'Item 45 ruling: approximately one third of the verified cohort is in
+      the smut order (Ustilago maydis 95 plus Sporisorium reilianum 74 = 169 of 521,
+      32.4%). Add a numerical taxon-diversity cap alongside the already frozen profile
+      stratification to prevent concentrated construction. Changing it later changes
+      the construction population and invalidates comparability of the T5.2 panel
+      series.'
+    previous_value: Every panel is stratified by whether its planted positive satisfies
+      the canonical small, secreted, cysteine-rich profile, and the stratum is recorded
+      in the panel manifest.
+    new_value: Every panel is stratified by whether its planted positive satisfies
+      the canonical small, secreted, cysteine-rich profile, and the stratum is recorded
+      in the panel manifest. At T5.2, using the frozen NCBI taxonomy snapshot, no
+      NCBI order may supply more than 25% of planted positives across the scored panels;
+      the panel manifest records the order. Structural clusters remain disjoint and
+      decoys remain from the same organism.
+    previous_measured_by: null
+    new_measured_by: null
 - name: alpha
   current_value: 0.05
   set_on: '2026-09-15'
@@ -98,7 +120,7 @@ elements:
     previous_measured_by: null
     new_measured_by: null
 - name: beta
-  current_value: 0.20
+  current_value: 0.2
   set_on: '2026-09-15'
   set_by: Referee
   amendment_rule: Frozen before power calculations.
@@ -108,7 +130,7 @@ elements:
     reason: a conventional decision was encoded as a measurement, which deadlocked
       the scorer and the floor.
     previous_value: null
-    new_value: 0.20
+    new_value: 0.2
     previous_measured_by: null
     new_measured_by: null
 - name: positives_per_panel
@@ -154,7 +176,8 @@ elements:
     previous_measured_by: null
     new_measured_by: null
 - name: H_estimator
-  current_value: leave-one-item-out cross-fitted, in-sample reported beside it
+  current_value: per-item leave-one-item-out cross-fitted global oracle versus global
+    fit; report in-sample contrast beside it; no grouping variable
   set_on: '2026-09-15'
   set_by: Referee
   amendment_rule: Frozen before the headroom test.
@@ -167,8 +190,19 @@ elements:
     new_value: leave-one-item-out cross-fitted, in-sample reported beside it
     previous_measured_by: null
     new_measured_by: null
+  - date: '2026-09-15'
+    by: Referee
+    reason: 'Item 42 ruling: replace the unfittable per-lifestyle oracle with a grouping-free
+      per-item leave-one-item-out estimator. It prevents small-cell and missing-bucket
+      flexibility from inflating H, so H is harder to detect. A later change would
+      change H, Gate 2, and the continuation decision for the project.'
+    previous_value: leave-one-item-out cross-fitted, in-sample reported beside it
+    new_value: per-item leave-one-item-out cross-fitted global oracle versus global
+      fit; report in-sample contrast beside it; no grouping variable
+    previous_measured_by: null
+    new_measured_by: null
 - name: weight_group_field
-  current_value: lifestyle
+  current_value: none; per-item leave-one-item-out cross-fit
   set_on: '2026-09-15'
   set_by: Referee
   amendment_rule: Frozen before the headroom test.
@@ -181,30 +215,112 @@ elements:
     new_value: lifestyle
     previous_measured_by: null
     new_measured_by: null
+  - date: '2026-09-15'
+    by: Referee
+    reason: 'Item 42 ruling after provenance verification: lifestyle counts are hemibiotroph
+      186, biotroph 163, unknown 160, and necrotroph 12. Unknown is a missing-data
+      bucket and necrotroph is too small for group-specific oracle fitting. Drop group
+      weights in favor of a per-item leave-one-item-out fit with no grouping. This
+      is more conservative and makes H harder, not easier, to detect; changing it
+      later would change H, the Gate 2 decision, and thus whether the project continues.'
+    previous_value: lifestyle
+    new_value: none; per-item leave-one-item-out cross-fit
+    previous_measured_by: null
+    new_measured_by: null
 - name: canonical_profile_definition
-  current_value: sequence length at most 300 amino acids AND at least 4 cysteine residues AND no pinned source record explicitly identifies non-classical secretion
+  current_value: sequence length at most 300 amino acids AND at least 4 cysteine residues
+    AND no pinned source record explicitly identifies non-classical secretion
   set_on: '2026-09-15'
   set_by: Curator
   amendment_rule: Frozen before canonical and non-canonical stratum sizes are counted.
   citations:
   - threshold: sequence length at most 300 amino acids
-    source: Sperschneider et al. 2018, EffectorP 2.0, Molecular Plant Pathology 19:2094-2110, doi:10.1111/mpp.12682
+    source: Sperschneider et al. 2018, EffectorP 2.0, Molecular Plant Pathology 19:2094-2110,
+      doi:10.1111/mpp.12682
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6638006/
   - threshold: at least 4 cysteine residues
-    source: Sperschneider et al. 2018, EffectorP 2.0, Molecular Plant Pathology 19:2094-2110, doi:10.1111/mpp.12682
+    source: Sperschneider et al. 2018, EffectorP 2.0, Molecular Plant Pathology 19:2094-2110,
+      doi:10.1111/mpp.12682
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6638006/
   amendments:
   - date: '2026-09-15'
     by: Curator
-    reason: Operationalize the frozen small, secreted, cysteine-rich stratification before observing stratum sizes.
+    reason: Operationalize the frozen small, secreted, cysteine-rich stratification
+      before observing stratum sizes.
     previous_value: null
     new_value: sequence length at most 300 amino acids AND at least 4 cysteine residues
     previous_measured_by: null
     new_measured_by: null
   - date: '2026-09-15'
     by: Curator
-    reason: The prespecified exception check found that the numeric-only rule called FolSix12 and BgtAVRa10 canonical despite pinned source records explicitly identifying non-classical secretion.
-    previous_value: sequence length at most 300 amino acids AND at least 4 cysteine residues
-    new_value: sequence length at most 300 amino acids AND at least 4 cysteine residues AND no pinned source record explicitly identifies non-classical secretion
+    reason: The prespecified exception check found that the numeric-only rule called
+      FolSix12 and BgtAVRa10 canonical despite pinned source records explicitly identifying
+      non-classical secretion.
+    previous_value: sequence length at most 300 amino acids AND at least 4 cysteine
+      residues
+    new_value: sequence length at most 300 amino acids AND at least 4 cysteine residues
+      AND no pinned source record explicitly identifies non-classical secretion
+    previous_measured_by: null
+    new_measured_by: null
+- name: contamination/post-cutoff stratum
+  current_value: 'Measured empty: 0 of 521 positives have publication_year later than
+    2025; D1 live cohort refresh is required before Condition 3 can be evaluated.'
+  set_on: '2026-09-15'
+  set_by: Referee
+  amendment_rule: Frozen before results; may change only through a dated live-cohort
+    refresh under the frozen ingestion rules.
+  amendments:
+  - date: '2026-09-15'
+    by: Referee
+    reason: 'Item 43 ruling after provenance verification: the table has no dedicated
+      cutoff field; publication_year is the available static date field and yields
+      zero records after 2025 (13 in 2025). The stratum is empty, not merely small,
+      so D1 refresh is required rather than recommended.'
+    previous_value: null
+    new_value: 'Measured empty: 0 of 521 positives have publication_year later than
+      2025; D1 live cohort refresh is required before Condition 3 can be evaluated.'
+    previous_measured_by: null
+    new_measured_by: null
+- name: post-cutoff claim boundary
+  current_value: Without a nonempty post-cutoff stratum, the benchmark may claim performance
+    only on the frozen pre-cutoff/static cohort; it may not claim post-cutoff generalization,
+    prospective validity, or satisfaction of Condition 3.
+  set_on: '2026-09-15'
+  set_by: Referee
+  amendment_rule: Frozen before results; may be amended only after D1 establishes
+    a dated, nonempty post-cutoff vintage under frozen rules.
+  amendments:
+  - date: '2026-09-15'
+    by: Referee
+    reason: 'Item 43 preregistered claim boundary: an empty measured post-cutoff stratum
+      cannot support prospective or post-cutoff claims. This boundary is fixed before
+      any result exists and is not available for revision in the discussion section.'
+    previous_value: null
+    new_value: Without a nonempty post-cutoff stratum, the benchmark may claim performance
+      only on the frozen pre-cutoff/static cohort; it may not claim post-cutoff generalization,
+      prospective validity, or satisfaction of Condition 3.
+    previous_measured_by: null
+    new_measured_by: null
+- name: tool-dependent label handling
+  current_value: Exclude q4_tool_independent=no (29) and unknown (35) positives from
+    all primary panels; retain them as a separately reported, flagged 64-item sensitivity
+    cohort only.
+  set_on: '2026-09-15'
+  set_by: Referee
+  amendment_rule: Frozen before T5.2; any change requires a new ledger amendment and
+    separately reported panel series.
+  amendments:
+  - date: '2026-09-15'
+    by: Referee
+    reason: 'Item 44 ruling after provenance verification: q4_tool_independent is
+      yes 457, no 29, unknown 35. The 64 no/unknown labels do not establish that the
+      measurement would exist without the tools under test; including them in primary
+      panels would violate Constitution clause 4. A later change would alter panel
+      eligibility and invalidate comparability of the primary result and its clause-4
+      guarantee.'
+    previous_value: null
+    new_value: Exclude q4_tool_independent=no (29) and unknown (35) positives from
+      all primary panels; retain them as a separately reported, flagged 64-item sensitivity
+      cohort only.
     previous_measured_by: null
     new_measured_by: null

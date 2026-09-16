@@ -53,6 +53,45 @@ def amend(path: Path, element_name: str, value: str, reason: str, date: str, aut
             os.unlink(temporary)
 
 
+def register(path: Path, element_name: str, value: str, reason: str, date: str,
+             author: str, amendment_rule: str, measured_by: str | None = None) -> None:
+    """Append a new ledger element with its initial value recorded as an amendment."""
+    if author != "Referee":
+        raise ValueError("only Referee may amend the ledger")
+    if not amendment_rule:
+        raise ValueError("new ledger elements require an amendment rule")
+    if value == "MEASURE" and not measured_by:
+        raise ValueError("MEASURE amendments require --measured-by")
+    if value != "MEASURE" and measured_by:
+        raise ValueError("--measured-by is only valid when --value MEASURE")
+    data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    if any(item.get("name") == element_name for item in data.get("elements", [])):
+        raise ValueError(f"ledger element already exists: {element_name!r}")
+    item = {
+        "name": element_name,
+        "current_value": value,
+        "set_on": date,
+        "set_by": author,
+        "amendment_rule": amendment_rule,
+        "amendments": [{
+            "date": date, "by": author, "reason": reason,
+            "previous_value": None, "new_value": value,
+            "previous_measured_by": None, "new_measured_by": measured_by,
+        }],
+    }
+    if measured_by:
+        item["measured_by"] = measured_by
+    data.setdefault("elements", []).append(item)
+    fd, temporary = tempfile.mkstemp(prefix=path.name, suffix=".tmp", dir=path.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as handle:
+            yaml.safe_dump(data, handle, sort_keys=False, allow_unicode=True)
+        os.replace(temporary, path)
+    finally:
+        if os.path.exists(temporary):
+            os.unlink(temporary)
+
+
 def self_test() -> int:
     source = ROOT / "ledger/ledger.yaml"
     with tempfile.TemporaryDirectory() as td:
@@ -79,15 +118,25 @@ def main() -> int:
     parser.add_argument("--date")
     parser.add_argument("--by", dest="author", default="Referee")
     parser.add_argument("--measured-by")
+    parser.add_argument("--new-element", action="store_true")
+    parser.add_argument("--amendment-rule")
     parser.add_argument("--self-test", action="store_true")
     args = parser.parse_args()
     if args.self_test:
         return self_test()
     if not all((args.element, args.value, args.reason, args.date)):
         parser.error("--element, --value, --reason and --date are required")
+    if args.new_element and not args.amendment_rule:
+        parser.error("--new-element requires --amendment-rule")
+    if not args.new_element and args.amendment_rule:
+        parser.error("--amendment-rule requires --new-element")
     try:
-        amend(args.ledger, args.element, args.value, args.reason, args.date, args.author,
-              args.measured_by)
+        if args.new_element:
+            register(args.ledger, args.element, args.value, args.reason, args.date,
+                     args.author, args.amendment_rule, args.measured_by)
+        else:
+            amend(args.ledger, args.element, args.value, args.reason, args.date,
+                  args.author, args.measured_by)
     except (OSError, ValueError, yaml.YAMLError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 1
