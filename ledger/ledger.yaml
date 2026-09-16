@@ -105,6 +105,102 @@ elements:
       decoys remain from the same organism.
     previous_measured_by: null
     new_measured_by: null
+- name: Item 65 Item 48 hold-band ruling
+  current_value: 'Not satisfied. At frozen TM 0.50, the preregistered false-singleton
+    Wilson upper bound is 8/9 = 0.9801, above 0.8571. The Instrument additionally
+    reports a baseline-subtracted excess upper bound of 0.7000, but Item 51 and its
+    retained pre-result amendment chain do not name baseline subtraction as the
+    criterion. It cannot be substituted after measurement. The resulting 277.5--400
+    cluster (55--80 panel) range is descriptive sensitivity only; Item 48 remains
+    on hold and Gate 1 may not proceed on structural supply.'
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Frozen after the calibration result. Amend only to correct a retained
+    pre-result ledger record or with a new independent preregistered calibration.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: 'Item 65 verified the retained inputs: low false-singleton 8/9, Wilson
+      upper .980109; confident baseline 6/11; baseline-subtracted point excess .343434
+      and conservative upper .700018; corrected supply 277.5--400 clusters / 55--80
+      panels. The requested assertion that Item 51 named baseline-subtracted excess
+      before measurement is not supported by the ledger: it names the resulting
+      false-singleton rate and Wilson upper bound, but never baseline subtraction.
+      Accepting .700018 would therefore choose the estimator after its result. The
+      n=9 / seven-cluster sample is concentrated in sister smut genera (7/9) and has
+      one canonical member despite 47 canonical target singletons; its identity-relative
+      label is easier to join than a fold family and biases excess downward. A balanced
+      calibration could plausibly raise the excess, so using it to proceed would be
+      optimistic, not conservative. This ruling makes effect detection harder by
+      retaining the preregistered hold rather than adopting the more favourable post hoc reading.'
+    previous_value: null
+    new_value: 'Not satisfied. At frozen TM 0.50, the preregistered false-singleton
+      Wilson upper bound is 8/9 = 0.9801, above 0.8571. The Instrument additionally
+      reports a baseline-subtracted excess upper bound of 0.7000, but Item 51 and its
+      retained pre-result amendment chain do not name baseline subtraction as the
+      criterion. It cannot be substituted after measurement. The resulting 277.5--400
+      cluster (55--80 panel) range is descriptive sensitivity only; Item 48 remains
+      on hold and Gate 1 may not proceed on structural supply.'
+    previous_measured_by: null
+    new_measured_by: null
+- name: Item 66 structural evidence quality
+  current_value: 'Of 413 ESMFold predictions, 189 (45.8%) have mean pLDDT <0.50,
+    129 (31.2%) are 0.50--<0.70, 81 (19.6%) are 0.70--<0.90, and 14 (3.4%) are
+    >=0.90; only 95 (23.0%) meet the conventional >=0.70 confidence bar. At frozen
+    TM 0.50, the confident-relative baseline false-singleton rate is 6/11 (54.5%).
+    The structural channel is therefore noisy for per-item structural evidence rather
+    than reliable. This affects T2.4 channel count and any per-item structural-evidence
+    claim; it does not alter the Item-65 supply ruling, whose raw false-singleton
+    criterion is distinct from channel reliability.'
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Amend only after a retained rerun over a declared replacement structural
+    model set and an independently specified reliability diagnostic.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: 'Item 66 independently recounted the ESMFold manifest and the in-cohort
+      calibration. Standard pLDDT interpretation makes <.50 likely disorder and
+      .50--<.70 low confidence, so 318/413 predictions would not conventionally be
+      acted on. Baseline splitting of sequence relatives even among >=.50 models is
+      direct evidence of structural-channel noise. Recording the separation prevents
+      later use of the supply arithmetic as an evidence-quality claim.'
+    previous_value: null
+    new_value: 'Of 413 ESMFold predictions, 189 (45.8%) have mean pLDDT <0.50,
+      129 (31.2%) are 0.50--<0.70, 81 (19.6%) are 0.70--<0.90, and 14 (3.4%) are
+      >=0.90; only 95 (23.0%) meet the conventional >=0.70 confidence bar. At frozen
+      TM 0.50, the confident-relative baseline false-singleton rate is 6/11 (54.5%).
+      The structural channel is therefore noisy for per-item structural evidence rather
+      than reliable. This affects T2.4 channel count and any per-item structural-evidence
+      claim; it does not alter the Item-65 supply ruling, whose raw false-singleton
+      criterion is distinct from channel reliability.'
+    previous_measured_by: null
+    new_measured_by: null
+- name: Item 67 structural channel expectation
+  current_value: 'Before T2.4 ablation, expect the structural channel to add no reliable
+    fixed-mechanical-ensemble contribution. It fails if removing it leaves the prespecified
+    primary metric within its equivalence margin or improves it, or if its contribution
+    cannot be computed for a material item subset because of the 600-residue, non-standard
+    residue, or reliability limits. This is an expectation, not an observed ablation result.'
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Frozen before T2.4. Amend only with a pre-ablation correction to the
+    stated metric or equivalence margin; never after observing ablation results.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: 'Item 67 is preregistered from Item 66 before any T2.4 ablation: a channel
+      that splits 6/11 confident sequence relatives may add nothing or noise. The
+      stated failure result makes the later ablation a test rather than a rationalisation.
+      This expectation makes continuation through a structural-channel claim harder.'
+    previous_value: null
+    new_value: 'Before T2.4 ablation, expect the structural channel to add no reliable
+      fixed-mechanical-ensemble contribution. It fails if removing it leaves the prespecified
+      primary metric within its equivalence margin or improves it, or if its contribution
+      cannot be computed for a material item subset because of the 600-residue, non-standard
+      residue, or reliability limits. This is an expectation, not an observed ablation result.'
+    previous_measured_by: null
+    new_measured_by: null
 - name: Item 61 in-cohort sequence-relative calibration label
   current_value: 'Admissible calibration family label: membership in the frozen MMseqs2
     30%-identity sequence cluster. Eligible low-confidence ESMFold members (<0.50
