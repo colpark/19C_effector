@@ -26,7 +26,7 @@ if [[ $# -eq 3 ]]; then
 fi
 
 root=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
-settings="$root/.role-access/.claude/settings.$role.json"
+settings="$root/build/access/$role/.claude/settings.$role.json"
 failures=0
 
 fail() {
@@ -48,7 +48,8 @@ jq -e '.sandbox.allowUnsandboxedCommands == false' "$settings" >/dev/null \
 # A standalone clone has no union-tree path to use as an outside-boundary read
 # target. Clone absence controls secrets but cannot attest a process sandbox.
 role_root=$(jq -r '.sandbox.filesystem.allowRead[0]' "$settings")
-[[ $role_root == "$root" ]] || fail "standalone clone root differs from allowRead root"
+expected_role_root="$(cd "$root/.." && pwd)/role_clones/$role"
+[[ $role_root == "$expected_role_root" ]] || fail "standalone clone root differs from expected clone root"
 fail "T1 UNMEASURABLE: path absence is not a running process sandbox"
 
 mapfile -t denied_paths < <(jq -r '.sandbox.filesystem.denyRead[]' "$settings")

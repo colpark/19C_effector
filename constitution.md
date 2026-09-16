@@ -13,3 +13,4 @@
 11. Arms differ only in grant. Verify every grant from the model's side.
 12. Preregistered values live in the ledger. Reports read the ledger rather than restating it.
 13. A blocked item is recorded in `handoff/gate0/blocked.md` before the session ends, and silence is not a report.
+14. A failure whose remedy requires no privilege and no outside party is a task, not a block. `blocked.md` holds only entries with an external holder.
