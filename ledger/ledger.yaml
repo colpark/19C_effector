@@ -106,13 +106,13 @@ elements:
     previous_measured_by: null
     new_measured_by: null
 - name: Item 65 Item 48 hold-band ruling
-  current_value: 'Not satisfied. At frozen TM 0.50, the preregistered false-singleton
+  current_value: Not satisfied. At frozen TM 0.50, the preregistered false-singleton
     Wilson upper bound is 8/9 = 0.9801, above 0.8571. The Instrument additionally
     reports a baseline-subtracted excess upper bound of 0.7000, but Item 51 and its
-    retained pre-result amendment chain do not name baseline subtraction as the
-    criterion. It cannot be substituted after measurement. The resulting 277.5--400
-    cluster (55--80 panel) range is descriptive sensitivity only; Item 48 remains
-    on hold and Gate 1 may not proceed on structural supply.'
+    retained pre-result amendment chain do not name baseline subtraction as the criterion.
+    It cannot be substituted after measurement. The resulting 277.5--400 cluster (55--80
+    panel) range is descriptive sensitivity only; Item 48 remains on hold and Gate
+    1 may not proceed on structural supply.
   set_on: '2026-09-16'
   set_by: Referee
   amendment_rule: Frozen after the calibration result. Amend only to correct a retained
@@ -124,34 +124,34 @@ elements:
       upper .980109; confident baseline 6/11; baseline-subtracted point excess .343434
       and conservative upper .700018; corrected supply 277.5--400 clusters / 55--80
       panels. The requested assertion that Item 51 named baseline-subtracted excess
-      before measurement is not supported by the ledger: it names the resulting
-      false-singleton rate and Wilson upper bound, but never baseline subtraction.
-      Accepting .700018 would therefore choose the estimator after its result. The
-      n=9 / seven-cluster sample is concentrated in sister smut genera (7/9) and has
-      one canonical member despite 47 canonical target singletons; its identity-relative
-      label is easier to join than a fold family and biases excess downward. A balanced
-      calibration could plausibly raise the excess, so using it to proceed would be
-      optimistic, not conservative. This ruling makes effect detection harder by
-      retaining the preregistered hold rather than adopting the more favourable post hoc reading.'
+      before measurement is not supported by the ledger: it names the resulting false-singleton
+      rate and Wilson upper bound, but never baseline subtraction. Accepting .700018
+      would therefore choose the estimator after its result. The n=9 / seven-cluster
+      sample is concentrated in sister smut genera (7/9) and has one canonical member
+      despite 47 canonical target singletons; its identity-relative label is easier
+      to join than a fold family and biases excess downward. A balanced calibration
+      could plausibly raise the excess, so using it to proceed would be optimistic,
+      not conservative. This ruling makes effect detection harder by retaining the
+      preregistered hold rather than adopting the more favourable post hoc reading.'
     previous_value: null
-    new_value: 'Not satisfied. At frozen TM 0.50, the preregistered false-singleton
+    new_value: Not satisfied. At frozen TM 0.50, the preregistered false-singleton
       Wilson upper bound is 8/9 = 0.9801, above 0.8571. The Instrument additionally
-      reports a baseline-subtracted excess upper bound of 0.7000, but Item 51 and its
-      retained pre-result amendment chain do not name baseline subtraction as the
-      criterion. It cannot be substituted after measurement. The resulting 277.5--400
+      reports a baseline-subtracted excess upper bound of 0.7000, but Item 51 and
+      its retained pre-result amendment chain do not name baseline subtraction as
+      the criterion. It cannot be substituted after measurement. The resulting 277.5--400
       cluster (55--80 panel) range is descriptive sensitivity only; Item 48 remains
-      on hold and Gate 1 may not proceed on structural supply.'
+      on hold and Gate 1 may not proceed on structural supply.
     previous_measured_by: null
     new_measured_by: null
 - name: Item 66 structural evidence quality
-  current_value: 'Of 413 ESMFold predictions, 189 (45.8%) have mean pLDDT <0.50,
-    129 (31.2%) are 0.50--<0.70, 81 (19.6%) are 0.70--<0.90, and 14 (3.4%) are
-    >=0.90; only 95 (23.0%) meet the conventional >=0.70 confidence bar. At frozen
-    TM 0.50, the confident-relative baseline false-singleton rate is 6/11 (54.5%).
-    The structural channel is therefore noisy for per-item structural evidence rather
-    than reliable. This affects T2.4 channel count and any per-item structural-evidence
-    claim; it does not alter the Item-65 supply ruling, whose raw false-singleton
-    criterion is distinct from channel reliability.'
+  current_value: Of 413 ESMFold predictions, 189 (45.8%) have mean pLDDT <0.50, 129
+    (31.2%) are 0.50--<0.70, 81 (19.6%) are 0.70--<0.90, and 14 (3.4%) are >=0.90;
+    only 95 (23.0%) meet the conventional >=0.70 confidence bar. At frozen TM 0.50,
+    the confident-relative baseline false-singleton rate is 6/11 (54.5%). The structural
+    channel is therefore noisy for per-item structural evidence rather than reliable.
+    This affects T2.4 channel count and any per-item structural-evidence claim; it
+    does not alter the Item-65 supply ruling, whose raw false-singleton criterion
+    is distinct from channel reliability.
   set_on: '2026-09-16'
   set_by: Referee
   amendment_rule: Amend only after a retained rerun over a declared replacement structural
@@ -159,33 +159,34 @@ elements:
   amendments:
   - date: '2026-09-16'
     by: Referee
-    reason: 'Item 66 independently recounted the ESMFold manifest and the in-cohort
-      calibration. Standard pLDDT interpretation makes <.50 likely disorder and
-      .50--<.70 low confidence, so 318/413 predictions would not conventionally be
-      acted on. Baseline splitting of sequence relatives even among >=.50 models is
-      direct evidence of structural-channel noise. Recording the separation prevents
-      later use of the supply arithmetic as an evidence-quality claim.'
+    reason: Item 66 independently recounted the ESMFold manifest and the in-cohort
+      calibration. Standard pLDDT interpretation makes <.50 likely disorder and .50--<.70
+      low confidence, so 318/413 predictions would not conventionally be acted on.
+      Baseline splitting of sequence relatives even among >=.50 models is direct evidence
+      of structural-channel noise. Recording the separation prevents later use of
+      the supply arithmetic as an evidence-quality claim.
     previous_value: null
-    new_value: 'Of 413 ESMFold predictions, 189 (45.8%) have mean pLDDT <0.50,
-      129 (31.2%) are 0.50--<0.70, 81 (19.6%) are 0.70--<0.90, and 14 (3.4%) are
-      >=0.90; only 95 (23.0%) meet the conventional >=0.70 confidence bar. At frozen
-      TM 0.50, the confident-relative baseline false-singleton rate is 6/11 (54.5%).
-      The structural channel is therefore noisy for per-item structural evidence rather
-      than reliable. This affects T2.4 channel count and any per-item structural-evidence
-      claim; it does not alter the Item-65 supply ruling, whose raw false-singleton
-      criterion is distinct from channel reliability.'
+    new_value: Of 413 ESMFold predictions, 189 (45.8%) have mean pLDDT <0.50, 129
+      (31.2%) are 0.50--<0.70, 81 (19.6%) are 0.70--<0.90, and 14 (3.4%) are >=0.90;
+      only 95 (23.0%) meet the conventional >=0.70 confidence bar. At frozen TM 0.50,
+      the confident-relative baseline false-singleton rate is 6/11 (54.5%). The structural
+      channel is therefore noisy for per-item structural evidence rather than reliable.
+      This affects T2.4 channel count and any per-item structural-evidence claim;
+      it does not alter the Item-65 supply ruling, whose raw false-singleton criterion
+      is distinct from channel reliability.
     previous_measured_by: null
     new_measured_by: null
 - name: Item 67 structural channel expectation
-  current_value: 'Before T2.4 ablation, expect the structural channel to add no reliable
+  current_value: Before T2.4 ablation, expect the structural channel to add no reliable
     fixed-mechanical-ensemble contribution. It fails if removing it leaves the prespecified
     primary metric within its equivalence margin or improves it, or if its contribution
     cannot be computed for a material item subset because of the 600-residue, non-standard
-    residue, or reliability limits. This is an expectation, not an observed ablation result.'
+    residue, or reliability limits. This is an expectation, not an observed ablation
+    result.
   set_on: '2026-09-16'
   set_by: Referee
-  amendment_rule: Frozen before T2.4. Amend only with a pre-ablation correction to the
-    stated metric or equivalence margin; never after observing ablation results.
+  amendment_rule: Frozen before T2.4. Amend only with a pre-ablation correction to
+    the stated metric or equivalence margin; never after observing ablation results.
   amendments:
   - date: '2026-09-16'
     by: Referee
@@ -194,11 +195,12 @@ elements:
       stated failure result makes the later ablation a test rather than a rationalisation.
       This expectation makes continuation through a structural-channel claim harder.'
     previous_value: null
-    new_value: 'Before T2.4 ablation, expect the structural channel to add no reliable
+    new_value: Before T2.4 ablation, expect the structural channel to add no reliable
       fixed-mechanical-ensemble contribution. It fails if removing it leaves the prespecified
       primary metric within its equivalence margin or improves it, or if its contribution
       cannot be computed for a material item subset because of the 600-residue, non-standard
-      residue, or reliability limits. This is an expectation, not an observed ablation result.'
+      residue, or reliability limits. This is an expectation, not an observed ablation
+      result.
     previous_measured_by: null
     new_measured_by: null
 - name: Item 61 in-cohort sequence-relative calibration label
@@ -208,12 +210,12 @@ elements:
     direct in-cohort measurement, not an external-family transfer. Sequence clusters
     are narrower than structural families, and a sequence relative is easier to join;
     the false-singleton rate is therefore biased downward in the direction favouring
-    continuation. Every downstream corrected rate, clusters, panels_max, MDE and
-    Item-48 statement must carry that bias.'
+    continuation. Every downstream corrected rate, clusters, panels_max, MDE and Item-48
+    statement must carry that bias.'
   set_on: '2026-09-16'
   set_by: Referee
-  amendment_rule: Frozen before the in-cohort Foldseek measurement. Amend only with a
-    retained demonstration that the ruled sequence relation is not predictor-independent.
+  amendment_rule: Frozen before the in-cohort Foldseek measurement. Amend only with
+    a retained demonstration that the ruled sequence relation is not predictor-independent.
   amendments:
   - date: '2026-09-16'
     by: Referee
@@ -228,24 +230,24 @@ elements:
     previous_value: null
     new_value: 'Admissible calibration family label: membership in the frozen MMseqs2
       30%-identity sequence cluster. Eligible low-confidence ESMFold members (<0.50
-      mean pLDDT) require at least one >=0.50 member in that same cluster. This is a
-      direct in-cohort measurement, not an external-family transfer. Sequence clusters
-      are narrower than structural families, and a sequence relative is easier to join;
-      the false-singleton rate is therefore biased downward in the direction favouring
-      continuation. Every downstream corrected rate, clusters, panels_max, MDE and
-      Item-48 statement must carry that bias.'
+      mean pLDDT) require at least one >=0.50 member in that same cluster. This is
+      a direct in-cohort measurement, not an external-family transfer. Sequence clusters
+      are narrower than structural families, and a sequence relative is easier to
+      join; the false-singleton rate is therefore biased downward in the direction
+      favouring continuation. Every downstream corrected rate, clusters, panels_max,
+      MDE and Item-48 statement must carry that bias.'
     previous_measured_by: null
     new_measured_by: null
 - name: Item 62 in-cohort relative condition
-  current_value: 'One confident same-MMseqs2-30%-identity-cluster relative is required
+  current_value: One confident same-MMseqs2-30%-identity-cluster relative is required
     for each low-confidence member. The former three-relative rule is retired only
     for this narrower sequence-relative label. The resulting rate means failure to
     join an available confident sequence relative, not failure to recover a structural
-    family.'
+    family.
   set_on: '2026-09-16'
   set_by: Referee
-  amendment_rule: Frozen before the in-cohort Foldseek measurement. Amend only with a
-    retained pre-result reason about the relation being tested, not its sample size.
+  amendment_rule: Frozen before the in-cohort Foldseek measurement. Amend only with
+    a retained pre-result reason about the relation being tested, not its sample size.
   amendments:
   - date: '2026-09-16'
     by: Referee
@@ -256,11 +258,11 @@ elements:
       members and would answer no broader question. The relaxation changes the estimand
       and its downward bias, both recorded in Item 61.'
     previous_value: null
-    new_value: 'One confident same-MMseqs2-30%-identity-cluster relative is required
+    new_value: One confident same-MMseqs2-30%-identity-cluster relative is required
       for each low-confidence member. The former three-relative rule is retired only
-      for this narrower sequence-relative label. The resulting rate means failure to
-      join an available confident sequence relative, not failure to recover a structural
-      family.'
+      for this narrower sequence-relative label. The resulting rate means failure
+      to join an available confident sequence relative, not failure to recover a structural
+      family.
     previous_measured_by: null
     new_measured_by: null
 - name: Item 63 in-cohort calibration outcome table
@@ -268,8 +270,8 @@ elements:
     0,1,2,3,4,5,6,7,8,9 have upper bounds 0.2991, 0.4350, 0.5474, 0.6458, 0.7333,
     0.8112, 0.8794, 0.9368, 0.9801 and 1.0000. At most five failures clear 0.8571;
     six or more do not. A high rate cannot close the frozen-TM-0.50 task: rate 1.00
-    leaves 225 clusters and 45 panels above N_min 42. It therefore fails to clear the
-    Item-48 hold condition rather than closing the task.'
+    leaves 225 clusters and 45 panels above N_min 42. It therefore fails to clear
+    the Item-48 hold condition rather than closing the task.'
   set_on: '2026-09-16'
   set_by: Referee
   amendment_rule: Frozen before the nine-member outcome is inspected. Amend only to
@@ -277,15 +279,15 @@ elements:
   amendments:
   - date: '2026-09-16'
     by: Referee
-    reason: 'Item 63 preregisters every possible n=9 Wilson outcome and the maximum
-      clearing failure count before Instrument scoring, preventing post-result interpretation.'
+    reason: Item 63 preregisters every possible n=9 Wilson outcome and the maximum
+      clearing failure count before Instrument scoring, preventing post-result interpretation.
     previous_value: null
     new_value: 'At n=9 and two-sided 95% Wilson intervals, false-singleton failures
       0,1,2,3,4,5,6,7,8,9 have upper bounds 0.2991, 0.4350, 0.5474, 0.6458, 0.7333,
       0.8112, 0.8794, 0.9368, 0.9801 and 1.0000. At most five failures clear 0.8571;
       six or more do not. A high rate cannot close the frozen-TM-0.50 task: rate 1.00
-      leaves 225 clusters and 45 panels above N_min 42. It therefore fails to clear the
-      Item-48 hold condition rather than closing the task.'
+      leaves 225 clusters and 45 panels above N_min 42. It therefore fails to clear
+      the Item-48 hold condition rather than closing the task.'
     previous_measured_by: null
     new_measured_by: null
 - name: Item 64 external calibration route status
@@ -303,9 +305,9 @@ elements:
   amendments:
   - date: '2026-09-16'
     by: Referee
-    reason: 'Item 64 closes an action queue with no intended actionable remediation.
+    reason: Item 64 closes an action queue with no intended actionable remediation.
       Retaining it as open would misrepresent a methodological impossibility as a
-      third-party task; the original ECOD outage remains preserved as a closed record.'
+      third-party task; the original ECOD outage remains preserved as a closed record.
     previous_value: null
     new_value: 'Closed as structurally infeasible for this calibration. The three
       documented failures are: induced uncertainty cannot lower deeply known controls;
@@ -581,16 +583,16 @@ elements:
     previous_measured_by: null
     new_measured_by: null
 - name: Item 48 Gate 1 structural supply decision rule
-  current_value: 'Conditional on a passing runtime boundary and complete five-axis census:
-    close below 42 panels; proceed at 50 or more panels; at 42-49 panels hold—do
-    not build panels or run arms—unless the Item 61 in-cohort calibration, using
-    frozen MMseqs2 30%-identity cluster membership and at least one confident
-    same-cluster relative, has a two-sided 95% Wilson upper false-singleton-rate
-    bound below 150/175 = 0.8571 at frozen TM 0.50. This direct-cohort estimate
-    needs no confidence-distribution transfer but has a downward bias because an
-    identity relative is easier to join than a fold family; every corrected downstream
-    number carries that limitation. N_min=42 and MDE use alpha 0.05, beta 0.20,
-    delta 0.05 and provisional sigma_d 0.115.'
+  current_value: 'Conditional on a passing runtime boundary and complete five-axis
+    census: close below 42 panels; proceed at 50 or more panels; at 42-49 panels hold—do
+    not build panels or run arms—unless the Item 61 in-cohort calibration, using frozen
+    MMseqs2 30%-identity cluster membership and at least one confident same-cluster
+    relative, has a two-sided 95% Wilson upper false-singleton-rate bound below 150/175
+    = 0.8571 at frozen TM 0.50. This direct-cohort estimate needs no confidence-distribution
+    transfer but has a downward bias because an identity relative is easier to join
+    than a fold family; every corrected downstream number carries that limitation.
+    N_min=42 and MDE use alpha 0.05, beta 0.20, delta 0.05 and provisional sigma_d
+    0.115.'
   set_on: '2026-09-16'
   set_by: Referee
   amendment_rule: Frozen before Gate 1. Amend only before any Gate 1 ruling, with
@@ -619,25 +621,25 @@ elements:
       any in-cohort result, replace the unattainable external condition with the ruled
       same-cohort, frozen-MMseqs2-30%-identity calibration. This does not change the
       42/50 panel thresholds, N_min, MDE, or boundary/census prerequisites. Its narrower
-      sequence-relative label makes joining easier than joining a fold family and can
-      bias the rate downward, favouring continuation; all downstream corrected values
-      must carry that limitation.'
+      sequence-relative label makes joining easier than joining a fold family and
+      can bias the rate downward, favouring continuation; all downstream corrected
+      values must carry that limitation.'
     previous_value: 'Conditional on a passing runtime boundary and complete five-axis
       census: close below 42 panels; proceed at 50 or more panels; at 42-49 panels
-      hold—do not build panels or run arms—unless a distribution-matched ECOD-family calibration
-      has a two-sided 95% Wilson upper false-singleton-rate bound below 150/175 =
-      0.8571 at frozen TM 0.50. N_min=42 and MDE use alpha 0.05, beta 0.20, delta
-      0.05 and provisional sigma_d 0.115.'
+      hold—do not build panels or run arms—unless a distribution-matched ECOD-family
+      calibration has a two-sided 95% Wilson upper false-singleton-rate bound below
+      150/175 = 0.8571 at frozen TM 0.50. N_min=42 and MDE use alpha 0.05, beta 0.20,
+      delta 0.05 and provisional sigma_d 0.115.'
     new_value: 'Conditional on a passing runtime boundary and complete five-axis census:
       close below 42 panels; proceed at 50 or more panels; at 42-49 panels hold—do
       not build panels or run arms—unless the Item 61 in-cohort calibration, using
-      frozen MMseqs2 30%-identity cluster membership and at least one confident
-      same-cluster relative, has a two-sided 95% Wilson upper false-singleton-rate
-      bound below 150/175 = 0.8571 at frozen TM 0.50. This direct-cohort estimate
-      needs no confidence-distribution transfer but has a downward bias because an
-      identity relative is easier to join than a fold family; every corrected downstream
-      number carries that limitation. N_min=42 and MDE use alpha 0.05, beta 0.20,
-      delta 0.05 and provisional sigma_d 0.115.'
+      frozen MMseqs2 30%-identity cluster membership and at least one confident same-cluster
+      relative, has a two-sided 95% Wilson upper false-singleton-rate bound below
+      150/175 = 0.8571 at frozen TM 0.50. This direct-cohort estimate needs no confidence-distribution
+      transfer but has a downward bias because an identity relative is easier to join
+      than a fold family; every corrected downstream number carries that limitation.
+      N_min=42 and MDE use alpha 0.05, beta 0.20, delta 0.05 and provisional sigma_d
+      0.115.'
     previous_measured_by: null
     new_measured_by: null
   - date: '2026-09-16'
@@ -664,16 +666,16 @@ elements:
     previous_measured_by: null
     new_measured_by: null
 - name: Item 51 calibration decision criterion
-  current_value: 'At frozen TM 0.50, an in-cohort calibration satisfies the Item 48
-    calibration condition if a low-confidence ESMFold member (<0.50 mean pLDDT)
-    and at least one confident member (>=0.50) share a frozen MMseqs2 30%-identity
-    sequence cluster, and the two-sided 95% Wilson upper bound on the resulting
-    false-singleton rate is below 150/175 = 0.8571. The rate is a direct same-cohort
-    measurement and needs no distribution-match or external-family transfer. It
-    measures failure to join a confident same-sequence-cluster relative, not fold-family
-    recovery. Its identity-relative label is easier to join and biases the rate
-    downward, favouring continuation. Every downstream rate, corrected clusters,
-    panels_max, MDE and Item 48 clearance statement must carry that bias.'
+  current_value: At frozen TM 0.50, an in-cohort calibration satisfies the Item 48
+    calibration condition if a low-confidence ESMFold member (<0.50 mean pLDDT) and
+    at least one confident member (>=0.50) share a frozen MMseqs2 30%-identity sequence
+    cluster, and the two-sided 95% Wilson upper bound on the resulting false-singleton
+    rate is below 150/175 = 0.8571. The rate is a direct same-cohort measurement and
+    needs no distribution-match or external-family transfer. It measures failure to
+    join a confident same-sequence-cluster relative, not fold-family recovery. Its
+    identity-relative label is easier to join and biases the rate downward, favouring
+    continuation. Every downstream rate, corrected clusters, panels_max, MDE and Item
+    48 clearance statement must carry that bias.
   set_on: '2026-09-16'
   set_by: Referee
   amendment_rule: Frozen before any qualifying calibration result. Amend only with
@@ -707,32 +709,32 @@ elements:
       Fetcher (curl exit 7); and an unselected SCOP/PDBe pool yielded one target-band
       coronavirus nucleocapsid member in 34 predictions, with no family support. Same
       frozen MMseqs2 30%-identity-cluster membership establishes predictor-independent
-      sequence relatedness and is admissible. The former three-confident-relative rule
-      was for fold-family labels; one confident sequence relative is sufficient to
-      establish the narrower relation. The estimate now means failure to join a
+      sequence relatedness and is admissible. The former three-confident-relative
+      rule was for fold-family labels; one confident sequence relative is sufficient
+      to establish the narrower relation. The estimate now means failure to join a
       confident same-sequence-cluster relative, not failure to recover a fold family.
       High-identity relatives are easier to join than structural-family relatives,
-      biasing the rate downward in favour of continuation; all downstream rate,
-      corrected-cluster, panels_max, MDE and Item-48 statements must name it.'
+      biasing the rate downward in favour of continuation; all downstream rate, corrected-cluster,
+      panels_max, MDE and Item-48 statements must name it.'
     previous_value: 'At frozen TM 0.50, a distribution-matched SCOP-family calibration
       from the PDBe mapping endpoint satisfies the Item 48 calibration condition if
-      its two-sided 95% Wilson upper confidence bound for the false-singleton rate is
-      below 150/175 = 0.8571. The statistical stopping rule has no fixed n independent
+      its two-sided 95% Wilson upper confidence bound for the false-singleton rate
+      is below 150/175 = 0.8571. The statistical stopping rule has no fixed n independent
       of observed events: with one singleton, n=3 gives upper bound 0.7923; with two,
       n=5 gives 0.7693. Separately, transfer validity requires at least five SCOP
       families, each low-confidence retained member having three confident family
       relatives. Every SCOP-based rate, adjusted cluster count, panels_max, MDE and
       Item 48 clearance statement must name the SCOP substitution.'
-    new_value: 'At frozen TM 0.50, an in-cohort calibration satisfies the Item 48
-      calibration condition if a low-confidence ESMFold member (<0.50 mean pLDDT)
-      and at least one confident member (>=0.50) share a frozen MMseqs2 30%-identity
-      sequence cluster, and the two-sided 95% Wilson upper bound on the resulting
-      false-singleton rate is below 150/175 = 0.8571. The rate is a direct same-cohort
-      measurement and needs no distribution-match or external-family transfer. It
-      measures failure to join a confident same-sequence-cluster relative, not fold-family
-      recovery. Its identity-relative label is easier to join and biases the rate
-      downward, favouring continuation. Every downstream rate, corrected clusters,
-      panels_max, MDE and Item 48 clearance statement must carry that bias.'
+    new_value: At frozen TM 0.50, an in-cohort calibration satisfies the Item 48 calibration
+      condition if a low-confidence ESMFold member (<0.50 mean pLDDT) and at least
+      one confident member (>=0.50) share a frozen MMseqs2 30%-identity sequence cluster,
+      and the two-sided 95% Wilson upper bound on the resulting false-singleton rate
+      is below 150/175 = 0.8571. The rate is a direct same-cohort measurement and
+      needs no distribution-match or external-family transfer. It measures failure
+      to join a confident same-sequence-cluster relative, not fold-family recovery.
+      Its identity-relative label is easier to join and biases the rate downward,
+      favouring continuation. Every downstream rate, corrected clusters, panels_max,
+      MDE and Item 48 clearance statement must carry that bias.
     previous_measured_by: null
     new_measured_by: null
   - date: '2026-09-16'
@@ -852,14 +854,14 @@ elements:
     previous_measured_by: null
     new_measured_by: null
 - name: Item 60 calibration stopping ceiling
-  current_value: 'Use two-sided 95% Wilson intervals. Measure the complete ruled
-    in-cohort population of nine eligible low-confidence members and stop; no
-    enlargement is permitted. At n=9, 0 through 5 false-singleton failures have
-    upper bounds 0.2991, 0.4350, 0.5474, 0.6458, 0.7333 and 0.8112, respectively,
-    and clear 0.8571; 6 through 9 have upper bounds 0.8794, 0.9368, 0.9801 and
-    1.0000 and do not. A non-clearing high rate leaves the frozen-TM-0.50 arithmetic
-    floor at 225 clusters/45 panels, above N_min 42, so it reports an unresolved
-    hold-band calibration condition rather than closing the task.'
+  current_value: Use two-sided 95% Wilson intervals. Measure the complete ruled in-cohort
+    population of nine eligible low-confidence members and stop; no enlargement is
+    permitted. At n=9, 0 through 5 false-singleton failures have upper bounds 0.2991,
+    0.4350, 0.5474, 0.6458, 0.7333 and 0.8112, respectively, and clear 0.8571; 6 through
+    9 have upper bounds 0.8794, 0.9368, 0.9801 and 1.0000 and do not. A non-clearing
+    high rate leaves the frozen-TM-0.50 arithmetic floor at 225 clusters/45 panels,
+    above N_min 42, so it reports an unresolved hold-band calibration condition rather
+    than closing the task.
   set_on: '2026-09-16'
   set_by: Referee
   amendment_rule: Frozen before SCOP pool prediction. Amend only before any retained
@@ -885,24 +887,106 @@ elements:
     new_measured_by: null
   - date: '2026-09-16'
     by: Referee
-    reason: 'Item 63: the SCOP-specific n=20 ceiling is superseded before any
-      in-cohort outcome. The finite eligible in-cohort population is nine low-confidence
-      members. Measuring all nine prevents optional continuation; Wilson arithmetic
-      prespecifies which failure counts clear the 0.8571 decision line. This changes
-      the calibration route but not clusters, panels, MDE, N_min, or the Gate 1 boundary.'
+    reason: 'Item 63: the SCOP-specific n=20 ceiling is superseded before any in-cohort
+      outcome. The finite eligible in-cohort population is nine low-confidence members.
+      Measuring all nine prevents optional continuation; Wilson arithmetic prespecifies
+      which failure counts clear the 0.8571 decision line. This changes the calibration
+      route but not clusters, panels, MDE, N_min, or the Gate 1 boundary.'
     previous_value: 'Use two-sided 95% Wilson intervals. The arithmetic is confirmed:
-      one failure in n=3 has upper bound 0.7923 and two failures in n=5 has upper bound
-      0.7693, both below 0.8571. Enrol no more than 20 retained low-confidence SCOP
-      members. At n=20, stop: if the upper bound is below 0.8571 and all transfer-validity
+      one failure in n=3 has upper bound 0.7923 and two failures in n=5 has upper
+      bound 0.7693, both below 0.8571. Enrol no more than 20 retained low-confidence
+      SCOP members. At n=20, stop: if the upper bound is below 0.8571 and all transfer-validity
       conditions hold, report it; otherwise report not estimable. Do not extend the
       sample after observing a high rate.'
-    new_value: 'Use two-sided 95% Wilson intervals. Measure the complete ruled
-      in-cohort population of nine eligible low-confidence members and stop; no
-      enlargement is permitted. At n=9, 0 through 5 false-singleton failures have
-      upper bounds 0.2991, 0.4350, 0.5474, 0.6458, 0.7333 and 0.8112, respectively,
-      and clear 0.8571; 6 through 9 have upper bounds 0.8794, 0.9368, 0.9801 and
-      1.0000 and do not. A non-clearing high rate leaves the frozen-TM-0.50 arithmetic
-      floor at 225 clusters/45 panels, above N_min 42, so it reports an unresolved
-      hold-band calibration condition rather than closing the task.'
+    new_value: Use two-sided 95% Wilson intervals. Measure the complete ruled in-cohort
+      population of nine eligible low-confidence members and stop; no enlargement
+      is permitted. At n=9, 0 through 5 false-singleton failures have upper bounds
+      0.2991, 0.4350, 0.5474, 0.6458, 0.7333 and 0.8112, respectively, and clear 0.8571;
+      6 through 9 have upper bounds 0.8794, 0.9368, 0.9801 and 1.0000 and do not.
+      A non-clearing high rate leaves the frozen-TM-0.50 arithmetic floor at 225 clusters/45
+      panels, above N_min 42, so it reports an unresolved hold-band calibration condition
+      rather than closing the task.
+    previous_measured_by: null
+    new_measured_by: null
+- name: Item 68 structural correction population
+  current_value: 'At each TM threshold, apply the measured low-confidence false-singleton
+    rate to audited low-confidence ESMFold singleton clusters and the measured confident-member
+    baseline false-singleton rate to all remaining confident or AlphaFold singleton
+    clusters. The baseline is treated as instrument failure, not real fold separation:
+    95/413 ESMFold predictions meet mean pLDDT >=0.70 and confident sequence relatives
+    split 6/11 at frozen TM 0.50. Frozen-TM-.50 point supply is 145.5 clusters / 29
+    panels (close); its independent Wilson-rate sensitivity is 85.2-249.8 clusters
+    / 17-49 panels (close-to-hold, never proceed).'
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Frozen before any further supply use. Amend only with retained independent
+    evidence distinguishing confident singleton instrument failure from true fold
+    separation.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: 'Item 68 independently audited singleton populations in corrected_full
+      files: TM .40 270=139 low+131 other; .50 357=175+182; .60 404=184+220. Item
+      51 named a rate but no denominator. The confident baseline is evidence of the
+      same noisy structural instrument, not a demonstrated biological fold separation,
+      so leaving 182 confident singletons uncorrected would be favourable and unsupported.
+      This makes detection harder and may close supply before any agent call.'
+    previous_value: null
+    new_value: 'At each TM threshold, apply the measured low-confidence false-singleton
+      rate to audited low-confidence ESMFold singleton clusters and the measured confident-member
+      baseline false-singleton rate to all remaining confident or AlphaFold singleton
+      clusters. The baseline is treated as instrument failure, not real fold separation:
+      95/413 ESMFold predictions meet mean pLDDT >=0.70 and confident sequence relatives
+      split 6/11 at frozen TM 0.50. Frozen-TM-.50 point supply is 145.5 clusters /
+      29 panels (close); its independent Wilson-rate sensitivity is 85.2-249.8 clusters
+      / 17-49 panels (close-to-hold, never proceed).'
+    previous_measured_by: null
+    new_measured_by: null
+- name: Item 69 rate-population preregistration audit
+  current_value: 'One material defect found: Item 51 specifies a false-singleton rate
+    and threshold but not the singleton population to which it applies. Items 52,
+    53, 60, 63, 65, 66 and 67 name their relevant populations or are descriptive distributions;
+    no further material unnamed-population rate/threshold/correction defects were
+    found in the 37-element ledger audit.'
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Frozen audit record; amend only with a retained ledger text correction.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: Item 69 audited every ledger element containing a rate, threshold, correction,
+      N, MDE, or channel criterion. A rate without a target population is incomplete;
+      the Item 51 gap is the same preregistration class as the unnamed baseline estimator
+      rejected in Item 65.
+    previous_value: null
+    new_value: 'One material defect found: Item 51 specifies a false-singleton rate
+      and threshold but not the singleton population to which it applies. Items 52,
+      53, 60, 63, 65, 66 and 67 name their relevant populations or are descriptive
+      distributions; no further material unnamed-population rate/threshold/correction
+      defects were found in the 37-element ledger audit.'
+    previous_measured_by: null
+    new_measured_by: null
+- name: Item 70 ruled structural supply position
+  current_value: Under Item 68 both-population correction, TM .40 point supply is
+    238.4 clusters / 47 panels (Wilson sensitivity 159.6-291.0 / 31-58); TM .50 is
+    145.5 / 29 (85.2-249.8 / 17-49); TM .60 is 93.0 / 18 (54.4-212.5 / 10-42). Frozen
+    TM .50 therefore closes at the point estimate and spans close-to-hold under interval
+    sensitivity, never proceed. The ruling makes detection harder.
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Frozen before Gate 1; amend only after retained replacement cluster
+    files and independent correction evidence.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: Item 70 derives clusters from retained raw cluster counts minus each confidence
+      class rate times its audited singleton population; panels are floor(clusters/5).
+      It records uncertainty rather than choosing a favourable reading.
+    previous_value: null
+    new_value: Under Item 68 both-population correction, TM .40 point supply is 238.4
+      clusters / 47 panels (Wilson sensitivity 159.6-291.0 / 31-58); TM .50 is 145.5
+      / 29 (85.2-249.8 / 17-49); TM .60 is 93.0 / 18 (54.4-212.5 / 10-42). Frozen
+      TM .50 therefore closes at the point estimate and spans close-to-hold under
+      interval sensitivity, never proceed. The ruling makes detection harder.
     previous_measured_by: null
     new_measured_by: null
