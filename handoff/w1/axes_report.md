@@ -1,52 +1,52 @@
-# T1.1-T1.6 five-axis report
+# Tier 1 axes census — not released
 
-Recorded: 2026-09-15
+This 521-positive fungal/oomycete cohort has 502 model structures (96.4%), but the number of independent fold families is sensitive to the TM threshold and may be inflated by low-confidence singleton models. At frozen TM 0.50, all models give 400 clusters (80 five-positive panels; MDE 0.036), while the 310-model high-confidence diagnostic subset gives 218 (43 panels; MDE 0.049). The direct annotation-based recovery test cannot estimate the correction: only four structurally mapped positives retain an explicit known-family annotation, none low-confidence. Negative verification and per-species coverage data are also absent. No claim from this stage is admissible until the runtime boundary holds; because Clause 1 requires all five axes, this is not a released census.
 
-## Boundary assertion
+## Boundary
 
-`scripts/assert_sandbox.sh curator` exited `1`. Its output was:
+`scripts/assert_sandbox.sh curator` exited 1; its verbatim record is in `handoff/w1/boundary_probe_curator.md`. It found no running process sandbox for T1, and T2–T4 also failed. Every count below is therefore inadmissible for the benchmark.
 
-```text
-FAIL curator: T1 outside-boundary Bash execution succeeded
-FAIL curator: Bash read succeeded for denied path /home/aid1/Documents/3_19C_effector/bench/scorer
-FAIL curator: Bash read succeeded for denied path /home/aid1/Documents/3_19C_effector/bench/runs
-FAIL curator: Bash read succeeded for denied path /home/aid1/Documents/3_19C_effector/bench/data/design_split
-FAIL curator: T2 connection to non-allowlisted host example.com succeeded
-FAIL curator: T3 package install outside the writable list succeeded
-FAIL curator: T4 write outside the role writable list succeeded
-T7 MODEL-SIDE PROBE: in a fresh session, answer exactly NO_PRIOR_SESSION_MEMORY unless a marker from a prior session is available
-FAIL curator: T7 UNMEASURABLE: caller did not supply the model-side answer file
-```
+## Structural supply and confidence diagnostic
 
-No claim in this report is admissible to the benchmark until the boundary
-holds.
+Foldseek version `10-941cd33` used structural alignment type 1, cluster mode 1, and logged coverage `-c 0.8 --cov-mode 0`; the exact command is carded in `tools/cards/foldseek.md`. It returns model-structure clusters—a proxy for independent fold families, never a functional label. The old 89-model 79-cluster claim has no retained command output and cannot be reproduced. The retained command returns 71; full input is the 502 manifest-valid structures, not the prior 503-member staging directory containing stray invalid-residue H1VSQ9.
 
-## Five-axis census
+| TM | Reading | Clusters | canonical-only / non-canonical-only / mixed | panels_max | MDE |
+|---:|---|---:|---:|---:|---:|
+| 0.40 | all 502 | 324 | 95 / 216 / 13 | 64 | 0.0403 |
+| 0.50 (frozen) | all 502 | 400 | 123 / 273 / 4 | 80 | 0.0360 |
+| 0.60 | all 502 | 437 | 134 / 299 / 4 | 87 | 0.0345 |
+| 0.40 | high-confidence diagnostic (310) | 180 | 60 / 111 / 9 | 36 | 0.0537 |
+| 0.50 | high-confidence diagnostic (310) | 218 | 74 / 141 / 3 | 43 | 0.0491 |
+| 0.60 | high-confidence diagnostic (310) | 248 | 81 / 163 / 4 | 49 | 0.0460 |
 
-No numeric axis count is released. The only available files in
-`data/positives/`, `data/labels/`, and `data/scored_cohort/` are repository
-placeholders; `docs/assets.md` still records every required asset checksum as
-`PENDING`; and no Week 1 fetch report exists. The canonical profile also lacks
-an operational definition for “small” and “cysteine-rich.”
+MDE uses alpha 0.05, beta 0.20, delta 0.05, provisional sigma_d 0.115 and N_min 42. At TM 0.40/0.50/0.60, observed low-low within-cluster pairs were 109/4/2 versus conditional-permutation expectations 178.3/50.7/14.2. Low-confidence models do not clump; they are unusually singleton (142/178/187), compatible with failed recovery rather than a confidence-driven false merge.
 
-| Axis | Required resolution | Canonical | Non-canonical | Total or distinction | Measuring task | Blocking evidence |
-|---|---|---|---|---|---|---|
-| Positives, sequence clusters | 30, 40 and 50 percent identity | MEASURE | MEASURE | MEASURE at every threshold; retained count MEASURE; removed count MEASURE | T1.2, T1.3, T1.4 | Union positive FASTA, provenance, and functional-evidence eligibility decisions absent |
-| Positives, structural clusters | Foldseek TM-score 0.50, binding count | MEASURE | MEASURE | MEASURE; panel support by stratum is MEASURE | T1.3, T1.4 | Union positive set, predicted structures, and Foldseek all-versus-all result absent |
-| Negatives | Unlabelled, not verified; quantify both | MEASURE | MEASURE | Unlabelled count MEASURE; verified-negative count MEASURE; distinction MEASURE | T1.1 | Negative cohort and negative provenance and verification records absent |
-| Contamination exposure | Publication and deposition date against every subject cutoff | Pre-cutoff MEASURE; post-cutoff MEASURE | Pre-cutoff MEASURE; post-cutoff MEASURE | Subject cutoffs and combined strata MEASURE | T1.5 | Dates, retained positives, and subject-cutoff registry absent |
-| Tool coverage | Per channel, per species: in planta RNA-seq, repeat annotation, assembly quality | MEASURE per channel and species | MEASURE per channel and species | Species list and combined coverage MEASURE | T1.6 | Species cohort and per-channel source metadata absent |
+### Known-family recovery and corrected range
 
-T1.4 permits a hypersensitive response assay, knockout virulence phenotype, or
-validated host-target interaction. Computational evidence codes do not
-qualify. T1.4 did not retain or remove any record because no candidate record
-with an evidence code was available. That is not a zero count; both quantities
-remain `MEASURE` by T1.4. No sequence clustering, structure prediction,
-Foldseek run, or other count-producing computation was performed.
+Ground truth was fixed from explicit Predector annotation text and PEACE source names, then exact-sequence mapped to provenance before clusters were read. It recovered MAX=1 and RxLR=3; NLP, LysM, Crinkler and ToxA-like had zero structurally mapped annotated members. All four were high-confidence; the three RxLR members occupied three clusters. There were zero eligible low-confidence known-family singletons. The intended false-singleton rate has a 95% Wilson interval of 0–1 because its denominator is zero. A point-corrected reading would be invented.
 
-## Gate 1 convening
+| TM | all models | high-confidence diagnostic | correction-compatible range (all clusters minus 0 to every low singleton) |
+|---:|---|---|---|
+| 0.40 | 324; 64 panels; MDE 0.0403 | 180; 36; 0.0537 | 182–324; 36–64; MDE 0.0537–0.0403 |
+| 0.50 | 400; 80 panels; MDE 0.0360 | 218; 43; 0.0491 | 222–400; 44–80; MDE 0.0486–0.0360 |
+| 0.60 | 437; 87 panels; MDE 0.0345 | 248; 49; 0.0460 | 250–437; 50–87; MDE 0.0456–0.0345 |
 
-Gate 1 is convened as **BLOCKED**. The complete five-axis census is unmeasured,
-the T1.3 binding structural-cluster count is absent, canonical and
-non-canonical panel support cannot be evaluated, and the Curator boundary
-assertion failed. No panel was built.
+The all-model result contradicts the prediction of a large fold collapse relative to 430 sequence clusters at 40% identity: TM 0.50 has 400 clusters (about 7% fewer), not a large collapse. The AlphaFold DB subset is non-random, so this conclusion remains conditional on model quality and threshold.
+
+## Other axes
+
+| Axis | canonical | non-canonical | total / status |
+|---|---:|---:|---|
+| Positives | 164 | 357 | 521, functionally filtered |
+| Structure coverage | 163/164 | 339/357 | 502/521; 18 >600-aa and one non-standard-residue exclusion |
+| pLDDT Q1 / median / Q3; mean | .441 / .633 / .810; .628 | .436 / .563 / .719; .587 | weaker evidence on majority non-canonical stratum; no filter or weight |
+| Unlabelled negatives | MEASURE | MEASURE | no retained candidate-negative cohort |
+| Verified negatives | 0 | 0 | an unlabelled candidate is not a verified negative |
+| Publication years | — | — | 510 known, 11 unknown; 81 >=2024, zero >2025; model cutoffs absent |
+| RNA-seq / repeat annotation / assembly quality | MEASURE | MEASURE | per-species source metadata absent |
+
+The structural channel accepts only canonical amino-acid strings up to 600 residues, removing one channel from 19 items. A primary-genus parser finds 66 raw species strings and 34 genera, not the independently quoted 37; taxonomy normalization is needed. It confirms Ustilago 96, Phytophthora 78 and Sporisorium 75. Ustilago plus sister smut genus Sporisorium is 171/521 (32.8%), a T5.2 concentration risk; their canonical/non-canonical splits are 19/77, 17/61 and 12/63.
+
+## Clause 1 outcome
+
+The structural and descriptive axes are recorded together, but the five-axis census is **not released**: negative verification, subject cutoff registry and per-species channel coverage remain unmeasured, and the runtime boundary fails. Nothing here convenes Gate 1.
