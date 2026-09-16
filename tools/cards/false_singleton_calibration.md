@@ -59,3 +59,13 @@ ECOD complete-domain endpoint was unreachable (curl exit 7; HTTP fallback 404), 
 PDBe exposes no ECOD mapping endpoint (HTTP 404). SCOP is not a substitute for an
 ECOD-required calibration. The rate and transfer are therefore not estimable; see
 `handoff/w1/natural_low_confidence_calibration.md`.
+
+## Attempt 3 — Fetcher ECOD probe and substitute proposal
+
+Item 54 rendered a standalone Fetcher clone with `prodata.swmed.edu` explicitly
+allowlisted. Retrieval still failed with curl exit 7, so the ECOD service remains the
+external holder; the block is not misfiled against the Instrument permission model.
+SCOP via PDBe is proposed as an independent pre-prediction fallback, but it loses
+ECOD's broad coverage and family granularity. Item 51 currently says ECOD, so no SCOP
+pool or prediction was run pending a Referee amendment. Details and verbatim probe:
+`handoff/w1/ecod_fetcher_probe.md` and `handoff/w1/ecod_substitute_proposal.md`.
