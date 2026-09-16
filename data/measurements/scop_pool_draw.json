@@ -1,0 +1,1759 @@
+{
+  "seed": "item58-scop-pool-v1",
+  "draw_size": 240,
+  "draw": [
+    "5KY2",
+    "9K2K",
+    "4HCQ",
+    "2NSS",
+    "8CTK",
+    "1U4C",
+    "9UG4",
+    "1H7U",
+    "5UU8",
+    "4K8L",
+    "7OC7",
+    "5IND",
+    "4EOE",
+    "4UJ6",
+    "3IKY",
+    "9J30",
+    "8T6F",
+    "3VSB",
+    "8C6T",
+    "7R8I",
+    "8AAK",
+    "2I87",
+    "2CSY",
+    "3UCG",
+    "4C1R",
+    "1QOZ",
+    "1PV9",
+    "5ZP1",
+    "2DQ0",
+    "5B1N",
+    "7UIY",
+    "5HGX",
+    "6ZMX",
+    "4A14",
+    "6TS8",
+    "9V9M",
+    "9FQZ",
+    "1U1U",
+    "7PTP",
+    "4IF5",
+    "8G7Y",
+    "6HDF",
+    "3DSN",
+    "2GH5",
+    "6IDB",
+    "7H4A",
+    "2ZGW",
+    "8HVL",
+    "4TOA",
+    "6T10",
+    "7HGE",
+    "3IRA",
+    "4A8J",
+    "5IRF",
+    "9J5Z",
+    "2A1D",
+    "4II7",
+    "2F5E",
+    "1YUD",
+    "9D5N",
+    "9BZS",
+    "2P98",
+    "9ERW",
+    "5B2M",
+    "2CJR",
+    "5LAZ",
+    "5EDB",
+    "4V6W",
+    "6L86",
+    "1AI7",
+    "3P9M",
+    "9N2N",
+    "3PTB",
+    "4LM4",
+    "5BKH",
+    "7SG9",
+    "6OPX",
+    "1P6C",
+    "5CYJ",
+    "9JWO",
+    "1ZP8",
+    "9JCE",
+    "2FIT",
+    "8I83",
+    "7B4A",
+    "6KVE",
+    "1ZVK",
+    "9DXU",
+    "2KQM",
+    "3WS0",
+    "9UH9",
+    "5NT4",
+    "9HBQ",
+    "6TYV",
+    "1NNW",
+    "2DQF",
+    "1P4D",
+    "8A8L",
+    "8VCW",
+    "4G03",
+    "6LS0",
+    "5J4E",
+    "2AHL",
+    "5MHH",
+    "1QJ7",
+    "9RCW",
+    "3H1T",
+    "8TYU",
+    "3K32",
+    "8E04",
+    "7ZSW",
+    "2C63",
+    "5VTA",
+    "4K3X",
+    "5R5O",
+    "6MHK",
+    "1HGV",
+    "1B03",
+    "4EYM",
+    "6C8N",
+    "5PLL",
+    "3GOI",
+    "9E08",
+    "4EQL",
+    "9NVS",
+    "6LNI",
+    "9E0F",
+    "1D5N",
+    "8RYU",
+    "1AZI",
+    "2X46",
+    "5FOR",
+    "7KOV",
+    "7E9E",
+    "5BQD",
+    "5HGV",
+    "1I09",
+    "1MZY",
+    "7IA8",
+    "6UUA",
+    "1AI6",
+    "9NNB",
+    "6MJR",
+    "3GLC",
+    "7BCB",
+    "9FNT",
+    "3P4G",
+    "6DA0",
+    "8ZPX",
+    "9QQU",
+    "4Y83",
+    "2E53",
+    "5HR1",
+    "5IST",
+    "7PW7",
+    "6BY4",
+    "2D1Z",
+    "8TVJ",
+    "1PF3",
+    "7S7G",
+    "5IKN",
+    "4B9P",
+    "9IP6",
+    "6QDB",
+    "1PCE",
+    "1MB9",
+    "1VTB",
+    "7C3B",
+    "7Y0K",
+    "4D7Q",
+    "2JZT",
+    "8TIO",
+    "7SJV",
+    "9ZKD",
+    "5Y6J",
+    "8CYC",
+    "8UDO",
+    "6PR8",
+    "6TXF",
+    "3JB0",
+    "5PKM",
+    "8RFA",
+    "3JR5",
+    "5YAC",
+    "3P4C",
+    "3WT5",
+    "8XAC",
+    "4UIG",
+    "2DW0",
+    "3FC0",
+    "3F8M",
+    "7ZR3",
+    "9D3V",
+    "7Z6E",
+    "1B6X",
+    "1JCF",
+    "2BG8",
+    "5KQA",
+    "6YQ4",
+    "6IBH",
+    "7IIB",
+    "8J2E",
+    "8X0P",
+    "9OON",
+    "6PAH",
+    "2OLY",
+    "2EJQ",
+    "8P9S",
+    "6PFQ",
+    "4ZZP",
+    "9DEA",
+    "9O4H",
+    "7I40",
+    "9UGH",
+    "5A7X",
+    "7SKA",
+    "6JVW",
+    "2EW4",
+    "5UV8",
+    "3R8C",
+    "3DP7",
+    "2Y7M",
+    "5E0X",
+    "4MG4",
+    "5PBE",
+    "9FT2",
+    "3CW8",
+    "2GKJ",
+    "7W0K",
+    "9EEU",
+    "3VTI",
+    "2VW8",
+    "4MT1",
+    "4GGT",
+    "1LJP",
+    "8EUO",
+    "8S3U",
+    "9XP0",
+    "7AX1",
+    "4XNW"
+  ],
+  "all_results": [
+    {
+      "pdb_id": "5KY2",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9K2K",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4HCQ",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2NSS",
+      "status": "mapped",
+      "scop_sunid": "46463",
+      "scop_mappings": [
+        "46463"
+      ],
+      "sequence": "GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG",
+      "length": 153,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "8CTK",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1U4C",
+      "status": "mapped",
+      "scop_sunid": "110289",
+      "scop_mappings": [
+        "110289"
+      ],
+      "sequence": "MQIVQIEQAPKDYISDIKIIPSKSLLLITSWDGSLTVYKFDIQAKNVDLLQSLRYKHPLLCCNFIDNTDLQIYVGTVQGEILKVDLIGSPSFQALTNNEANLGICRICKYGDDKLIAASWDGLIEVIDPRNYGDGVIAVKNLNSNNTKVKNKIFTMDTNSSRLIVGMNNSQVQWFRLPLCEDDNGTIEESGLKYQIRDVALLPKEQEGYACSSIDGRVAVEFFDDQGDDYNSSKRFAFRCHRLNLKDTNLAYPVNSIEFSPRHKFLYTAGSDGIISCWNLQTRKKIKNFAKFNEDSVVKIACSDNILCLATSDDTFKTNAAIDQTIELNASSIYIIFDYENLEHHHHHH",
+      "length": 349,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "9UG4",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1H7U",
+      "status": "mapped",
+      "scop_sunid": "54224",
+      "scop_mappings": [
+        "54224",
+        "55879"
+      ],
+      "sequence": "MERAESSSTEPAKAIKPIDRKSVHQICSGQVVLSLSTAVKELVENSLDAGATNIDLKLKDYGVDLIEVSDNGCGVEEENFEGLTLKHHTSKIQEFADLTQVETFGFRGEALSSLCALSDVTISTCHASAKVGTRLMFDHNGKIIQKTPYPRPRGTTVSVQQLFSTLPVRHKEFQRNIKKEYAKMVQVLHAYCIISAGIRVSCTNQLGQGKRQPVVCTGGSPSIKENIGSVFGQKQLQSLIPFVQLPPSDSVCEEYGLSCSDALHNLFYISGFISQCTHGVGRSSTDRQFFFINRRPCDPAKVCRLVNEVYHMYNRHQYPFVVLNISVDSECVDINVTPDKRQILLQEEKLLLAVLKTSLIGMFDS",
+      "length": 365,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "5UU8",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4K8L",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7OC7",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5IND",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4EOE",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4UJ6",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3IKY",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9J30",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "8T6F",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3VSB",
+      "status": "mapped",
+      "scop_sunid": "52744",
+      "scop_mappings": [
+        "52744"
+      ],
+      "sequence": "AQTVPYGIPLIKADKVQAQGFKGANVKVAVLDTGIQASHPDLNVVGGASFVAGEAYNTDGNGHGTHVAGTVAALDNTTGVLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTNGMDVINMSLGGASGSTAMKQAVDNAYARGVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRASFSSVGAELEVMAPGAGVYSTYPTNTYATLNGTXMASPHVAGAAALILSKHPNLSASQVRNRLSSTATYLGSSFYYGKGLINVEAAAQ",
+      "length": 274,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "8C6T",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7R8I",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "8AAK",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2I87",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2CSY",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3UCG",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4C1R",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1QOZ",
+      "status": "mapped",
+      "scop_sunid": "52260",
+      "scop_mappings": [
+        "52260"
+      ],
+      "sequence": "QCPAIHVFGARETTVSQGYGSSATVVNLVIQAHPGTTSEAIVYPACGGQASCGGISYANSVVNGTNAAAAAINNFHNSCPDTQLVLVGYSQGAQIFDNALCGGGDPGEGITNTAVPLTAGAVSAVKAAIFMGDPRNIHGLPYNVGTCTTQGFDARPAGFVCPSASKIKSYCDAADPYCCTGNDPNVHQGYGQEYGQQALAFINSQLS",
+      "length": 207,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "1PV9",
+      "status": "mapped",
+      "scop_sunid": "53093",
+      "scop_mappings": [
+        "53093",
+        "55921"
+      ],
+      "sequence": "MKERLEKLVKFMDENSIDRVFIAKPVNVYYFSGTSPLGGGYIIVDGDEATLYVPELEYEMAKEESKLPVVKFKKFDEIYEILKNTETLGIEGTLSYSMVENFKEKSNVKEFKKIDDVIKDLRIIKTKEEIEIIEKACEIADKAVMAAIEEITEGKREREVAAKVEYLMKMNGAEKPAFDTIIASGHRSALPHGVASDKRIERGDLVVIDLGALYNHYNSDITRTIVVGSPNEKQREIYEIVLEAQKRAVEAAKPGMTAKELDSIAREIIKEYGYGDYFIHSLGHGVGLEIHEWPRISQYDETVLKEGMVITIEPGIYIPKLGGVRIEDTVLITENGAKRLTKTERELL",
+      "length": 348,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "5ZP1",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2DQ0",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5B1N",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7UIY",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5HGX",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6ZMX",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4A14",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6TS8",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9V9M",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9FQZ",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1U1U",
+      "status": "mapped",
+      "scop_sunid": "110384",
+      "scop_mappings": [
+        "110384"
+      ],
+      "sequence": "MASHIVGYPRMGPKRELKFALESFWDGKSTAEDLQKVSADLRSSIWKQMSAAGTKFIPSNTFAHYDQVLDTTAMLGAVPPRYGYTGGEIGLDVYFSMARGNASVPAMEMTKWFDTNYHYIVPELGPEVNFSYASHKAVNEYKEAKALGVDTVPVLVGPVSYLLLSKAAKGVDKSFELLSLLPKILPIYKEVITELKAAGATWIQLDEPVLVMDLEGQKLQAFTGAYAELESTLSGLNVLVETYFADIPAEAYKTLTSLKGVTAFGFDLVRGTKTLDLVKAGFPEGKYLFAGVVDGRNIWANDFAASLSTLQALEGIVGKDKLVVSTSCSLLHTAVDLINETKLDDEIKSWMAFAAQKVVEVNALAKALAGQKDEALFSANAAALASRRSSPRVTNEGVQKAAAALKGSDHRRATNVSARLDAQQKKLNLPILPTTTIGSFPQTVELRRVRREYKAKKVSEEDYVKAIKEEIKKVVDLQEELDIDVLVHGEPERNDMVEYFGEQLSGFAFTANGWVQSYGSRCVKPPVIYGDVSRPKAMTVFWSAMAQSMTSRPMKGMLTGPVTILNWSFVRNDQPRHETCYQIALAIKDEVEDLEKGGIGVIQIDEAALREGLPLRKSEHAFYLDWAVHSFRITNCGVQDSTQIHTHMCYSHFNDIIHSIIDMDADVITIENSRSDEKLLSVFREGVKYGAGIGPGVYDIHSPRIPSSEEIADRVNKMLAVLEQNILWVNPDCGLKTRKYTEVKPALKNMVDAAKLIRSQLASAK",
+      "length": 765,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "7PTP",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4IF5",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "8G7Y",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6HDF",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3DSN",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2GH5",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6IDB",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7H4A",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2ZGW",
+      "status": "mapped",
+      "scop_sunid": "50038",
+      "scop_mappings": [
+        "50038",
+        "55707"
+      ],
+      "sequence": "MLGLKTSIIGRRVIYFQEITSTNEFAKTSYLEEGTVIVADKQTMGHGALNRKWESPEGGLWLSIVLSPKVPQKDLPKIVFLGAVGVVETLKEFSIDGRIKWPNDVLVNYKAIAGVLVEGKGDKIVLGIGLNVNNKVPNGATSMKLELGSEVPLLSVFRSLITNLDRLYLNFLKNPMDILNLVRDNMILGVRVKILGDGSFEGIAEDIDDFGRLIIRLDSGEVKKVIYGDVSLRFL",
+      "length": 235,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "8HVL",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4TOA",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6T10",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7HGE",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3IRA",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4A8J",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5IRF",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9J5Z",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2A1D",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4II7",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2F5E",
+      "status": "mapped",
+      "scop_sunid": "46882",
+      "scop_mappings": [
+        "46882",
+        "47980"
+      ],
+      "sequence": "MTTPSMEDYIEQIYMLIEEKGYARVSDIAEALAVHPSSVTKMVQKLDKDEYLIYEKYRGLVLTSKGKKIGKRLVYRHELLEQFLRIIGVDEEKIYNDVEGIEHHLSWNSIDRIGDLVQYFEEDDARKKDLKSIQKKTEHHNQ",
+      "length": 142,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "1YUD",
+      "status": "mapped",
+      "scop_sunid": "117318",
+      "scop_mappings": [
+        "117318"
+      ],
+      "sequence": "MGHHHHHHSHMQNADDFIKFLELEQHVEGGFYRSSYRSETAFDPSRQLWSSIYFLLRTGEVSHFHRLTADEMWYFHAGQSLTIYMISPEGELTTAQLGLDLAAGERPQFLVPKGCIFGSAMNQDGFSLVGCMVSPGFTFDDFELFSQEALLAMYPQHKAVVQKLSRPEVN",
+      "length": 170,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "9D5N",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9BZS",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2P98",
+      "status": "mapped",
+      "scop_sunid": "55921",
+      "scop_mappings": [
+        "55921"
+      ],
+      "sequence": "AISIKTPEDIEKMRVAGRLAAEVLEMIEPYVKPGVSTGELDRICNDYIVNEQHAVSACLGYHGYPKSVCISINEVVCHGIPDDAKLLKDGDIVNIDVTVIKDGFHGDTSKMFIVGKPTIMGERLCRITQESLYLALRMVKPGINLREIGAAIQKFVEAEGFSVVREYCGHGIGRGFHEEPQVLHYDSRETNVVLKPGMTFTIEPMVNAGKKEIRTMKDGWTVKTKDRSLSAQYEHTIVVTDNGCEILTLRKDDTIPAIISHD",
+      "length": 262,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "9ERW",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5B2M",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2CJR",
+      "status": "mapped",
+      "scop_sunid": "143508",
+      "scop_mappings": [
+        "143508"
+      ],
+      "sequence": "MHHHHHHAMGTKKSAAEASKKPRQKRTATKQYNVTQAFGRRGPEQTQGNFGDQDLIRQGTDYKHWPQIAQFAPSASAFFGMSRIGMEVTPSGTWLTYHGAIKLDDKDPQFKDNVILLNKHIDAYKTFP",
+      "length": 128,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "5LAZ",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5EDB",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4V6W",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6L86",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1AI7",
+      "status": "mapped",
+      "scop_sunid": "56244",
+      "scop_mappings": [
+        "56244"
+      ],
+      "sequence": "EQSSSEIKIVRDEYGMPHIYANDTWHLFYGYGYVVAQDRLFQMEMARRSTQGTVAEVLGKDFVKFDKDIRRNYWPDAIRAQIAALSPEDMSILQGYADGMNAWIDKVNTNPETLLPKQFNTFGFTPKRWEPFDVAMIFVGTMANRFSDSTSEIDNLALLTALKDKYGVSQGMAVFNQLKWLVNPSAPTTIAVQESNYPLKFNQQNSQTA",
+      "length": 209,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "3P9M",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9N2N",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3PTB",
+      "status": "mapped",
+      "scop_sunid": "50514",
+      "scop_mappings": [
+        "50514"
+      ],
+      "sequence": "IVGGYTCGANTVPYQVSLNSGYHFCGGSLINSQWVVSAAHCYKSGIQVRLGEDNINVVEGNEQFISASKSIVHPSYNSNTLNNDIMLIKLKSAASLNSRVASISLPTSCASAGTQCLISGWGNTKSSGTSYPDVLKCLKAPILSDSSCKSAYPGQITSNMFCAGYLEGGKDSCQGDSGGPVVCSGKLQGIVSWGSGCAQKNKPGVYTKVCNYVSWIKQTIASN",
+      "length": 223,
+      "maximum_mmseqs_identity_to_cohort": 41.7,
+      "closest_cohort_accession": "I1S303",
+      "aligned_residues": 222
+    },
+    {
+      "pdb_id": "4LM4",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5BKH",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7SG9",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6OPX",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1P6C",
+      "status": "mapped",
+      "scop_sunid": "51564",
+      "scop_mappings": [
+        "51564"
+      ],
+      "sequence": "SIGTGDRINTVRGPITISEAGFTLTHEHICGSSAGFLRAWPEFFGSRKALAEKAVRGLRRARAAGVRTIVDVSTFDIGRDVSLLAEVSRAADVHIVAATGLWFDPPLSMRLRSVEELTQFFLREIQYGIEDTGIRAGIIKVATTGKATPFQELVLKAAARASLATGVPVTTHTAASQRDGEQQAAIFESEGLSPSRVCIGHSDDTDDLSYLTALAARGYLIGLDGIPWSAIGLEDNASASALLGIRSWQTRALLIKALIDQGYMKQILVSNDWTFGFSSYVTNIMDVMDRVNPDGMAFIPLRVIPFLREKGVPQETLAGITVTNPARFLSPTLRAS",
+      "length": 336,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "5CYJ",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9JWO",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1ZP8",
+      "status": "mapped",
+      "scop_sunid": "50631",
+      "scop_mappings": [
+        "50631"
+      ],
+      "sequence": "PQITLWKRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYDQILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF",
+      "length": 99,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "9JCE",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2FIT",
+      "status": "mapped",
+      "scop_sunid": "54198",
+      "scop_mappings": [
+        "54198"
+      ],
+      "sequence": "MSFRFGQHLIKPSVVFLKTELSFALVNRKPVVPGHVLVCPLRPVERFHDLRPDEVADLFQTTQRVGTVVEKHFHGTSLTFSMQDGPEAGQTVKHVHVHVLPRKAGDFHRNDSIYEELQKHDKEDFPASWRSEEEMAAEAAALRVYFQ",
+      "length": 147,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "8I83",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7B4A",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6KVE",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1ZVK",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9DXU",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2KQM",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3WS0",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9UH9",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5NT4",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9HBQ",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6TYV",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1NNW",
+      "status": "mapped",
+      "scop_sunid": "82803",
+      "scop_mappings": [
+        "82803"
+      ],
+      "sequence": "MVYVAVLANIAGNLPALTAALSRIEEMREEGYEIEKYYILGNIVGLFPYPKEVIEVIKDLTKKENVKIIRGKYDQIIAMSDPHATDPGYIDKLELPGHVKKALKFTWEKLGHEGREYLRDLPIYLVDKIGGNEVFGVYGSPINPFDGEVLAEQPTSYYEAIMRPVKDYEMLIVASPMYPVDAMTRYGRVVCPGSVGFPPGKEHKATFALVDVDTLKPKFIEVEYDKKIIEERIRAEGLPEEIIKILYHGGRP",
+      "length": 252,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "2DQF",
+      "status": "mapped",
+      "scop_sunid": "48727",
+      "scop_mappings": [
+        "48727",
+        "53960"
+      ],
+      "sequence": "DIVLTQSPATLSVTPGNSVSLSCRASQSIGNNLHWYQQKSHESPRLLIKYASQSISGIPSRFSGSGSGTDFTLSINSVETEDFGMYFCQQSNSWPYTFGGGTKLEIK",
+      "length": 107,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "1P4D",
+      "status": "mapped",
+      "scop_sunid": "103120",
+      "scop_mappings": [
+        "103120"
+      ],
+      "sequence": "MMSIAQVRSAGSAGNYYTDKDNYYVLGSMGERWAGRGAEQLGLQGSVDKDVFTRLLEGRLPDGADLSRMQDGSNRHRPGYDLTFSAPKSVSMMAMLGGDKRLIDAHNQAVDFAVRQVEALASTRVMTDGQSETVLTGNLVMALFNHDTSRDQEPQLHTHAVVANVTQHNGEWKTLSSDKVGKTGFIENVYANQIAFGRLYREKLKEQVEALGYETEVVGKHGMWEMPGVPVEAFSGRSQTIREAVGEDASLKSRDVAALDTRKSKQHVDPEIKMAEWMQTLKETGFDIRAYRDAADQRADLRTLTPGPASQDGPDVQQAVTQAIAGLSER",
+      "length": 330,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "8A8L",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "8VCW",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4G03",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6LS0",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5J4E",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2AHL",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5MHH",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1QJ7",
+      "status": "mapped",
+      "scop_sunid": "50514",
+      "scop_mappings": [
+        "50514"
+      ],
+      "sequence": "TFGSGEADCGLRPLFEKKSLEDKTERELLESYIDGR",
+      "length": 36,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "9RCW",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3H1T",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "8TYU",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3K32",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "8E04",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7ZSW",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2C63",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5VTA",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4K3X",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5R5O",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6MHK",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1HGV",
+      "status": "mapped",
+      "scop_sunid": "57988",
+      "scop_mappings": [
+        "57988"
+      ],
+      "sequence": "MDFNPSEVASQVTNYIQAIAAAGVGVLALAIGLSAAWKYAKRFLKG",
+      "length": 46,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "1B03",
+      "status": "mapped",
+      "scop_sunid": "58664",
+      "scop_mappings": [
+        "58664"
+      ],
+      "sequence": "RKSIRIQRGPGRAFVTIG",
+      "length": 18,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "4EYM",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6C8N",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5PLL",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3GOI",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9E08",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4EQL",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9NVS",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6LNI",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9E0F",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1D5N",
+      "status": "mapped",
+      "scop_sunid": "46610",
+      "scop_mappings": [
+        "46610",
+        "54720"
+      ],
+      "sequence": "SYTLPSLPYAYDALEPHFDKQTMEIHHTKHHQTYVNNANAALESLPEFANLPVEELITKLDQLPADKKTVLRNNAGGHANHSLFWKGLKKGTTLQGDLKAAIERDFGSVDNFKAEFEKAAASRFGSGWAWLVLKGDKLAVVSTANQDSPLMGEAISGASGFPIMGLDVWEHAYYLKFQNRRPDYIKEFWNVVNWDEAAARFAAKK",
+      "length": 205,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "8RYU",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1AZI",
+      "status": "mapped",
+      "scop_sunid": "46463",
+      "scop_mappings": [
+        "46463"
+      ],
+      "sequence": "GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG",
+      "length": 153,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "2X46",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5FOR",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7KOV",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7E9E",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5BQD",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5HGV",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1I09",
+      "status": "mapped",
+      "scop_sunid": "88854",
+      "scop_mappings": [
+        "88854"
+      ],
+      "sequence": "MSGRPRTTSFAESCKPVQQPSAFGSMKVSRDKDGSKVTTVVATPGQGPDRPQEVSYTDTKVIGNGSFGVVYQAKLCDSGELVAIKKVLQDKRFKNRELQIMRKLDHCNIVRLRYFFYSSGEKKDEVYLNLVLDYVPETVYRVARHYSRAKQTLPVIYVKLYMYQLFRSLAYIHSFGICHRDIKPQNLLLDPDTAVLKLCDFGSAKQLVRGEPNVSYICSRYYRAPELIFGATDYTSSIDVWSAGCVLAELLLGQPIFPGDSGVDQLVEIIKVLGTPTREQIREMNPNYTEFKFPQIKAHPWTKVFRPRTPPEAIALCSRLLEYTPTARLTPLEACAHSFFDELRDPNVKLPNGRDTPALFNFTTQELSSNPPLATILIPPHARIQAAASTPTNATAASDANTGDRGQTNNAASASASNST",
+      "length": 420,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "1MZY",
+      "status": "mapped",
+      "scop_sunid": "49550",
+      "scop_mappings": [
+        "49550"
+      ],
+      "sequence": "VDLSNLPRVKHTLVPPPFAHAHEQVAASGPVINEFEMRIIEKEVQLDEDAYLQAMTFDGSIPGPLMIVHEGDYVELTLINPPENTMPHNIDFHAATGALGGGGLTLINPGEKVVLRFKATRAGAFVYHCAPGGPMIPWHVVSGMAGCIMVLPRDGLKDHEGKPVRYDTVYYIGESDHYIPKDEDGTYMRFSDPSEGYEDMVAVMDTLIPSHIVFNGAVGALTGEGALKAKVGDNVLFVHSQPNRDSRPHLIGGHGDLVWETGKFHNAPERDLETWFIRGGTAGAALYKFLQPGVYAYVNHNLIEAVHKGATAHVLVEGEWDNDLMEQVVAPVG",
+      "length": 333,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "7IA8",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6UUA",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1AI6",
+      "status": "mapped",
+      "scop_sunid": "56244",
+      "scop_mappings": [
+        "56244"
+      ],
+      "sequence": "EQSSSEIKIVRDEYGMPHIYANDTWHLFYGYGYVVAQDRLFQMEMARRSTQGTVAEVLGKDFVKFDKDIRRNYWPDAIRAQIAALSPEDMSILQGYADGMNAWIDKVNTNPETLLPKQFNTFGFTPKRWEPFDVAMIFVGTMANRFSDSTSEIDNLALLTALKDKYGVSQGMAVFNQLKWLVNPSAPTTIAVQESNYPLKFNQQNSQTA",
+      "length": 209,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "9NNB",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6MJR",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3GLC",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7BCB",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9FNT",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3P4G",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6DA0",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "8ZPX",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9QQU",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4Y83",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2E53",
+      "status": "mapped",
+      "scop_sunid": "49900",
+      "scop_mappings": [
+        "49900"
+      ],
+      "sequence": "KTISFNFNQFHQNEEQLKLQRDARISSNSVLELTKVVNGVPTWNSTGRALYAKPVQVWDSTTGNVASFETRFSFSIRQPFPRPHPADGLVFFIAPPNTQTGEGGGYFGIYNPLSPYPFVAVEFDTFRNTWDPQIPHIGIDVNSVISTKTVPFTLDNGGIANVVIKYDASTKILHVVLVFPSLGTIYTIADIVDLKQVLPESVNVGFSAATGDPSGKQRNATETHDILSWSFSASLPGTNEF",
+      "length": 241,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "5HR1",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5IST",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7PW7",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6BY4",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2D1Z",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "8TVJ",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1PF3",
+      "status": "mapped",
+      "scop_sunid": "49550",
+      "scop_mappings": [
+        "49550"
+      ],
+      "sequence": "AERPTLPIPDLLTTDARNRIQLTIGAGQSTFGGKTATTWGYNGNLLGPAVKLQRGKAVTVDIYNQLTEETTLHWHGLEVPGEVDGGPQGIIPPGGKRSVTLNVDQPAATCWFHPHQHGKTGRQVAMGLAGLVVIEDDEILKLMLPKQWGIDDVPVIVQDKKFSADGQIDYQLDVMTAAVGWFGDTLLTNGAIYPQHAAPRGWLRLRLLNGCNARSLNFATSDNRPLYVIASDGGLLPEPVKVSELPVLMGERFEVLVEVNDNKPFDLVTLPVSQMGMAIAPFDKPHPVMRIQPIAISASGALPDTLSSLPALPSLEGLTVRKLQLSMDPMLDMMGMQMLMEKYGDQAMAGMDHSQMMGHMGHGNMNHMNHGGKFDFHHANKINGQAFDMNKPMFAAAKGQYERWVISGVGDMLLHPFHIHGTQFRILSENGKPPAAHRAGWKDTVKVEGNVSEVLVKFNHDAPKEHAYMAHCHLLEHEDTGMMLGFTVSAWSHPNFEK",
+      "length": 498,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "7S7G",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5IKN",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4B9P",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9IP6",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6QDB",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1PCE",
+      "status": "mapped",
+      "scop_sunid": "57468",
+      "scop_mappings": [
+        "57468"
+      ],
+      "sequence": "EKQVFSRMPICEHMTESPDCSRIYDPVCGTDGVTYESECKLCLARIENKQDIQIVKDGEC",
+      "length": 60,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "1MB9",
+      "status": "mapped",
+      "scop_sunid": "52403",
+      "scop_mappings": [
+        "52403",
+        "56236"
+      ],
+      "sequence": "MGAPVLPAAFGFLASARTGGGRAPGPVFATRGSHTDIDTPQGERSLAATLVHAPSVAPDRAVARSLTGAPTTAVLAGEIYNRDELLSVLPAGPAPEGDAELVLRLLERYDLHAFRLVNGRFATVVRTGDRVLLATDHAGSVPLYTCVAPGEVRASTEAKALAAHRDPKGFPLADARRVAGLTGVYQVPAGAVMDIDLGSGTAVTHRTWTPGLSRRILPEGEAVAAVRAALEKAVAQRVTPGDTPLVVLSGGIDSSGVAACAHRAAGELDTVSMGTDTSNEFREARAVVDHLRTRHREITIPTTELLAQLPYAVWASESVDPDIIEYLLPLTALYRALDGPERRILTGYGADIPLGGMHREDRLPALDTVLAHDMATFDGLNEMSPVLSTLAGHWTTHPYWDREVLDLLVSLEAGLKRRHGRDKWVLRAAMADALPAETVNRPKLGVHEGSGTTSSFSRLLLDHGVAEDRVHEAKRQVVRELFDLTVGGGRHPSEVDTDDVVRSVADRTARGAA",
+      "length": 513,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "1VTB",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7C3B",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7Y0K",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4D7Q",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2JZT",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "8TIO",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7SJV",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9ZKD",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5Y6J",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "8CYC",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "8UDO",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6PR8",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6TXF",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3JB0",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5PKM",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "8RFA",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3JR5",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5YAC",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3P4C",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3WT5",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "8XAC",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4UIG",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2DW0",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3FC0",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3F8M",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7ZR3",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9D3V",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7Z6E",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1B6X",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1JCF",
+      "status": "mapped",
+      "scop_sunid": "53068",
+      "scop_mappings": [
+        "53068"
+      ],
+      "sequence": "MLRKDIGIDLGTANTLVFLRGKGIVVNEPSVIAIDSTTGEILKVGLEAKNMIGKTPATIKAIRPMRDGVIADYTVALVMLRYFINKAKGGMNLFKPRVVIGVPIGITDVERRAILDAGLEAGASKVFLIEEPMAAAIGSNLNVEEPSGNMVVDIGGGTTEVAVISLGSIVTWESIRIAGDEMDEAIVQYVRETYRVAIGERTAERVKIEIGNVFPSKENDELETTVSGIDLSTGLPRKLTLKGGEVREALRSVVVAIVESVRTTLEKTPPELVSDIIERGIFLTGGGSLLRGLDTLLQKETGISVIRSEEPLTAVAKGAGMVLDKVNILKKLQGAGGSHHHHHH",
+      "length": 344,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "2BG8",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5KQA",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6YQ4",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6IBH",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7IIB",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "8J2E",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "8X0P",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9OON",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6PAH",
+      "status": "mapped",
+      "scop_sunid": "56535",
+      "scop_mappings": [
+        "56535"
+      ],
+      "sequence": "TVPWFPRTIQELDRFANQILSYGAELDADHPGFKDPVYRARRKQFADIAYNYRHGQPIPRVEYMEEEKKTWGTVFKTLKSLYKTHACYEYNHIFPLLEKYCGFHEDNIPQLEDVSQFLQTCTGFRLRPVAGLLSSRDFLGGLAFRVFHCTQYIRHGSKPMYTPEPDICHELLGHVPLFSDRSFAQFSQEIGLASLGAPDEYIEKLATIYWFTVEFGLCKQGDSIKAYGAGLLSSFGELQYCLSEKPKLLPLELEKTAIQNYTVTEFQPLYYVAESFNDAKEKVRNFAATIPRPFSVRYDPYTQRIEVL",
+      "length": 308,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "2OLY",
+      "status": "mapped",
+      "scop_sunid": "58775",
+      "scop_mappings": [
+        "58775"
+      ],
+      "sequence": "GIVEQCCTSICSLYQLENYCN",
+      "length": 21,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "2EJQ",
+      "status": "mapped",
+      "scop_sunid": "160555",
+      "scop_mappings": [
+        "160555"
+      ],
+      "sequence": "MTYEAFVELVERLWEEVPEDFKRGLQGVHVFPEAKPEPGLEGVWRLGEYLDPGPPSAFGGFEDLGRHIALYYGSFLEVAGEGFDWEAEVWETMLHELRHHLESLAGRDDLVQEDLRRLDAFRRGGPSGEG",
+      "length": 130,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "8P9S",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6PFQ",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4ZZP",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9DEA",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9O4H",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7I40",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9UGH",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5A7X",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7SKA",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "6JVW",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2EW4",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5UV8",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3R8C",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3DP7",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2Y7M",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5E0X",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4MG4",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "5PBE",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9FT2",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3CW8",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2GKJ",
+      "status": "mapped",
+      "scop_sunid": "54507",
+      "scop_mappings": [
+        "54507"
+      ],
+      "sequence": "MQFSKMHGLGNDFVVVDGVTQNVFFTPETIRRLANRHCGIGFDQLLIVEAPYDPELDFHYRIFNADGSEVSQCGNGARCFARFVTLKGLTNKKDISVSTQKGNMVLTVKDDNQIRVNMGEPIWEPAKIPFTANKFEKNYILRTDIQTVLCGAVSMGNPHCVVQVDDIQTANVEQLGPLLESHERFPERVNAGFMQIINKEHIKLRVYERGAGETQACGSGACAAVAVGIMQGLLNNNVQVDLPGGSLMIEWNGVGHPLYMTGEATHIYDGFITL",
+      "length": 274,
+      "maximum_mmseqs_identity_to_cohort": 0.0,
+      "closest_cohort_accession": "",
+      "aligned_residues": 0
+    },
+    {
+      "pdb_id": "7W0K",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9EEU",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "3VTI",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "2VW8",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4MT1",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4GGT",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "1LJP",
+      "status": "mapped",
+      "scop_sunid": "48648",
+      "scop_mappings": [
+        "48648"
+      ],
+      "sequence": "TACTATQQTAAYKTLVSILSESSFSQCSKDSGYSMLTATALPTNAQYKLMCASTACNTMIKKIVALNPPDCDLTVPTSGLVLDVYTYANGFSSKCASL",
+      "length": 98,
+      "maximum_mmseqs_identity_to_cohort": 78.5,
+      "closest_cohort_accession": "Q01905",
+      "aligned_residues": 98
+    },
+    {
+      "pdb_id": "8EUO",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "8S3U",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "9XP0",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "7AX1",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "pdb_id": "4XNW",
+      "status": "fetch_error",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

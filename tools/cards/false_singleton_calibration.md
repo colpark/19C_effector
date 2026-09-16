@@ -69,3 +69,7 @@ SCOP via PDBe is proposed as an independent pre-prediction fallback, but it lose
 ECOD's broad coverage and family granularity. Item 51 currently says ECOD, so no SCOP
 pool or prediction was run pending a Referee amendment. Details and verbatim probe:
 `handoff/w1/ecod_fetcher_probe.md` and `handoff/w1/ecod_substitute_proposal.md`.
+
+## Attempt 4 — authorised SCOP natural-confidence pool
+
+After Referee Item 58 authorized SCOP/PDBe, a deterministic unselected 240-PDB draw produced 36 contamination-screen-retained SCOP records and 34 carded ESMFold predictions. One (2CJR, coronavirus nucleocapsid dimerization domain) fell in the frozen pLDDT band. It is one family with no eligible family support, failing the five-family and three-confident-relative conditions. No Foldseek rate or transfer was calculated. This attempt confirms that the SCOP substitute's narrower coverage and natural-low-confidence yield—not induced sequence damage—are the limiting facts. Full report: `handoff/w1/scop_natural_calibration.md`; source card: `tools/cards/scop_pdbe_mapping.md`.
