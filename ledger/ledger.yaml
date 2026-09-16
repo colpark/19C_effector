@@ -349,3 +349,23 @@ elements:
       supply bound, not a pLDDT filter on the cohort.'
     previous_measured_by: null
     new_measured_by: null
+- name: Item 47 tau sensitivity ruling
+  current_value: Foldseek TM-score 0.50 remains the frozen primary threshold; 0.40
+    and 0.60 remain sensitivity analyses.
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Frozen before any arm exists. The 0.40 and 0.60 rows are retained
+    as reported sensitivity only.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: 'Item 47: sensitivity gives 324, 400 and 437 all-model clusters (64, 80
+      and 87 panels) at TM 0.40, 0.50 and 0.60. The monotone change is expected from
+      threshold relaxation and supplies no independent reason to move the preregistered
+      central threshold after measurement. Selecting an endpoint for supply would
+      make detectability easier without new validation.'
+    previous_value: null
+    new_value: Foldseek TM-score 0.50 remains the frozen primary threshold; 0.40 and
+      0.60 remain sensitivity analyses.
+    previous_measured_by: null
+    new_measured_by: null
