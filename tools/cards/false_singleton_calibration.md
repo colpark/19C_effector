@@ -49,6 +49,32 @@ distribution; consequently no corrected cohort count, panel count or MDE is supp
 - All perturbation methods stayed much more confident than the target; their rates
   disagree in scope, not materially in point estimate.
 
+## Attempt 5 — ruled in-cohort sequence-relative calibration
+
+Referee Items 61--64 retired the external route as structurally infeasible for this
+calibration and fixed the eligible population before its Foldseek result was read:
+low-confidence ESMFold members (<0.50 mean pLDDT) with at least one confident member
+(>=0.50) in their frozen MMseqs2 30%-identity sequence cluster. The cohort recount
+has seven such clusters, nine low-confidence members, and eleven confident relatives.
+Unlike Attempts 1--4, this is a direct same-cohort measurement and needs neither a
+confidence-distribution match nor an external-family transfer.
+
+It measures recovery of a close sequence relative, not a structural family. That is
+an important limitation: a high-identity relative is easier for Foldseek to join than
+a fold-family relative, so the baseline-subtracted false-singleton excess can be biased
+downward, in the direction favouring continuation. The retained implementation,
+test-set table and machine-readable rates are `scripts/measure_in_cohort_false_singletons.py`,
+`data/measurements/in_cohort_false_singleton_test_set.tsv`, and
+`data/measurements/in_cohort_false_singleton_calibration.json`.
+
+At TM 0.40/0.50/0.60, respectively, the low-member false-singleton counts were
+4/9, 8/9 and 9/9; confident-relative baseline counts were 2/11, 6/11 and 8/11; no
+low member made a wrong-family join. The conservative 95% intervals for the
+baseline-subtracted excess were 0--0.6820, 0--0.7000 and 0--0.5656. The Instrument
+does not rule on Item 48. The test members are concentrated in Ustilago/Sporisorium
+and the non-canonical stratum, so pooled correction across all low-confidence
+singletons is a representativeness limitation.
+
 ## Attempt 2 — naturally low-confidence ECOD controls
 
 This attempt was specified to avoid degradation entirely: draw an unselected ECOD

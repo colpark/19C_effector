@@ -1,0 +1,21 @@
+sequence_cluster	accession	mean_plddt	confidence	profile_stratum	organism
+A0A0D1CRF7	A0A0D1CRF7	0.45397590361445783	low	non-canonical	Ustilago maydis
+A0A0D1CRF7	E7A096	0.6049122807017544	high	non-canonical	Sporisorium reilianum
+A0A0D1E4Q7	A0A0D1E4Q7	0.540625	high	canonical	Ustilago maydis
+A0A0D1E4Q7	E6ZXT3	0.36979838709677415	low	canonical	Sporisorium reilianum
+C4B8B8	A0A219T3Y8	0.5486725663716814	high	non-canonical	Magnaporthe oryzae
+C4B8B8	C4B8B8	0.5635398230088495	high	non-canonical	Magnaporthe oryzae
+C4B8B8	C4B8B9	0.3907079646017699	low	non-canonical	Magnaporthe oryzae
+C4B8B8	C4B8C2	0.5519469026548672	high	non-canonical	Magnaporthe oryzae
+C4B8B8	G4MXW3	0.3972566371681416	low	non-canonical	Magnaporthe oryzae
+E6ZMP6	E6ZMP6	0.29594646271510516	low	non-canonical	Sporisorium reilianum
+E6ZMP6	E6ZMP7	0.6296435272045029	high	non-canonical	Sporisorium reilianum
+G0X840	G0X840	0.3638235294117647	low	non-canonical	Ustilago maydis
+G0X840	KIS66302	0.625024154589372	high	non-canonical	Ustilago maydis
+Q4PCM4	E3CTN3	0.5881029810298103	high	non-canonical	Ustilago maydis
+Q4PCM4	Q4P999	0.4904250559284116	low	non-canonical	Ustilago maydis
+Q4PCM4	Q4P9A0	0.5618732782369146	high	non-canonical	Ustilago maydis
+Q4PCM4	Q4PCM4	0.4740666666666667	low	non-canonical	Ustilago maydis
+Q4PDL7	A0A0D1E3Z8	0.49055803571428575	low	non-canonical	Ustilago maydis
+Q4PDL7	Q4PCM5	0.5242058165548098	high	non-canonical	Ustilago maydis
+Q4PDL7	Q4PDL7	0.5140465116279069	high	non-canonical	Ustilago maydis

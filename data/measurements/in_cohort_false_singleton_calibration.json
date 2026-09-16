@@ -1,0 +1,453 @@
+{
+  "method": "Direct same-cohort recovery of a confident frozen-MMseqs2-30%-identity relative; not a fold-family or distribution-transfer estimate.",
+  "eligibility": {
+    "mixed_sequence_clusters": 7,
+    "low_members": 9,
+    "high_members": 11,
+    "criterion": "low <0.50 and high >=0.50 mean pLDDT"
+  },
+  "members": [
+    {
+      "sequence_cluster": "A0A0D1CRF7",
+      "accession": "A0A0D1CRF7",
+      "mean_plddt": 0.45397590361445783,
+      "confidence": "low",
+      "profile_stratum": "non-canonical",
+      "organism": "Ustilago maydis"
+    },
+    {
+      "sequence_cluster": "A0A0D1CRF7",
+      "accession": "E7A096",
+      "mean_plddt": 0.6049122807017544,
+      "confidence": "high",
+      "profile_stratum": "non-canonical",
+      "organism": "Sporisorium reilianum"
+    },
+    {
+      "sequence_cluster": "A0A0D1E4Q7",
+      "accession": "A0A0D1E4Q7",
+      "mean_plddt": 0.540625,
+      "confidence": "high",
+      "profile_stratum": "canonical",
+      "organism": "Ustilago maydis"
+    },
+    {
+      "sequence_cluster": "A0A0D1E4Q7",
+      "accession": "E6ZXT3",
+      "mean_plddt": 0.36979838709677415,
+      "confidence": "low",
+      "profile_stratum": "canonical",
+      "organism": "Sporisorium reilianum"
+    },
+    {
+      "sequence_cluster": "C4B8B8",
+      "accession": "A0A219T3Y8",
+      "mean_plddt": 0.5486725663716814,
+      "confidence": "high",
+      "profile_stratum": "non-canonical",
+      "organism": "Magnaporthe oryzae"
+    },
+    {
+      "sequence_cluster": "C4B8B8",
+      "accession": "C4B8B8",
+      "mean_plddt": 0.5635398230088495,
+      "confidence": "high",
+      "profile_stratum": "non-canonical",
+      "organism": "Magnaporthe oryzae"
+    },
+    {
+      "sequence_cluster": "C4B8B8",
+      "accession": "C4B8B9",
+      "mean_plddt": 0.3907079646017699,
+      "confidence": "low",
+      "profile_stratum": "non-canonical",
+      "organism": "Magnaporthe oryzae"
+    },
+    {
+      "sequence_cluster": "C4B8B8",
+      "accession": "C4B8C2",
+      "mean_plddt": 0.5519469026548672,
+      "confidence": "high",
+      "profile_stratum": "non-canonical",
+      "organism": "Magnaporthe oryzae"
+    },
+    {
+      "sequence_cluster": "C4B8B8",
+      "accession": "G4MXW3",
+      "mean_plddt": 0.3972566371681416,
+      "confidence": "low",
+      "profile_stratum": "non-canonical",
+      "organism": "Magnaporthe oryzae"
+    },
+    {
+      "sequence_cluster": "E6ZMP6",
+      "accession": "E6ZMP6",
+      "mean_plddt": 0.29594646271510516,
+      "confidence": "low",
+      "profile_stratum": "non-canonical",
+      "organism": "Sporisorium reilianum"
+    },
+    {
+      "sequence_cluster": "E6ZMP6",
+      "accession": "E6ZMP7",
+      "mean_plddt": 0.6296435272045029,
+      "confidence": "high",
+      "profile_stratum": "non-canonical",
+      "organism": "Sporisorium reilianum"
+    },
+    {
+      "sequence_cluster": "G0X840",
+      "accession": "G0X840",
+      "mean_plddt": 0.3638235294117647,
+      "confidence": "low",
+      "profile_stratum": "non-canonical",
+      "organism": "Ustilago maydis"
+    },
+    {
+      "sequence_cluster": "G0X840",
+      "accession": "KIS66302",
+      "mean_plddt": 0.625024154589372,
+      "confidence": "high",
+      "profile_stratum": "non-canonical",
+      "organism": "Ustilago maydis"
+    },
+    {
+      "sequence_cluster": "Q4PCM4",
+      "accession": "E3CTN3",
+      "mean_plddt": 0.5881029810298103,
+      "confidence": "high",
+      "profile_stratum": "non-canonical",
+      "organism": "Ustilago maydis"
+    },
+    {
+      "sequence_cluster": "Q4PCM4",
+      "accession": "Q4P999",
+      "mean_plddt": 0.4904250559284116,
+      "confidence": "low",
+      "profile_stratum": "non-canonical",
+      "organism": "Ustilago maydis"
+    },
+    {
+      "sequence_cluster": "Q4PCM4",
+      "accession": "Q4P9A0",
+      "mean_plddt": 0.5618732782369146,
+      "confidence": "high",
+      "profile_stratum": "non-canonical",
+      "organism": "Ustilago maydis"
+    },
+    {
+      "sequence_cluster": "Q4PCM4",
+      "accession": "Q4PCM4",
+      "mean_plddt": 0.4740666666666667,
+      "confidence": "low",
+      "profile_stratum": "non-canonical",
+      "organism": "Ustilago maydis"
+    },
+    {
+      "sequence_cluster": "Q4PDL7",
+      "accession": "A0A0D1E3Z8",
+      "mean_plddt": 0.49055803571428575,
+      "confidence": "low",
+      "profile_stratum": "non-canonical",
+      "organism": "Ustilago maydis"
+    },
+    {
+      "sequence_cluster": "Q4PDL7",
+      "accession": "Q4PCM5",
+      "mean_plddt": 0.5242058165548098,
+      "confidence": "high",
+      "profile_stratum": "non-canonical",
+      "organism": "Ustilago maydis"
+    },
+    {
+      "sequence_cluster": "Q4PDL7",
+      "accession": "Q4PDL7",
+      "mean_plddt": 0.5140465116279069,
+      "confidence": "high",
+      "profile_stratum": "non-canonical",
+      "organism": "Ustilago maydis"
+    }
+  ],
+  "thresholds": {
+    "0.40": {
+      "raw_clusters": 324,
+      "audited_low_confidence_singletons": 139,
+      "low_false_singleton": {
+        "k": 4,
+        "n": 9,
+        "rate": 0.4444444444444444,
+        "wilson_95": [
+          0.18877852109766452,
+          0.733348706504507
+        ],
+        "members": [
+          "A0A0D1CRF7",
+          "E6ZMP6",
+          "E6ZXT3",
+          "G0X840"
+        ]
+      },
+      "low_wrong_join": {
+        "k": 0,
+        "n": 9,
+        "rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.2991450484195441
+        ],
+        "members": []
+      },
+      "high_baseline_false_singleton": {
+        "k": 2,
+        "n": 11,
+        "rate": 0.18181818181818182,
+        "wilson_95": [
+          0.05136768974608513,
+          0.4769805619608442
+        ],
+        "members": [
+          "E6ZMP7",
+          "E7A096"
+        ]
+      },
+      "baseline_subtracted_excess": {
+        "point": 0.2626262626262626,
+        "conservative_95_interval": [
+          0.0,
+          0.6819810167584219
+        ]
+      },
+      "corrected_supply": {
+        "point": {
+          "excess_rate": 0.2626262626262626,
+          "clusters": 287.4949494949495,
+          "panels_max": 57,
+          "MDE": 0.04267408813335618
+        },
+        "lower": {
+          "excess_rate": 0.0,
+          "clusters": 324.0,
+          "panels_max": 64,
+          "MDE": 0.04027278751037392
+        },
+        "upper": {
+          "excess_rate": 0.6819810167584219,
+          "clusters": 229.20463867057936,
+          "panels_max": 45,
+          "MDE": 0.04802810160885365
+        }
+      },
+      "stratum_supply": {
+        "canonical": {
+          "raw_clusters": 95,
+          "low_confidence_singletons": 37,
+          "corrected_clusters_interval": [
+            69.76670237993838,
+            95.0
+          ]
+        },
+        "non-canonical": {
+          "raw_clusters": 216,
+          "low_confidence_singletons": 102,
+          "corrected_clusters_interval": [
+            146.43793629064095,
+            216.0
+          ]
+        }
+      }
+    },
+    "0.50": {
+      "raw_clusters": 400,
+      "audited_low_confidence_singletons": 175,
+      "low_false_singleton": {
+        "k": 8,
+        "n": 9,
+        "rate": 0.8888888888888888,
+        "wilson_95": [
+          0.5650002944233439,
+          0.9801091123614551
+        ],
+        "members": [
+          "A0A0D1CRF7",
+          "A0A0D1E3Z8",
+          "C4B8B9",
+          "E6ZMP6",
+          "E6ZXT3",
+          "G0X840",
+          "G4MXW3",
+          "Q4P999"
+        ]
+      },
+      "low_wrong_join": {
+        "k": 0,
+        "n": 9,
+        "rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.2991450484195441
+        ],
+        "members": []
+      },
+      "high_baseline_false_singleton": {
+        "k": 6,
+        "n": 11,
+        "rate": 0.5454545454545454,
+        "wilson_95": [
+          0.280091537409322,
+          0.7872872837754024
+        ],
+        "members": [
+          "A0A0D1E4Q7",
+          "E3CTN3",
+          "E6ZMP7",
+          "E7A096",
+          "Q4PCM5",
+          "Q4PDL7"
+        ]
+      },
+      "baseline_subtracted_excess": {
+        "point": 0.3434343434343434,
+        "conservative_95_interval": [
+          0.0,
+          0.7000175749521331
+        ]
+      },
+      "corrected_supply": {
+        "point": {
+          "excess_rate": 0.3434343434343434,
+          "clusters": 339.8989898989899,
+          "panels_max": 67,
+          "MDE": 0.039360832582575445
+        },
+        "lower": {
+          "excess_rate": 0.0,
+          "clusters": 400.0,
+          "panels_max": 80,
+          "MDE": 0.03602107620664024
+        },
+        "upper": {
+          "excess_rate": 0.7000175749521331,
+          "clusters": 277.4969243833767,
+          "panels_max": 55,
+          "MDE": 0.04344305248080876
+        }
+      },
+      "stratum_supply": {
+        "canonical": {
+          "raw_clusters": 123,
+          "low_confidence_singletons": 47,
+          "corrected_clusters_interval": [
+            90.09917397724973,
+            123.0
+          ]
+        },
+        "non-canonical": {
+          "raw_clusters": 273,
+          "low_confidence_singletons": 128,
+          "corrected_clusters_interval": [
+            183.39775040612696,
+            273.0
+          ]
+        }
+      }
+    },
+    "0.60": {
+      "raw_clusters": 437,
+      "audited_low_confidence_singletons": 184,
+      "low_false_singleton": {
+        "k": 9,
+        "n": 9,
+        "rate": 1.0,
+        "wilson_95": [
+          0.7008549515804559,
+          1.0
+        ],
+        "members": [
+          "A0A0D1CRF7",
+          "A0A0D1E3Z8",
+          "C4B8B9",
+          "E6ZMP6",
+          "E6ZXT3",
+          "G0X840",
+          "G4MXW3",
+          "Q4P999",
+          "Q4PCM4"
+        ]
+      },
+      "low_wrong_join": {
+        "k": 0,
+        "n": 9,
+        "rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.2991450484195441
+        ],
+        "members": []
+      },
+      "high_baseline_false_singleton": {
+        "k": 8,
+        "n": 11,
+        "rate": 0.7272727272727273,
+        "wilson_95": [
+          0.43435469882387084,
+          0.902539407099751
+        ],
+        "members": [
+          "A0A0D1E4Q7",
+          "E3CTN3",
+          "E6ZMP7",
+          "E7A096",
+          "KIS66302",
+          "Q4P9A0",
+          "Q4PCM5",
+          "Q4PDL7"
+        ]
+      },
+      "baseline_subtracted_excess": {
+        "point": 0.2727272727272727,
+        "conservative_95_interval": [
+          0.0,
+          0.5656453011761291
+        ]
+      },
+      "corrected_supply": {
+        "point": {
+          "excess_rate": 0.2727272727272727,
+          "clusters": 386.8181818181818,
+          "panels_max": 77,
+          "MDE": 0.036716080642549755
+        },
+        "lower": {
+          "excess_rate": 0.0,
+          "clusters": 437.0,
+          "panels_max": 87,
+          "MDE": 0.03454156824218469
+        },
+        "upper": {
+          "excess_rate": 0.5656453011761291,
+          "clusters": 332.92126458359223,
+          "panels_max": 66,
+          "MDE": 0.0396578996843662
+        }
+      },
+      "stratum_supply": {
+        "canonical": {
+          "raw_clusters": 134,
+          "low_confidence_singletons": 51,
+          "corrected_clusters_interval": [
+            105.15208964001741,
+            134.0
+          ]
+        },
+        "non-canonical": {
+          "raw_clusters": 299,
+          "low_confidence_singletons": 133,
+          "corrected_clusters_interval": [
+            223.76917494357482,
+            299.0
+          ]
+        }
+      }
+    }
+  }
+}
