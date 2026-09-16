@@ -2,6 +2,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .venv/
+.venv-esmfold/
 *.tmp
 *.log
 *.pid
@@ -12,6 +13,7 @@ data/raw/sources/*.tar.gz
 data/raw/sources/*.tsv.gz
 data/raw/tools/*.tar.gz
 data/raw/alphafold/*.pdb
+data/raw/esmfold/*.pdb
 data/positives/union.fasta-seq/
 data/positives/union.fasta.*-bl.pl
 data/positives/union.fasta.*-bl.sh
