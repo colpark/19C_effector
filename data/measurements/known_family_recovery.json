@@ -4,7 +4,7 @@
     "LysM": 0,
     "MAX": 1,
     "NLP": 0,
-    "RxLR": 2,
+    "RxLR": 3,
     "ToxA-like": 0
   },
   "family_patterns": {
@@ -16,7 +16,7 @@
     "ToxA-like": "\\bToxA(?:-like)?\\b"
   },
   "method": "Explicit annotation regexes only; cluster results are read after family labels are fixed.",
-  "structurally_mapped_members": 3,
+  "structurally_mapped_members": 4,
   "thresholds": {
     "0.40": {
       "all_low_confidence_singletons": 142,
@@ -91,9 +91,9 @@
         "RxLR": {
           "by_confidence": {
             "high": {
-              "clusters_occupied": 2,
-              "largest_same_family_cluster_fraction": 0.5,
-              "members": 2
+              "clusters_occupied": 3,
+              "largest_same_family_cluster_fraction": 0.3333333333333333,
+              "members": 3
             },
             "low": {
               "largest_same_family_cluster_fraction": null,
@@ -101,7 +101,7 @@
             }
           },
           "low_singletons_with_confident_clustered_relatives": [],
-          "members": 2
+          "members": 3
         },
         "ToxA-like": {
           "by_confidence": {
@@ -194,9 +194,9 @@
         "RxLR": {
           "by_confidence": {
             "high": {
-              "clusters_occupied": 2,
-              "largest_same_family_cluster_fraction": 0.5,
-              "members": 2
+              "clusters_occupied": 3,
+              "largest_same_family_cluster_fraction": 0.3333333333333333,
+              "members": 3
             },
             "low": {
               "largest_same_family_cluster_fraction": null,
@@ -204,7 +204,7 @@
             }
           },
           "low_singletons_with_confident_clustered_relatives": [],
-          "members": 2
+          "members": 3
         },
         "ToxA-like": {
           "by_confidence": {
@@ -297,9 +297,9 @@
         "RxLR": {
           "by_confidence": {
             "high": {
-              "clusters_occupied": 2,
-              "largest_same_family_cluster_fraction": 0.5,
-              "members": 2
+              "clusters_occupied": 3,
+              "largest_same_family_cluster_fraction": 0.3333333333333333,
+              "members": 3
             },
             "low": {
               "largest_same_family_cluster_fraction": null,
@@ -307,7 +307,7 @@
             }
           },
           "low_singletons_with_confident_clustered_relatives": [],
-          "members": 2
+          "members": 3
         },
         "ToxA-like": {
           "by_confidence": {

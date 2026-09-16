@@ -50,6 +50,8 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--provenance", type=Path, default=ROOT / "data/positives/provenance.tsv")
     parser.add_argument("--annotations", type=Path, default=ROOT / "data/raw/predector/data/fungal_effectors.tsv")
+    parser.add_argument("--peace", type=Path,
+                        default=ROOT / "data/raw/peace/src/data/dataset_construction/combined_positives.csv")
     parser.add_argument("--manifest", type=Path, default=ROOT / "data/raw/esmfold_manifest.json")
     parser.add_argument("--clusters", type=Path, nargs="+", required=True,
                         help="threshold:path pairs, e.g. 0.50:path.tsv")
@@ -85,7 +87,7 @@ def main() -> int:
             tokens = []
             for key in ("uniprot", "genbank"):
                 tokens.extend(x.strip() for x in row.get(key, "").split(";") if x.strip())
-            sequence = re.sub(r"\s+", "", row.get("sequence", "")).upper()
+            sequence = re.sub(r"\s+", "", row.get("sequence", "")).upper().replace("*", "")
             if sequence:
                 tokens.append("sha256:" + hashlib.sha256(sequence.encode("ascii")).hexdigest())
             for family, pattern in FAMILIES.items():
@@ -97,6 +99,20 @@ def main() -> int:
                     if accession and accession in scores:
                         assignments[family].add(accession)
                         evidence[(family, accession)] = text
+    # PEACE's source identifiers are annotations too (for example ``Mg3LysM`` and
+    # ``RXLR13``), and exact normalized sequence matching preserves independence
+    # from Foldseek membership.
+    with args.peace.open(encoding="utf-8", newline="") as h:
+        for row in csv.DictReader(h):
+            text = row.get("sequence_id", "")
+            sequence = re.sub(r"\s+", "", row.get("sequence", "")).upper().replace("*", "")
+            accession = sequence_aliases.get(hashlib.sha256(sequence.encode("ascii")).hexdigest())
+            if not accession or accession not in scores:
+                continue
+            for family, pattern in FAMILIES.items():
+                if pattern.search(text):
+                    assignments[family].add(accession)
+                    evidence.setdefault((family, accession), "PEACE sequence_id: " + text)
 
     args.ground_truth.parent.mkdir(parents=True, exist_ok=True)
     with args.ground_truth.open("w", encoding="utf-8", newline="") as h:
