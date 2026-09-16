@@ -126,6 +126,22 @@ def evidence_from_predector(row: dict[str, str]) -> tuple[str, str] | None:
     return None
 
 
+def positive_host_interaction(row: dict[str, str]) -> bool:
+    interaction = row.get("Interaction phenotype", "").lower()
+    transient = row.get("Transient Assay Experimental Evidence", "").lower()
+    negative_terms = ("no interaction", "no binding", "negative", "does not interact",
+                      "did not interact", "not interact")
+    if any(term in interaction for term in negative_terms):
+        return False
+    positive_interaction = any(term in interaction for term in (
+        "binding", "positive", "interacts", "interaction"
+    ))
+    assay_interaction = any(term in transient for term in (
+        "co-ip", "coip", "bifc", "split yfp", "yeast two-hybrid", "co-expression"
+    ))
+    return positive_interaction or assay_interaction
+
+
 def evidence_from_phibase(rows: list[dict[str, str]]) -> tuple[str, str, str] | None:
     for row in rows:
         phenotype = row["Phenotype_of_mutant"].lower()
@@ -143,11 +159,7 @@ def evidence_from_phibase(rows: list[dict[str, str]]) -> tuple[str, str, str] | 
                     "deletion", "mutation", "disruption", "silencing"))):
             return ("knockout virulence phenotype", row["Experimental_evidence"],
                     row["Year_published"] or year_from_text(row["Full_citation"]))
-        positive_interaction = any(term in interaction for term in (
-            "binding", "positive", "interacts", "interaction"))
-        assay_interaction = any(term in transient for term in (
-            "co-ip", "bifc", "split yfp", "yeast two-hybrid", "co-expression"))
-        if host_target and (positive_interaction or assay_interaction):
+        if host_target and positive_host_interaction(row):
             return ("validated host-target interaction",
                     row["Interaction phenotype"] or row["Transient Assay Experimental Evidence"],
                     row["Year_published"] or year_from_text(row["Full_citation"]))
