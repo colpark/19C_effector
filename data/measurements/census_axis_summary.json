@@ -1,0 +1,47 @@
+{
+  "negatives": {
+    "unlabelled_candidates": 32225,
+    "verified_negatives": 0
+  },
+  "cutoffs": {
+    "cards": 22,
+    "dated_cutoffs": 0,
+    "pre_cutoff": "not_computable",
+    "post_cutoff": "not_computable",
+    "post_2025_positives": 0
+  },
+  "coverage": {
+    "species": 66,
+    "rna_seq_species": 0,
+    "repeat_annotation_species": 0,
+    "assembly_quality_species": 0,
+    "species_fewer_than_three_channels": 66
+  },
+  "taxonomy": {
+    "genera": 37,
+    "species_strings": 66,
+    "top_genera": [
+      [
+        "Ustilago",
+        96
+      ],
+      [
+        "Phytophthora",
+        78
+      ],
+      [
+        "Sporisorium",
+        75
+      ],
+      [
+        "Magnaporthe",
+        44
+      ],
+      [
+        "Hyaloperonospora",
+        44
+      ]
+    ],
+    "smut_total": 171
+  }
+}

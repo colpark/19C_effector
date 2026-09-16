@@ -50,3 +50,11 @@ The structural channel accepts only canonical amino-acid strings up to 600 resid
 ## Clause 1 outcome
 
 The structural and descriptive axes are recorded together, but the five-axis census is **not released**: negative verification, subject cutoff registry and per-species channel coverage remain unmeasured, and the runtime boundary fails. Nothing here convenes Gate 1.
+
+## Curator completion audit — census withheld
+
+The candidate-negative build has 32,225 unlabelled reviewed fungal/oomycete proteins and zero verified negatives. Precision against these candidates is a lower bound with species-dependent bias, not verified-negative precision. All 22 retained model cards lack a dated cutoff, so the 510 known publication years cannot form model-specific pre/post strata; zero positives are dated later than 2025, but that is not a prospective split. RNA-seq, repeat annotation and assembly-quality metadata cover 0/66 species, leaving every species below three documented evidence channels. No claim from this stage is admissible until the runtime boundary holds.
+
+Frozen-taxonomy normalization gives 37 genera and 66 species strings. Ustilago (96) plus sister genus Sporisorium (75) total 171/521 (32.8%): 31 canonical and 140 non-canonical positives. The structural channel retains its 600-residue/non-standard-residue limit, and only 95/413 ESMFold predictions meet mean pLDDT >=.70.
+
+At frozen TM .50, Item 65 holds supply: the preregistered raw 8/9 Wilson upper bound is .9801, above .8571. The baseline-subtracted 277.5--400.0 cluster / 55--80 panel range remains descriptive sensitivity only. Clause 1 therefore still prevents release and Gate 1 cannot proceed.

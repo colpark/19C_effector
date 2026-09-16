@@ -76,3 +76,12 @@ stratum_asymmetry:
   canonical: {n: 163, mean: 0.6278, q1: 0.4412, median: 0.6330, q3: 0.8102, low_below_0_50: 54}
   non_canonical: {n: 339, mean: 0.5865, q1: 0.4364, median: 0.5628, q3: 0.7189, low_below_0_50: 138}
   consequence: Structural evidence is weaker on the majority non-canonical stratum; do not filter or weight on pLDDT.
+curator_completion_2026_09_16:
+  admissibility: false
+  admissibility_statement: No claim from this stage is admissible until the runtime boundary holds.
+  release: {status: withheld, reason: 'Clause 1 factual blockers; Item 65 supply hold.'}
+  item65_supply: {raw_upper: 0.980109, threshold: 0.8571, descriptive_corrected_clusters: '277.5-400.0', descriptive_panels: '55-80', status: hold}
+  negatives: {unlabelled_candidate_count: 32225, verified_negative_count: 0}
+  subject_cutoffs: {cards_audited: 22, dated_cutoffs: 0, pre_cutoff: not_computable, post_cutoff: not_computable, later_than_2025: 0}
+  tool_coverage: {species: 66, in_planta_rna_seq_fraction: 0.0, repeat_annotation_fraction: 0.0, assembly_quality_fraction: 0.0, fewer_than_three_channels: 66, structural_limit: '600 residues; non-standard residues rejected; 95/413 ESMFold >=0.70'}
+  taxonomy: {frozen_snapshot: data/raw/sources/ncbi-taxdump-2026-09-15.tar.gz, corrected_genera: 37, species_strings: 66, Ustilago: 96, Sporisorium: 75, smut_total: 171}

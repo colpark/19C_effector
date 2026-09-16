@@ -1,0 +1,67 @@
+species	positives	canonical	non_canonical	in_planta_rnaseq	repeat_annotation	assembly_quality	structural_available	structural_high_confidence	fewer_than_three_channels
+Alternaria alternata	1	1	0	0	0	0	1	0	yes
+Beauveria bassiana	2	1	1	0	0	0	2	0	yes
+Blumeria graminis	16	4	12	0	0	0	16	4	yes
+Blumeria graminis f. sp. hordei	6	2	4	0	0	0	6	1	yes
+Blumeria graminis f. sp. tritici	4	1	3	0	0	0	4	1	yes
+Botrytis cinerea	3	0	3	0	0	0	2	1	yes
+Cercospora apii	1	1	0	0	0	0	1	0	yes
+Cercospora beticola	1	1	0	0	0	0	1	0	yes
+Cercospora cf. flagellaris	1	1	0	0	0	0	1	0	yes
+Colletotrichum falcatum	1	1	0	0	0	0	1	1	yes
+Colletotrichum fructicola	1	1	0	0	0	0	1	0	yes
+Colletotrichum graminicola	2	0	2	0	0	0	2	0	yes
+Colletotrichum higginsianum	2	2	0	0	0	0	1	0	yes
+Colletotrichum orbiculare	3	1	2	0	0	0	3	1	yes
+Colletotrichum tabacum	1	1	0	0	0	0	1	0	yes
+Cryptococcus neoformans	2	1	1	0	0	0	2	1	yes
+Dothistroma septosporum	1	1	0	0	0	0	1	0	yes
+Exserohilum turcicum	3	1	2	0	0	0	1	1	yes
+Fulvia fulva	8	8	0	0	0	0	8	1	yes
+Fusarium graminearum	3	1	2	0	0	0	3	3	yes
+Fusarium oxysporum	16	10	6	0	0	0	16	5	yes
+Fusarium oxysporum Fo5176	3	2	1	0	0	0	3	0	yes
+Fusarium oxysporum f. sp. lycopersici	2	1	1	0	0	0	2	0	yes
+Fusarium sacchari	4	4	0	0	0	0	4	2	yes
+Golovinomyces orontii	1	1	0	0	0	0	1	0	yes
+Hyaloperonospora arabidopsidis	44	1	43	0	0	0	44	8	yes
+Leptosphaeria maculans	9	7	2	0	0	0	8	0	yes
+Magnaporthe grisea	1	0	1	0	0	0	1	0	yes
+Magnaporthe oryzae	43	18	25	0	0	0	42	14	yes
+Melampsora larici-populina	1	1	0	0	0	0	1	0	yes
+Melampsora larici-populina (strain 98AG31 / pathotype 3-4-7) (Poplar leaf rust fungus)	1	1	0	0	0	0	1	0	yes
+Melampsora lini	9	2	7	0	0	0	9	1	yes
+Mycosarcoma maydis (Corn smut fungus) (Ustilago maydis)	6	2	4	0	0	0	6	0	yes
+Parastagonospora nodorum	2	2	0	0	0	0	2	0	yes
+Penicillium expansum	6	1	5	0	0	0	6	2	yes
+Penicillium italicum	1	0	1	0	0	0	1	1	yes
+Phakopsora pachyrhizi	3	3	0	0	0	0	3	2	yes
+Phytophthora cactorum	1	1	0	0	0	0	1	0	yes
+Phytophthora capsici	14	4	10	0	0	0	14	0	yes
+Phytophthora infestans	27	7	20	0	0	0	27	4	yes
+Phytophthora nicotianae	4	1	3	0	0	0	4	3	yes
+Phytophthora parasitica	1	0	1	0	0	0	1	0	yes
+Phytophthora sojae	31	4	27	0	0	0	30	6	yes
+Pisolithus albus	1	0	1	0	0	0	1	1	yes
+Plasmopara viticola	1	0	1	0	0	0	1	0	yes
+Pseudocercospora fuligena	2	2	0	0	0	0	2	1	yes
+Puccinia graminis	2	0	2	0	0	0	2	0	yes
+Puccinia graminis f. sp. tritici	7	3	4	0	0	0	5	0	yes
+Puccinia striiformis	4	2	2	0	0	0	4	2	yes
+Puccinia striiformis f. sp. tritici	1	1	0	0	0	0	1	0	yes
+Puccinia striiformis f. sp. tritici PST-78	1	1	0	0	0	0	1	0	yes
+Puccinia triticina	1	1	0	0	0	0	1	1	yes
+Pyrenophora tritici-repentis	1	0	1	0	0	0	1	0	yes
+Pythium aphanidermatum	1	0	1	0	0	0	1	1	yes
+Rhizoctonia solani	1	0	1	0	0	0	1	1	yes
+Rhynchosporium commune	3	3	0	0	0	0	3	0	yes
+Sclerotinia sclerotiorum	6	4	2	0	0	0	6	3	yes
+Sporisorium reilianum	74	11	63	0	0	0	71	8	yes
+Sporisorium scitamineum	1	1	0	0	0	0	1	0	yes
+Synchytrium endobioticum	1	0	1	0	0	0	1	0	yes
+Ustilaginoidea virens	5	2	3	0	0	0	5	4	yes
+Ustilago hordei	1	0	1	0	0	0	1	0	yes
+Ustilago maydis	95	19	76	0	0	0	88	6	yes
+Valsa mali	3	0	3	0	0	0	3	1	yes
+Verticillium dahliae	10	4	6	0	0	0	10	2	yes
+Zymoseptoria tritici	7	7	0	0	0	0	7	1	yes
