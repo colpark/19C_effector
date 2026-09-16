@@ -8,6 +8,7 @@ __pycache__/
 *.pid
 role_worktrees/
 build/
+tmp/
 # Reproducible upstream downloads are recorded by pinned URL and SHA-256, not vendored.
 data/raw/sources/*.tar.gz
 data/raw/sources/*.tsv.gz
