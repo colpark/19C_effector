@@ -990,3 +990,121 @@ elements:
       interval sensitivity, never proceed. The ruling makes detection harder.
     previous_measured_by: null
     new_measured_by: null
+- name: Item 71 eligible singleton correction population
+  current_value: Apply the measured conditional recovery rates only to structural
+    singletons with at least one frozen-MMseqs2-30%-identity sequence relative in
+    the cohort, split by confidence class. Eligibility is the condition under which
+    the rate was measured. At TM .40/.50/.60, eligible singletons are 42=33 low+9
+    other, 65=47+18, and 80=51+29. Point supply is 307.7/61, 348.4/69, and 364.9/72
+    clusters/panels. Sequence-orphan singletons remain uncorrected. This can undercorrect
+    unknown fold relatives below sequence detection; its magnitude is not estimable
+    from this calibration and the residual bias is upward in clusters/panels, favouring
+    continuation.
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Frozen before any Gate 1 ruling. Amend only with retained independent
+    fold-family eligibility evidence.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: Item 71 independently recounted 430 MMseqs clusters, 59 multi-member clusters,
+      150 members with a sequence relative and 371 without, then intersected retained
+      corrected_full Foldseek singletons. The measured rate is conditional on an available
+      known relative; applying it to units that cannot meet that condition estimates
+      an unsupported quantity. The calibration cannot speak to remote fold relatives
+      below sequence detection.
+    previous_value: null
+    new_value: Apply the measured conditional recovery rates only to structural singletons
+      with at least one frozen-MMseqs2-30%-identity sequence relative in the cohort,
+      split by confidence class. Eligibility is the condition under which the rate
+      was measured. At TM .40/.50/.60, eligible singletons are 42=33 low+9 other,
+      65=47+18, and 80=51+29. Point supply is 307.7/61, 348.4/69, and 364.9/72 clusters/panels.
+      Sequence-orphan singletons remain uncorrected. This can undercorrect unknown
+      fold relatives below sequence detection; its magnitude is not estimable from
+      this calibration and the residual bias is upward in clusters/panels, favouring
+      continuation.
+    previous_measured_by: null
+    new_measured_by: null
+- name: Item 72 rate eligibility audit
+  current_value: 'Sharper preregistration rule: every rate or correction must name
+    both its population and the eligibility condition under which it was measured.
+    Re-audit finds two material failures: Item 51 omitted both target population and
+    eligibility; Item 68 named all structural singletons but omitted known-relative
+    eligibility. Item 69 correctly found one failure under its weaker population-only
+    rule.'
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Frozen audit record; amend only with retained ledger-text correction.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: Item 72 addresses the recurring conditional-estimand defect. The earlier
+      audit could not catch Item 68 because it named a population; the sharper test
+      identifies two material defects.
+    previous_value: null
+    new_value: 'Sharper preregistration rule: every rate or correction must name both
+      its population and the eligibility condition under which it was measured. Re-audit
+      finds two material failures: Item 51 omitted both target population and eligibility;
+      Item 68 named all structural singletons but omitted known-relative eligibility.
+      Item 69 correctly found one failure under its weaker population-only rule.'
+    previous_measured_by: null
+    new_measured_by: null
+- name: Item 73-74 supply and remaining Gate 1 conditions
+  current_value: 'Item 71 reverses Item 68 point closure: frozen TM .50 is 348.4 clusters/69
+    panels (proceed on supply), with Wilson-rate sensitivity 339.8-368.4 clusters/67-73
+    panels. TM .40 is 307.7/61 (295.5-317.3/59-63); TM .60 is 364.9/72 (359.8-388.7/71-77).
+    This makes detection easier but carries unquantified upward bias from fold relatives
+    below sequence identity. Remaining Gate 1 conditions: passing runtime boundary
+    (external holder host sysadmin, Block A); complete verified-negative axis (valid
+    Fetcher deployment then external evidence sources); subject-model cutoff registry
+    (tool developers/owners); per-species RNA/repeat/assembly coverage (data providers);
+    and Clause-1 complete census. Supply no longer blocks Gate 1.'
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Frozen before Gate 1; amend only with retained replacement artifacts
+    or source-backed missing-axis measurements.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: Item 73-74 uses retained files and Item 71 eligibility. The reversal is
+      caused by a challenge to estimator scope, not new measurement. Recording holders
+      prevents reconstructing the remaining gate conditions later.
+    previous_value: null
+    new_value: 'Item 71 reverses Item 68 point closure: frozen TM .50 is 348.4 clusters/69
+      panels (proceed on supply), with Wilson-rate sensitivity 339.8-366.0 clusters/67-73
+      panels. TM .40 is 307.7/61 (287.2-316.2/57-63); TM .60 is 364.9/72 (360.2-381.5/72-76).
+      This makes detection easier but carries unquantified upward bias from fold relatives
+      below sequence identity. Remaining Gate 1 conditions: passing runtime boundary
+      (external holder host sysadmin, Block A); complete verified-negative axis (valid
+      Fetcher deployment then external evidence sources); subject-model cutoff registry
+      (tool developers/owners); per-species RNA/repeat/assembly coverage (data providers);
+      and Clause-1 complete census. Supply no longer blocks Gate 1.'
+    previous_measured_by: null
+    new_measured_by: null
+  - date: '2026-09-16'
+    by: Referee
+    reason: 'Arithmetic correction before any Gate 1 ruling: the initial Item 73 Wilson
+      sensitivity transcription was recomputed from retained low and confident Wilson
+      bounds. Corrected intervals are 295.5-317.3, 339.8-368.4, and 359.8-388.7 clusters
+      at TM .40/.50/.60. Point estimates and ruling are unchanged.'
+    previous_value: 'Item 71 reverses Item 68 point closure: frozen TM .50 is 348.4
+      clusters/69 panels (proceed on supply), with Wilson-rate sensitivity 339.8-366.0
+      clusters/67-73 panels. TM .40 is 307.7/61 (287.2-316.2/57-63); TM .60 is 364.9/72
+      (360.2-381.5/72-76). This makes detection easier but carries unquantified upward
+      bias from fold relatives below sequence identity. Remaining Gate 1 conditions:
+      passing runtime boundary (external holder host sysadmin, Block A); complete
+      verified-negative axis (valid Fetcher deployment then external evidence sources);
+      subject-model cutoff registry (tool developers/owners); per-species RNA/repeat/assembly
+      coverage (data providers); and Clause-1 complete census. Supply no longer blocks
+      Gate 1.'
+    new_value: 'Item 71 reverses Item 68 point closure: frozen TM .50 is 348.4 clusters/69
+      panels (proceed on supply), with Wilson-rate sensitivity 339.8-368.4 clusters/67-73
+      panels. TM .40 is 307.7/61 (295.5-317.3/59-63); TM .60 is 364.9/72 (359.8-388.7/71-77).
+      This makes detection easier but carries unquantified upward bias from fold relatives
+      below sequence identity. Remaining Gate 1 conditions: passing runtime boundary
+      (external holder host sysadmin, Block A); complete verified-negative axis (valid
+      Fetcher deployment then external evidence sources); subject-model cutoff registry
+      (tool developers/owners); per-species RNA/repeat/assembly coverage (data providers);
+      and Clause-1 complete census. Supply no longer blocks Gate 1.'
+    previous_measured_by: null
+    new_measured_by: null
