@@ -18,6 +18,7 @@ network_allowlist:
   - ftp.ncbi.nlm.nih.gov
   - www.rcsb.org
   - www.ebi.ac.uk
+  - prodata.swmed.edu
   - huggingface.co
   - zhanggroup.org
   - effectorp.csiro.au
