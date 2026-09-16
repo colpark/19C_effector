@@ -1,0 +1,35 @@
+source: data/raw/esmfold_manifest.json
+frozen_before_calibration: '2026-09-16'
+criterion: mean pLDDT below 0.50
+admissibility_statement: No claim from this artifact is admissible until the runtime boundary holds.
+discrepancy_from_prompt:
+  stated_low_confidence_models: 192
+  observed_manifest_models: 189
+  resolution: The manifest contains 413 valid ESMFold entries and exactly 189 with mean pLDDT below 0.50; the calibration target uses the retained manifest, not the unverified stated count.
+all:
+  n: 189
+  minimum: 0.2813
+  q1: 0.3684
+  median: 0.4084
+  q3: 0.4470
+  maximum: 0.4996
+  range: 0.2183
+  mean: 0.4083
+canonical:
+  n: 53
+  minimum: 0.3299
+  q1: 0.3667
+  median: 0.3995
+  q3: 0.4412
+  maximum: 0.4987
+  range: 0.1688
+  mean: 0.4058
+non_canonical:
+  n: 136
+  minimum: 0.2813
+  q1: 0.3691
+  median: 0.4127
+  q3: 0.4486
+  maximum: 0.4996
+  range: 0.2183
+  mean: 0.4094
