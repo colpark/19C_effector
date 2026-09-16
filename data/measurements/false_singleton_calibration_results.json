@@ -1,0 +1,186 @@
+{
+  "admissibility_statement": "No claim from this artifact is admissible until the runtime boundary holds.",
+  "target_n": 189,
+  "methods": {
+    "conserved_position_mutation": {
+      "confidence": {
+        "n": 20,
+        "min": 0.6083333333333334,
+        "q1": 0.840921052631579,
+        "median": 0.9029838709677419,
+        "q3": 0.9102325581395349,
+        "max": 0.93431906614786,
+        "mean": 0.8626553296787558,
+        "wasserstein_1_to_target": 0.4589274869915525,
+        "qualifies_match": false
+      },
+      "thresholds": {
+        "0.40": {
+          "n": 20,
+          "false_singleton": 1,
+          "false_singleton_rate": 0.05,
+          "false_singleton_95_wilson": [
+            0.008881448800795402,
+            0.23613119344674205
+          ],
+          "wrong_family": 0,
+          "wrong_family_rate": 0.0,
+          "wrong_family_95_wilson": [
+            0,
+            0.16112515805281938
+          ]
+        },
+        "0.50": {
+          "n": 20,
+          "false_singleton": 1,
+          "false_singleton_rate": 0.05,
+          "false_singleton_95_wilson": [
+            0.008881448800795402,
+            0.23613119344674205
+          ],
+          "wrong_family": 0,
+          "wrong_family_rate": 0.0,
+          "wrong_family_95_wilson": [
+            0,
+            0.16112515805281938
+          ]
+        },
+        "0.60": {
+          "n": 20,
+          "false_singleton": 1,
+          "false_singleton_rate": 0.05,
+          "false_singleton_95_wilson": [
+            0.008881448800795402,
+            0.23613119344674205
+          ],
+          "wrong_family": 0,
+          "wrong_family_rate": 0.0,
+          "wrong_family_95_wilson": [
+            0,
+            0.16112515805281938
+          ]
+        }
+      }
+    },
+    "natural_orphan_proxy": {
+      "confidence": {
+        "n": 20,
+        "min": 0.7635185185185185,
+        "q1": 0.9147467357910906,
+        "median": 0.9357380952380953,
+        "q3": 0.9484689191165716,
+        "max": 0.9538910505836576,
+        "mean": 0.9227881399086438,
+        "wasserstein_1_to_target": 0.5177773135084709,
+        "qualifies_match": false
+      },
+      "thresholds": {
+        "0.40": {
+          "n": 20,
+          "false_singleton": 1,
+          "false_singleton_rate": 0.05,
+          "false_singleton_95_wilson": [
+            0.008881448800795402,
+            0.23613119344674205
+          ],
+          "wrong_family": 0,
+          "wrong_family_rate": 0.0,
+          "wrong_family_95_wilson": [
+            0,
+            0.16112515805281938
+          ]
+        },
+        "0.50": {
+          "n": 20,
+          "false_singleton": 1,
+          "false_singleton_rate": 0.05,
+          "false_singleton_95_wilson": [
+            0.008881448800795402,
+            0.23613119344674205
+          ],
+          "wrong_family": 0,
+          "wrong_family_rate": 0.0,
+          "wrong_family_95_wilson": [
+            0,
+            0.16112515805281938
+          ]
+        },
+        "0.60": {
+          "n": 20,
+          "false_singleton": 1,
+          "false_singleton_rate": 0.05,
+          "false_singleton_95_wilson": [
+            0.008881448800795402,
+            0.23613119344674205
+          ],
+          "wrong_family": 0,
+          "wrong_family_rate": 0.0,
+          "wrong_family_95_wilson": [
+            0,
+            0.16112515805281938
+          ]
+        }
+      }
+    },
+    "truncation_50pct": {
+      "confidence": {
+        "n": 20,
+        "min": 0.5856451612903226,
+        "q1": 0.871923076923077,
+        "median": 0.8951072124756334,
+        "q3": 0.9315076335877863,
+        "max": 0.9440625,
+        "mean": 0.8444428991585312,
+        "wasserstein_1_to_target": 0.4400690096035454,
+        "qualifies_match": false
+      },
+      "thresholds": {
+        "0.40": {
+          "n": 20,
+          "false_singleton": 1,
+          "false_singleton_rate": 0.05,
+          "false_singleton_95_wilson": [
+            0.008881448800795402,
+            0.23613119344674205
+          ],
+          "wrong_family": 0,
+          "wrong_family_rate": 0.0,
+          "wrong_family_95_wilson": [
+            0,
+            0.16112515805281938
+          ]
+        },
+        "0.50": {
+          "n": 20,
+          "false_singleton": 1,
+          "false_singleton_rate": 0.05,
+          "false_singleton_95_wilson": [
+            0.008881448800795402,
+            0.23613119344674205
+          ],
+          "wrong_family": 0,
+          "wrong_family_rate": 0.0,
+          "wrong_family_95_wilson": [
+            0,
+            0.16112515805281938
+          ]
+        },
+        "0.60": {
+          "n": 20,
+          "false_singleton": 1,
+          "false_singleton_rate": 0.05,
+          "false_singleton_95_wilson": [
+            0.008881448800795402,
+            0.23613119344674205
+          ],
+          "wrong_family": 0,
+          "wrong_family_rate": 0.0,
+          "wrong_family_95_wilson": [
+            0,
+            0.16112515805281938
+          ]
+        }
+      }
+    }
+  }
+}
