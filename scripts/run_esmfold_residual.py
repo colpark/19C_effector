@@ -27,10 +27,20 @@ for line in open(root/'data/positives/union.fasta'):
     if line.startswith('>'): name=line[1:].strip(); seqs[name]=''
     else: seqs[name]+=line.strip()
 residual = [r for r in rows if r.get('uniprot_accession','') not in af]
-todo = sorted([r for r in residual if int(r['length']) <= maximum_residues], key=lambda r:int(r['length']))
-unsupported = [{'accession': r['accession'], 'length': int(r['length']),
-                'profile_stratum': r['profile_stratum'], 'reason': '>600 aa carded limit'}
-               for r in residual if int(r['length']) > maximum_residues]
+todo = []
+unsupported = []
+for r in residual:
+    invalid = ''.join(sorted(set(seqs[r['accession']]) - sibling.AA))
+    if int(r['length']) > maximum_residues:
+        reason = '>600 aa carded limit'
+    elif invalid:
+        reason = f'noncanonical residues rejected by carded wrapper: {invalid}'
+    else:
+        todo.append(r)
+        continue
+    unsupported.append({'accession': r['accession'], 'length': int(r['length']),
+                        'profile_stratum': r['profile_stratum'], 'reason': reason})
+todo.sort(key=lambda r: int(r['length']))
 atomic_json(unsupported_manifest, unsupported)
 
 result=[]
