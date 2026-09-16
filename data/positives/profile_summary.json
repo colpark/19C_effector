@@ -1,0 +1,58 @@
+{
+  "definition": {
+    "exclude_explicit_nonclassical_secretion": true,
+    "max_length": 300,
+    "min_cysteines": 4
+  },
+  "named_checks": {
+    "BghBEC3": {
+      "basis": "cysteines<4",
+      "cysteine_count": 1,
+      "explicitly_nonclassical": false,
+      "length": 114,
+      "profile_stratum": "non-canonical",
+      "retained_in_union": true,
+      "sequence_sha256": "6b002e3a8ae0bbbcbbf5b0e74e41369f1f8cf73e80a872382c42c53a120ae6ec"
+    },
+    "BgtAVRa10": {
+      "basis": "source_explicitly_nonclassical",
+      "cysteine_count": 4,
+      "explicitly_nonclassical": true,
+      "length": 286,
+      "profile_stratum": "non-canonical",
+      "retained_in_union": true,
+      "sequence_sha256": "8470f1f1d332d0d086a5be3338ef91242a29dacd9dfe753618d0337a06bdf378"
+    },
+    "FocSix8": {
+      "basis": "cysteines<4",
+      "cysteine_count": 2,
+      "explicitly_nonclassical": false,
+      "length": 187,
+      "profile_stratum": "non-canonical",
+      "retained_in_union": false,
+      "sequence_sha256": "b77eb59eabc28a98f79d3679d89afb1bdb023da31181859382b27ec6d5ad0157"
+    },
+    "FolSix12": {
+      "basis": "source_explicitly_nonclassical",
+      "cysteine_count": 4,
+      "explicitly_nonclassical": true,
+      "length": 42,
+      "profile_stratum": "non-canonical",
+      "retained_in_union": false,
+      "sequence_sha256": "5eb470e47c83499dff1ce4a4e7e58deb5463fc967e2de5cfb065f76488bbeaa0"
+    },
+    "Vdlsc1": {
+      "basis": "cysteines<4;source_explicitly_nonclassical",
+      "cysteine_count": 1,
+      "explicitly_nonclassical": true,
+      "length": 190,
+      "profile_stratum": "non-canonical",
+      "retained_in_union": false,
+      "sequence_sha256": "efe3657d0df86abdad3175af9ef0bae9759d5487d9af1007875fa8b3c0d821d3"
+    }
+  },
+  "profile_stratum_counts": {
+    "canonical": 164,
+    "non-canonical": 357
+  }
+}
