@@ -395,3 +395,36 @@ elements:
       delta 0.05 and provisional sigma_d 0.115.'
     previous_measured_by: null
     new_measured_by: null
+- name: Item 51 calibration decision criterion
+  current_value: 'At frozen TM 0.50, a distribution-matched ECOD calibration satisfies
+    the Item 48 calibration condition if its two-sided 95% Wilson upper confidence
+    bound for the false-singleton rate is below 150/175 = 0.8571. The statistical
+    stopping rule has no fixed n independent of observed events: with one singleton,
+    n=3 gives upper bound 0.7923; with two, n=5 gives 0.7693. Separately, transfer
+    validity requires at least five ECOD families, each low-confidence retained member
+    having three confident family relatives.'
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Frozen before any qualifying calibration result. Amend only with
+    a pre-result explanation of the changed proceed threshold and effect on detectability.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: 'Item 51 after reproducible artifact verification: the purpose is only
+      to distinguish a rate below the proceed-line rate from one above it, not estimate
+      an arbitrary 0.05 half-width. The prior n=385 generic-width target is superseded
+      for the statistical decision because it answers a tighter question the Gate
+      1 rule does not need. Family diversity remains a non-statistical validity requirement.
+      This reduces the calibration burden and therefore makes it easier for the benchmark
+      to reach detectable-operation review; it does not change measured clusters or
+      MDE.'
+    previous_value: null
+    new_value: 'At frozen TM 0.50, a distribution-matched ECOD calibration satisfies
+      the Item 48 calibration condition if its two-sided 95% Wilson upper confidence
+      bound for the false-singleton rate is below 150/175 = 0.8571. The statistical
+      stopping rule has no fixed n independent of observed events: with one singleton,
+      n=3 gives upper bound 0.7923; with two, n=5 gives 0.7693. Separately, transfer
+      validity requires at least five ECOD families, each low-confidence retained
+      member having three confident family relatives.'
+    previous_measured_by: null
+    new_measured_by: null
