@@ -182,7 +182,7 @@ elements:
     previous_measured_by: null
     new_measured_by: null
 - name: canonical_profile_definition
-  current_value: sequence length at most 300 amino acids AND at least 4 cysteine residues
+  current_value: sequence length at most 300 amino acids AND at least 4 cysteine residues AND no pinned source record explicitly identifies non-classical secretion
   set_on: '2026-09-15'
   set_by: Curator
   amendment_rule: Frozen before canonical and non-canonical stratum sizes are counted.
@@ -199,5 +199,12 @@ elements:
     reason: Operationalize the frozen small, secreted, cysteine-rich stratification before observing stratum sizes.
     previous_value: null
     new_value: sequence length at most 300 amino acids AND at least 4 cysteine residues
+    previous_measured_by: null
+    new_measured_by: null
+  - date: '2026-09-15'
+    by: Curator
+    reason: The prespecified exception check found that the numeric-only rule called FolSix12 and BgtAVRa10 canonical despite pinned source records explicitly identifying non-classical secretion.
+    previous_value: sequence length at most 300 amino acids AND at least 4 cysteine residues
+    new_value: sequence length at most 300 amino acids AND at least 4 cysteine residues AND no pinned source record explicitly identifies non-classical secretion
     previous_measured_by: null
     new_measured_by: null
