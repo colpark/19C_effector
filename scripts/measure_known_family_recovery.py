@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import json
 import math
 import re
@@ -59,10 +60,12 @@ def main() -> int:
     with args.provenance.open(encoding="utf-8", newline="") as h:
         provenance = list(csv.DictReader(h, delimiter="\t"))
     aliases: dict[str, str] = {}
+    sequence_aliases: dict[str, str] = {}
     for row in provenance:
         aliases[row["accession"]] = row["accession"]
         if row.get("uniprot_accession"):
             aliases[row["uniprot_accession"]] = row["accession"]
+        sequence_aliases[row["sequence_sha256"]] = row["accession"]
     with args.manifest.open(encoding="utf-8") as h:
         esm = {x["accession"]: float(x["mean_plddt"]) for x in json.load(h)}
     # AF models have pLDDT in the CA B-factor, recorded on the 0..100 scale.
@@ -82,11 +85,15 @@ def main() -> int:
             tokens = []
             for key in ("uniprot", "genbank"):
                 tokens.extend(x.strip() for x in row.get(key, "").split(";") if x.strip())
+            sequence = re.sub(r"\s+", "", row.get("sequence", "")).upper()
+            if sequence:
+                tokens.append("sha256:" + hashlib.sha256(sequence.encode("ascii")).hexdigest())
             for family, pattern in FAMILIES.items():
                 if not pattern.search(text):
                     continue
                 for token in tokens:
-                    accession = aliases.get(token)
+                    accession = (sequence_aliases.get(token[7:]) if token.startswith("sha256:")
+                                 else aliases.get(token))
                     if accession and accession in scores:
                         assignments[family].add(accession)
                         evidence[(family, accession)] = text
