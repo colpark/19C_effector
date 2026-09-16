@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Fetch fixed SCOP-mapped PDB controls and exclude cohort-overlapping sequences."""
 from __future__ import annotations
-import csv, json, subprocess, urllib.request
+import csv, json, os, shutil, subprocess, urllib.request
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -23,7 +23,10 @@ def main():
     query=ROOT/'build/false_singleton_calibration_candidates.fasta';query.parent.mkdir(exist_ok=True)
     query.write_text(''.join(f'>{r["pdb_id"]}\n{r["sequence"]}\n' for r in downloaded))
     result=ROOT/'build/false_singleton_calibration_mmseqs.tsv'; tmp=ROOT/'build/mmseqs_false_singleton'
-    subprocess.run([str(ROOT/'vendor/mmseqs/mmseqs/bin/mmseqs'),'easy-search',str(query),str(ROOT/'data/positives/union.fasta'),str(result),str(tmp),'--min-seq-id','0.3','-c','0.8','--cov-mode','0','--format-output','query,target,pident,alnlen'],check=True)
+    mmseqs = os.environ.get('MMSEQS_BINARY') or shutil.which('mmseqs')
+    if not mmseqs:
+        raise RuntimeError('MMseqs2 is required; set MMSEQS_BINARY to the pinned executable in docs/assets.md')
+    subprocess.run([mmseqs,'easy-search',str(query),str(ROOT/'data/positives/union.fasta'),str(result),str(tmp),'--min-seq-id','0.3','-c','0.8','--cov-mode','0','--format-output','query,target,pident,alnlen'],check=True)
     hits={}
     if result.exists():
         for line in result.read_text().splitlines():
