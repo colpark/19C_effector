@@ -570,3 +570,33 @@ elements:
       and coarsens families; it does not change the outcome label or benchmark claim.'
     previous_measured_by: null
     new_measured_by: null
+- name: Item 60 calibration stopping ceiling
+  current_value: 'Use two-sided 95% Wilson intervals. The arithmetic is confirmed:
+    one failure in n=3 has upper bound 0.7923 and two failures in n=5 has upper bound
+    0.7693, both below 0.8571. Enrol no more than 20 retained low-confidence SCOP
+    members. At n=20, stop: if the upper bound is below 0.8571 and all transfer-validity
+    conditions hold, report it; otherwise report not estimable. Do not extend the
+    sample after observing a high rate.'
+  set_on: '2026-09-16'
+  set_by: Referee
+  amendment_rule: Frozen before SCOP pool prediction. Amend only before any retained
+    low-confidence member is selected, with stated effect on false-singleton-bound
+    detectability.
+  amendments:
+  - date: '2026-09-16'
+    by: Referee
+    reason: 'Item 60: the prior criterion terminated only for a low rate and could
+      permit optional continuation after an unfavorable result. A 20-member ceiling
+      is the prior completed calibration size and supports at least five families
+      while preventing collection until a desired confidence bound appears. This cap
+      makes it harder, not easier, to obtain a qualifying calibration result; it does
+      not alter clusters, panels or MDE.'
+    previous_value: null
+    new_value: 'Use two-sided 95% Wilson intervals. The arithmetic is confirmed: one
+      failure in n=3 has upper bound 0.7923 and two failures in n=5 has upper bound
+      0.7693, both below 0.8571. Enrol no more than 20 retained low-confidence SCOP
+      members. At n=20, stop: if the upper bound is below 0.8571 and all transfer-validity
+      conditions hold, report it; otherwise report not estimable. Do not extend the
+      sample after observing a high rate.'
+    previous_measured_by: null
+    new_measured_by: null
