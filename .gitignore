@@ -7,6 +7,10 @@ __pycache__/
 *.pid
 role_worktrees/
 build/
+# Reproducible upstream downloads are recorded by pinned URL and SHA-256, not vendored.
+data/raw/sources/*.tar.gz
+data/raw/sources/*.tsv.gz
+data/raw/tools/*.tar.gz
 # Run traces are retained in the external run store, not in Git.
 runs/**
 !runs/.gitkeep
