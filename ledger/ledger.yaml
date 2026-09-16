@@ -181,3 +181,23 @@ elements:
     new_value: lifestyle
     previous_measured_by: null
     new_measured_by: null
+- name: canonical_profile_definition
+  current_value: sequence length at most 300 amino acids AND at least 4 cysteine residues
+  set_on: '2026-09-15'
+  set_by: Curator
+  amendment_rule: Frozen before canonical and non-canonical stratum sizes are counted.
+  citations:
+  - threshold: sequence length at most 300 amino acids
+    source: Sperschneider et al. 2018, EffectorP 2.0, Molecular Plant Pathology 19:2094-2110, doi:10.1111/mpp.12682
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6638006/
+  - threshold: at least 4 cysteine residues
+    source: Sperschneider et al. 2018, EffectorP 2.0, Molecular Plant Pathology 19:2094-2110, doi:10.1111/mpp.12682
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6638006/
+  amendments:
+  - date: '2026-09-15'
+    by: Curator
+    reason: Operationalize the frozen small, secreted, cysteine-rich stratification before observing stratum sizes.
+    previous_value: null
+    new_value: sequence length at most 300 amino acids AND at least 4 cysteine residues
+    previous_measured_by: null
+    new_measured_by: null
