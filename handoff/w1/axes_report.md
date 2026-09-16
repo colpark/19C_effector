@@ -58,3 +58,9 @@ The candidate-negative build has 32,225 unlabelled reviewed fungal/oomycete prot
 Frozen-taxonomy normalization gives 37 genera and 66 species strings. Ustilago (96) plus sister genus Sporisorium (75) total 171/521 (32.8%): 31 canonical and 140 non-canonical positives. The structural channel retains its 600-residue/non-standard-residue limit, and only 95/413 ESMFold predictions meet mean pLDDT >=.70.
 
 At frozen TM .50, Item 65 holds supply: the preregistered raw 8/9 Wilson upper bound is .9801, above .8571. The baseline-subtracted 277.5--400.0 cluster / 55--80 panel range remains descriptive sensitivity only. Clause 1 therefore still prevents release and Gate 1 cannot proceed.
+
+Item 68 now applies rates to both audited singleton populations. At frozen TM .50 the point
+estimate is 145.2 clusters / 29 panels, with independent Wilson-rate sensitivity 85.2--250.1
+clusters / 17--50 panels: close at the point estimate, close-to-hold across uncertainty, never
+proceed. The three missing axes remain uncollected in valid Fetcher scope; see
+`handoff/w1/three_axis_collection.md`.
