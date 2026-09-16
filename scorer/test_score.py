@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import copy
 import tempfile
 import unittest
 from pathlib import Path
@@ -41,8 +42,25 @@ class ScorerTests(unittest.TestCase):
         arm = result["arms"][0]
         self.assertEqual(arm["coverage_failure_count"], 1)
         self.assertEqual(arm["coverage_failures"][0]["reason"], "selected_ids extraction failed")
-        valid_total = sum(value["valid_item_count"] for value in arm["strata"].values())
+        valid_total = sum(value["valid_replicate_count"] for value in arm["strata"].values())
         self.assertEqual(valid_total, len(self.left["selections"]) - 1)
+
+    def test_replicates_aggregate_within_cell_then_pair_on_panel(self) -> None:
+        right = copy.deepcopy(self.right)
+        for row in right["selections"]:
+            row["replicate"] += 100
+        result = score(self.manifest, [self.left, right], self.ledger_path)
+        for stratum in ("canonical", "non-canonical"):
+            comparison = result["paired_comparison"]["strata"][stratum]
+            self.assertEqual(comparison["paired_panel_count"], 2)
+            self.assertTrue(all(cell["left_valid_replicate_count"] == 3
+                                for cell in comparison["paired_cells"]))
+            self.assertTrue(all(cell["right_valid_replicate_count"] == 3
+                                for cell in comparison["paired_cells"]))
+
+    def test_chance_precision_uses_positive_prevalence(self) -> None:
+        result = score(self.manifest, [self.left, self.right], self.ledger_path)
+        self.assertEqual(result["chance_baseline"], 5 / 500)
 
     def test_unequal_or_nonledger_repair_budget_refuses(self) -> None:
         altered = dict(self.left)

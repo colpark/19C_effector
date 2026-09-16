@@ -19,6 +19,7 @@ def synthetic_ledger(source: Path) -> dict[str, Any]:
         ("Repair budget", 0),
         ("alpha", 1 / k),
         ("beta", 1 / k),
+        ("positives_per_panel", 5),
     ):
         if name in items:
             items[name]["current_value"] = value
@@ -35,22 +36,24 @@ def fixtures(ledger_data: dict[str, Any]) -> tuple[dict[str, Any], dict[str, Any
     n_cand = int(items["n_cand"]["current_value"])
     samples = int(items["S, samples per cell"]["current_value"])
     repair = int(items["Repair budget"]["current_value"])
+    positives_per_panel = int(items["positives_per_panel"]["current_value"])
     panels = []
     left_rows = []
     right_rows = []
-    increments = (2, 3)
+    increments = (1, 2)
     for panel_index in range(4):
         panel_id = f"synthetic-{panel_index}"
-        stratum = "canonical" if panel_index % 2 == 0 else "non-canonical"
+        profile_stratum = "canonical" if panel_index < 2 else "non-canonical"
         candidates = [f"{panel_id}-candidate-{index}" for index in range(n_cand)]
-        positives = candidates[:k]
-        panels.append({"panel_id": panel_id, "stratum": stratum,
+        positives = candidates[:positives_per_panel]
+        panels.append({"panel_id": panel_id, "profile_stratum": profile_stratum,
                        "candidate_ids": candidates, "positive_ids": positives})
         for replicate in range(1, samples + 1):
-            base_hits = k // 4
+            base_hits = 1
             increment = increments[(panel_index + replicate) % len(increments)]
             for rows, hits in ((right_rows, base_hits), (left_rows, base_hits + increment)):
-                selected = positives[:hits] + candidates[k:k + (k - hits)]
+                selected = positives[:hits] + candidates[positives_per_panel:
+                                                          positives_per_panel + (k - hits)]
                 rows.append({"panel_id": panel_id, "replicate": replicate,
                              "selected_ids": selected})
     left = {"arm": "A", "repair_budget": repair, "selections": left_rows}

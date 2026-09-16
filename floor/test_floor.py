@@ -11,6 +11,7 @@ import yaml
 
 from headroom import analyze, read_design
 from power import report
+from scorer.score import validate_manifest
 from scorer.synthetic import synthetic_ledger
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -29,7 +30,7 @@ def design_fixture(adaptive: bool) -> dict:
         labels = [0, 1] if adaptive and not first_stratum else [1, 0]
         channels = {"channel_a": [1, 0], "channel_b": [0, 1]}
         items.append({"item_id": f"synthetic-{index}",
-                      "stratum": "first" if first_stratum else "second",
+                      "lifestyle": "first" if first_stratum else "second",
                       "labels": labels, "channels": channels})
     return {"split_role": "design", "eligible_for_scoring": False, "items": items}
 
@@ -69,6 +70,30 @@ class FloorTests(unittest.TestCase):
         result = analyze(read_design(path, self.root), self.ledger)
         self.assertLessEqual(result["H"], result["delta"])
         self.assertEqual(result["decision"], "not above delta")
+
+    def test_headroom_is_cross_fitted_and_reports_in_sample_beside_it(self) -> None:
+        path = self.write_design("cross-fitted.json", True)
+        result = analyze(read_design(path, self.root), self.ledger)
+        self.assertEqual(result["H_estimator"], "leave-one-item-out cross-fitted")
+        self.assertEqual(result["H"], result["H_cross_fitted"])
+        self.assertIn("H_in_sample", result)
+        self.assertEqual(len(result["cross_fitted_items"]), 4)
+
+    def test_profile_stratum_and_lifestyle_are_not_interchangeable(self) -> None:
+        design = design_fixture(True)
+        for item in design["items"]:
+            item["profile_stratum"] = item.pop("lifestyle")
+        with self.assertRaisesRegex(ValueError, "lifestyle"):
+            analyze(design, self.ledger)
+
+        panel = {
+            "panel_id": "p1",
+            "lifestyle": "necrotroph",
+            "candidate_ids": ["positive", "decoy"],
+            "positive_ids": ["positive"],
+        }
+        with self.assertRaisesRegex(ValueError, "profile_stratum"):
+            validate_manifest({"panels": [panel]}, n_cand=2, positives_per_panel=1)
 
     def test_scored_path_is_rejected_before_read(self) -> None:
         scored_root = Path(self.temp.name) / "scored_cohort"

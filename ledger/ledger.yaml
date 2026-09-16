@@ -83,3 +83,101 @@ elements:
   set_by: task-fitness note
   amendment_rule: Frozen before T5.2.
   amendments: []
+- name: alpha
+  current_value: 0.05
+  set_on: '2026-09-15'
+  set_by: Referee
+  amendment_rule: Frozen before power calculations.
+  amendments:
+  - date: '2026-09-15'
+    by: Referee
+    reason: a conventional decision was encoded as a measurement, which deadlocked
+      the scorer and the floor.
+    previous_value: null
+    new_value: 0.05
+    previous_measured_by: null
+    new_measured_by: null
+- name: beta
+  current_value: 0.20
+  set_on: '2026-09-15'
+  set_by: Referee
+  amendment_rule: Frozen before power calculations.
+  amendments:
+  - date: '2026-09-15'
+    by: Referee
+    reason: a conventional decision was encoded as a measurement, which deadlocked
+      the scorer and the floor.
+    previous_value: null
+    new_value: 0.20
+    previous_measured_by: null
+    new_measured_by: null
+- name: positives_per_panel
+  current_value: 5
+  set_on: '2026-09-15'
+  set_by: Referee
+  amendment_rule: Frozen. Tied to the planted-positive panel design.
+  amendments:
+  - date: '2026-09-15'
+    by: Referee
+    reason: a conventional decision was encoded as a measurement, which deadlocked
+      the scorer and the floor.
+    previous_value: null
+    new_value: 5
+    previous_measured_by: null
+    new_measured_by: null
+- name: primary_contrast
+  current_value: arm4 minus arm3, paired at panel level
+  set_on: '2026-09-15'
+  set_by: Referee
+  amendment_rule: Frozen before any arm runs.
+  amendments:
+  - date: '2026-09-15'
+    by: Referee
+    reason: a conventional decision was encoded as a measurement, which deadlocked
+      the scorer and the floor.
+    previous_value: null
+    new_value: arm4 minus arm3, paired at panel level
+    previous_measured_by: null
+    new_measured_by: null
+- name: within_cell_aggregation
+  current_value: mean precision at k over valid replicates of the same panel
+  set_on: '2026-09-15'
+  set_by: Referee
+  amendment_rule: Frozen before scoring.
+  amendments:
+  - date: '2026-09-15'
+    by: Referee
+    reason: a conventional decision was encoded as a measurement, which deadlocked
+      the scorer and the floor.
+    previous_value: null
+    new_value: mean precision at k over valid replicates of the same panel
+    previous_measured_by: null
+    new_measured_by: null
+- name: H_estimator
+  current_value: leave-one-item-out cross-fitted, in-sample reported beside it
+  set_on: '2026-09-15'
+  set_by: Referee
+  amendment_rule: Frozen before the headroom test.
+  amendments:
+  - date: '2026-09-15'
+    by: Referee
+    reason: a conventional decision was encoded as a measurement, which deadlocked
+      the scorer and the floor.
+    previous_value: null
+    new_value: leave-one-item-out cross-fitted, in-sample reported beside it
+    previous_measured_by: null
+    new_measured_by: null
+- name: weight_group_field
+  current_value: lifestyle
+  set_on: '2026-09-15'
+  set_by: Referee
+  amendment_rule: Frozen before the headroom test.
+  amendments:
+  - date: '2026-09-15'
+    by: Referee
+    reason: a conventional decision was encoded as a measurement, which deadlocked
+      the scorer and the floor.
+    previous_value: null
+    new_value: lifestyle
+    previous_measured_by: null
+    new_measured_by: null

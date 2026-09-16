@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fit global and per-stratum mechanical weights on a guarded design split."""
+"""Cross-fit global and per-lifestyle mechanical weights on a guarded design split."""
 
 from __future__ import annotations
 
@@ -86,42 +86,76 @@ def analyze(data: dict[str, Any], ledger: Path) -> dict[str, Any]:
         raise ValueError("design data has no channels")
     ledger_data = ledger_items(ledger)
     k = int(numeric_value(ledger_data, "k"))
-    declared_channels = int(numeric_value(ledger_data, "C, channel count"))
     delta = numeric_value(ledger_data, "delta")
     alpha = numeric_value(ledger_data, "alpha")
-    if declared_channels != len(channels):
-        raise ValueError("design channel count differs from ledger C")
-    strata = sorted({item.get("stratum") for item in items})
-    if any(not isinstance(value, str) or not value for value in strata):
-        raise ValueError("every design item requires a stratum")
+    lifestyles = sorted({item.get("lifestyle") for item in items})
+    if any(not isinstance(value, str) or not value for value in lifestyles):
+        raise ValueError("every design item requires a lifestyle")
+    for lifestyle in lifestyles:
+        if sum(item["lifestyle"] == lifestyle for item in items) < 2:
+            raise ValueError("leave-one-item-out fitting requires at least two items per lifestyle")
 
     global_weights, global_precision = fit(items, channels, k)
     oracle_weights = {}
     oracle_precision = {}
-    paired_differences = []
-    for stratum in strata:
-        group = [item for item in items if item["stratum"] == stratum]
+    in_sample_differences = []
+    for lifestyle in lifestyles:
+        group = [item for item in items if item["lifestyle"] == lifestyle]
         weights, precision = fit(group, channels, k)
-        oracle_weights[stratum] = dict(zip(channels, weights))
-        oracle_precision[stratum] = precision
-        paired_differences.extend(
+        oracle_weights[lifestyle] = dict(zip(channels, weights))
+        oracle_precision[lifestyle] = precision
+        in_sample_differences.extend(
             precision_at_k(item, weights, channels, k)
             - precision_at_k(item, global_weights, channels, k)
             for item in group
         )
-    headroom = statistics.fmean(paired_differences)
-    sigma = statistics.stdev(paired_differences) if len(paired_differences) >= 2 else 0.0
+
+    cross_fitted_differences = []
+    cross_fitted_items = []
+    for held_out_index, item in enumerate(items):
+        training = [candidate for index, candidate in enumerate(items) if index != held_out_index]
+        lifestyle_training = [
+            candidate for candidate in training
+            if candidate["lifestyle"] == item["lifestyle"]
+        ]
+        fold_global_weights, _ = fit(training, channels, k)
+        fold_lifestyle_weights, _ = fit(lifestyle_training, channels, k)
+        global_score = precision_at_k(item, fold_global_weights, channels, k)
+        lifestyle_score = precision_at_k(item, fold_lifestyle_weights, channels, k)
+        difference = lifestyle_score - global_score
+        cross_fitted_differences.append(difference)
+        cross_fitted_items.append({
+            "item_id": item.get("item_id", f"item-{held_out_index}"),
+            "lifestyle": item["lifestyle"],
+            "global_precision_at_k": global_score,
+            "lifestyle_precision_at_k": lifestyle_score,
+            "difference": difference,
+        })
+
+    headroom = statistics.fmean(cross_fitted_differences)
+    in_sample_headroom = statistics.fmean(in_sample_differences)
+    sigma = (statistics.stdev(cross_fitted_differences)
+             if len(cross_fitted_differences) >= 2 else 0.0)
     z = NormalDist().inv_cdf(1 - alpha / 2)
-    half_width = z * sigma / math.sqrt(len(paired_differences))
+    half_width = z * sigma / math.sqrt(len(cross_fitted_differences))
     return {
         "metric": f"precision at {k}",
         "channels": channels,
+        "C": len(channels),
         "global": {"weights": dict(zip(channels, global_weights)), "precision": global_precision},
-        "per_stratum_oracle": {
-            stratum: {"weights": oracle_weights[stratum], "precision": oracle_precision[stratum]}
-            for stratum in strata
+        "per_lifestyle_oracle_in_sample": {
+            lifestyle: {
+                "weights": oracle_weights[lifestyle],
+                "precision": oracle_precision[lifestyle],
+            }
+            for lifestyle in lifestyles
         },
+        "H_estimator": "leave-one-item-out cross-fitted",
         "H": headroom,
+        "H_cross_fitted": headroom,
+        "H_in_sample": in_sample_headroom,
+        "H_in_sample_minus_cross_fitted": in_sample_headroom - headroom,
+        "cross_fitted_items": cross_fitted_items,
         "interval": {"alpha": alpha, "lower": headroom - half_width,
                      "upper": headroom + half_width},
         "delta": delta,

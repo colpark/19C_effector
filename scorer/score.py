@@ -15,7 +15,7 @@ from typing import Any
 import yaml
 
 MEASURE = "MEASURE"
-STRATA = ("canonical", "non-canonical")
+PROFILE_STRATA = ("canonical", "non-canonical")
 
 
 def read_document(path: Path) -> dict[str, Any]:
@@ -62,6 +62,7 @@ def parameters(path: Path) -> dict[str, float | int]:
         "repair_budget": int(numeric_value(items, "Repair budget")),
         "alpha": numeric_value(items, "alpha"),
         "beta": numeric_value(items, "beta"),
+        "positives_per_panel": int(numeric_value(items, "positives_per_panel")),
     }
     if values["k"] <= 0 or values["n_cand"] < values["k"]:
         raise ValueError("ledger requires 0 < k <= n_cand")
@@ -71,6 +72,8 @@ def parameters(path: Path) -> dict[str, float | int]:
         raise ValueError("repair budget cannot be negative")
     if not 0 < values["alpha"] < 1 or not 0 < values["beta"] < 1:
         raise ValueError("ledger alpha and beta must lie strictly between 0 and 1")
+    if not 0 < values["positives_per_panel"] <= values["n_cand"]:
+        raise ValueError("ledger positives_per_panel must lie in 1..n_cand")
     return values
 
 
@@ -86,7 +89,8 @@ def power_quantities(sigma_d: float, n: int, delta: float, alpha: float, beta: f
     }
 
 
-def validate_manifest(data: dict[str, Any], n_cand: int) -> dict[str, dict[str, Any]]:
+def validate_manifest(data: dict[str, Any], n_cand: int,
+                      positives_per_panel: int) -> dict[str, dict[str, Any]]:
     panels = data.get("panels")
     if not isinstance(panels, list) or not panels:
         raise ValueError("panel manifest requires a non-empty panels list")
@@ -95,18 +99,28 @@ def validate_manifest(data: dict[str, Any], n_cand: int) -> dict[str, dict[str, 
         if not isinstance(panel, dict):
             raise ValueError("every panel must be a mapping")
         panel_id = panel.get("panel_id")
-        stratum = panel.get("stratum")
+        profile_stratum = panel.get("profile_stratum")
         candidates = panel.get("candidate_ids")
         positives = panel.get("positive_ids")
         if not isinstance(panel_id, str) or not panel_id or panel_id in result:
             raise ValueError("panel IDs must be non-empty and unique")
-        if stratum not in STRATA:
-            raise ValueError(f"{panel_id}: stratum must be canonical or non-canonical")
+        if profile_stratum not in PROFILE_STRATA:
+            raise ValueError(
+                f"{panel_id}: profile_stratum must be canonical or non-canonical"
+            )
         if not isinstance(candidates, list) or len(candidates) != n_cand or len(set(candidates)) != n_cand:
             raise ValueError(f"{panel_id}: candidate_ids must contain ledger n_cand unique IDs")
         if not isinstance(positives, list) or not set(positives).issubset(candidates):
             raise ValueError(f"{panel_id}: positive_ids must be a candidate subset")
-        result[panel_id] = {"stratum": stratum, "candidates": set(candidates), "positives": set(positives)}
+        if len(positives) != positives_per_panel or len(set(positives)) != positives_per_panel:
+            raise ValueError(
+                f"{panel_id}: positive_ids must contain ledger positives_per_panel unique IDs"
+            )
+        result[panel_id] = {
+            "profile_stratum": profile_stratum,
+            "candidates": set(candidates),
+            "positives": set(positives),
+        }
     return result
 
 
@@ -155,9 +169,23 @@ def score_arm(data: dict[str, Any], panels: dict[str, dict[str, Any]], *, k: int
         valid[(panel_id, replicate)] = hits / k
 
     strata: dict[str, Any] = {}
-    for stratum in STRATA:
-        stratum_panels = sorted(panel_id for panel_id, panel in panels.items() if panel["stratum"] == stratum)
+    for stratum in PROFILE_STRATA:
+        stratum_panels = sorted(
+            panel_id for panel_id, panel in panels.items()
+            if panel["profile_stratum"] == stratum
+        )
         precisions = [value for (panel_id, _), value in valid.items() if panel_id in stratum_panels]
+        cells = []
+        for panel_id in stratum_panels:
+            replicate_values = [
+                value for (candidate, _), value in valid.items() if candidate == panel_id
+            ]
+            if replicate_values:
+                cells.append({
+                    "panel_id": panel_id,
+                    "valid_replicate_count": len(replicate_values),
+                    "mean_precision_at_k": statistics.fmean(replicate_values),
+                })
         curve = {}
         for sample_count in range(2, samples_per_cell + 1):
             covered = sum(
@@ -167,7 +195,9 @@ def score_arm(data: dict[str, Any], panels: dict[str, dict[str, Any]], *, k: int
             curve[str(sample_count)] = covered / len(stratum_panels) if stratum_panels else MEASURE
         strata[stratum] = {
             "precision_at_k": statistics.fmean(precisions) if precisions else MEASURE,
-            "valid_item_count": len(precisions),
+            "valid_replicate_count": len(precisions),
+            "valid_panel_count": len(cells),
+            "cells": cells,
             "coverage_curve_at_S": curve,
         }
     return {
@@ -183,10 +213,32 @@ def score_arm(data: dict[str, Any], panels: dict[str, dict[str, Any]], *, k: int
 def compare_arms(left: dict[str, Any], right: dict[str, Any], panels: dict[str, dict[str, Any]],
                  params: dict[str, float | int]) -> dict[str, Any]:
     result = {"arms": [left["arm"], right["arm"]], "strata": {}}
-    for stratum in STRATA:
-        keys = sorted(set(left["_valid_items"]) & set(right["_valid_items"]))
-        keys = [key for key in keys if panels[key[0]]["stratum"] == stratum]
-        differences = [left["_valid_items"][key] - right["_valid_items"][key] for key in keys]
+    for stratum in PROFILE_STRATA:
+        paired_cells = []
+        for panel_id, panel in sorted(panels.items()):
+            if panel["profile_stratum"] != stratum:
+                continue
+            left_values = [
+                value for (candidate, _), value in left["_valid_items"].items()
+                if candidate == panel_id
+            ]
+            right_values = [
+                value for (candidate, _), value in right["_valid_items"].items()
+                if candidate == panel_id
+            ]
+            if not left_values or not right_values:
+                continue
+            left_mean = statistics.fmean(left_values)
+            right_mean = statistics.fmean(right_values)
+            paired_cells.append({
+                "panel_id": panel_id,
+                "left_valid_replicate_count": len(left_values),
+                "right_valid_replicate_count": len(right_values),
+                "left_mean_precision_at_k": left_mean,
+                "right_mean_precision_at_k": right_mean,
+                "difference": left_mean - right_mean,
+            })
+        differences = [cell["difference"] for cell in paired_cells]
         mean = statistics.fmean(differences) if differences else MEASURE
         sigma = statistics.stdev(differences) if len(differences) >= 2 else MEASURE
         power = (power_quantities(sigma, len(differences), float(params["delta"]),
@@ -194,7 +246,8 @@ def compare_arms(left: dict[str, Any], right: dict[str, Any], panels: dict[str, 
                  if sigma != MEASURE else {"sigma_d": MEASURE, "N": len(differences),
                                            "N_min": MEASURE, "MDE(N)": MEASURE})
         result["strata"][stratum] = {
-            "paired_item_count": len(differences),
+            "paired_panel_count": len(differences),
+            "paired_cells": paired_cells,
             "mean_paired_difference": mean,
             **power,
         }
@@ -203,7 +256,9 @@ def compare_arms(left: dict[str, Any], right: dict[str, Any], panels: dict[str, 
 
 def score(manifest: dict[str, Any], submissions: list[dict[str, Any]], ledger: Path) -> dict[str, Any]:
     params = parameters(ledger)
-    panels = validate_manifest(manifest, int(params["n_cand"]))
+    panels = validate_manifest(
+        manifest, int(params["n_cand"]), int(params["positives_per_panel"])
+    )
     if len(submissions) != 2:
         raise ValueError("exactly two lettered arms are required for a paired comparison")
     arms = [score_arm(item, panels, k=int(params["k"]),
@@ -218,7 +273,7 @@ def score(manifest: dict[str, Any], submissions: list[dict[str, Any]], ledger: P
         public_arms.append({key: value for key, value in arm.items() if key != "_valid_items"})
     return {
         "metric": f"precision at {params['k']}",
-        "chance_baseline": int(params["k"]) / int(params["n_cand"]),
+        "chance_baseline": int(params["positives_per_panel"]) / int(params["n_cand"]),
         "coverage": f"curve from 2 through S={params['samples_per_cell']}",
         "arms": public_arms,
         "paired_comparison": compare_arms(arms[0], arms[1], panels, params),
