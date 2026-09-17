@@ -1339,3 +1339,53 @@ elements:
       marker. Item 100 marked all 13 audited historical handoff artifacts.'
     previous_measured_by: null
     new_measured_by: null
+- name: Item 106-109 composite criterion and structural test
+  current_value: 'Tool-neutral rule: exclude an operation when it returns a label-targeted
+    class probability, score, label, rank, or class-prototype distance for the scored
+    task such that one call per candidate followed by sorting yields the completed
+    answer. Internal aggregation is diagnostic but not decisive: a single-model label
+    score also fails; a multi-model output about a different physical quantity may
+    pass. Apply to surface: candidate record, signal component, HMM hits, sequence
+    hits, physchem, domain hits, structure coordinates/pLDDT, structural hits, and
+    fixed unlabeled ProtT5 embedding pass; EffectorP score, Predector rank, PEACE
+    calibrated probability, and PEACE class-prototype/per-view distances fail. PEACE
+    may re-enter only as a carded fixed ProtT5 embedding with model hash, pooling,
+    dimension, determinism and proof no prototypes/class score are exposed. Before
+    agent build, mechanically compare the fixed classical composition with and without
+    structural evidence on the design split; structural channel fails if paired mean
+    precision@20 gain is below 0.01 or its paired 95% interval includes zero. If it
+    fails, arm 4 has no demonstrated signal-bearing unique capability and the structured-agent
+    benchmark closes rather than running arms.'
+  set_on: '2026-09-17'
+  set_by: Referee
+  amendment_rule: Frozen before surface implementation and ablation. Amend only with
+    a carded output contract and pre-result independent proof that it cannot yield
+    the completed task decision by sorting.
+  amendments:
+  - date: '2026-09-17'
+    by: Referee
+    reason: 'Items 106-109: retained PEACE paper describes calibrated prototype-distance
+      classification and final ensemble; EffectorP 3 source description confirms soft-voted
+      class prediction. Both are directly sortable label outputs and must be treated
+      symmetrically. The excluded-score rule strengthens composition validity and
+      may close the task; embedding is admissible only as a non-label representation
+      under explicit carding.'
+    previous_value: null
+    new_value: 'Tool-neutral rule: exclude an operation when it returns a label-targeted
+      class probability, score, label, rank, or class-prototype distance for the scored
+      task such that one call per candidate followed by sorting yields the completed
+      answer. Internal aggregation is diagnostic but not decisive: a single-model
+      label score also fails; a multi-model output about a different physical quantity
+      may pass. Apply to surface: candidate record, signal component, HMM hits, sequence
+      hits, physchem, domain hits, structure coordinates/pLDDT, structural hits, and
+      fixed unlabeled ProtT5 embedding pass; EffectorP score, Predector rank, PEACE
+      calibrated probability, and PEACE class-prototype/per-view distances fail. PEACE
+      may re-enter only as a carded fixed ProtT5 embedding with model hash, pooling,
+      dimension, determinism and proof no prototypes/class score are exposed. Before
+      agent build, mechanically compare the fixed classical composition with and without
+      structural evidence on the design split; structural channel fails if paired
+      mean precision@20 gain is below 0.01 or its paired 95% interval includes zero.
+      If it fails, arm 4 has no demonstrated signal-bearing unique capability and
+      the structured-agent benchmark closes rather than running arms.'
+    previous_measured_by: null
+    new_measured_by: null

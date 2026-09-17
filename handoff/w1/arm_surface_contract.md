@@ -6,13 +6,13 @@ This contract implements Items 92, 94, 98 and 99. It is a pre-build specificatio
 |---|---|---|---|
 | `get_candidate_record` | `candidate_id: CandidateId` | frozen sequence, organism, length, opaque ID | cohort manifest; build required |
 | `signal_peptide_evidence` | `candidate_id: CandidateId` | component call and confidence for one candidate | SignalP card; licence-blocked |
-| `effector_component_score` | `candidate_id: CandidateId` | component classifier output, never a rank | EffectorP card; card/authorisation required |
 | `profile_hmm_hits` | `candidate_id: CandidateId, profile_set: Enum` | named hit records and alignments | HMMER card; card required |
 | `sequence_homology_hits` | `candidate_id: CandidateId, database: Enum, limit: Int[1,20]` | fixed-database hit records | MMseqs2 / BLAST+ cards; BLAST card required |
 | `physicochemical_features` | `candidate_id: CandidateId` | declared simple features | pepstats component; card required |
 | `carbohydrate_domain_hits` | `candidate_id: CandidateId` | named dbCAN/HMM hits | dbCAN component; card required |
 | `structure_coordinates` (arm 4) | `candidate_id: CandidateId` | local coordinates and pLDDT, no class score | ESMFold card |
 | `structure_similarity_hits` (arm 4) | `candidate_id: CandidateId, database: Enum, limit: Int[1,20]` | fixed-database structural hit records | Foldseek card |
+| `protein_embedding` (arm 4) | `candidate_id: CandidateId, pooling: Enum` | carded fixed ProtT5 representation vector, without class prototypes or score | ProtT5 card; model hash, pooling, dimension and determinism must be carded |
 
 `CandidateId`, `Enum`, and bounded `Int` are schemas, not strings interpreted by a shell. The server maps IDs to frozen local records and databases; it accepts neither arbitrary paths nor URLs. Uncarded or licence-blocked operations are unavailable, not silently substituted.
 
@@ -22,6 +22,8 @@ This contract implements Items 92, 94, 98 and 99. It is a pre-build specificatio
 |---|---|
 | Predector rank / candidate list | Floor C composite; returns completed decision. |
 | PEACE calibrated probability | trained integrated ensemble score, not component evidence. |
+| EffectorP class score / label | trained soft-voted class likelihood; sorting completes the decision. |
+| PEACE prototype distance or per-view class-prototype distance | label-targeted score; sorting by the effector prototype completes the decision before calibration or aggregation. |
 | aggregate score, rank, top-k, recommendation, selected set | pre-solves composition. |
 | shell, Python, arbitrary code, package install, write | enables unbounded network/file escape. |
 | URL, filesystem path, arbitrary database, dynamic MCP registration | can dereference content or create capability. |
