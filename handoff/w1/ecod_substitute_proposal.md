@@ -1,5 +1,7 @@
 # SCOP substitute proposal — no calibration run
 
+> Superseded admissibility marker: read Item 79--84 in `ledger/ledger.yaml` before reusing this historical proposal.
+
 ECOD remains unreachable from a rendered Fetcher scope, so the naturally
 low-confidence calibration cannot currently meet the ledger's ECOD-family requirement.
 No claim from this artifact is admissible until the runtime boundary holds.

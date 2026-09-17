@@ -1,5 +1,7 @@
 # Referee Items 71--74
 
+> Superseded admissibility marker: read Item 79--84 in `ledger/ledger.yaml` before relying on this historical ruling.
+
 The challenge identifies a conditional-estimand error in Item 68. The calibration measured
 whether a protein fails to join a known relative that is present in this cohort. It cannot
 measure that failure for a singleton without such a relative. The reversal below is caused

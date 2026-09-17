@@ -1,5 +1,7 @@
 # Instrument boundary probe
 
+> Superseded admissibility marker: this is historical probe evidence; read Item 79--84 in `ledger/ledger.yaml` for the current condition.
+
 No claim from this artifact is admissible until the runtime boundary holds.
 
 Command: `scripts/assert_sandbox.sh instrument`  

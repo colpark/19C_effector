@@ -1,5 +1,7 @@
 # In-cohort false-singleton calibration
 
+> Superseded admissibility marker: read Item 79--84 in `ledger/ledger.yaml`; the historical runtime caveat below is not the current condition.
+
 Nine uncertain proteins were tested against their own confident close sequence relatives, rather than against an outside collection that never produced enough uncertain known-family proteins. This makes the result directly about the cohort and removes any need to match an outside confidence distribution. It does not establish a general fold-family recovery rate: the relatives share at least the frozen MMseqs2 30%-identity relation and are easier to join than remote members of a fold family, which can make the estimated excess too low and favour continuation. The small test set is heavily non-canonical and smut-derived, so applying its pooled rate to every singleton remains uncertain. No claim from this stage is admissible until the runtime boundary holds.
 
 ## Runtime boundary probe

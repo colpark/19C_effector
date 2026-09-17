@@ -1,5 +1,7 @@
 # Instrument SCOP natural-confidence calibration — transfer refused
 
+> Superseded admissibility marker: read Item 79--84 in `ledger/ledger.yaml`; the historical runtime caveat below is not the current condition.
+
 A deterministic, confidence-blind draw of 240 current PDB entries produced 38 PDBe SCOP-mapped entity-1 sequences. Thirty-six passed the predeclared MMseqs2 contamination screen against the 521-positive cohort; two were removed above 30% identity and 80% coverage. ESMFold could predict 34 of the 36 without degradation; one was over 600 residues and one contained `X`. Exactly one of the 34 predictions fell in the frozen target band, a 2.9% yield. It is a coronavirus nucleocapsid protein dimerization-domain SCOP class, not an effector-like class. This does not meet five-family or three-confident-relative transfer validity, and one value cannot match a distribution. No claim from this artifact is admissible until the runtime boundary holds.
 
 ## Source and pool

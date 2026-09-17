@@ -1,5 +1,7 @@
 # Item 54 — ECOD retrieval from Fetcher scope
 
+> Superseded admissibility marker: read Item 79--84 in `ledger/ledger.yaml` before reusing this historical Fetcher probe.
+
 The ECOD block is external, not a consequence of the Instrument's empty network
 allowlist. No claim from this artifact is admissible until the runtime boundary holds.
 

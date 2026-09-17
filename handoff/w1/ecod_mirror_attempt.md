@@ -1,5 +1,7 @@
 # Item 58 — ECOD mirror attempt from Fetcher scope
 
+> Superseded admissibility marker: read Item 79--84 in `ledger/ledger.yaml`; the historical runtime caveat below is not the current condition.
+
 No claim from this artifact is admissible until the runtime boundary holds.
 
 The rendered Fetcher clone attempted this public GitHub mirror candidate before any

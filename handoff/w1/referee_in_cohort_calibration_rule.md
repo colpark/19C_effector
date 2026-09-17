@@ -1,5 +1,7 @@
 # Referee ruling: in-cohort false-singleton calibration
 
+> Superseded admissibility marker: read Item 79--84 in `ledger/ledger.yaml`; the historical runtime caveat below is not the current condition.
+
 The external route cannot produce the population it was designed to calibrate: damaging deeply known proteins did not make them uncertain, ECOD could not be reached from an allowlisted Fetcher, and the authorised SCOP route found only one target-band protein among 34 predictions. The Referee therefore authorises a direct measurement on the cohort's own frozen sequence relatives. It avoids a confidence-distribution transfer, but it is not a fold-family test: close sequence relatives are easier for Foldseek to join, so the resulting false-singleton rate can be biased downward and can favour continuation. No claim from this stage is admissible until the runtime boundary holds.
 
 ## Recount and ruled conditions

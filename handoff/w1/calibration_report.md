@@ -1,5 +1,7 @@
 # Instrument false-singleton calibration — no transfer
 
+> Superseded admissibility marker: read Item 79--84 in `ledger/ledger.yaml`; the historical runtime caveat below is not the current condition.
+
 The cohort target is 189 ESMFold models with mean pLDDT below 0.50 (median 0.408,
 Q1–Q3 0.368–0.447; range 0.281–0.500), not 192. Twenty SCOP-mapped solved PDB
 controls from five generic non-effector families passed a MMseqs2 30%-identity,

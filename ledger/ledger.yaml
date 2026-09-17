@@ -1276,3 +1276,66 @@ elements:
       admissibility statements.'
     previous_measured_by: null
     new_measured_by: null
+- name: Item 98 composite-tool separation
+  current_value: 'Floors may be fixed composite adjudicators; arms may hold only component-level
+    per-candidate evidence operations and must compose selections themselves. Predector
+    remains Floor C and is excluded from all arm surfaces. PEACE calibrated ensemble
+    probability is an integrated per-protein decision score, not admissible arm evidence;
+    exclude its composite output from arm 4 unless a later carded interface exposes
+    separable non-decisional component evidence. An arm weaker than Floor C is expected:
+    the benchmark measures agent composition against a fixed stronger aggregation.
+    It may claim structured-agent composition benefit from admitted foundation-model
+    component evidence, not superiority to or access to Predector/PEACE composites.'
+  set_on: '2026-09-17'
+  set_by: Referee
+  amendment_rule: Frozen before surface build. Amend only with a carded interface
+    proving an operation returns separable non-decisional evidence.
+  amendments:
+  - date: '2026-09-17'
+    by: Referee
+    reason: 'Item 98: Predector returns ranked candidate decisions and PEACE is described
+      as a calibrated trained-ensemble probability. Both cross the Item 94 integrated-score
+      line. Floors price the gain under clause 9; giving their completed composition
+      to an arm would collapse condition 4. This narrows arm power and claims, making
+      detection harder but preserving the decision.'
+    previous_value: null
+    new_value: 'Floors may be fixed composite adjudicators; arms may hold only component-level
+      per-candidate evidence operations and must compose selections themselves. Predector
+      remains Floor C and is excluded from all arm surfaces. PEACE calibrated ensemble
+      probability is an integrated per-protein decision score, not admissible arm
+      evidence; exclude its composite output from arm 4 unless a later carded interface
+      exposes separable non-decisional component evidence. An arm weaker than Floor
+      C is expected: the benchmark measures agent composition against a fixed stronger
+      aggregation. It may claim structured-agent composition benefit from admitted
+      foundation-model component evidence, not superiority to or access to Predector/PEACE
+      composites.'
+    previous_measured_by: null
+    new_measured_by: null
+- name: Item 99-100 surface contract and artifact rule
+  current_value: 'The pre-build structured-surface contract is handoff/w1/arm_surface_contract.md.
+    All operations are typed, candidate-scoped and local; composite ranking/decision
+    operations are excluded. All six escape classes require fail-closed rejection
+    probes. Model-side T5 verification proves only exposed-surface absence, weaker
+    than process network denial. Standing rule: any artifact stating an admissibility
+    or preregistered value must read the current ledger or carry a supersession marker.
+    Item 100 marked all 13 audited historical handoff artifacts.'
+  set_on: '2026-09-17'
+  set_by: Referee
+  amendment_rule: Frozen before surface build; amend only with a reviewed contract
+    change and corresponding adversarial test.
+  amendments:
+  - date: '2026-09-17'
+    by: Referee
+    reason: Items 99-100 convert Items 92, 94 and 97 into buildable contract and reporting
+      practice before implementation. The supersession markers preserve historical
+      findings without letting stale values become current controls.
+    previous_value: null
+    new_value: 'The pre-build structured-surface contract is handoff/w1/arm_surface_contract.md.
+      All operations are typed, candidate-scoped and local; composite ranking/decision
+      operations are excluded. All six escape classes require fail-closed rejection
+      probes. Model-side T5 verification proves only exposed-surface absence, weaker
+      than process network denial. Standing rule: any artifact stating an admissibility
+      or preregistered value must read the current ledger or carry a supersession
+      marker. Item 100 marked all 13 audited historical handoff artifacts.'
+    previous_measured_by: null
+    new_measured_by: null

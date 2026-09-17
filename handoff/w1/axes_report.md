@@ -1,5 +1,7 @@
 # Tier 1 axes census — not released
 
+> Superseded admissibility marker: read Item 79--84 in `ledger/ledger.yaml`; this record's historical runtime caveat is not the current condition.
+
 This 521-positive fungal/oomycete cohort has 502 model structures (96.4%), but the number of independent fold families is sensitive to the TM threshold and may be inflated by low-confidence singleton models. At frozen TM 0.50, all models give 400 clusters (80 five-positive panels; MDE 0.036), while the 310-model high-confidence diagnostic subset gives 218 (43 panels; MDE 0.049). The direct annotation-based recovery test cannot estimate the correction: only four structurally mapped positives retain an explicit known-family annotation, none low-confidence. Negative verification and per-species coverage data are also absent. No claim from this stage is admissible until the runtime boundary holds; because Clause 1 requires all five axes, this is not a released census.
 
 ## Boundary

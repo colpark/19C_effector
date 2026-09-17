@@ -1,5 +1,7 @@
 # Referee Items 65--67
 
+> Superseded admissibility marker: read Item 79--84 in `ledger/ledger.yaml` before relying on this historical ruling.
+
 The calibration demonstrates a wide corrected-supply sensitivity range, but it does not
 meet the actual preregistered Item-48 criterion. The retained Item 51 text says the
 false-singleton-rate Wilson bound must be below .8571; it does not specify subtracting

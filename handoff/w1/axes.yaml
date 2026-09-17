@@ -1,6 +1,7 @@
 stage: T1 census
 recorded_on: '2026-09-16'
 admissibility: false
+admissibility_superseded_by: 'Item 79-84 ledger condition; this historical census remains unreleased for Clause-1 completeness.'
 admissibility_statement: No claim from this stage is admissible until the runtime boundary holds.
 boundary:
   assertion: scripts/assert_sandbox.sh curator
