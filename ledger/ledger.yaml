@@ -1113,19 +1113,16 @@ elements:
     this host, as determined by the PI on 2026-09-17. T1/T3/T4 protect host integrity
     and do not affect a benchmark measurement claim. T6/T8 clone absence checks pass
     but do not establish machine-wide absence because the same UID can read the union
-    repository elsewhere. T2/T5 have no adequate no-privilege replacement for arm
-    execution on this host: separate accounts are unavailable without account administration;
-    temporal removal can support non-sensitive Fetcher retrieval only; endpoint/credential
-    absence and trace review are weaker than enforced network denial. T7 requires
-    fresh-session trace-side memory verification and is independent of namespaces.
-    Admissible non-arm measurements require retained-input hashes, no arm execution,
-    and documented absence checks; they include the existing sequence/structure census,
-    calibration, and supply calculations, still subject to their stated scientific
-    and completeness limits. No arm-separation benchmark result is admissible on this
-    host. Fetcher data may be admissibly collected only in a temporally isolated standalone
-    directory after the union repository, labels, scorer, and credentials are offline
-    and an absence inventory is retained; the current launcher must remain refusing
-    the union host.'
+    repository elsewhere. T7 requires fresh-session trace-side memory verification.
+    A no-shell structured arm surface can replace containment for T5 only when the
+    agent has no arbitrary execution, file write, URL/path interpretation, or MCP
+    escape; its tool server accepts only typed operations and the networked harness
+    cannot fetch agent-specified content. The current rendered surface permits commands
+    and does not meet this condition. Under a future verified structured surface plus
+    temporal machine-wide label/scorer absence, this host may run the narrower structured-tool-calling-agent
+    arm comparison; it may not claim results for coding/shell agents. Fetcher remains
+    blocked until the same temporal condition is executed and a dedicated typed retrieval
+    surface is verified; launcher refusal is not relaxed.'
   set_on: '2026-09-17'
   set_by: Referee
   amendment_rule: Frozen before any arm execution. Amend only with a retained, independently
@@ -1157,5 +1154,125 @@ elements:
       only in a temporally isolated standalone directory after the union repository,
       labels, scorer, and credentials are offline and an absence inventory is retained;
       the current launcher must remain refusing the union host.'
+    previous_measured_by: null
+    new_measured_by: null
+  - date: '2026-09-17'
+    by: Referee
+    reason: 'Items 92-96 scope challenge: grant is a property of the exposed capability
+      surface as well as containment. Current access profiles expose commands, so
+      no present arm run is authorised. The amendment authorizes a narrower future
+      subject only after explicit surface tests; it came from a scope challenge, not
+      new isolation capability. This is weaker than the original coding-agent claim
+      but stronger than trace-only detection.'
+    previous_value: 'Block A is closed: runtime process isolation is not available
+      on this host, as determined by the PI on 2026-09-17. T1/T3/T4 protect host integrity
+      and do not affect a benchmark measurement claim. T6/T8 clone absence checks
+      pass but do not establish machine-wide absence because the same UID can read
+      the union repository elsewhere. T2/T5 have no adequate no-privilege replacement
+      for arm execution on this host: separate accounts are unavailable without account
+      administration; temporal removal can support non-sensitive Fetcher retrieval
+      only; endpoint/credential absence and trace review are weaker than enforced
+      network denial. T7 requires fresh-session trace-side memory verification and
+      is independent of namespaces. Admissible non-arm measurements require retained-input
+      hashes, no arm execution, and documented absence checks; they include the existing
+      sequence/structure census, calibration, and supply calculations, still subject
+      to their stated scientific and completeness limits. No arm-separation benchmark
+      result is admissible on this host. Fetcher data may be admissibly collected
+      only in a temporally isolated standalone directory after the union repository,
+      labels, scorer, and credentials are offline and an absence inventory is retained;
+      the current launcher must remain refusing the union host.'
+    new_value: 'Block A is closed: runtime process isolation is not available on this
+      host, as determined by the PI on 2026-09-17. T1/T3/T4 protect host integrity
+      and do not affect a benchmark measurement claim. T6/T8 clone absence checks
+      pass but do not establish machine-wide absence because the same UID can read
+      the union repository elsewhere. T7 requires fresh-session trace-side memory
+      verification. A no-shell structured arm surface can replace containment for
+      T5 only when the agent has no arbitrary execution, file write, URL/path interpretation,
+      or MCP escape; its tool server accepts only typed operations and the networked
+      harness cannot fetch agent-specified content. The current rendered surface permits
+      commands and does not meet this condition. Under a future verified structured
+      surface plus temporal machine-wide label/scorer absence, this host may run the
+      narrower structured-tool-calling-agent arm comparison; it may not claim results
+      for coding/shell agents. Fetcher remains blocked until the same temporal condition
+      is executed and a dedicated typed retrieval surface is verified; launcher refusal
+      is not relaxed.'
+    previous_measured_by: null
+    new_measured_by: null
+- name: Item 92-96 structured-surface deployment ruling
+  current_value: 'Current deployment cannot run arms because command execution remains
+    exposed. A future no-shell structured surface may validate T5 if and only if:
+    arm 3 has no foundation-model tools, arbitrary execution, writes, URL/file-path
+    dereference, dynamic MCP registration, or code-interpreting arguments; each fixed
+    local operation is a typed server call; harness network is used only for the subject
+    model and cannot fetch agent-selected resources; tool output is local and cannot
+    relay fetched model scores; and retained negative probes demonstrate refusal of
+    malformed arguments and attempted endpoint access. The resulting benchmark asks
+    whether a structured tool-calling agent benefits from foundation-model tools,
+    not whether a coding agent with a shell benefits. Required open decision operations
+    are candidate-specific evidence retrieval, comparison, filtering and selection
+    across frozen channels; prohibited pre-solving operations are integrated ranking,
+    top-20 recommendation, aggregate score, or any call returning a completed decision.
+    Fallback ranking: shell plus genuinely absent route (strongest original claim
+    but not achievable here without administration); verified structured surface (viable
+    conditional narrower claim); shell plus trace-and-discard (weakest, coverage failure
+    on attempt and total invalidation on undetected success). Fetcher remains conditional
+    on temporal isolation plus typed fixed-source retrieval, not a launcher relaxation.'
+  set_on: '2026-09-17'
+  set_by: Referee
+  amendment_rule: Frozen before any arm or Fetcher run. Amend only with retained surface
+    implementation and adversarial negative-probe evidence.
+  amendments:
+  - date: '2026-09-17'
+    by: Referee
+    reason: Items 92-96 ruled the scope challenge before any structured arm surface
+      exists. It records the exploit paths needing negative tests and fixes the narrower
+      subject/scaffold disclosure in advance.
+    previous_value: null
+    new_value: 'Current deployment cannot run arms because command execution remains
+      exposed. A future no-shell structured surface may validate T5 if and only if:
+      arm 3 has no foundation-model tools, arbitrary execution, writes, URL/file-path
+      dereference, dynamic MCP registration, or code-interpreting arguments; each
+      fixed local operation is a typed server call; harness network is used only for
+      the subject model and cannot fetch agent-selected resources; tool output is
+      local and cannot relay fetched model scores; and retained negative probes demonstrate
+      refusal of malformed arguments and attempted endpoint access. The resulting
+      benchmark asks whether a structured tool-calling agent benefits from foundation-model
+      tools, not whether a coding agent with a shell benefits. Required open decision
+      operations are candidate-specific evidence retrieval, comparison, filtering
+      and selection across frozen channels; prohibited pre-solving operations are
+      integrated ranking, top-20 recommendation, aggregate score, or any call returning
+      a completed decision. Fallback ranking: shell plus genuinely absent route (strongest
+      original claim but not achievable here without administration); verified structured
+      surface (viable conditional narrower claim); shell plus trace-and-discard (weakest,
+      coverage failure on attempt and total invalidation on undetected success). Fetcher
+      remains conditional on temporal isolation plus typed fixed-source retrieval,
+      not a launcher relaxation.'
+    previous_measured_by: null
+    new_measured_by: null
+- name: Item 97 admissibility restatement audit
+  current_value: 'The Gate 1 verdict now states the current Item 79-84 admissibility
+    condition. Thirteen other handoff artifacts still contain the retired runtime-boundary
+    condition: axes.yaml, axes_report.md, two boundary probes, calibration_report.md,
+    three ECOD artifacts, in_cohort_calibration.md, referee_in_cohort_calibration_rule.md,
+    referee_item65_67.md, referee_item71_74.md, and scop_natural_calibration.md. They
+    are historical records and must be marked superseded before use as current admissibility
+    statements.'
+  set_on: '2026-09-17'
+  set_by: Referee
+  amendment_rule: Frozen audit record; amend only with a retained re-audit.
+  amendments:
+  - date: '2026-09-17'
+    by: Referee
+    reason: Item 97 audit used retained-text search after the verdict body rewrite.
+      The first manual tally was corrected to 13 before commit; a report restating
+      a superseded ledger condition is a clause-12 defect.
+    previous_value: null
+    new_value: 'The Gate 1 verdict now states the current Item 79-84 admissibility
+      condition. Thirteen other handoff artifacts still contain the retired runtime-boundary
+      condition: axes.yaml, axes_report.md, two boundary probes, calibration_report.md,
+      three ECOD artifacts, in_cohort_calibration.md, referee_in_cohort_calibration_rule.md,
+      referee_item65_67.md, referee_item71_74.md, and scop_natural_calibration.md.
+      They are historical records and must be marked superseded before use as current
+      admissibility statements.'
     previous_measured_by: null
     new_measured_by: null
