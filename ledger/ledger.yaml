@@ -1108,3 +1108,54 @@ elements:
       and Clause-1 complete census. Supply no longer blocks Gate 1.'
     previous_measured_by: null
     new_measured_by: null
+- name: Item 79-84 runtime boundary and claim ruling
+  current_value: 'Block A is closed: runtime process isolation is not available on
+    this host, as determined by the PI on 2026-09-17. T1/T3/T4 protect host integrity
+    and do not affect a benchmark measurement claim. T6/T8 clone absence checks pass
+    but do not establish machine-wide absence because the same UID can read the union
+    repository elsewhere. T2/T5 have no adequate no-privilege replacement for arm
+    execution on this host: separate accounts are unavailable without account administration;
+    temporal removal can support non-sensitive Fetcher retrieval only; endpoint/credential
+    absence and trace review are weaker than enforced network denial. T7 requires
+    fresh-session trace-side memory verification and is independent of namespaces.
+    Admissible non-arm measurements require retained-input hashes, no arm execution,
+    and documented absence checks; they include the existing sequence/structure census,
+    calibration, and supply calculations, still subject to their stated scientific
+    and completeness limits. No arm-separation benchmark result is admissible on this
+    host. Fetcher data may be admissibly collected only in a temporally isolated standalone
+    directory after the union repository, labels, scorer, and credentials are offline
+    and an absence inventory is retained; the current launcher must remain refusing
+    the union host.'
+  set_on: '2026-09-17'
+  set_by: Referee
+  amendment_rule: Frozen before any arm execution. Amend only with a retained, independently
+    verified control that prevents T2/T5 and T6/T8 at process scope.
+  amendments:
+  - date: '2026-09-17'
+    by: Referee
+    reason: 'Items 79-84: PI confirmed kernel remediation and second-machine options
+      are permanently unavailable. Retained curator probe confirms scorer, runs and
+      data/design_split are absent in the clone, while T1-T4/T7 runtime checks fail
+      or are unmeasurable. The ruling distinguishes host protections from validity
+      threats and rejects a favourable unblocking claim without a control that prevents
+      arm-3 foundation-model reach.'
+    previous_value: null
+    new_value: 'Block A is closed: runtime process isolation is not available on this
+      host, as determined by the PI on 2026-09-17. T1/T3/T4 protect host integrity
+      and do not affect a benchmark measurement claim. T6/T8 clone absence checks
+      pass but do not establish machine-wide absence because the same UID can read
+      the union repository elsewhere. T2/T5 have no adequate no-privilege replacement
+      for arm execution on this host: separate accounts are unavailable without account
+      administration; temporal removal can support non-sensitive Fetcher retrieval
+      only; endpoint/credential absence and trace review are weaker than enforced
+      network denial. T7 requires fresh-session trace-side memory verification and
+      is independent of namespaces. Admissible non-arm measurements require retained-input
+      hashes, no arm execution, and documented absence checks; they include the existing
+      sequence/structure census, calibration, and supply calculations, still subject
+      to their stated scientific and completeness limits. No arm-separation benchmark
+      result is admissible on this host. Fetcher data may be admissibly collected
+      only in a temporally isolated standalone directory after the union repository,
+      labels, scorer, and credentials are offline and an absence inventory is retained;
+      the current launcher must remain refusing the union host.'
+    previous_measured_by: null
+    new_measured_by: null

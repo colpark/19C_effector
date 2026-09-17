@@ -64,3 +64,5 @@ estimate is 145.2 clusters / 29 panels, with independent Wilson-rate sensitivity
 clusters / 17--50 panels: close at the point estimate, close-to-hold across uncertainty, never
 proceed. The three missing axes remain uncollected in valid Fetcher scope; see
 `handoff/w1/three_axis_collection.md`.
+
+**Admissibility update (Item 79--84, 2026-09-17):** the prior runtime-boundary sentence is superseded for non-arm retained-input measurements. This census remains unreleased because Clause-1 axes are incomplete, not because namespace isolation is unavailable. It cannot support an arm-separation claim on this host.
